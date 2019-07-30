@@ -191,12 +191,155 @@ symbol_entrezID = function(data, keys){
                                    columns = "ENTREZID"))
   hash.table = drop_na(hash.table)
   data_subset = data[hash.table$SYMBOL, ]
-  data_subset$EntrezID = hash.table$ENTREZID
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
   
   return(data_subset)
 }
 ```
 
+Read in the list of TF
 ```{r}
-symbol_entrezID(data = res.sig_e12_e11, keys = row.names(res.sig_e12_e11))
+tf.db = read.csv("Mus_musculus_TF.txt", sep = "\t", stringsAsFactors = FALSE)
+head(tf.db)
+
 ```
+
+============================================================================================
+Determine DE TFs between E12 and E11
+============================================================================================
+
+Convert gene symbols into EntrezID and make EntrezID the row.names
+```{r}
+entrezID.res.sig_e12_e11 = symbol_entrezID(data = res.sig_e12_e11, keys = row.names(res.sig_e12_e11))
+```
+
+Filter for transcription factors in all DE genes of E12/E11
+
+```{r}
+de.tf.e12.e11 = c()
+for(gene in entrezID.res.sig_e12_e11$EntrezID){
+  if(gene %in% tf.db$Entrez.ID){
+    de.tf.e12.e11 = c(de.tf.e12.e11, gene)
+  }
+}
+```
+
+Subset for transcription factor only
+```{r}
+e12.e11.de.tf = entrezID.res.sig_e12_e11[de.tf.e12.e11,]
+```
+
+There is a total of 613 transcription factors that are differentially expressed between E12
+and E11
+Write this result to file
+```{r}
+write.csv(e12.e11.de.tf, "e12_e11_all_de_tf.csv")
+```
+
+Now subset for DE TF that have logFC >= 0.5
+
+```{r}
+e12.e11.de.tf$abslogFC = abs(e12.e11.de.tf$log2FoldChange)
+e12.e11.de.tf.0.5 = subset(e12.e11.de.tf, abslogFC >= 0.5)
+```
+
+There are 286 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
+
+```{r}
+write.csv(e12.e11.de.tf.0.5, "e12_e11_de_tf_0.5.csv")
+```
+
+============================================================================================
+Determine DE TFs between E13 and E12
+============================================================================================
+
+
+Convert gene symbols into EntrezID and make EntrezID the row.names
+```{r}
+entrezID.res.sig_e13_e12 = symbol_entrezID(data = res.sig_e13_e12, keys = row.names(res.sig_e13_e12))
+```
+
+Filter for transcription factors in all DE genes of E13/E12
+
+```{r}
+de.tf.e13.e12 = c()
+for(gene in entrezID.res.sig_e13_e12$EntrezID){
+  if(gene %in% tf.db$Entrez.ID){
+    de.tf.e13.e12 = c(de.tf.e13.e12, gene)
+  }
+}
+```
+
+Subset for transcription factor only
+```{r}
+e13.e12.de.tf = entrezID.res.sig_e13_e12[de.tf.e13.e12,]
+```
+
+There is a total of 269 transcription factors that are differentially expressed between E13
+and E12
+Write this result to file
+```{r}
+write.csv(e13.e12.de.tf, "e13_e12_all_de_tf.csv")
+```
+
+Now subset for DE TF that have logFC >= 0.5
+
+```{r}
+e13.e12.de.tf$abslogFC = abs(e13.e12.de.tf$log2FoldChange)
+e13.e12.de.tf.0.5 = subset(e13.e12.de.tf, abslogFC >= 0.5)
+```
+
+There are 148 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
+
+```{r}
+write.csv(e13.e12.de.tf.0.5, "e13_e12_de_tf_0.5.csv")
+```
+
+============================================================================================
+Determine DE TFs between E14 and E13
+============================================================================================
+
+
+Convert gene symbols into EntrezID and make EntrezID the row.names
+```{r}
+entrezID.res.sig_e14_e13 = symbol_entrezID(data = res.sig_e14_e13, keys = row.names(res.sig_e14_e13))
+```
+
+Filter for transcription factors in all DE genes of E12/E11
+
+```{r}
+de.tf.e14.e13 = c()
+for(gene in entrezID.res.sig_e14_e13$EntrezID){
+  if(gene %in% tf.db$Entrez.ID){
+    de.tf.e14.e13 = c(de.tf.e14.e13, gene)
+  }
+}
+```
+
+Subset for transcription factor only
+```{r}
+e14.e13.de.tf = entrezID.res.sig_e14_e13[de.tf.e14.e13,]
+```
+
+There is a total of 148 transcription factors that are differentially expressed between E14
+and E13
+Write this result to file
+```{r}
+write.csv(e14.e13.de.tf, "e14_e13_all_de_tf.csv")
+```
+
+Now subset for DE TF that have logFC >= 0.5
+
+```{r}
+e14.e13.de.tf$abslogFC = abs(e14.e13.de.tf$log2FoldChange)
+e14.e13.de.tf.0.5 = subset(e14.e13.de.tf, abslogFC >= 0.5)
+```
+
+There are 89 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
+
+```{r}
+write.csv(e14.e13.de.tf.0.5, "e14_e13_de_tf_0.5.csv")
+```
+
