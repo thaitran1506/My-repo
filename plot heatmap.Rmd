@@ -1,0 +1,87 @@
+Plot the heatmap of all the DE TFs from E11 to E14
+
+
+```{r}
+e12.e11.de.tf = read.csv("e12_e11_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e12.e11.de.tf = e12.e11.de.tf[, c(3, 9)]
+e13.e12.de.tf = read.csv("e13_e12_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e13.e12.de.tf = e13.e12.de.tf[, c(3, 9)]
+e14.e13.de.tf = read.csv("e14_e13_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e14.e13.de.tf = e14.e13.de.tf[, c(3, 9)]
+```
+
+Merge data by the "Symbol" column. Missing values are replaced by "NA"
+```{r}
+e12.e11_e13.e12 = merge(e12.e11.de.tf, e13.e12.de.tf, by = "Symbol", all = TRUE)
+merged_data = merge(e12.e11_e13.e12, e14.e13.de.tf, by = "Symbol", all = TRUE)
+head(merged_data)
+```
+Change the column names
+
+```{r}
+colnames(merged_data) = c("Symbol", "E12/E11", "E13/E12", "E14/E13")
+head(merged_data)
+```
+
+Function to convert positive logFC to 1 and negative logFC to -1. NA is assigned to 0
+
+```{r}
+up.down = function(logfc){
+  if(is.na(logfc)){
+    return(0)
+  }else if(logfc < 0){
+    return(-1)
+  }else{return(1)}
+}
+```
+
+Create a data frame suitable for plotting
+
+```{r}
+df.for.heatmap = data.frame(merged_data$Symbol)
+df.for.heatmap$'E12/E11' = sapply(merged_data[['E12/E11']], up.down)
+df.for.heatmap$'E13/E12' = sapply(merged_data[['E13/E12']], up.down)
+df.for.heatmap$'E14/E13' = sapply(merged_data[['E14/E13']], up.down)
+head(df.for.heatmap)
+```
+write this table to file
+```{r}
+write.csv(df.for.heatmap, "df_for_heatmap.csv")
+```
+
+Load necessary library
+
+```{r}
+library(ggplot2)
+library(reshape2)
+```
+In order to use hclust to organize the order of gene, it is needed to make Symbol column
+the row.names
+
+```{r}
+row.names(df.for.heatmap) = df.for.heatmap$merged_data.Symbol
+df.for.heatmap = df.for.heatmap[, -1]
+head(df.for.heatmap)
+```
+
+Calculate the order of gene using hclust
+```{r}
+row.order = hclust(dist(df.for.heatmap))$order
+df.for.heatmap.new = df.for.heatmap[row.order,]
+```
+
+Now melt the data frame
+```{r}
+df.for.heatmap.molten = melt(as.matrix(df.for.heatmap.new))
+names(df.for.heatmap.molten)[c(1,2)] = c("Protein", "Time")
+```
+
+Now plot the graph
+```{r}
+ggplot(df.for.heatmap.molten, aes(x = Time, y = Protein, fill = value)) +
+  geom_raster() +
+  scale_fill_distiller(palette = "RdBu") +
+  ggtitle("Heatmap of transcription factors")
+
+ggsave("TF.heatmap.not.arranged.png", height = 40, width = 10)
+```
