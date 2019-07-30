@@ -159,3 +159,44 @@ Write data to file
 write.csv(res.sig_e14_e13, "e14_e13_sig_genes.txt")
 ```
 
+
+Between E12 and E11, there are 6956 DE genes
+Between E13 and E12, there are 2932 DE genes
+Between E14 and E13, there are 1858 DE genes
+Make a table summarizing the results
+
+```{r}
+Time = c("E12 over E11", "E13 over E12", "E14 over E13")
+Number_of_DE_genes = c(6956, 2932, 1858)
+DE_summary = data.frame(Time, Number_of_DE_genes)
+DE_summary
+```
+
+Write to file
+```{r}
+DE_summary_E11_E14 = write.csv(DE_summary, "DE_summary_E11_E14.txt")
+```
+
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = hash.table$ENTREZID
+  
+  return(data_subset)
+}
+```
+
+```{r}
+symbol_entrezID(data = res.sig_e12_e11, keys = row.names(res.sig_e12_e11))
+```
