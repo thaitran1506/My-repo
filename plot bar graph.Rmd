@@ -1,0 +1,103 @@
+```{r}
+DE_TF = read.csv("df_for_heatmap.csv", stringsAsFactors = FALSE, row.names = 2)
+DE_TF = DE_TF[, -1]
+``
+```{r}
+TF_DB = read.csv("Mus_musculus_TF.txt", sep = "\t", stringsAsFactors = FALSE)
+head(TF_DB)
+```
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
+  
+  
+  return(data_subset)
+}
+```
+
+```{r}
+DE_TF_Entrez_ID = symbol_entrezID(data = DE_TF, keys = row.names(DE_TF))
+head(DE_TF_Entrez_ID)
+```
+
+
+
+```{r}
+family = function(ID){
+  if(ID %in% TF_DB$Entrez.ID){
+    return(paste0(TF_DB$Family[TF_DB$Entrez.ID == ID], collapse = NULL))
+  }else{return("None")}
+}
+
+```
+
+```{r}
+DE_TF_Entrez_ID$Family = vapply(DE_TF_Entrez_ID$EntrezID, family, FUN.VALUE = "character")
+```
+
+```{r}
+write.csv(DE_TF_Entrez_ID, "all.tf.with.family.csv")
+```
+
+```{r}
+TF_family = unique(DE_TF_Entrez_ID$Family)
+TF_family
+```
+
+Create the data frame for plotting
+```{r}
+plot_data = as.data.frame(table(DE_TF_Entrez_ID$Family))
+colnames(plot_data) = c("Family", "Number of gene")
+plot_data
+```
+
+
+```{r}
+stage = rep(c("E12vsE11", "E13vsE12", "E14vsE13"), 51)
+```
+
+```{r}
+family.terms = c()
+for(term in unique(DE_TF_Entrez_ID$Family)){
+  family.terms = c(family.terms, rep(term, 3))
+}
+family.terms
+```
+
+```{r}
+plot_data = data.frame(family.terms, stage)
+head(plot_data, 30)
+```
+```{r}
+E12vsE11 = DE_TF_Entrez_ID$E12.E11
+E13vsE12 = DE_TF_Entrez_ID$E13.E12
+E14vsE13 = DE_TF_Entrez_ID$E14.E13
+
+```
+
+```{r}
+foldchange_family = data.frame(E12vsE11, E13vsE12, E14vsE13)
+
+```
+
+```{r}
+library(reshape2)
+```
+
+```{r}
+melt(foldchange_family)
+```
