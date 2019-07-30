@@ -71,7 +71,42 @@ Calculate differential expression between E13 vs E12
 e13_e12_count_table = embryonic_data[, 6:20]
 head(e13_e12_count_table)
 ```
+Create meta data for E12 and E13 data
+```{r}
+stage_E12_E13 = c(rep("E12", 5), rep("E13", 10))
+meta_data_E12_E13 = data.frame(stage_E12_E13)
+row.names(meta_data_E12_E13) = colnames(e13_e12_count_table)
+meta_data_E12_E13
+```
 
+Create DESeq object
+```{r}
+deseq_data_e13_e12 = DESeqDataSetFromMatrix(countData = e13_e12_count_table,
+                                    colData = meta_data_E12_E13,
+                                    design = ~stage_E12_E13)
+```
 
+Filter out genes with low counts. Only keep those with a sum of read count across all samples that are greater than 10.
 
-                                     
+```{r}
+deseq_data_e13_e12 = deseq_data_e13_e12[rowSums(counts(deseq_data_e13_e12))>10, ]
+```
+
+Calculate differential expression and shrink the log fold change
+
+```{r}
+dde_e13_e12 = DESeq(deseq_data_e13_e12)
+res_e13_e12 = results(dde_e13_e12, contrast = c("stage_E12_E13", "E13", "E12"))
+res_e13_e12 = lfcShrink(dde_e13_e12, contrast = c("stage_E12_E13", "E13", "E12"), res = res_e13_e12)
+```
+extract the data and subset for differentially expressed genes
+
+```{r}
+res.all_e13_e12 = data.frame(res_e13_e12)
+res.sig_e13_e12 = subset(res.all_e13_e12, padj < 0.05)
+```
+
+Write data to file
+```{r}
+write.csv(res.sig_e13_e12, "e13_e12_sig_genes.txt")
+```
