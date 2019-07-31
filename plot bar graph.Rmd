@@ -1,7 +1,9 @@
 ```{r}
 DE_TF = read.csv("df_for_heatmap.csv", stringsAsFactors = FALSE, row.names = 2)
 DE_TF = DE_TF[, -1]
-``
+```
+
+
 ```{r}
 TF_DB = read.csv("Mus_musculus_TF.txt", sep = "\t", stringsAsFactors = FALSE)
 head(TF_DB)
@@ -91,7 +93,8 @@ E14vsE13 = DE_TF_Entrez_ID$E14.E13
 
 ```{r}
 foldchange_family = data.frame(E12vsE11, E13vsE12, E14vsE13)
-
+foldchange_family$Family  = DE_TF_Entrez_ID$Familyc
+foldchange_family$Symbol = DE_TF_Entrez_ID$Symbol
 ```
 
 ```{r}
@@ -99,5 +102,50 @@ library(reshape2)
 ```
 
 ```{r}
-melt(foldchange_family)
+plot_data = melt(foldchange_family)
+head(plot_data)
+```
+Drop rows with value = 0
+```{r}
+drop_value_0 = function(data){
+  length_data = length(row.names(data))
+  row_with_0 = c()
+  for(i in 1:length_data){
+    if(data$value[i] == 0){
+      row_with_0 = c(row_with_0, i)
+    }
+  }
+  data_2 = data[-row_with_0,]
+  return(data_2)
+}
+```
+
+```{r}
+up.down = function(value){
+  if(value == 1){
+    return("upregulated")
+  }else{return("downregulated")}
+}
+```
+
+
+```{r}
+plot_data_no0 = drop_value_0(plot_data)
+
+```
+
+```{r}
+plot_data_no0$up_down = sapply(plot_data_no0$value, up.down)
+plot_data_no0$count = abs(plot_data_no0$value)
+head(plot_data_no0)
+```
+
+
+
+```{r}
+# Faceting
+ggplot(plot_data_no0, aes(x= variable, fill = up_down)) + 
+    geom_bar(aes(y = count), stat="identity") +    
+    facet_wrap(~Family, ncol = 3) + theme_minimal()
+ggsave("bar_chart.pdf", height = 40, width = 10)
 ```
