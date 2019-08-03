@@ -1,10 +1,12 @@
 ```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
 DE_TF = read.csv("df_for_heatmap.csv", stringsAsFactors = FALSE, row.names = 2)
 DE_TF = DE_TF[, -1]
 ```
 
 
 ```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
 TF_DB = read.csv("Mus_musculus_TF.txt", sep = "\t", stringsAsFactors = FALSE)
 head(TF_DB)
 ```
@@ -52,6 +54,7 @@ DE_TF_Entrez_ID$Family = vapply(DE_TF_Entrez_ID$EntrezID, family, FUN.VALUE = "c
 ```
 
 ```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
 write.csv(DE_TF_Entrez_ID, "all.tf.with.family.csv")
 ```
 
@@ -147,5 +150,6 @@ head(plot_data_no0)
 ggplot(plot_data_no0, aes(x= variable, fill = up_down)) + 
     geom_bar(aes(y = count), stat="identity") +    
     facet_wrap(~Family, ncol = 3) + theme_minimal() + scale_fill_manual(values = c("blue", "red"))
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
 ggsave("bar_chart.pdf", height = 40, width = 10)
 ```
