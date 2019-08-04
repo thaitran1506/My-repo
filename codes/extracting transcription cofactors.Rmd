@@ -1,0 +1,117 @@
+
+
+```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+TF_cofactor = read.csv("Mus_musculus_TF_cofactors.txt", sep = "\t", header = TRUE, 
+                       stringsAsFactors = FALSE)
+head(TF_cofactor)
+```
+
+```{r}
+e12e11 = read.csv("e12_e11_sig_genes.txt", sep = ",", header = TRUE, 
+                  stringsAsFactors = FALSE, row.names = 1)
+e13e12 = read.csv("e13_e12_sig_genes.txt", sep = ",", header = TRUE, 
+                  stringsAsFactors = FALSE, row.names = 1)
+e14e13 = read.csv("e14_e13_sig_genes.txt", sep = ",", header = TRUE, 
+                  stringsAsFactors = FALSE, row.names = 1)
+```
+
+
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
+  
+  return(data_subset)
+}
+```
+
+Convert gene symbols into EntrezID and make EntrezID the row.names
+```{r}
+entrezID.res.sig_e12_e11 = symbol_entrezID(data = e12e11, keys = row.names(e12e11))
+head(entrezID.res.sig_e12_e11)
+```
+Filter for transcription cofactors in all DE genes of E12/E11
+
+```{r}
+de.cotf.e12.e11 = c()
+for(gene in entrezID.res.sig_e12_e11$EntrezID){
+  if(gene %in% TF_cofactor$Entrez.ID){
+    de.cotf.e12.e11 = c(de.cotf.e12.e11, gene)
+  }
+}
+```
+
+Subset for transcription factor only
+```{r}
+e12.e11.de.cotf = entrezID.res.sig_e12_e11[de.cotf.e12.e11,]
+```
+
+There are 488 DE cofactors. Write this result to file
+```{r}
+write.csv(e12.e11.de.cotf, "e12.e11.all.de.cofactors.csv")
+```
+
+Now filter for those with log2FC >= 0.5
+```{r}
+e12.e11.de.cotf.0.5 = subset(e12.e11.de.cotf, abs(e12.e11.de.cotf$log2FoldChange) >= 0.25)
+```
+
+Write to file
+```{r}
+write.csv(e12.e11.de.cotf.0.5, "e12.e11.de.cotf.0.5.csv")
+```
+
+
+```{r}
+extract_genes = function(de_data, reference, save1 = FALSE, file1, save2 = FALSE, file2 ){
+  #Convert gene symbols into EntrezID and make EntrezID the row.names
+  entrezID.res.sig = symbol_entrezID(data = de_data, keys = row.names(de_data))
+  #Filter for desired genes
+  de.cotf = c()
+  for(gene in entrezID.res.sig$EntrezID){
+    if(gene %in% reference$Entrez.ID){
+      de.cotf = c(de.cotf, gene)
+      }
+  }
+  #subset for desired genes
+  de.cotf_df = entrezID.res.sig[de.cotf,]
+  if(save1){
+    write.csv(de.cotf_df, file1)
+  }
+  #subset for log2FC >= 0.5
+  de.cotf.0.5 = subset(de.cotf_df, abs(de.cotf_df$log2FoldChange) >= 0.5)
+  if(save2){
+    write.csv(de.cotf.0.5, file2)
+  }
+  return(de.cotf.0.5)
+}
+```
+
+```{r}
+e13.e12.de.cotf.0.5 = extract_genes(de_data = e13e12, reference = TF_cofactor,
+                                    save1 = TRUE, file1 = "e13.e12.all.de.cofactors.csv",
+                                    save2 = TRUE, file2 = "e13.e12.de.cotf.0.5.csv")
+e13.e12.de.cotf.0.5
+```
+```{r}
+e14.e13.de.cotf.0.5 = extract_genes(de_data = e14e13, reference = TF_cofactor,
+                                    save1 = TRUE, file1 = "e14.e13.all.de.cofactors.csv",
+                                    save2 = TRUE, file2 = "e14.e13.de.cotf.0.5.csv")
+e14.e13.de.cotf.0.5
+```
+
+
