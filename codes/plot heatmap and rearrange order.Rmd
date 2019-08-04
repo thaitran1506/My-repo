@@ -1,0 +1,99 @@
+```{r}
+group1 = "100"
+group2 = "110"
+group3 = "111"
+group4 = "101"
+group5 = "010"
+group6 = "001"
+group7 = "1-11"
+group8 = "1-10"
+group9 = "10-1"
+group10 = "11-1"
+group11 = "-110"
+group12 = "-100"
+group13 = "-1-10"
+group14 = "-1-1-1"
+group15 = "-10-1"
+group16 = "0-10"
+group17 = "0-1-1"
+group18 = "00-1"
+```
+
+
+```{r}
+data_heatmap = read.csv("df_for_heatmap.csv", stringsAsFactors = FALSE, row.names = 1)
+head(data_heatmap)
+```
+
+```{r}
+
+paste(as.character(data_heatmap[1,2:4]),collapse = "")
+```
+```{r}
+extract = function(data, term){
+  group_tf = c()
+  for(i in 1:length(data[[1]])){
+    if(paste(as.character(data[i, 2:4]), collapse = "") == term){
+      group_tf = c(group_tf, data[[1]][i])
+    }
+  }
+  return(group_tf)
+}
+```
+
+```{r}
+group1_tf = extract(data_heatmap, term = group1)
+group2_tf = extract(data_heatmap, term = group2)
+group3_tf = extract(data_heatmap, term = group3)
+group4_tf = extract(data_heatmap, term = group4)
+group5_tf = extract(data_heatmap, term = group5)
+group6_tf = extract(data_heatmap, term = group6)
+group7_tf = extract(data_heatmap, term = group7)
+group8_tf = extract(data_heatmap, term = group8)
+group9_tf = extract(data_heatmap, term = group9)
+group10_tf = extract(data_heatmap, term = group10)
+group11_tf = extract(data_heatmap, term = group11)
+group12_tf = extract(data_heatmap, term = group12)
+group13_tf = extract(data_heatmap, term = group13)
+group14_tf = extract(data_heatmap, term = group14)
+group15_tf = extract(data_heatmap, term = group15)
+group16_tf = extract(data_heatmap, term = group16)
+group17_tf = extract(data_heatmap, term = group17)
+group18_tf = extract(data_heatmap, term = group18)
+
+```
+
+```{r}
+new_order = c(group18_tf, group17_tf, group16_tf, group15_tf, group14_tf, group13_tf, group12_tf,
+              group11_tf, group10_tf, group9_tf, group8_tf, group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+
+```{r}
+row.names(data_heatmap) = data_heatmap[[1]]
+head(data_heatmap)
+```
+
+```{r}
+df.for.heatmap = data_heatmap[new_order,]
+
+df.for.heatmap = df.for.heatmap[, -1]
+head(df.for.heatmap)
+```
+
+Now melt the data frame
+```{r}
+df.for.heatmap.molten = melt(as.matrix(df.for.heatmap))
+names(df.for.heatmap.molten)[c(1,2)] = c("Protein", "Time")
+```
+
+Now plot the graph
+```{r}
+ggplot(df.for.heatmap.molten, aes(x = Time, y = Protein, fill = value)) +
+  geom_raster() +
+  scale_fill_distiller(palette = "RdBu") +
+  ggtitle("Heatmap of transcription factors")
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
+ggsave("TF.heatmap.arranged.pdf", height = 40, width = 10)
+```
