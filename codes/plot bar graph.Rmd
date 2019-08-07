@@ -58,22 +58,6 @@ setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
 write.csv(DE_TF_Entrez_ID, "all.tf.with.family.csv")
 ```
 
-```{r}
-TF_family = unique(DE_TF_Entrez_ID$Family)
-TF_family
-```
-
-Create the data frame for plotting
-```{r}
-plot_data = as.data.frame(table(DE_TF_Entrez_ID$Family))
-colnames(plot_data) = c("Family", "Number of gene")
-plot_data
-```
-
-
-```{r}
-stage = rep(c("E12vsE11", "E13vsE12", "E14vsE13"), 51)
-```
 
 ```{r}
 family.terms = c()
@@ -96,7 +80,7 @@ E14vsE13 = DE_TF_Entrez_ID$E14.E13
 
 ```{r}
 foldchange_family = data.frame(E12vsE11, E13vsE12, E14vsE13)
-foldchange_family$Family  = DE_TF_Entrez_ID$Familyc
+foldchange_family$Family  = DE_TF_Entrez_ID$Family
 foldchange_family$Symbol = DE_TF_Entrez_ID$Symbol
 ```
 
@@ -152,4 +136,137 @@ ggplot(plot_data_no0, aes(x= variable, fill = up_down)) +
     facet_wrap(~Family, ncol = 3) + theme_minimal() + scale_fill_manual(values = c("blue", "red"))
 setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
 ggsave("bar_chart.pdf", height = 40, width = 10)
+```
+
+=============================================================================================
+=============================================================================================
+```{r}
+setwd(data_path)
+data = read.csv("all.tf.with.family.csv",
+                header = TRUE,
+                sep = ",",
+                stringsAsFactors = FALSE,
+                row.names = 1)
+head(data)
+```
+
+```{r}
+tf.family = unique(data$Family)
+```
+
+
+Group all zinc-finger families together
+
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA"){
+    data$Family[i] = "Zinc fingers"
+  }
+}
+```
+
+Group miscellaneous and others together
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "Miscellaneous" | data$Family[i] == "Others"){
+    data$Family[i] = "Miscellaneous"
+  }
+}
+```
+Group Homeobox, Pax3 and Pou together
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "Homeobox" | data$Family[i] == "Pou" | data$Family[i] == "PAX"){
+    data$Family[i] = "Homeobox"
+  }
+}
+
+```
+
+```{r}
+#Group family with low counts and similar downregulation patterns together
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "AF-4" | data$Family[i] == "CSD" | data$Family[i] == "HMGA" | data$Family[i] == "RFX"| data$Family[i] == "Tub" | data$Family[i] == "NDT80/PhoG" | data$Family[i] == "MBD" | data$Family[i] == "E2F" | data$Family[i] == "CG1" | data$Family[i] == "CP2" | data$Family[i] == "DACH" | data$Family[i] == "MH1" | data$Family[i] == "TF_Otx" | data$Family[i] == "CG-1"){
+    data$Family[i] = "AF4, CSD, HMGA, RFX, Tub, NDT80/PhoG, MBD, E2F, CG1"
+  }
+}
+
+```
+
+
+```{r}
+#Group family with low counts and similar upregulation patterns together
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "COE" | data$Family[i] == "CSRNP_N" | data$Family[i] == "CTF/NFI" | data$Family[i] == "ESR-like"| data$Family[i] == "HPD" | data$Family[i] == "NGFIB-like" | data$Family[i] == "Runt" | data$Family[i] == "RHD" | data$Family[i] == "SRF" | data$Family[i] == "TEA"){
+    data$Family[i] = "COE, CSRNP_N, CTF/NFI, ESR-like, HPD, NGFIB-like, Runt, RHD, SRF, TEA"
+  }
+}
+
+```
+
+
+```{r}
+E12vsE11 = data$E12.E11
+E13vsE12 = data$E13.E12
+E14vsE13 = data$E14.E13
+
+```
+
+```{r}
+foldchange_family = data.frame(E12vsE11, E13vsE12, E14vsE13)
+foldchange_family$Family  = data$Family
+foldchange_family$Symbol = data$Symbol
+```
+
+```{r}
+library(reshape2)
+```
+
+```{r}
+plot_data = melt(foldchange_family)
+head(plot_data)
+```
+
+Drop rows with value = 0
+```{r}
+drop_value_0 = function(data){
+  length_data = length(row.names(data))
+  row_with_0 = c()
+  for(i in 1:length_data){
+    if(data$value[i] == 0){
+      row_with_0 = c(row_with_0, i)
+    }
+  }
+  data_2 = data[-row_with_0,]
+  return(data_2)
+}
+```
+
+```{r}
+up.down = function(value){
+  if(value == 1){
+    return("upregulated")
+  }else{return("downregulated")}
+}
+```
+
+```{r}
+plot_data_no0 = drop_value_0(plot_data)
+
+```
+
+
+```{r}
+plot_data_no0$up_down = sapply(plot_data_no0$value, up.down)
+plot_data_no0$count = abs(plot_data_no0$value)
+head(plot_data_no0)
+```
+
+```{r}
+# Faceting
+ggplot(plot_data_no0, aes(x= variable, fill = up_down)) + 
+    geom_bar(aes(y = count), stat="identity") +    
+    facet_wrap(~Family, ncol = 3) + theme_minimal() + scale_fill_manual(values = c("blue", "red"))
+setwd(graph_path)
+ggsave("fused_bar_chart.pdf", height = 40, width = 10)
 ```
