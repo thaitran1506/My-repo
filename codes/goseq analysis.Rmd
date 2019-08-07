@@ -1,0 +1,125 @@
+This is an attempt to use the R package goseq to perform GO enrichment analysis on the embryonic RNA seq data.
+
+```{r}
+data_path = "C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data"
+graph_path = "C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs"
+```
+
+Read in the count table then extract the gene universe
+```{r}
+setwd(data_path)
+data = read.csv("embryonic.rna.seq.count.txt",
+                sep = "\t",
+                header = TRUE,
+                row.names = 1,
+                stringsAsFactors = FALSE)
+head(data)
+```
+
+```{r}
+all_genes = row.names(data)
+```
+
+Now read in the differentially expressed for E12/E11
+
+```{r}
+setwd(data_path)
+de_e12_e11 = read.csv("e12_e11_sig_genes.txt",
+                      sep = ",",
+                      header = TRUE,
+                      row.names = 1,
+                      stringsAsFactors = FALSE)
+head(de_e12_e11)
+```
+
+Now extract the names of the differentially expressed genes
+```{r}
+e12_e11_de_genes = row.names(de_e12_e11)
+```
+
+```{r}
+
+not_de = all_genes[!(all_genes %in% e12_e11_de_genes)]
+```
+
+Now combine the two together with the differentially expressed genes located prior to the indifferentially expressed.
+
+```{r}
+genes = c(e12_e11_de_genes, not_de)
+```
+
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  return(hash.table$ENTREZID)
+}
+```
+
+```{r}
+e12_e11_de_entrezID = symbol_entrezID(e12_e11_de_genes)
+length(e12_e11_de_entrezID) == length(unique(e12_e11_de_entrezID))
+non_de_genes = symbol_entrezID(not_de)
+length(non_de_genes) == length(unique(non_de_genes))
+genes = c(e12_e11_de_entrezID, non_de_genes)
+
+```
+
+Create the binary vector
+
+```{r}
+go_seq_vector = c(rep(1, length(e12_e11_de_entrezID)), rep(0, length(non_de_genes)))
+names(go_seq_vector) = genes
+head(go_seq_vector)
+```
+
+```{r}
+library(goseq)
+```
+
+```{r}
+pwf = nullp(go_seq_vector, genome =  "mm7", id = "knownGene")
+```
+
+```{r}
+GO.wall = goseq(pwf, genome = "mm7", id = "knownGene", test.cats = c("GO:BP"))
+head(GO.wall)
+```
+write this dataset to file for future use
+```{r}
+write.csv(GO.wall, "e12.e11.all.GO.csv")
+```
+
+Read in the differentially expressed transcription factors from e12/e11
+
+```{r}
+e12.e11.tf = read.csv("e12_e11_de_tf_0.5.csv",
+                      header = TRUE,
+                      sep = ",",
+                      stringsAsFactors = FALSE,
+                      row.names = 1)
+head(e12.e11.tf)
+```
+
+```{r}
+tf = row.names(e12.e11.tf)
+```
+
+Subset the GO table for transcription factors
+```{r}
+GO.tf = GO.wall[tf,]
+head(GO.tf)
+```
+
+```{r}
+drop_na(GO.tf)
+```
