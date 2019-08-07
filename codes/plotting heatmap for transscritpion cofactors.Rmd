@@ -42,6 +42,11 @@ df.for.heatmap$'E14/E13' = sapply(merged_data[['E14/E13']], up.down)
 head(df.for.heatmap)
 ```
 
+```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+write.csv(df.for.heatmap, "df.for.heatmap.TF.cofactors.csv")
+
+```
 
 Load necessary library
 
