@@ -1,0 +1,118 @@
+```{r}
+setwd("~/Desktop/My-repo-master/My-repo/data")
+data = read.csv("all.tf.with.family.csv",
+                header = TRUE,
+                sep = ",",
+                stringsAsFactors = FALSE,
+                row.names = 1)
+head(data)
+```
+
+
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "Homeobox" | data$Family[i] == "Pou" | data$Family[i] == "PAX"){
+    data$Family[i] = "Homeobox"
+  }
+}
+
+```
+
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "Miscellaneous" | data$Family[i] == "Others"){
+    data$Family[i] = "Miscellaneous"
+  }
+}
+```
+
+
+```{r}
+#Group family with low counts and similar downregulation patterns together
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "AF-4" | data$Family[i] == "CSD" | data$Family[i] == "HMGA" | data$Family[i] == "RFX"| data$Family[i] == "Tub" | data$Family[i] == "NDT80/PhoG" | data$Family[i] == "MBD" | data$Family[i] == "E2F" | data$Family[i] == "CG1" | data$Family[i] == "CP2" | data$Family[i] == "DACH" | data$Family[i] == "MH1" | data$Family[i] == "TF_Otx" | data$Family[i] == "CG-1"){
+    data$Family[i] = "downregulated, low quantity"
+  }
+}
+
+```
+
+
+```{r}
+#Group family with low counts and similar upregulation patterns together
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "COE" | data$Family[i] == "CSRNP_N" | data$Family[i] == "CTF/NFI" | data$Family[i] == "ESR-like"| data$Family[i] == "HPD" | data$Family[i] == "NGFIB-like" | data$Family[i] == "Runt" | data$Family[i] == "RHD" | data$Family[i] == "SRF" | data$Family[i] == "TEA"){
+    data$Family[i] = "upregulated, low quantity"
+  }
+}
+
+```
+
+```{r}
+for(i in 1:length(data$Family)){
+  if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA"){
+    data$Family[i] = "Zinc fingers"
+  }
+}
+```
+
+```{r}
+data_sorted = data[order(data$Family),]
+```
+
+```{r}
+bHLH = subset(data_sorted, Family == "bHLH")
+AP2 = subset(data_sorted, Family == "AP-2")
+ARID = subset(data_sorted, Family == "ARID")
+ETS = subset(data_sorted, Family == "ETS")
+Fork_head = subset(data_sorted, Family == "Fork_head")
+HMG = subset(data_sorted, Family == "HMG")
+Homeobox = subset(data_sorted, Family == "Homeobox")
+IRF = subset(data_sorted, Family == "IRF")
+Tbox = subset(data_sorted, Family == "T-box")
+TF_bZIP = subset(data_sorted, Family == "TF_bZIP")
+THR_like = subset(data_sorted, Family == "THR-like")
+ZBTB = subset(data_sorted, Family == "ZBTB")
+zincfinger = subset(data_sorted, Family == "Zinc fingers")
+```
+
+```{r}
+bHLH = bHLH[order(bHLH$E12.E11, decreasing = TRUE),]
+AP2 = AP2[order(AP2$E12.E11, decreasing = TRUE),]
+ARID = ARID[order(ARID$E12.E11, decreasing = TRUE),]
+ETS = ETS[order(ETS$E12.E11, decreasing = TRUE),]
+Fork_head = Fork_head[order(Fork_head$E12.E11, decreasing = TRUE),]
+HMG = HMG[order(HMG$E12.E11, decreasing = TRUE),]
+Homeobox = Homeobox[order(HMG$E12.E11, decreasing = TRUE),]
+IRF = IRF[order(IRF$E12.E11, decreasing = TRUE),]
+Tbox = Tbox[order(Tbox$E12.E11, decreasing = TRUE),]
+TF_bZIP = TF_bZIP[order(TF_bZIP$E12.E11, decreasing = TRUE),]
+THR_like = THR_like[order(THR_like$E12.E11, decreasing = TRUE),]
+ZBTB = ZBTB[order(ZBTB$E12.E11, decreasing = TRUE),]
+zincfinger = zincfinger[order(zincfinger$E12.E11, decreasing = TRUE),]
+```
+
+```{r}
+rowbind = rbind(bHLH, AP2, ARID, ETS, Fork_head, HMG, Homeobox, IRF, Tbox, TF_bZIP, THR_like, ZBTB, zincfinger)
+```
+
+```{r}
+plotdata = data.frame(rowbind$E12.E11, rowbind$E13.E12, rowbind$E14.E13)
+row.names(plotdata) = rowbind$Symbol
+colnames(plotdata) = c("E12.E11", "E13.E12", "E14.E13")
+```
+
+
+```{r}
+plotdata_melt = melt(as.matrix(plotdata))
+names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
+```
+
+```{r}
+ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
+  geom_raster() +
+  scale_fill_distiller(palette = "RdBu") +
+  ggtitle("Heatmap of transcription factors")
+setwd("~/Desktop/My-repo-master/My-repo/Graphs")
+ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
+```

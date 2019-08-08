@@ -20,7 +20,7 @@ group16 = "00-1"
 
 
 ```{r}
-setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+setwd(data_path)
 data_heatmap = read.csv("df.for.heatmap.TF.cofactors.csv", stringsAsFactors = FALSE, row.names = 1)
 head(data_heatmap)
 ```
@@ -95,6 +95,6 @@ ggplot(df.for.heatmap.molten, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
   ggtitle("Heatmap of transcription cofactors")
-setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
-ggsave("TF.cofactors.heatmap.arranged.pdf", height = 40, width = 10)
+setwd(graph_path)
+ggsave("TF.cofactors.heatmap.arranged.png", height = 40, width = 10)
 ```
