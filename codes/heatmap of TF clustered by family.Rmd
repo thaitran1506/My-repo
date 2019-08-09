@@ -1,5 +1,5 @@
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/data")
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
 data = read.csv("all.tf.with.family.csv",
                 header = TRUE,
                 sep = ",",
@@ -77,19 +77,19 @@ zincfinger = subset(data_sorted, Family == "Zinc fingers")
 ```
 
 ```{r}
-bHLH = bHLH[order(bHLH$E12.E11, decreasing = TRUE),]
-AP2 = AP2[order(AP2$E12.E11, decreasing = TRUE),]
-ARID = ARID[order(ARID$E12.E11, decreasing = TRUE),]
-ETS = ETS[order(ETS$E12.E11, decreasing = TRUE),]
-Fork_head = Fork_head[order(Fork_head$E12.E11, decreasing = TRUE),]
-HMG = HMG[order(HMG$E12.E11, decreasing = TRUE),]
-Homeobox = Homeobox[order(HMG$E12.E11, decreasing = TRUE),]
-IRF = IRF[order(IRF$E12.E11, decreasing = TRUE),]
-Tbox = Tbox[order(Tbox$E12.E11, decreasing = TRUE),]
-TF_bZIP = TF_bZIP[order(TF_bZIP$E12.E11, decreasing = TRUE),]
-THR_like = THR_like[order(THR_like$E12.E11, decreasing = TRUE),]
-ZBTB = ZBTB[order(ZBTB$E12.E11, decreasing = TRUE),]
-zincfinger = zincfinger[order(zincfinger$E12.E11, decreasing = TRUE),]
+bHLH = bHLH[hclust(dist(bHLH[,1:3]))$order,]
+AP2 = AP2[hclust(dist(AP2[,1:3]))$order,]
+ARID = ARID[hclust(dist(ARID[,1:3]))$order,]
+ETS = ETS[hclust(dist(ETS[,1:3]))$order,]
+Fork_head = Fork_head[hclust(dist(Fork_head[,1:3]))$order,]
+HMG = HMG[hclust(dist(HMG[,1:3]))$order,]
+Homeobox = Homeobox[hclust(dist(Homeobox[,1:3]))$order,]
+IRF = IRF[hclust(dist(IRF[,1:3]))$order,]
+Tbox = Tbox[hclust(dist(Tbox[,1:3]))$order,]
+TF_bZIP = TF_bZIP[hclust(dist(TF_bZIP[,1:3]))$order,]
+THR_like = THR_like[hclust(dist(THR_like[,1:3]))$order,]
+ZBTB = ZBTB[hclust(dist(ZBTB[,1:3]))$order,]
+zincfinger = zincfinger[hclust(dist(zincfinger[,1:3]))$order,]
 ```
 
 ```{r}
@@ -104,15 +104,17 @@ colnames(plotdata) = c("E12.E11", "E13.E12", "E14.E13")
 
 
 ```{r}
+library(reshape2)
 plotdata_melt = melt(as.matrix(plotdata))
 names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
 ```
 
 ```{r}
+library(ggplot2)
 ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
   ggtitle("Heatmap of transcription factors")
-setwd("~/Desktop/My-repo-master/My-repo/Graphs")
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
 ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
 ```
