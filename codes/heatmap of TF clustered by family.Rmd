@@ -93,7 +93,7 @@ zincfinger = zincfinger[hclust(dist(zincfinger[,1:3]))$order,]
 ```
 
 ```{r}
-rowbind = rbind(bHLH, AP2, ARID, ETS, Fork_head, HMG, Homeobox, IRF, Tbox, TF_bZIP, THR_like, ZBTB, zincfinger)
+rowbind = rbind(bHLH, ETS, Fork_head, Homeobox, Tbox, TF_bZIP, ZBTB, zincfinger)
 ```
 
 ```{r}
@@ -111,10 +111,174 @@ names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
 
 ```{r}
 library(ggplot2)
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
+tiff("heatmap TF with clustered family.tiff", units = "in", height = 40, width = 10, res = 400)
 ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
   ggtitle("Heatmap of transcription factors")
+dev.off()
 setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
-ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
+#ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
+```
+
+
+```{r}
+group1 = "100"
+group2 = "110"
+group3 = "101"
+group4 = "010"
+group5 = "001"
+group6 = "1-10"
+group7 = "10-1"
+group8 = "-110"
+group9 = "-100"
+group10 = "-1-10"
+group11 = "-1-1-1"
+group12 = "-10-1"
+group13 = "0-10"
+group14 = "0-1-1"
+group15 = "00-1"
+```
+
+```{r}
+extract = function(data, term){
+  group_tf = c()
+  for(i in 1:length(data[[1]])){
+    if(paste(as.character(data[i,1:3]), collapse = "") == term){
+      group_tf = c(group_tf, row.names(data)[i])
+    }
+  }
+  return(group_tf)
+}
+```
+
+```{r}
+group1_tf = extract(zincfinger, term = group1)
+group2_tf = extract(zincfinger, term = group2)
+group3_tf = extract(zincfinger, term = group3)
+group4_tf = extract(zincfinger, term = group4)
+group5_tf = extract(zincfinger, term = group5)
+group6_tf = extract(zincfinger, term = group6)
+group7_tf = extract(zincfinger, term = group7)
+group8_tf = extract(zincfinger, term = group8)
+group9_tf = extract(zincfinger, term = group9)
+group10_tf = extract(zincfinger, term = group10)
+group11_tf = extract(zincfinger, term = group11)
+group12_tf = extract(zincfinger, term = group12)
+group13_tf = extract(zincfinger, term = group13)
+group14_tf = extract(zincfinger, term = group14)
+group15_tf = extract(zincfinger, term = group15)
+```
+
+```{r}
+new_order = c(group15_tf, group14_tf, group13_tf, group12_tf,
+              group11_tf, group10_tf, group9_tf, group8_tf, group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+zincfinger = zincfinger[new_order,]
+```
+
+
+```{r}
+group1 = "100"
+group2 = "101"
+group3 = "110"
+group4 = "111"
+group5 = "010"
+group6 = "001"
+group7 = "1-11"
+group8 = "1-10"
+
+```
+
+```{r}
+extract = function(data, term){
+  group_tf = c()
+  for(i in 1:length(data[[1]])){
+    if(paste(as.character(data[i,1:3]), collapse = "") == term){
+      group_tf = c(group_tf, row.names(data)[i])
+    }
+  }
+  return(group_tf)
+}
+```
+
+```{r}
+group1_tf = extract(TF_bZIP, term = group1)
+group2_tf = extract(TF_bZIP, term = group2)
+group3_tf = extract(TF_bZIP, term = group3)
+group4_tf = extract(TF_bZIP, term = group4)
+group5_tf = extract(TF_bZIP, term = group5)
+group6_tf = extract(TF_bZIP, term = group6)
+group7_tf = extract(TF_bZIP, term = group7)
+group8_tf = extract(TF_bZIP, term = group8)
+
+```
+
+```{r}
+new_order = c(group8_tf, group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+TF_bZIP = TF_bZIP[new_order,]
+```
+
+```{r}
+group1 = "100"
+group2 = "-100"
+group3 = "0-10"
+```
+
+```{r}
+group1_tf = extract(Tbox, term = group1)
+group2_tf = extract(Tbox, term = group2)
+group3_tf = extract(Tbox, term = group3)
+```
+
+```{r}
+new_order = c(group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+Tbox = Tbox[new_order,]
+```
+
+```{r}
+group1 = "100"
+group2 = "110"
+group3 = "101"
+group4 = "010"
+group5 = "001"
+group6 = "1-10"
+group7 = "11-1"
+group8 = "-110"
+group9 = "-100"   
+group10 = "-10-1"
+group11 = "-1-10"
+group12 = "0-1-1"
+group13 = "0-10" 
+group14 = "00-1"
+group15 = "-1-1-1"
+``` 
+
+```{r}
+group1_tf = extract(Homeobox, term = group1)
+group2_tf = extract(Homeobox, term = group2)
+group3_tf = extract(zincfinger, term = group3)
+group4_tf = extract(zincfinger, term = group4)
+group5_tf = extract(zincfinger, term = group5)
+group6_tf = extract(zincfinger, term = group6)
+group7_tf = extract(zincfinger, term = group7)
+group8_tf = extract(zincfinger, term = group8)
+group9_tf = extract(zincfinger, term = group9)
+group10_tf = extract(zincfinger, term = group10)
+group11_tf = extract(zincfinger, term = group11)
+group12_tf = extract(zincfinger, term = group12)
+group13_tf = extract(zincfinger, term = group13)
+group14_tf = extract(zincfinger, term = group14)
+group15_tf = extract(zincfinger, term = group15)
 ```
