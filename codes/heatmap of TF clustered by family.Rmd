@@ -1,5 +1,5 @@
 ```{r}
-setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/data")
 data = read.csv("all.tf.with.family.csv",
                 header = TRUE,
                 sep = ",",
@@ -111,14 +111,13 @@ names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
 
 ```{r}
 library(ggplot2)
-setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
-tiff("heatmap TF with clustered family.tiff", units = "in", height = 40, width = 10, res = 400)
+setwd("~/Desktop/My-repo-master/My-repo/Graphs")
+tiff("heatmap TF with clustered family.tiff", units = "in", height = 40, width = 10, res = 500)
 ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
   ggtitle("Heatmap of transcription factors")
 dev.off()
-setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
 #ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
 ```
 
@@ -268,17 +267,94 @@ group15 = "-1-1-1"
 ```{r}
 group1_tf = extract(Homeobox, term = group1)
 group2_tf = extract(Homeobox, term = group2)
-group3_tf = extract(zincfinger, term = group3)
-group4_tf = extract(zincfinger, term = group4)
-group5_tf = extract(zincfinger, term = group5)
-group6_tf = extract(zincfinger, term = group6)
-group7_tf = extract(zincfinger, term = group7)
-group8_tf = extract(zincfinger, term = group8)
-group9_tf = extract(zincfinger, term = group9)
-group10_tf = extract(zincfinger, term = group10)
-group11_tf = extract(zincfinger, term = group11)
-group12_tf = extract(zincfinger, term = group12)
-group13_tf = extract(zincfinger, term = group13)
-group14_tf = extract(zincfinger, term = group14)
-group15_tf = extract(zincfinger, term = group15)
+group3_tf = extract(Homeobox, term = group3)
+group4_tf = extract(Homeobox, term = group4)
+group5_tf = extract(Homeobox, term = group5)
+group6_tf = extract(Homeobox, term = group6)
+group7_tf = extract(Homeobox, term = group7)
+group8_tf = extract(Homeobox, term = group8)
+group9_tf = extract(Homeobox, term = group9)
+group10_tf = extract(Homeobox, term = group10)
+group11_tf = extract(Homeobox, term = group11)
+group12_tf = extract(Homeobox, term = group12)
+group13_tf = extract(Homeobox, term = group13)
+group14_tf = extract(Homeobox, term = group14)
+group15_tf = extract(Homeobox, term = group15)
+```
+
+```{r}
+new_order = c(group15_tf, group14_tf, group13_tf, group12_tf,
+              group11_tf, group10_tf, group9_tf, group8_tf, group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+Homeobox = Homeobox[new_order,]
+```
+
+
+```{r}
+group1 = "100"
+group2 = "110"
+group3 = "010"
+group4 = "001"
+group5 = "1-10"
+group6 = "-110"
+group7 = "-100"
+
+```
+
+
+```{r}
+group1_tf = extract(Fork_head, term = group1)
+group2_tf = extract(Fork_head, term = group2)
+group3_tf = extract(Fork_head, term = group3)
+group4_tf = extract(Fork_head, term = group4)
+group5_tf = extract(Fork_head, term = group5)
+group6_tf = extract(Fork_head, term = group6)
+group7_tf = extract(Fork_head, term = group7)
+
+```
+
+
+```{r}
+new_order = c(group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+Fork_head = Fork_head[new_order,]
+```
+
+```{r}
+group1 = "100"
+group2 = "110"
+group3 = "010"
+group4 = "101"
+group5 = "001"
+group6 = "0-10"
+group7 = "-1-10"
+group8 = "-10-1"
+group9 = "00-1"   
+``` 
+
+```{r}
+group1_tf = extract(bHLH, term = group1)
+group2_tf = extract(bHLH, term = group2)
+group3_tf = extract(bHLH, term = group3)
+group4_tf = extract(bHLH, term = group4)
+group5_tf = extract(bHLH, term = group5)
+group6_tf = extract(bHLH, term = group6)
+group7_tf = extract(bHLH, term = group7)
+group8_tf = extract(bHLH, term = group8)
+group9_tf = extract(bHLH, term = group9)
+```
+
+```{r}
+new_order = c(group9_tf, group8_tf, group7_tf, group6_tf,
+              group5_tf, group4_tf, group3_tf, group2_tf, group1_tf)
+```
+
+```{r}
+bHLH = bHLH[new_order,]
 ```
