@@ -1,0 +1,103 @@
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
+  
+  
+  return(data_subset)
+}
+```
+
+Read in the raw data to get the universe genes
+
+```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+master_data = read.csv("embryonic.rna.seq.count.txt",
+                       sep = "\t",
+                       stringsAsFactors = FALSE,
+                       header = TRUE,
+                       row.names = 1)
+head(master_data)
+```
+
+```{r}
+master_genes = row.names(master_data)
+master_data = symbol_entrezID(master_data, master_genes)
+```
+```{r}
+master_entrezID = master_data$EntrezID
+```
+
+Read in the differentially expressed genes for E12/E11
+
+```{r}
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/data")
+e12e13de = read.csv("e13_e12_sig_genes.txt", row.names = 1)
+head(e12e13de)
+```
+
+subset for genes with abs(log2FC) >= 1
+
+```{r}
+subset = subset(e12e13de, abs(log2FoldChange) >= 0.5)
+str(subset)
+```
+```{r}
+subset_genes = row.names(subset)
+subset = symbol_entrezID(subset, subset_genes)
+```
+
+```{r}
+
+#Feature 1: Numeric vector
+geneList_y = subset$log2FoldChange
+
+#Feature 2: named vector
+names(geneList_y) = as.character(subset$EntrezID)
+
+#Feature 3: decreasing order
+geneList = sort(geneList_y, decreasing = TRUE)
+head(geneList)
+```
+
+```{r}
+de_y = names(geneList)
+```
+
+load all the required libraries
+```{r}
+library(ReactomePA, quietly = TRUE)
+library(clusterProfiler, quietly = TRUE)
+library(ggplot2, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+```
+
+
+Run the analysis
+```{r}
+enrich_y = enrichPathway(gene = de_y, pvalueCutoff = 0.05, readable = T, 
+                         organism = "mouse",
+                         universe = master_entrezID)
+```
+
+```{r}
+
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
+tiff("ReactomePA E13_E12.tiff", units = "in", height = 10, width = 40, res = 500)
+heatplot(enrich_y, foldChange = geneList_y) + scale_fill_distiller(palette = "RdBu")
+dev.off()
+#ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
+```
