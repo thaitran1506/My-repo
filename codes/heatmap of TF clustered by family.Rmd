@@ -50,7 +50,11 @@ for(i in 1:length(data$Family)){
 
 ```{r}
 for(i in 1:length(data$Family)){
+<<<<<<< HEAD
   if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA" | data$Family[i] == "ZBTB"){
+=======
+  if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA"  | data$Family[i] == "ZBTB"){
+>>>>>>> 52a14444df0421d60e0c402ecb6423e7c0059147
     data$Family[i] = "Zinc fingers"
   }
 }
@@ -72,7 +76,6 @@ IRF = subset(data_sorted, Family == "IRF")
 Tbox = subset(data_sorted, Family == "T-box")
 TF_bZIP = subset(data_sorted, Family == "TF_bZIP")
 THR_like = subset(data_sorted, Family == "THR-like")
-ZBTB = subset(data_sorted, Family == "ZBTB")
 zincfinger = subset(data_sorted, Family == "Zinc fingers")
 ```
 
@@ -117,6 +120,14 @@ names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
 
 ```{r}
 library(ggplot2)
+<<<<<<< HEAD
+setwd("C:/Users/trant/Desktop/Embryonic RNA seq/My-repo/Graphs")
+tiff("heatmap TF with clustered family.tiff", units = "in", height = 40, width = 10, res = 500)
+ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
+  geom_raster() +
+  scale_fill_distiller(palette = "RdBu") +
+  ggtitle("Heatmap of transcription factors") + ylab("")
+=======
 setwd("~/Desktop/My-repo-master/My-repo/Graphs")
 
 tiff("heatmap.tf.clustered.family.tiff", units="in", width=10, height=40, res=300)
@@ -135,6 +146,15 @@ ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
 dev.off()
 ```
 
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 0e7da9e935e429731b8805ef113f104a7705d99f
+dev.off()
+#ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
+```
+
+>>>>>>> 52a14444df0421d60e0c402ecb6423e7c0059147
 
 ```{r}
 group1 = "100"
@@ -372,6 +392,7 @@ new_order = c(group9_tf, group8_tf, group7_tf, group6_tf,
 
 ```{r}
 bHLH = bHLH[new_order,]
+<<<<<<< HEAD
 
 ```
 
@@ -383,6 +404,12 @@ rowbind = rbind(TF_bZIP, bHLH, zincfinger, Homeobox)
 plotdata = data.frame(rowbind$E12.E11, rowbind$E13.E12, rowbind$E14.E13)
 row.names(plotdata) = rowbind$Symbol
 colnames(plotdata) = c("E12.E11", "E13.E12", "E14.E13")
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
+>>>>>>> 0e7da9e935e429731b8805ef113f104a7705d99f
+>>>>>>> 52a14444df0421d60e0c402ecb6423e7c0059147
 ```
 
 ```{r}
