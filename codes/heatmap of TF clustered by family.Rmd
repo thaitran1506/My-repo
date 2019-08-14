@@ -50,7 +50,7 @@ for(i in 1:length(data$Family)){
 
 ```{r}
 for(i in 1:length(data$Family)){
-  if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA"){
+  if(data$Family[i] == "zf-C2H2" | data$Family[i] == "zf-C2HC" | data$Family[i] == "zf-CCCH" | data$Family[i] == "zf-GATA" | data$Family[i] == "ZBTB"){
     data$Family[i] = "Zinc fingers"
   }
 }
@@ -88,12 +88,11 @@ IRF = IRF[hclust(dist(IRF[,1:3]))$order,]
 Tbox = Tbox[hclust(dist(Tbox[,1:3]))$order,]
 TF_bZIP = TF_bZIP[hclust(dist(TF_bZIP[,1:3]))$order,]
 THR_like = THR_like[hclust(dist(THR_like[,1:3]))$order,]
-ZBTB = ZBTB[hclust(dist(ZBTB[,1:3]))$order,]
 zincfinger = zincfinger[hclust(dist(zincfinger[,1:3]))$order,]
 ```
 
 ```{r}
-rowbind = rbind(bHLH, ETS, Fork_head, Homeobox, Tbox, TF_bZIP, ZBTB, zincfinger)
+rowbind = rbind(bHLH, ETS, Fork_head, Homeobox, Tbox, TF_bZIP, zincfinger)
 ```
 
 ```{r}
@@ -119,31 +118,24 @@ names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
 ```{r}
 library(ggplot2)
 setwd("~/Desktop/My-repo-master/My-repo/Graphs")
-<<<<<<< HEAD
+
 tiff("heatmap.tf.clustered.family.tiff", units="in", width=10, height=40, res=300)
 # insert ggplot code
 
-=======
+
 tiff("heatmap TF with clustered family.tiff", units = "in", height = 40, width = 10, res = 500)
->>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
+
 ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
-  ggtitle("Heatmap of transcription factors")
-<<<<<<< HEAD
+  ggtitle("Heatmap of transcription factors") + ylab("")
 
 #ggsave("TF.heatmap.arranged.clustered.pdf", height = 40, width = 10)
 
 dev.off()
 ```
 
-=======
-dev.off()
-#ggsave("TF.heatmap.arranged.clustered.png", height = 40, width = 10)
-```
 
-
->>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
 ```{r}
 group1 = "100"
 group2 = "110"
@@ -157,26 +149,16 @@ group9 = "-100"
 group10 = "-1-10"
 group11 = "-1-1-1"
 group12 = "-10-1"
-<<<<<<< HEAD
 group13 = "0-1-1"
 group14 = "00-1"
 group15 = "0-10"
-=======
-group13 = "0-10"
-group14 = "0-1-1"
-group15 = "00-1"
->>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
 ```
 
 ```{r}
 extract = function(data, term){
   group_tf = c()
   for(i in 1:length(data[[1]])){
-<<<<<<< HEAD
     if(paste(as.character(data[i, 1:3]), collapse = "") == term){
-=======
-    if(paste(as.character(data[i,1:3]), collapse = "") == term){
->>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
       group_tf = c(group_tf, row.names(data)[i])
     }
   }
@@ -210,8 +192,7 @@ new_order = c(group15_tf, group14_tf, group13_tf, group12_tf,
 
 ```{r}
 zincfinger = zincfinger[new_order,]
-<<<<<<< HEAD
-=======
+
 ```
 
 
@@ -391,5 +372,39 @@ new_order = c(group9_tf, group8_tf, group7_tf, group6_tf,
 
 ```{r}
 bHLH = bHLH[new_order,]
->>>>>>> ddb362d7cbac827fa2c3dc5c6d5b65b7bea9ce3d
+
+```
+
+```{r}
+rowbind = rbind(TF_bZIP, bHLH, zincfinger, Homeobox)
+```
+
+```{r}
+plotdata = data.frame(rowbind$E12.E11, rowbind$E13.E12, rowbind$E14.E13)
+row.names(plotdata) = rowbind$Symbol
+colnames(plotdata) = c("E12.E11", "E13.E12", "E14.E13")
+```
+
+```{r}
+library(reshape2)
+plotdata_melt = melt(as.matrix(plotdata))
+names(plotdata_melt)[c(1,2)] = c("Protein", "Time")
+```
+
+```{r}
+library(ggplot2)
+setwd("~/Desktop/My-repo-master/My-repo/Graphs")
+
+tiff("heatmap_tf_clustered_4_families.tiff", units="in", width=10, height=40, res=400)
+# insert ggplot code
+
+
+ggplot(plotdata_melt, aes(x = Time, y = Protein, fill = value)) +
+  geom_raster() +
+  scale_fill_distiller(palette = "RdBu") +
+  ggtitle("Heatmap of transcription factors") + ylab("")
+
+#ggsave("TF.heatmap.arranged.clustered.pdf", height = 40, width = 10)
+
+dev.off()
 ```
