@@ -1,0 +1,26 @@
+Extract the matrix of read counts for the transcription factors
+
+```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+raw_TF = read.csv("all.tf.with.family.csv", stringsAsFactors = FALSE,
+                  row.names = 1)
+```
+
+```{r}
+TF = raw_TF$Symbol
+```
+
+```{r}
+all_genes = read.csv("embryonic.rna.seq.count.txt", stringsAsFactors = FALSE,
+                     row.names = 1, sep = "\t")
+head(all_genes)
+```
+
+```{r}
+TF_df = all_genes[TF,]
+head(TF_df)
+```
+
+```{r}
+
+
