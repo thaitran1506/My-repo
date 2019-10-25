@@ -1,0 +1,4 @@
+"","Time","Number_of_DE_genes"
+"1","E12 over E11",6956
+"2","E13 over E12",2932
+"3","E14 over E13",1858
