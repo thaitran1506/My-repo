@@ -1,0 +1,49 @@
+
+
+```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)
+head(data)
+```
+
+```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+tf = read.csv("all de tf 0.5 cutoff btw any time points.csv", stringsAsFactors = FALSE, row.names = 1)
+head(tf)
+```
+
+```{r}
+tf = tf$Symbol
+```
+
+```{r}
+tf_count_matrix = data[tf,]
+```
+
+Use DESeq2 to normalize the data
+```{r}
+library(DESeq2)
+library(ggplot2)
+library(pheatmap)
+```
+
+```{r}
+stage = c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 5))
+design = data.frame(stage)
+row.names(design) = colnames(data)
+```
+
+```{r}
+dds = DESeqDataSetFromMatrix(countData = tf_count_matrix,
+                             colData = design,
+                             design = ~stage)
+```
+
+```{r}
+rld = rlog(dds, blind = FALSE)
+logTransCounts = assay(rld)
+```
+
+```{r}
+pheatmap(logTransCounts, cluster_cols = F)
+```
