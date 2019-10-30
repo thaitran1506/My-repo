@@ -6,30 +6,60 @@ library(DESeq2)
 
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/data")
-embryonic_data = read.csv("gene count matrix remove e13 sample 6.txt", row.names = 1,
-                          stringsAsFactors = FALSE)
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+embryonic_data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)
 head(embryonic_data)
 ```
 
 ```{r}
-colnames(embryonic_data) = c("e11.sample1", "e11.sample2", "e11.sample3", "e11.sample4", "e11.sample5", "e12.sample1", "e12.sample2", "e12.sample3", "e12.sample4", "e12.sample5", "e13.sample1", "e13.sample2", "e13.sample3", "e13.sample4", "e13.sample5", "e13.sample6", "e13.sample7", "e13.sample8", "e13.sample9", "e14.sample1", "e14.sample2", "e14.sample3", "e14.sample4", "e14.sample5")
+stage = c(rep("E11",5), rep("E12",7), rep("E13", 7), rep("E14",5))
+meta_data = data.frame(stage)
+row.names(meta_data) = colnames(embryonic_data)
+head(meta_data)
 ```
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/data")
-write.csv(embryonic_data, "gene count matrix remove e13 sample 6.txt")
+dds = DESeqDataSetFromMatrix(countData = embryonic_data, colData = meta_data,
+                             design = ~stage)
 ```
 
 ```{r}
-stage = c(rep("E11", 5), rep("E12", 5), rep("E13", 9), rep("E14", 5))
-meta = data.frame(stage)
-row.names(meta) = colnames(embryonic_data)
+dds_filtered = dds[rowSums(counts(dds))>10,]
 ```
 
 ```{r}
-match(colnames(embryonic_data), row.names(meta))
+rld = rlog(dds_filtered, blind = FALSE)
+logTransCounts = assay(rld)
 ```
+
+Calculating principle component
+
+```{r}
+OGPCAN <-prcomp(logTransCounts, center = T, scale. = T)
+OGPCAN_matrix <- as.data.frame(OGPCAN$rotation)
+OGPCAN_matrix <- OGPCAN_matrix[, 1:2]
+OGPCAN_matrix$Stage <- c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 5))
+
+```
+
+
+```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/Graphs")
+#Plot PCA
+library(ggplot2)
+ggplot(OGPCAN_matrix, aes(PC2, PC1, color = Stage)) + geom_point(size = 3) + theme(axis.text.x = element_text(size = 14, color = "black"), axis.title.x = element_text(size = 16, face = "bold"), axis.text.y = element_text(color = "black", size = 14), axis.title.y = element_text(size = 16, face = "bold"), legend.title = element_text(size = 16, face = 'bold'), legend.text = element_text(size = 14)) + scale_color_discrete(name = "Stage") + geom_label(aes(label = row.names(OGPCAN_matrix)))
+ggsave("PCA plot.png", width = 20, height = 10, units = "in")
+```
+
+colnames(embryonic_data) = c("e11.sample1", "e11.sample2", "e11.sample3", "e11.sample4", "e11.sample5", "e12.sample1", "e12.sample2", "e12.sample3", "e13.sample7", "e12.sample4", "e12.sample5", "e13.sample1", "e12.sample6", "e12.sample7", "e13.sample2", "e13.sample3", "e13.sample4", "e13.sample5", "e13.sample6", "e14.sample1", "e14.sample2", "e14.sample3", "e14.sample4", "e14.sample5")
+
+
+
+embryonic_data_2 = embryonic_data[, c(1,2,3,4,5,6,7,8,10, 11, 13, 14, 12, 15, 16, 17, 18, 19, 9, 20, 21, 22, 23, 24)]
+
+
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data") 
+write.csv(embryonic_data_2, "corrected gene count matrix.txt")
 
 
 Calculate the differential expression between 2 successive time points: E12/E11, E13/E12, E14/E13
@@ -39,15 +69,17 @@ Calculate differential expression of E12 vs E11
 
 First, extract the E11-E12 read counts
 ```{r}
-e12e11 = embryonic_data[,c(1:10)]
-metae12e11 = meta[c(1:10),]
+e12e11 = embryonic_data[,c(1:12)]
+stage= c(rep("E11", 5), rep("E12", 7))
+meta_e12_e11 = data.frame(stage)
+row.names(meta_e12_e11) = colnames(e12e11)
 ```
 
 
 Create DESeq object
 ```{r}
-deseq_data_e12_e11 = DESeqDataSetFromMatrix(countData = embryonic_data[,1:10],
-                                    colData = meta[1:10,],
+deseq_data_e12_e11 = DESeqDataSetFromMatrix(countData = e12e11,
+                                    colData = meta_e12_e11,
                                     design = ~ stage)
 ```
 
@@ -74,6 +106,7 @@ res.sig_e12_e11 = subset(res.all_e12_e11, padj < 0.05)
 
 Write data to file
 ```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(res.sig_e12_e11, "e12_e11_sig_genes.txt")
 ```
 
@@ -82,7 +115,7 @@ Calculate differential expression between E13 vs E12
 ============================================================================================
 
 ```{r}
-e13_e12_count_table = embryonic_data[, 6:19]
+e13_e12_count_table = embryonic_data[, 6:20]
 head(e13_e12_count_table)
 ```
 Create meta data for E12 and E13 data
