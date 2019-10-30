@@ -1,4 +1,7 @@
 "","Time","Number_of_DE_genes"
-"1","E12 over E11",6956
-"2","E13 over E12",2932
-"3","E14 over E13",1858
+"1","E12 over E11",7762
+"2","E13 over E12",4458
+"3","E14 over E13",855
+"4","E13 over E11",11042
+"5","E14 over E11",10683
+"6","E14 over E12",6862

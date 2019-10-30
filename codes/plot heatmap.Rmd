@@ -2,25 +2,40 @@ Plot the heatmap of all the DE TFs from E11 to E14
 
 
 ```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
 e12.e11.de.tf = read.csv("e12_e11_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
-e12.e11.de.tf = e12.e11.de.tf[, c(3, 9)]
+e12.e11.de.tf = e12.e11.de.tf[, c(9,3)]
 e13.e12.de.tf = read.csv("e13_e12_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
-e13.e12.de.tf = e13.e12.de.tf[, c(3, 9)]
+e13.e12.de.tf = e13.e12.de.tf[, c(9,3)]
 e14.e13.de.tf = read.csv("e14_e13_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
-e14.e13.de.tf = e14.e13.de.tf[, c(3, 9)]
+e14.e13.de.tf = e14.e13.de.tf[, c(9,3)]
+e13.e11.de.tf = read.csv("e13_e11_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e13.e11.de.tf = e13.e11.de.tf[, c(9,3)]
+e14.e11.de.tf = read.csv("e14_e11_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e14.e11.de.tf = e14.e11.de.tf[, c(9,3)]
+e14.e12.de.tf = read.csv("e14_e12_de_tf_0.5.csv", header = TRUE, stringsAsFactors = FALSE)
+e14.e12.de.tf = e14.e12.de.tf[, c(9,3)]
 ```
 
 Merge data by the "Symbol" column. Missing values are replaced by "NA"
 ```{r}
 e12.e11_e13.e12 = merge(e12.e11.de.tf, e13.e12.de.tf, by = "Symbol", all = TRUE)
 merged_data = merge(e12.e11_e13.e12, e14.e13.de.tf, by = "Symbol", all = TRUE)
+merged_data = merge(merged_data, e13.e11.de.tf, by = "Symbol", all = TRUE)
+merged_data = merge(merged_data, e14.e11.de.tf, by = "Symbol", all = TRUE)
+merged_data = merge(merged_data, e14.e12.de.tf, by = "Symbol", all = TRUE)
 head(merged_data)
 ```
 Change the column names
 
 ```{r}
-colnames(merged_data) = c("Symbol", "E12/E11", "E13/E12", "E14/E13")
+colnames(merged_data) = c("Symbol", "E12/E11", "E13/E12", "E14/E13", "E13/E11", "E14/E11", "E14/E12")
 head(merged_data)
+```
+
+```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+write.csv(merged_data, "all de tf 0.5 cutoff btw any time points.csv")
 ```
 
 Function to convert positive logFC to 1 and negative logFC to -1. NA is assigned to 0
@@ -42,10 +57,14 @@ df.for.heatmap = data.frame(merged_data$Symbol)
 df.for.heatmap$'E12/E11' = sapply(merged_data[['E12/E11']], up.down)
 df.for.heatmap$'E13/E12' = sapply(merged_data[['E13/E12']], up.down)
 df.for.heatmap$'E14/E13' = sapply(merged_data[['E14/E13']], up.down)
+df.for.heatmap$'E13/E11' = sapply(merged_data[['E13/E11']], up.down)
+df.for.heatmap$'E14/E11' = sapply(merged_data[['E14/E11']], up.down)
+df.for.heatmap$'E14/E12' = sapply(merged_data[['E14/E12']], up.down)
 head(df.for.heatmap)
 ```
 write this table to file
 ```{r}
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
 write.csv(df.for.heatmap, "df_for_heatmap.csv")
 ```
 
@@ -82,6 +101,6 @@ ggplot(df.for.heatmap.molten, aes(x = Time, y = Protein, fill = value)) +
   geom_raster() +
   scale_fill_distiller(palette = "RdBu") +
   ggtitle("Heatmap of transcription factors")
-
+setwd("C:/Users/trant/Desktop/My-repo/My-repo/Graphs")
 ggsave("TF.heatmap.not.arranged.png", height = 40, width = 10)
 ```
