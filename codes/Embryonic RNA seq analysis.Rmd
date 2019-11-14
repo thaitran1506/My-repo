@@ -6,7 +6,7 @@ library(DESeq2)
 
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 embryonic_data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)
 head(embryonic_data)
 ```
@@ -164,12 +164,12 @@ Calculate differential expression between E14 vs E13
 ============================================================================================
 
 ```{r}
-e14_e13_count_table = embryonic_data[, 13:24]
+e14_e13_count_table = embryonic_data[, 13:23]
 head(e14_e13_count_table)
 ```
 Create meta data for E12 and E13 data
 ```{r}
-stage_E13_E14 = c(rep("E13", 7), rep("E14", 5))
+stage_E13_E14 = c(rep("E13", 7), rep("E14", 4))
 meta_data_E13_E14 = data.frame(stage_E13_E14)
 row.names(meta_data_E13_E14) = colnames(e14_e13_count_table)
 meta_data_E13_E14
@@ -204,7 +204,7 @@ res.sig_e14_e13 = subset(res.all_e14_e13, padj < 0.05)
 
 Write data to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(res.sig_e14_e13, "e14_e13_sig_genes.txt")
 ```
 
@@ -262,12 +262,12 @@ Calculate differential expression between E14 vs E11
 ============================================================================================
 
 ```{r}
-e14_e11_count_table = embryonic_data[, c(1:5, 20:24)]
+e14_e11_count_table = embryonic_data[, c(1:5, 20:23)]
 head(e14_e11_count_table)
 ```
 Create meta data for E12 and E13 data
 ```{r}
-stage_E14_E11 = c(rep("E11", 5), rep("E14", 5))
+stage_E14_E11 = c(rep("E11", 5), rep("E14", 4))
 meta_data_E14_E11 = data.frame(stage_E14_E11)
 row.names(meta_data_E14_E11) = colnames(e14_e11_count_table)
 meta_data_E14_E11
@@ -302,7 +302,7 @@ res.sig_e14_e11 = subset(res.all_e14_e11, padj < 0.05)
 
 Write data to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(res.sig_e14_e11, "e14_e11_sig_genes.txt")
 ```
 
@@ -311,12 +311,12 @@ Calculate differential expression between E14 vs E12
 ============================================================================================
 
 ```{r}
-e14_e12_count_table = embryonic_data[, c(6:12, 20:24)]
+e14_e12_count_table = embryonic_data[, c(6:12, 20:23)]
 head(e14_e12_count_table)
 ```
 Create meta data for E12 and E13 data
 ```{r}
-stage_E14_E12 = c(rep("E12", 7), rep("E14", 5))
+stage_E14_E12 = c(rep("E12", 7), rep("E14", 4))
 meta_data_E14_E12 = data.frame(stage_E14_E12)
 row.names(meta_data_E14_E12) = colnames(e14_e12_count_table)
 meta_data_E14_E12
@@ -351,7 +351,7 @@ res.sig_e14_e12 = subset(res.all_e14_e12, padj < 0.05)
 
 Write data to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(res.sig_e14_e12, "e14_e12_sig_genes.txt")
 ```
 

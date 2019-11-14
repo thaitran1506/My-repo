@@ -23,7 +23,7 @@ symbol_entrezID = function(data, keys){
 
 Read in the list of TF
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 tf.db = read.csv("Mus_musculus_TF.txt", sep = "\t", stringsAsFactors = FALSE)
 head(tf.db)
 
@@ -35,6 +35,7 @@ Determine DE TFs between E12 and E11
 Read in the data frame
 
 ```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e12_e11 = read.csv("e12_e11_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 head(res.sig_e12_e11)
 
@@ -64,21 +65,21 @@ e12.e11.de.tf = entrezID.res.sig_e12_e11[de.tf.e12.e11,]
 There is a total of 646 transcription factors that are differentially expressed between E12 and E11
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e12.e11.de.tf, "e12_e11_all_de_tf.csv")
 ```
 
-Now subset for DE TF that have logFC >= 0.5
+Now subset for DE TF that have logFC >= 1
 
 ```{r}
-e12.e11.de.tf.0.5 = subset(e12.e11.de.tf, abs(e12.e11.de.tf$log2FoldChange) >= 0.5)
+e12.e11.de.tf.1 = subset(e12.e11.de.tf, abs(e12.e11.de.tf$log2FoldChange) >= 1)
 ```
 
-There are 270 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
+There are 140 DE TFs that have log2FC either >= 1 or <= -1. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e12.e11.de.tf.0.5, "e12_e11_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e12.e11.de.tf.1, "e12_e11_de_tf_1.csv")
 ```
 
 ============================================================================================
@@ -86,7 +87,7 @@ Determine DE TFs between E13 and E12
 ============================================================================================
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e13_e12 = read.csv("e13_e12_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 ```
 
@@ -114,22 +115,22 @@ e13.e12.de.tf = entrezID.res.sig_e13_e12[de.tf.e13.e12,]
 There is a total of 437 transcription factors that are differentially expressed between E13 and E12
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e13.e12.de.tf, "e13_e12_all_de_tf.csv")
 ```
 
-Now subset for DE TF that have logFC >= 0.5
+Now subset for DE TF that have logFC >= 1
 
 ```{r}
 
-e13.e12.de.tf.0.5 = subset(e13.e12.de.tf, abs(e13.e12.de.tf$log2FoldChange) >= 0.5)
+e13.e12.de.tf.1 = subset(e13.e12.de.tf, abs(e13.e12.de.tf$log2FoldChange) >= 1)
 ```
 
 There are 131 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e13.e12.de.tf.0.5, "e13_e12_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e13.e12.de.tf.1, "e13_e12_de_tf_1.csv")
 ```
 
 ============================================================================================
@@ -137,7 +138,7 @@ Determine DE TFs between E14 and E13
 ============================================================================================
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e14_e13 = read.csv("e14_e13_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 ```
 
@@ -167,21 +168,21 @@ There is a total of 67 transcription factors that are differentially expressed b
 and E13
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e14.e13.de.tf, "e14_e13_all_de_tf.csv")
 ```
 
-Now subset for DE TF that have logFC >= 0.5
+Now subset for DE TF that have logFC >= 1
 
 ```{r}
-e14.e13.de.tf.0.5 = subset(e14.e13.de.tf, abs(e14.e13.de.tf$log2FoldChange) >= 0.5)
+e14.e13.de.tf.1 = subset(e14.e13.de.tf, abs(e14.e13.de.tf$log2FoldChange) >= 1)
 ```
 
 There are 35 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e14.e13.de.tf.0.5, "e14_e13_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e14.e13.de.tf.1, "e14_e13_de_tf_1.csv")
 ```
 
 ============================================================================================
@@ -190,6 +191,7 @@ Determine DE TFs between E13 and E11
 Read in the data frame
 
 ```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e13_e11 = read.csv("e13_e11_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 head(res.sig_e13_e11)
 
@@ -219,21 +221,21 @@ e13.e11.de.tf = entrezID.res.sig_e13_e11[de.tf.e13.e11,]
 There is a total of 67 transcription factors that are differentially expressed between E13 and E11
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e13.e11.de.tf, "e13_e11_all_de_tf.csv")
 ```
 
-Now subset for DE TF that have logFC >= 0.5
+Now subset for DE TF that have logFC >= 1
 
 ```{r}
-e13.e11.de.tf.0.5 = subset(e13.e11.de.tf, abs(e13.e11.de.tf$log2FoldChange) >= 0.5)
+e13.e11.de.tf.1 = subset(e13.e11.de.tf, abs(e13.e11.de.tf$log2FoldChange) >= 1)
 ```
 
 There are 35 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e13.e11.de.tf.0.5, "e13_e11_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e13.e11.de.tf.1, "e13_e11_de_tf_1.csv")
 ```
 
 ============================================================================================
@@ -242,6 +244,7 @@ Determine DE TFs between E14 and E11
 Read in the data frame
 
 ```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e14_e11 = read.csv("e14_e11_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 head(res.sig_e14_e11)
 
@@ -271,21 +274,21 @@ e14.e11.de.tf = entrezID.res.sig_e14_e11[de.tf.e14.e11,]
 There is a total of 868 transcription factors that are differentially expressed between E14 and E11
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e14.e11.de.tf, "e14_e11_all_de_tf.csv")
 ```
 
-Now subset for DE TF that have logFC >= 0.5
+Now subset for DE TF that have logFC >= 1
 
 ```{r}
-e14.e11.de.tf.0.5 = subset(e14.e11.de.tf, abs(e14.e11.de.tf$log2FoldChange) >= 0.5)
+e14.e11.de.tf.1 = subset(e14.e11.de.tf, abs(e14.e11.de.tf$log2FoldChange) >= 1)
 ```
 
 There are 653 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e14.e11.de.tf.0.5, "e14_e11_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e14.e11.de.tf.1, "e14_e11_de_tf_1.csv")
 ```
 
 ============================================================================================
@@ -294,6 +297,7 @@ Determine DE TFs between E14 and E12
 Read in the data frame
 
 ```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 res.sig_e14_e12 = read.csv("e14_e12_sig_genes.txt", row.names = 1, stringsAsFactors = FALSE)
 head(res.sig_e14_e12)
 
@@ -323,19 +327,19 @@ e14.e12.de.tf = entrezID.res.sig_e14_e12[de.tf.e14.e12,]
 There is a total of 601 transcription factors that are differentially expressed between E12 and E11
 Write this result to file
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 write.csv(e14.e12.de.tf, "e14_e12_all_de_tf.csv")
 ```
 
 Now subset for DE TF that have logFC >= 0.5
 
 ```{r}
-e14.e12.de.tf.0.5 = subset(e14.e12.de.tf, abs(e14.e12.de.tf$log2FoldChange) >= 0.5)
+e14.e12.de.tf.1 = subset(e14.e12.de.tf, abs(e14.e12.de.tf$log2FoldChange) >= 1)
 ```
 
 There are 386 DE TFs that have log2FC either >= 0.5 or <= -0.5. Write this result to file
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-write.csv(e14.e12.de.tf.0.5, "e14_e12_de_tf_0.5.csv")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(e14.e12.de.tf.1, "e14_e12_de_tf_1.csv")
 ```

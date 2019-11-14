@@ -1,19 +1,52 @@
 
+```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+e12.e11 = read.csv("e12_e11_all_de_tf.csv", stringsAsFactors = FALSE)
+e13.e12 = read.csv("e13_e12_all_de_tf.csv", stringsAsFactors = FALSE)
+e14.e13 = read.csv("e14_e13_all_de_tf.csv", stringsAsFactors = FALSE)
+e13.e11 = read.csv("e13_e11_all_de_tf.csv", stringsAsFactors = FALSE)
+e14.e11 = read.csv("e14_e11_all_de_tf.csv", stringsAsFactors = FALSE)
+e14.e12 = read.csv("e14_e12_all_de_tf.csv", stringsAsFactors = FALSE)
+```
+
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
-data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)
+
+e12.e11 = subset(e12.e11, abs(e12.e11$log2FoldChange)>=1)[,c(9,3)]
+e13.e12 = subset(e13.e12, abs(e13.e12$log2FoldChange)>=1)[,c(9,3)]
+e14.e13 = subset(e14.e13, abs(e14.e13$log2FoldChange)>=1)[,c(9,3)]
+e13.e11 = subset(e13.e11, abs(e13.e11$log2FoldChange)>=1)[,c(9,3)]
+e14.e11 = subset(e14.e11, abs(e14.e11$log2FoldChange)>=1)[,c(9,3)]
+e14.e12 = subset(e14.e12, abs(e14.e12$log2FoldChange)>=1)[,c(9,3)]
+
+```
+
+```{r}
+merged = merge(e12.e11, e13.e12, by = "Symbol", all = TRUE)
+merged = merge(merged, e14.e13, by = "Symbol", all = TRUE)
+merged = merge(merged, e13.e11, by = "Symbol", all = TRUE)
+merged = merge(merged, e14.e11, by = "Symbol", all = TRUE)
+merged = merge(merged, e14.e12, by = "Symbol", all = TRUE)
+
+
+```
+
+
+
+```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)[,1:23]
 head(data)
 ```
 
 ```{r}
-setwd("C:/Users/trant/Desktop/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
 tf = read.csv("all de tf 0.5 cutoff btw any time points.csv", stringsAsFactors = FALSE, row.names = 1)
 head(tf)
 ```
 
 ```{r}
-tf = tf$Symbol
+tf = merged$Symbol
 ```
 
 ```{r}
@@ -28,7 +61,7 @@ library(pheatmap)
 ```
 
 ```{r}
-stage = c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 5))
+stage = c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 4))
 design = data.frame(stage)
 row.names(design) = colnames(data)
 ```
@@ -45,5 +78,125 @@ logTransCounts = assay(rld)
 ```
 
 ```{r}
-pheatmap(logTransCounts, cluster_cols = F)
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors log transform.png", width = 1000, height = 5000, units = "px")
+pheatmap(logTransCounts, cluster_cols = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
 ```
+
+```{r}
+converted = data.frame(logTransCounts)
+```
+
+```{r}
+delta_max_min = c()
+for(i in 1:320){
+  delta = max(converted[i, 1:23]) - min(converted[i, 1:23])
+  delta_max_min = c(delta_max_min, delta)
+}
+```
+
+```{r}
+converted$delta_max_min = delta_max_min
+head(converted)
+```
+
+```{r}
+min = c()
+for(i in 1:320){
+  min_value = min(converted[i, 1:23])
+  min = c(min, min_value)
+}
+```
+
+```{r}
+converted$min = min
+```
+
+```{r}
+converted$e11.sample1 = (converted$e11.sample1 - converted$min)/converted$delta_max_min
+
+converted$e11.sample2 = (converted$e11.sample2 - converted$min)/converted$delta_max_min
+
+converted$e11.sample3 = (converted$e11.sample3 - converted$min)/converted$delta_max_min
+
+converted$e11.sample4 = (converted$e11.sample4 - converted$min)/converted$delta_max_min
+
+converted$e11.sample5 = (converted$e11.sample5 - converted$min)/converted$delta_max_min
+
+converted$e12.sample1 = (converted$e12.sample1 - converted$min)/converted$delta_max_min
+
+converted$e12.sample2 = (converted$e12.sample2 - converted$min)/converted$delta_max_min
+
+converted$e12.sample3 = (converted$e12.sample3 - converted$min)/converted$delta_max_min
+
+converted$e12.sample4 = (converted$e12.sample4 - converted$min)/converted$delta_max_min
+
+converted$e12.sample5 = (converted$e12.sample5 - converted$min)/converted$delta_max_min
+
+converted$e12.sample6 = (converted$e12.sample6 - converted$min)/converted$delta_max_min
+
+converted$e12.sample7 = (converted$e12.sample7 - converted$min)/converted$delta_max_min
+
+converted$e13.sample1 = (converted$e13.sample1 - converted$min)/converted$delta_max_min
+
+converted$e13.sample2 = (converted$e13.sample2 - converted$min)/converted$delta_max_min
+
+converted$e13.sample3 = (converted$e13.sample3 - converted$min)/converted$delta_max_min
+
+converted$e13.sample4 = (converted$e13.sample4 - converted$min)/converted$delta_max_min
+
+converted$e13.sample5 = (converted$e13.sample5 - converted$min)/converted$delta_max_min
+
+converted$e13.sample6 = (converted$e13.sample6 - converted$min)/converted$delta_max_min
+
+converted$e13.sample7 = (converted$e13.sample7 - converted$min)/converted$delta_max_min
+
+converted$e14.sample1 = (converted$e14.sample1 - converted$min)/converted$delta_max_min
+
+converted$e14.sample2 = (converted$e14.sample2 - converted$min)/converted$delta_max_min
+
+converted$e14.sample3 = (converted$e14.sample3 - converted$min)/converted$delta_max_min
+
+converted$e14.sample4 = (converted$e14.sample4 - converted$min)/converted$delta_max_min
+
+#converted$e14.sample5 = (converted$e14.sample5 - converted$min)/converted$delta_max_min
+
+```
+
+```{r}
+library(RColorBrewer)
+```
+
+```{r}
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+```{r}
+k4 = kmeans(converted[,1:23], centers = 4, nstart = 100)
+```
+
+
+```{r}
+dataframe = converted[,1:23]
+dataframe$cluster = k4$cluster
+```
+
+```{r}
+dataframe_order = dataframe[order(dataframe$cluster),]
+```
+
+```{r}
+setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+write.csv(dataframe_order, "SSTF with cluster.csv")
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+ 
+ 
