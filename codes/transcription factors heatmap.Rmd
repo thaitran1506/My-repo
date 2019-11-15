@@ -1,6 +1,6 @@
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
 e12.e11 = read.csv("e12_e11_all_de_tf.csv", stringsAsFactors = FALSE)
 e13.e12 = read.csv("e13_e12_all_de_tf.csv", stringsAsFactors = FALSE)
 e14.e13 = read.csv("e14_e13_all_de_tf.csv", stringsAsFactors = FALSE)
@@ -34,13 +34,13 @@ merged = merge(merged, e14.e12, by = "Symbol", all = TRUE)
 
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
 data = read.csv("corrected gene count matrix.txt", row.names = 1, stringsAsFactors = FALSE)[,1:23]
 head(data)
 ```
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
 tf = read.csv("all de tf 0.5 cutoff btw any time points.csv", stringsAsFactors = FALSE, row.names = 1)
 head(tf)
 ```
@@ -53,11 +53,13 @@ tf = merged$Symbol
 tf_count_matrix = data[tf,]
 ```
 
+
 Use DESeq2 to normalize the data
 ```{r}
 library(DESeq2)
 library(ggplot2)
 library(pheatmap)
+library(RColorBrewer)
 ```
 
 ```{r}
@@ -72,14 +74,21 @@ dds = DESeqDataSetFromMatrix(countData = tf_count_matrix,
                              design = ~stage)
 ```
 
+Filter out low count genes
 ```{r}
-rld = rlog(dds, blind = FALSE)
+dds_filtered = dds[rowSums(counts(dds))>1000,]
+
+```
+
+
+```{r}
+rld = rlog(dds_filtered, blind = FALSE)
 logTransCounts = assay(rld)
 ```
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/My-repo/Graphs")
-png("heatmap of transcription factors log transform.png", width = 1000, height = 5000, units = "px")
+setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors log transform v1.png", width = 1000, height = 5000, units = "px")
 pheatmap(logTransCounts, cluster_cols = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
 dev.off()
 ```
@@ -90,7 +99,7 @@ converted = data.frame(logTransCounts)
 
 ```{r}
 delta_max_min = c()
-for(i in 1:320){
+for(i in 1:255){
   delta = max(converted[i, 1:23]) - min(converted[i, 1:23])
   delta_max_min = c(delta_max_min, delta)
 }
@@ -103,7 +112,7 @@ head(converted)
 
 ```{r}
 min = c()
-for(i in 1:320){
+for(i in 1:255){
   min_value = min(converted[i, 1:23])
   min = c(min, min_value)
 }
@@ -178,14 +187,42 @@ library(factoextra)
 k4 = kmeans(converted[,1:23], centers = 4, nstart = 100)
 ```
 
+```{r}
+k3 = kmeans(converted[,1:23], centers = 3, nstart = 100)
+```
 
 ```{r}
 dataframe = converted[,1:23]
-dataframe$cluster = k4$cluster
+dataframe$cluster = k3$cluster
 ```
 
 ```{r}
 dataframe_order = dataframe[order(dataframe$cluster),]
+```
+
+```{r}
+tf_fam = mus_tf[mus_tf$Symbol %in% row.names(dataframe_order) , ]
+tf_fam = tf_fam[order(tf_fam$Symbol),]
+```
+
+```{r}
+row.names(tf_fam) = c(1:257)
+```
+
+```{r}
+tf_fam = tf_fam[-54, ]
+```
+
+```{r}
+tf_fam = tf_fam[-70, ]
+```
+
+```{r}
+row.names(tf_fam) = tf_fam$Symbol
+```
+
+```{r}
+dataframe_order$Family = tf_fam[row.names(dataframe_order),]$Family
 ```
 
 ```{r}
@@ -199,4 +236,82 @@ library(RColorBrewer)
 ```
 
  
- 
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors relative expression v3.png", width = 1000, height = 5000, units = "px")
+pheatmap(dataframe_order[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
+```
+
+
+Plot individual map for each cluster
+
+```{r}
+cluster_1 = dataframe_order[dataframe_order$cluster==1, c(1:23,25)]
+```
+
+```{r}
+cluster_1 = cluster_1[order(cluster_1$Family),]
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+write.csv(cluster_1, "cluster 1.csv")
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors relative expression cluster 1.png", width = 1000, height = 5000, units = "px")
+pheatmap(cluster_1[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
+```
+```{r}
+cluster_2 = dataframe_order[dataframe_order$cluster==2, c(1:23,25)]
+```
+
+```{r}
+cluster_2 = cluster_2[order(cluster_2$Family),]
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+write.csv(cluster_2, "cluster 2.csv")
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors relative expression cluster 2.png", width = 1000, height = 5000, units = "px")
+pheatmap(cluster_2[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
+```
+```{r}
+cluster_3 = dataframe_order[dataframe_order$cluster==3, c(1:23,25)]
+```
+
+```{r}
+cluster_3 = cluster_3[order(cluster_3$Family),]
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+write.csv(cluster_3, "cluster 3.csv")
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
+png("heatmap of transcription factors relative expression cluster 3.png", width = 1000, height = 5000, units = "px")
+pheatmap(cluster_3[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
+```
+
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+mus_tf = read.csv("Mus_musculus_TF.txt", sep = "\t")
+head(mus_tf)
+```
+
+```{r}
+
+```
+
