@@ -201,6 +201,12 @@ dataframe_order = dataframe[order(dataframe$cluster),]
 ```
 
 ```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+mus_tf = read.csv("Mus_musculus_TF.txt", sep = "\t")
+head(mus_tf)
+```
+
+```{r}
 tf_fam = mus_tf[mus_tf$Symbol %in% row.names(dataframe_order) , ]
 tf_fam = tf_fam[order(tf_fam$Symbol),]
 ```
@@ -226,7 +232,7 @@ dataframe_order$Family = tf_fam[row.names(dataframe_order),]$Family
 ```
 
 ```{r}
-setwd("~/Desktop/My-repo-master/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo/data")
 write.csv(dataframe_order, "SSTF with cluster.csv")
 ```
 
@@ -244,43 +250,44 @@ dev.off()
 ```
 
 
+```{r}
+setwd("~/Desktop/My-repo/data")
+dataframe_order = read.csv("SSTF with cluster.csv", row.names = 1, stringsAsFactors = FALSE)
+
+```
+
 Plot individual map for each cluster
 
 ```{r}
 cluster_1 = dataframe_order[dataframe_order$cluster==1, c(1:23,25)]
 ```
 
-```{r}
-cluster_1 = cluster_1[order(cluster_1$Family),]
-```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo/data")
 write.csv(cluster_1, "cluster 1.csv")
 ```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
-png("heatmap of transcription factors relative expression cluster 1.png", width = 1000, height = 5000, units = "px")
+setwd("~/Desktop/My-repo/Graphs")
+png("cluster 1.png", width = 1000, height = 5000, units = "px")
 pheatmap(cluster_1[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
 dev.off()
 ```
+
 ```{r}
 cluster_2 = dataframe_order[dataframe_order$cluster==2, c(1:23,25)]
 ```
 
-```{r}
-cluster_2 = cluster_2[order(cluster_2$Family),]
-```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo/data")
 write.csv(cluster_2, "cluster 2.csv")
 ```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
-png("heatmap of transcription factors relative expression cluster 2.png", width = 1000, height = 5000, units = "px")
+setwd("~/Desktop/My-repo/Graphs")
+png("cluster 2.png", width = 1000, height = 3695, units = "px")
 pheatmap(cluster_2[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
 dev.off()
 ```
@@ -288,30 +295,26 @@ dev.off()
 cluster_3 = dataframe_order[dataframe_order$cluster==3, c(1:23,25)]
 ```
 
-```{r}
-cluster_3 = cluster_3[order(cluster_3$Family),]
-```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/data")
+setwd("~/Desktop/My-repo/data")
 write.csv(cluster_3, "cluster 3.csv")
 ```
 
 ```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/Graphs")
-png("heatmap of transcription factors relative expression cluster 3.png", width = 1000, height = 5000, units = "px")
+setwd("~/Desktop/My-repo/Graphs")
+png("cluster 3.png", width = 1000, height = 2400, units = "px")
 pheatmap(cluster_3[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 40,fontsize_row = 40, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
 dev.off()
 ```
 
 
-```{r}
-setwd("~/Documents/GitHub/My-repo/My-repo/data")
-mus_tf = read.csv("Mus_musculus_TF.txt", sep = "\t")
-head(mus_tf)
-```
+
 
 ```{r}
-
+setwd("~/Desktop/My-repo/Graphs")
+png("all tf.png", width = 3000, height = 20000, units = "px")
+pheatmap(dataframe_order[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 70,fontsize_row = 70, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
+dev.off()
 ```
 
