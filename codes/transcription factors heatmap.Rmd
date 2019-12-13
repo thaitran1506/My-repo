@@ -173,6 +173,13 @@ converted$e14.sample4 = (converted$e14.sample4 - converted$min)/converted$delta_
 
 ```
 
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+write.csv(converted[,1:23], "converted read counts for tf.csv")
+```
+
+
 ```{r}
 library(RColorBrewer)
 ```
