@@ -1,0 +1,537 @@
+﻿MGI Gene/Marker ID,Symbol,Name,Chr,Qualifier,Annotated Term,Context,Proteoform,Evidence,Inferred From,Reference(s)
+MGI:3588196,3425401B19Rik,RIKEN cDNA 3425401B19 gene,14,,Z disc,,,IDA,,J:245587 
+MGI:3588196,3425401B19Rik,RIKEN cDNA 3425401B19 gene,14,,Z disc,,,ISO,RGD:1564899 ,J:155856 
+MGI:1352630,Abcc9,"ATP-binding cassette, sub-family C (CFTR/MRP), member 9",6,,sarcomere,,,IDA,,J:103335 
+MGI:2385758,Ablim2,actin-binding LIM protein 2,5,,myofibril,"is a part of skeletal musculature,is a part of cell of skeletal muscle",,IDA,,J:120881 
+MGI:2444891,Abra,actin-binding Rho activating protein,15,,myofibril,is a part of skeletal musculature|is a part of brain,,IDA,,J:120881 
+MGI:2444891,Abra,actin-binding Rho activating protein,15,,sarcomere,,,IBA,PTN001100454 ,J:265628 
+MGI:2444891,Abra,actin-binding Rho activating protein,15,,sarcomere,,,ISO,RGD:708493 ,J:155856 
+MGI:87902,Acta1,"actin, alpha 1, skeletal muscle",8,,sarcomere,,,ISO,P68133 ,J:164563 
+MGI:87902,Acta1,"actin, alpha 1, skeletal muscle",8,,striated muscle thin filament,,,IBA,PTN000233075 ,J:265628 
+MGI:87902,Acta1,"actin, alpha 1, skeletal muscle",8,,striated muscle thin filament,,,ISO,P68133 ,J:164563 
+MGI:87902,Acta1,"actin, alpha 1, skeletal muscle",8,,striated muscle thin filament,,,TAS,,J:31010 
+MGI:87909,Acta2,"actin, alpha 2, smooth muscle, aorta",19,,smooth muscle contractile fiber,is a part of smooth muscle tissue|is a part of heart,,IDA,,J:136004 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,I band,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,sarcomere,,,IBA,PTN000748220 ,J:265628 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,sarcomere,,,ISO,P68032 ,J:164563 
+MGI:2685344,Acte1,"actin, epsilon 1",7,,striated muscle thin filament,,,IBA,PTN000233075 ,J:265628 
+MGI:87906,Actg1,"actin, gamma, cytoplasmic 1",11,,costamere,,,TAS,,J:92541 
+MGI:87906,Actg1,"actin, gamma, cytoplasmic 1",11,,myofibril,,,IDA,,J:92541 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,sarcomere,,,IDA,,J:210551 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,Z disc,is a part of cardiac muscle cell,,IDA,,J:136004 J:158675 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,Z disc,,,IDA,,J:96468 J:158797 
+MGI:109192,Actn2,actinin alpha 2,13,,sarcomere,is a part of cardiac muscle cell,,IDA,,J:211364 
+MGI:109192,Actn2,actinin alpha 2,13,,sarcomere,,,IDA,,J:121666 
+MGI:109192,Actn2,actinin alpha 2,13,,striated muscle thin filament,,,TAS,,J:32589 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,,,IDA,,J:96468 J:125922 J:156784 J:158797 J:251818 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,"is a part of heart,is a part of cardiac muscle cell",,IDA,,J:110295 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,is a part of cardiac muscle cell,,IDA,,J:130245 J:158675 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,is a part of fetal cardiomyocyte,,IDA,,J:153742 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,is a part of striated muscle tissue,,IDA,,J:142442 
+MGI:109192,Actn2,actinin alpha 2,13,,Z disc,,,ISO,P35609 ,J:164563 
+MGI:99678,Actn3,actinin alpha 3,19,,sarcomere,,,IDA,,J:121666 
+MGI:99678,Actn3,actinin alpha 3,19,,sarcomere,is a part of cardiac muscle cell,,IDA,,J:211364 
+MGI:99678,Actn3,actinin alpha 3,19,,striated muscle thin filament,,,TAS,,J:32589 
+MGI:99678,Actn3,actinin alpha 3,19,,Z disc,,,IDA,,J:158797 
+MGI:99678,Actn3,actinin alpha 3,19,,Z disc,is a part of cardiac muscle cell,,IDA,,J:158675 
+MGI:1890773,Actn4,actinin alpha 4,7,,Z disc,,,IDA,,J:158797 
+MGI:1890773,Actn4,actinin alpha 4,7,,Z disc,is a part of cardiac muscle cell,,IDA,,J:158675 
+MGI:104773,Adra1a,"adrenergic receptor, alpha 1a",14,,Z disc,,,ISO,RGD:2055 ,J:155856 
+MGI:1316648,Ahnak,AHNAK nucleoprotein (desmoyokin),19,,costamere,,,IBA,PTN000598142 ,J:265628 
+MGI:1316648,Ahnak,AHNAK nucleoprotein (desmoyokin),19,,costamere,is a part of skeletal muscle tissue,,IDA,,J:165850 
+MGI:2144831,Ahnak2,AHNAK nucleoprotein 2,12,,costamere,is a part of skeletal muscle tissue,PR:E9PYB0,IDA,,J:165850 
+MGI:2144831,Ahnak2,AHNAK nucleoprotein 2,12,,Z disc,is a part of cardiac muscle cell,PR:E9PYB0,IDA,,J:89231 
+MGI:87977,Ak1,adenylate kinase 1,2,,sarcomere,,,ISO,RGD:2076 ,J:155856 
+MGI:102794,Akap4,A kinase (PRKA) anchor protein 4,X,,Z disc,,,IDA,,J:128983 
+MGI:87994,Aldoa,"aldolase A, fructose-bisphosphate",7,,Z disc,is a part of UBERON:0004057,,IDA,,J:140035 
+MGI:108009,Alppl2,"alkaline phosphatase, placental-like 2",1,,myofibril,,,IDA,,J:150130 
+MGI:88024,Ank1,"ankyrin 1, erythroid",8,,A band,,,ISO,RGD:1309620 ,J:155856 
+MGI:88024,Ank1,"ankyrin 1, erythroid",8,,M band,,,ISO,RGD:1309620 ,J:155856 
+MGI:88024,Ank1,"ankyrin 1, erythroid",8,,Z disc,,,ISO,RGD:1309620 ,J:155856 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,A band,,,IDA,,J:75468 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,A band,is a part of cell of skeletal muscle,,IDA,,J:103813 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,costamere,is a part of cell of skeletal muscle,,IDA,,J:103813 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,M band,is a part of heart,,IDA,,J:81699 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,M band,"is a part of heart ventricle,is a part of ON-bipolar cell",,IDA,,J:126030 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,M band,is a part of cardiac muscle cell,,IDA,,J:93347 J:143121 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,M band,,,IMP,,J:185021 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,Z disc,,,IDA,,J:75468 J:127606 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,Z disc,is a part of heart,,IDA,,J:81699 
+MGI:88025,Ank2,"ankyrin 2, brain",3,,Z disc,"is a part of heart ventricle,is a part of cardiac muscle cell",,IDA,,J:126030 
+MGI:88026,Ank3,"ankyrin 3, epithelial",10,,Z disc,,,ISO,RGD:620157 ,J:155856 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,I band,,,IDA,,J:175115 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,I band,is a part of triceps surae muscle,,IDA,,J:87870 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,I band,,,ISO,RGD:61989 ,J:155856 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,myofibril,is a part of cardiac muscle tissue,,IDA,,J:137586 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,,I band,is a part of triceps surae muscle,,IDA,,J:87870 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,colocalizes_with,I band,,,IDA,,J:204959 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,,myofibril,is a part of skeletal muscle tissue,,IDA,,J:137586 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,,sarcomere,,,IDA,,J:76757 
+MGI:1925571,Ankrd23,ankyrin repeat domain 23,1,,I band,is a part of triceps surae muscle,,IDA,,J:87870 
+MGI:1925571,Ankrd23,ankyrin repeat domain 23,1,,myofibril,,,ISO,RGD:1310398 ,J:155856 
+MGI:106008,Anxa5,annexin A5,3,,Z disc,,,ISO,RGD:2120 ,J:155856 
+MGI:99431,Arf1,ADP-ribosylation factor 1,11,,sarcomere,,,IDA,,J:88884 
+MGI:1277173,Arhgef25,Rho guanine nucleotide exchange factor (GEF) 25,10,,myofibril,,,IDA,,J:161106 
+MGI:105058,Atp2a1,"ATPase, Ca++ transporting, cardiac muscle, fast twitch 1",7,,H zone,,,ISO,O14983 ,J:164563 
+MGI:105058,Atp2a1,"ATPase, Ca++ transporting, cardiac muscle, fast twitch 1",7,,I band,,,ISO,O14983 ,J:164563 
+MGI:88111,Atp2b4,"ATPase, Ca++ transporting, plasma membrane 4",1,,Z disc,,,ISO,P23634 ,J:164563 
+MGI:1352493,Bag3,BCL2-associated athanogene 3,7,,Z disc,is a part of soleus,,IDA,,J:156684 
+MGI:1352493,Bag3,BCL2-associated athanogene 3,7,,Z disc,is a part of striated muscle tissue,,IDA,,J:112361 
+MGI:108092,Bin1,bridging integrator 1,18,,I band,,,ISO,RGD:621786 ,J:155856 
+MGI:108092,Bin1,bridging integrator 1,18,,Z disc,,,ISO,RGD:621786 ,J:155856 
+MGI:1338820,Bmp10,bone morphogenetic protein 10,6,,Z disc,,,ISO,O95393 ,J:164563 
+MGI:103013,Cacna1c,"calcium channel, voltage-dependent, L type, alpha 1C subunit",6,,Z disc,is a part of regular ventricular cardiac myocyte,,IDA,,J:149895 
+MGI:103013,Cacna1c,"calcium channel, voltage-dependent, L type, alpha 1C subunit",6,,Z disc,,,ISO,RGD:2245 ,J:155856 
+MGI:103013,Cacna1c,"calcium channel, voltage-dependent, L type, alpha 1C subunit",6,colocalizes_with,Z disc,,,ISO,RGD:2245 ,J:155856 
+MGI:88293,Cacna1d,"calcium channel, voltage-dependent, L type, alpha 1D subunit",14,,Z disc,is a part of cardiac muscle cell,,IDA,,J:130245 
+MGI:88294,Cacna1s,"calcium channel, voltage-dependent, L type, alpha 1S subunit",1,,I band,,,ISO,Q13698 ,J:164563 
+MGI:107437,Capn3,calpain 3,2,,myofibril,,,ISO,RGD:2269 ,J:155856 
+MGI:107437,Capn3,calpain 3,2,,Z disc,,,ISO,RGD:2269 ,J:155856 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,,Z disc,is a part of heart,PR:P47757-1,IDA,,J:58932 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,,Z disc,"is a part of heart,is a part of muscle cell",PR:P47757-1,ISA,J04959 P14315-1 ,J:20868 
+MGI:1309468,Casq1,calsequestrin 1,1,,I band,,,ISO,RGD:1586677 ,J:155856 
+MGI:1309468,Casq1,calsequestrin 1,1,,myofibril,,,ISO,RGD:1586677 ,J:155856 
+MGI:1309468,Casq1,calsequestrin 1,1,,Z disc,,,IBA,PTN000798808 ,J:265628 
+MGI:1309469,Casq2,calsequestrin 2,3,,Z disc,,,IBA,PTN000798808 ,J:265628 
+MGI:1309469,Casq2,calsequestrin 2,3,,Z disc,is a part of regular ventricular cardiac myocyte,,IDA,,J:149895 
+MGI:1309469,Casq2,calsequestrin 2,3,,Z disc,,,ISO,RGD:2276 ,J:155856 
+MGI:107570,Cav3,caveolin 3,6,colocalizes_with,Z disc,,,ISO,RGD:2281 ,J:155856 
+MGI:1915266,Cavin4,caveolae associated 4,4,,Z disc,is a part of cardiac muscle cell,,IDA,,J:136004 
+MGI:1915266,Cavin4,caveolae associated 4,4,,Z disc,,,ISO,NP_001018126 ,J:136004 
+MGI:101764,Cdk5r1,"cyclin-dependent kinase 5, regulatory subunit 1 (p35)",11,,contractile fiber,,,ISO,RGD:629472 ,J:155856 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,I band,,,ISO,Q9Y281 ,J:164563 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,Z disc,,,ISO,Q9Y281 ,J:164563 
+MGI:1098266,Chl1,cell adhesion molecule L1-like,6,,sarcomere,,,IBA,PTN002674864 ,J:265628 
+MGI:1923719,Cmya5,cardiomyopathy associated 5,13,,costamere,is a part of hindlimb musculature,,IDA,,J:135327 
+MGI:1923719,Cmya5,cardiomyopathy associated 5,13,,costamere,"is a part of heart,is a part of cardiac muscle cell",,IDA,,J:110295 
+MGI:88516,Cryab,"crystallin, alpha B",9,,cardiac myofibril,,,ISO,RGD:2414 ,J:155856 
+MGI:88516,Cryab,"crystallin, alpha B",9,,contractile fiber,,,IDA,,J:87935 
+MGI:88516,Cryab,"crystallin, alpha B",9,,I band,,,ISO,RGD:2414 ,J:155856 
+MGI:88516,Cryab,"crystallin, alpha B",9,,M band,,,ISO,RGD:2414 ,J:155856 
+MGI:88516,Cryab,"crystallin, alpha B",9,,Z disc,,,IDA,,J:87935 
+MGI:88549,Csrp1,cysteine and glycine-rich protein 1,1,,Z disc,,,IBA,PTN001198226 ,J:265628 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,Z disc,,,IBA,PTN001198226 ,J:265628 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,Z disc,,,IDA,,J:96468 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,Z disc,,,ISO,RGD:71092 ,J:155856 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,Z disc,,,ISO,P50461 ,J:164563 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,Z disc,,,ISO,P50461-2 ,J:73065 
+MGI:102519,Cst3,cystatin C,2,,contractile fiber,,,ISO,RGD:2432 ,J:155856 
+MGI:88276,Ctnnb1,"catenin (cadherin associated protein), beta 1",9,,Z disc,"is a part of diaphragm,is a part of cell of skeletal muscle|is a part of heart,is a part of cardiac muscle cell",,IDA,,J:33980 
+MGI:101864,Dag1,dystroglycan 1,9,,costamere,,,ISO,RGD:621890 ,J:155856 
+MGI:94865,Dbi,diazepam binding inhibitor,1,,contractile fiber,,,ISO,RGD:2490 ,J:155856 
+MGI:1926209,Dek,DEK oncogene (DNA binding),13,,contractile fiber,,,IDA,,J:181629 
+MGI:94885,Des,desmin,1,,cardiac myofibril,,,ISO,P17661 ,J:164563 
+MGI:94885,Des,desmin,1,,contractile fiber,,,IDA,,J:87935 
+MGI:94885,Des,desmin,1,,Z disc,,,IDA,,J:59702 J:74316 J:87935 J:91206 J:229453 
+MGI:94885,Des,desmin,1,,Z disc,,,ISO,RGD:620686 ,J:155856 
+MGI:94885,Des,desmin,1,,Z disc,,,ISO,P17661 ,J:73065 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,costamere,,,ISO,P11532 ,J:164563 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,Z disc,,,IDA,,J:125409 
+MGI:1344381,Dnajb6,DnaJ heat shock protein family (Hsp40) member B6,5,,Z disc,,,ISO,O75190 ,J:164563 
+MGI:104627,Dst,dystonin,1,,H zone,,,IDA,,J:158696 
+MGI:104627,Dst,dystonin,1,,Z disc,,,IDA,,J:156784 J:158696 
+MGI:1921415,Fbxl22,F-box and leucine-rich repeat protein 22,9,,Z disc,,,IBA,PTN002555023 ,J:265628 
+MGI:1921415,Fbxl22,F-box and leucine-rich repeat protein 22,9,,Z disc,,,ISO,D3ZS59 ,J:73065 
+MGI:1914981,Fbxo32,F-box protein 32,15,,Z disc,,,IDA,,J:172547 
+MGI:1338762,Fhl2,four and a half LIM domains 2,1,,M band,,,ISO,RGD:61963 ,J:155856 
+MGI:1338762,Fhl2,four and a half LIM domains 2,1,,Z disc,,,IBA,PTN000654055 ,J:265628 
+MGI:1338762,Fhl2,four and a half LIM domains 2,1,,Z disc,,,IDA,,J:189137 
+MGI:1338762,Fhl2,four and a half LIM domains 2,1,,Z disc,,,ISO,RGD:61963 ,J:155856 
+MGI:1341092,Fhl3,four and a half LIM domains 3,4,,Z disc,,,IBA,PTN000654055 ,J:265628 
+MGI:1341092,Fhl3,four and a half LIM domains 3,4,,Z disc,is a part of soleus,,IDA,,J:84103 
+MGI:1913192,Fhl5,four and a half LIM domains 5,4,,Z disc,,,IBA,PTN000654055 ,J:265628 
+MGI:1925847,Fhod3,formin homology 2 domain containing 3,18,,sarcomere,is a part of heart,PR:Q76LL6-1,IDA,,J:188473 
+MGI:1925847,Fhod3,formin homology 2 domain containing 3,18,,striated muscle thin filament,,,ISO,F1LQJ2 ,J:73065 
+MGI:95541,Fkbp1a,FK506 binding protein 1a,2,,Z disc,,,ISO,P62942 ,J:164563 
+MGI:1336205,Fkbp1b,FK506 binding protein 1b,12,,Z disc,,,ISO,P68106 ,J:164563 
+MGI:95556,Flna,"filamin, alpha",X,,Z disc,is a part of regular atrial cardiac myocyte,,IDA,,J:212181 
+MGI:893597,Frg1,FSHD region gene 1,8,,striated muscle dense body,,,IBA,PTN000309119 ,J:265628 
+MGI:104860,Fxr1,"fragile X mental retardation gene 1, autosomal homolog",3,,costamere,is a part of cell of skeletal muscle,,IDA,,J:91191 
+MGI:5141967,Gcom1,GRINL1A complex locus,9,,I band,,,IBA,PTN001141511 ,J:265628 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,contractile fiber,,,IDA,,J:174203 
+MGI:1353653,Glrx3,glutaredoxin 3,7,,Z disc,,,IDA,,J:161906 
+MGI:95821,Grin2b,"glutamate receptor, ionotropic, NMDA2B (epsilon 2)",6,,Z disc,,,ISO,RGD:2738 ,J:155856 
+MGI:87941,Grk3,G protein-coupled receptor kinase 3,5,,Z disc,,,ISO,RGD:2063 ,J:155856 
+MGI:1891713,Habp4,hyaluronic acid binding protein 4,13,,sarcomere,,,ISO,RGD:1306486 ,J:155856 
+MGI:3036234,Hdac4,histone deacetylase 4,1,,A band,,,ISO,Q99P99 ,J:73065 
+MGI:3036234,Hdac4,histone deacetylase 4,1,,sarcomere,,,ISO,RGD:619979 ,J:155856 
+MGI:3036234,Hdac4,histone deacetylase 4,1,,sarcomere,,,ISO,Q99P99 ,J:73065 
+MGI:3036234,Hdac4,histone deacetylase 4,1,,Z disc,,,ISO,Q99P99 ,J:73065 
+MGI:1347345,Homer1,homer scaffolding protein 1,13,,costamere,,,IDA,,J:133899 
+MGI:1347345,Homer1,homer scaffolding protein 1,13,,Z disc,is a part of skeletal musculature,,IDA,,J:133899 
+MGI:96240,Hspb1,heat shock protein 1,5,,cardiac myofibril,,,ISO,RGD:61306 ,J:155856 
+MGI:96240,Hspb1,heat shock protein 1,5,,contractile fiber,,,IDA,,J:87935 
+MGI:96240,Hspb1,heat shock protein 1,5,,I band,,,ISO,RGD:61306 ,J:155856 
+MGI:96240,Hspb1,heat shock protein 1,5,,M band,,,ISO,RGD:61306 ,J:155856 
+MGI:96240,Hspb1,heat shock protein 1,5,,Z disc,,,IDA,,J:87935 
+MGI:96416,Ido1,"indoleamine 2,3-dioxygenase 1",8,,smooth muscle contractile fiber,is a part of prostate gland,,IDA,,J:160505 
+MGI:3045352,Igfn1,immunoglobulin-like and fibronectin type III domain containing 1,1,,sarcomere,,,IBA,PTN002675266 ,J:265628 
+MGI:3045352,Igfn1,immunoglobulin-like and fibronectin type III domain containing 1,1,,Z disc,,,IDA,,J:162356 
+MGI:1195267,Ilk,integrin linked kinase,7,,costamere,,,ISO,RGD:620063 ,J:155856 
+MGI:1353420,Itgb1bp2,integrin beta 1 binding protein 2,X,,Z disc,,,IBA,PTN000749396 ,J:265628 
+MGI:1353420,Itgb1bp2,integrin beta 1 binding protein 2,X,,Z disc,,,IDA,,J:57924 
+MGI:1891495,Jph1,junctophilin 1,1,,Z disc,,,IDA,,J:78141 
+MGI:1891496,Jph2,junctophilin 2,2,,Z disc,is a part of striated muscle tissue,,IDA,,J:63879 
+MGI:96650,Jup,junction plakoglobin,11,,Z disc,"is a part of diaphragm,is a part of cell of skeletal muscle|is a part of heart,is a part of cardiac muscle cell",,IDA,,J:33980 
+MGI:1343094,Kat2b,K(lysine) acetyltransferase 2B,17,,A band,"is a part of heart,is a part of cardiac muscle cell",,IDA,,J:135324 
+MGI:1343094,Kat2b,K(lysine) acetyltransferase 2B,17,,I band,"is a part of heart,is a part of cardiac muscle cell",,IDA,,J:135324 
+MGI:96662,Kcna5,"potassium voltage-gated channel, shaker-related subfamily, member 5",6,,Z disc,,,ISO,RGD:2953 ,J:155856 
+MGI:96673,Kcne1,"potassium voltage-gated channel, Isk-related subfamily, member 1",16,,Z disc,,,ISO,RGD:2956 ,J:155856 
+MGI:1100508,Kcnj8,"potassium inwardly-rectifying channel, subfamily J, member 8",6,,myofibril,,,IDA,,J:103335 
+MGI:2153182,Kcnn2,"potassium intermediate/small conductance calcium-activated channel, subfamily N, member 2",18,,Z disc,is a part of cardiac muscle cell,,IDA,,J:130245 
+MGI:2153182,Kcnn2,"potassium intermediate/small conductance calcium-activated channel, subfamily N, member 2",18,,Z disc,is a part of regular atrial cardiac myocyte,,IDA,,J:212181 
+MGI:2153182,Kcnn2,"potassium intermediate/small conductance calcium-activated channel, subfamily N, member 2",18,,Z disc,is a part of fetal cardiomyocyte,,IDA,,J:153742 
+MGI:1919580,Klhl40,kelch-like 40,9,,A band,,,IBA,PTN000697003 ,J:265628 
+MGI:1919580,Klhl40,kelch-like 40,9,,A band,is a part of skeletal muscle fiber,,IDA,,J:213780 
+MGI:1919580,Klhl40,kelch-like 40,9,,I band,,,IBA,PTN000697003 ,J:265628 
+MGI:1919580,Klhl40,kelch-like 40,9,,I band,is a part of skeletal muscle fiber,,IDA,,J:213780 
+MGI:2683854,Klhl41,kelch-like 41,2,,M band,,,IBA,PTN000698247 ,J:265628 
+MGI:2683854,Klhl41,kelch-like 41,2,,M band,is a part of skeletal muscle tissue,,IDA,,J:184518 
+MGI:96705,Krt8,keratin 8,15,,costamere,,,ISO,RGD:2984 ,J:155856 
+MGI:96705,Krt8,keratin 8,15,,Z disc,is a part of cardiac muscle cell,,IDA,,J:93467 
+MGI:96705,Krt8,keratin 8,15,,Z disc,,,ISO,RGD:2984 ,J:155856 
+MGI:96693,Krt19,keratin 19,11,,costamere,,,ISO,P08727 ,J:164563 
+MGI:96693,Krt19,keratin 19,11,,Z disc,is a part of cardiac muscle cell,,IDA,,J:93467 
+MGI:96709,Ky,kyphoscoliosis peptidase,9,,Z disc,,,IDA,,J:162356 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,Z disc,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,Z disc,is a part of striated muscle tissue,,IDA,,J:145545 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,Z disc,,,ISO,O75112 ,J:55277 
+MGI:1917611,Lman1,"lectin, mannose-binding, 1",18,,sarcomere,,,IDA,,J:88884 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,myofibril,,,ISO,P29536 ,J:164563 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,sarcomere,,,ISO,RGD:1307236 ,J:155856 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,cardiac myofibril,,,ISO,RGD:1592092 ,J:155856 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,colocalizes_with,M band,,,ISO,RGD:1592092 ,J:155856 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,colocalizes_with,M band,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,myofibril,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,sarcomere,,,ISO,RGD:1592092 ,J:155856 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,sarcomere,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,A band,is a part of skeletal muscle fiber,,IDA,,J:213780 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,M band,,,ISO,Q0VAK6 ,J:164563 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,striated muscle thin filament,,,ISO,Q0VAK6 ,J:164563 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,myofibril,is a part of heart,,IDA,,J:138923 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,sarcomere,,,IBA,PTN002699655 ,J:265628 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,sarcomere,is a part of cardiac muscle cell,,IDA,,J:195548 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,sarcomere,,,ISO,RGD:1563119 ,J:155856 
+MGI:97009,Mmp2,matrix metallopeptidase 2,8,,sarcomere,"is a part of heart left ventricle,is a part of cardiac muscle cell",,IDA,,J:120811 
+MGI:1099452,Mtm1,X-linked myotubular myopathy gene 1,X,,I band,"is a part of skeletal muscle tissue,is a part of cell of skeletal muscle",,IDA,,J:136876 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,A band,,,IDA,,J:59702 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,A band,,,ISO,Q14896 ,J:164563 J:172547 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,cardiac myofibril,,,ISO,Q14896 ,J:164563 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,myofibril,,,IDA,,J:58295 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,sarcomere,,,IDA,,J:117119 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,sarcomere,,,ISO,Q14896 ,J:164563 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,striated muscle myosin thick filament,,,ISO,RGD:1305950 ,J:155856 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,striated muscle myosin thick filament,,,ISO,Q14896 ,J:164563 
+MGI:1339711,Myh1,"myosin, heavy polypeptide 1, skeletal muscle, adult",11,,A band,is a part of striated muscle tissue,,IDA,,J:142442 
+MGI:1339711,Myh1,"myosin, heavy polypeptide 1, skeletal muscle, adult",11,,muscle myosin complex,,,ISO,RGD:735061 ,J:155856 
+MGI:1339711,Myh1,"myosin, heavy polypeptide 1, skeletal muscle, adult",11,,muscle myosin complex,,,ISO,P12882 ,J:136573 
+MGI:1339710,Myh2,"myosin, heavy polypeptide 2, skeletal muscle, adult",11,,A band,is a part of striated muscle tissue,,IDA,,J:142442 
+MGI:1339710,Myh2,"myosin, heavy polypeptide 2, skeletal muscle, adult",11,,muscle myosin complex,,,ISO,NP_060004 ,J:136573 
+MGI:1339710,Myh2,"myosin, heavy polypeptide 2, skeletal muscle, adult",11,,myofibril,,,IDA,,J:178379 
+MGI:1339710,Myh2,"myosin, heavy polypeptide 2, skeletal muscle, adult",11,,myofibril,,,ISO,Q9UKX2 ,J:164563 
+MGI:1339709,Myh3,"myosin, heavy polypeptide 3, skeletal muscle, embryonic",11,,contractile fiber,,,IDA,,J:113292 
+MGI:1339713,Myh4,"myosin, heavy polypeptide 4, skeletal muscle",11,,myofibril,,,ISO,Q9Y623 ,J:164563 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,muscle myosin complex,,,ISO,RGD:62029 ,J:155856 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,myofibril,is a part of heart ventricle,,IDA,,J:36089 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,myofibril,is a part of cardiac muscle tissue,,IDA,,J:51939 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,myofibril,,,ISO,RGD:62029 ,J:155856 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,Z disc,is a part of cardiac muscle cell,,IDA,,J:168709 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,muscle myosin complex,,,ISO,RGD:62030 ,J:155856 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,myofibril,,,IDA,,J:178379 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,myofibril,is a part of cardiac muscle tissue,,IDA,,J:51939 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,myofibril,,,ISO,RGD:62030 ,J:155856 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,sarcomere,,,ISO,RGD:62030 ,J:155856 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,Z disc,is a part of cardiac muscle cell,,IDA,,J:168709 
+MGI:3710243,Myh7b,"myosin, heavy chain 7B, cardiac muscle, beta",2,,cardiac myofibril,,,IDA,,J:186277 
+MGI:102643,Myh11,"myosin, heavy polypeptide 11, smooth muscle",16,,muscle myosin complex,,,IDA,,J:82859 
+MGI:102643,Myh11,"myosin, heavy polypeptide 11, smooth muscle",16,,muscle myosin complex,"is a part of detrusor muscle of bladder,is a part of smooth muscle cell",,IDA,,J:97927 
+MGI:102643,Myh11,"myosin, heavy polypeptide 11, smooth muscle",16,,smooth muscle contractile fiber,"is a part of detrusor muscle of bladder,is a part of smooth muscle cell",,IDA,,J:97927 
+MGI:1339967,Myh13,"myosin, heavy polypeptide 13, skeletal muscle",11,,myofibril,is a part of extrinsic ocular muscle,,IDA,,J:150130 
+MGI:97269,Myl1,"myosin, light polypeptide 1",1,,contractile fiber,,,ISO,RGD:1598796 ,J:155856 
+MGI:97269,Myl1,"myosin, light polypeptide 1",1,,myofibril,,,ISO,P05976 ,J:164563 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,cardiac myofibril,,,ISO,P10916 ,J:164563 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,contractile fiber,,,ISO,RGD:1564245 ,J:155856 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,myofibril,is a part of ventricle cardiac muscle,,IDA,,J:69918 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,myofibril,,,ISO,RGD:1564245 ,J:155856 
+MGI:97268,Myl3,"myosin, light polypeptide 3",9,,A band,,,ISO,P08590 ,J:164563 
+MGI:97268,Myl3,"myosin, light polypeptide 3",9,,I band,,,ISO,P08590 ,J:164563 
+MGI:97267,Myl4,"myosin, light polypeptide 4",11,,A band,,,ISO,P12829 ,J:164563 
+MGI:107495,Myl7,"myosin, light polypeptide 7, regulatory",11,,A band,,,ISO,Q01449 ,J:164563 
+MGI:2138915,Myl9,"myosin, light polypeptide 9, regulatory",2,,Z disc,is a part of cardiac muscle cell,,IDA,,J:168709 
+MGI:1914518,Myl12a,"myosin, light chain 12A, regulatory, non-sarcomeric",17,,Z disc,is a part of cardiac muscle cell,,IDA,,J:168709 
+MGI:107494,Myl12b,"myosin, light chain 12B, regulatory",17,,Z disc,is a part of cardiac muscle cell,,IDA,,J:168709 
+MGI:1921626,Myo18b,myosin XVIIIb,5,,Z disc,is a part of striated muscle tissue,,IDA,,J:142442 
+MGI:97275,Myod1,myogenic differentiation 1,7,,myofibril,,,IDA,,J:147457 J:168699 
+MGI:1341430,Myom1,myomesin 1,17,,M band,,,IBA,PTN001790569 ,J:265628 
+MGI:1341430,Myom1,myomesin 1,17,,M band,,,IDA,,J:158675 J:158797 J:184518 
+MGI:1341430,Myom1,myomesin 1,17,,M band,is a part of striated muscle tissue,,IDA,,J:136573 
+MGI:1341430,Myom1,myomesin 1,17,,M band,"is a part of soleus,is a part of cell of skeletal muscle",,IDA,,J:166500 
+MGI:1341430,Myom1,myomesin 1,17,,M band,,,ISO,RGD:631436 ,J:155856 
+MGI:1341430,Myom1,myomesin 1,17,,sarcomere,,,IBA,PTN001790569 ,J:265628 
+MGI:1341430,Myom1,myomesin 1,17,,sarcomere,is a part of heart,,IDA,,J:111284 
+MGI:1341430,Myom1,myomesin 1,17,,sarcomere,,,IDA,,J:82868 
+MGI:1341430,Myom1,myomesin 1,17,,striated muscle thin filament,,,IBA,PTN001790569 ,J:265628 
+MGI:1341430,Myom1,myomesin 1,17,,Z disc,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,M band,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,M band,,,IDA,,J:158675 J:158797 
+MGI:1328358,Myom2,myomesin 2,8,,M band,,,ISO,RGD:631437 ,J:155856 
+MGI:1328358,Myom2,myomesin 2,8,,sarcomere,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,striated muscle thin filament,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,Z disc,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,M band,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,M band,,,IDA,,J:158675 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,M band,is a part of skeletal muscle tissue,,IDA,,J:184518 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,M band,"is a part of soleus,is a part of cell of skeletal muscle",,IDA,,J:166500 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,sarcomere,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,striated muscle thin filament,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,Z disc,,,IBA,PTN001790569 ,J:265628 
+MGI:1889800,Myot,myotilin,18,,Z disc,is a part of striated muscle tissue,,IDA,,J:145545 
+MGI:1889800,Myot,myotilin,18,,Z disc,,,ISO,Q9UBF9 ,J:64352 J:164563 
+MGI:1929471,Myoz1,myozenin 1,14,,Z disc,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,Z disc,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,Z disc,is a part of heart,,IDA,,J:94665 
+MGI:1913063,Myoz2,myozenin 2,3,,Z disc,,,IDA,,J:96468 
+MGI:2179296,Myoz3,myozenin 3,18,,Z disc,,,IBA,PTN000409135 ,J:265628 
+MGI:2179296,Myoz3,myozenin 3,18,,Z disc,,,IDA,,J:76056 
+MGI:1916052,Mypn,myopalladin,10,,I band,,,IDA,,J:175115 
+MGI:1916052,Mypn,myopalladin,10,,I band,,,ISO,RGD:1308510 ,J:155856 
+MGI:1916052,Mypn,myopalladin,10,,I band,,,ISO,Q86TC9 ,J:164563 
+MGI:1916052,Mypn,myopalladin,10,colocalizes_with,Z disc,,,IDA,,J:175115 
+MGI:1916052,Mypn,myopalladin,10,,Z disc,,,ISO,RGD:1308510 ,J:155856 
+MGI:1916052,Mypn,myopalladin,10,,Z disc,,,ISO,Q86TC9 ,J:164563 
+MGI:1916052,Mypn,myopalladin,10,colocalizes_with,Z disc,,,ISO,Q86TC9 ,J:164563 
+MGI:2142908,Myzap,myocardial zonula adherens protein,9,,I band,,,IBA,PTN001141511 ,J:265628 
+MGI:2142908,Myzap,myocardial zonula adherens protein,9,,I band,,,IDA,,J:170871 
+MGI:97292,Neb,nebulin,2,,contractile fiber,,,IDA,,J:158797 
+MGI:97292,Neb,nebulin,2,,myofibril,,,ISO,RGD:1311134 ,J:155856 
+MGI:97292,Neb,nebulin,2,,striated muscle thin filament,,,TAS,,J:32589 
+MGI:97292,Neb,nebulin,2,,Z disc,,,IBA,PTN001665296 ,J:265628 
+MGI:97292,Neb,nebulin,2,,Z disc,,,IDA,,J:158797 
+MGI:97292,Neb,nebulin,2,,Z disc,,,ISO,P20929 ,J:164563 
+MGI:1921353,Nebl,nebulette,2,,Z disc,,,IBA,PTN001665296 ,J:265628 
+MGI:1916060,Nexn,nexilin,3,,Z disc,,,ISO,RGD:708354 ,J:155856 
+MGI:97360,Nos1,"nitric oxide synthase 1, neuronal",5,,Z disc,"is a part of heart,is a part of sarcoplasmic reticulum",,IDA,,J:217280 
+MGI:1917979,Nos1ap,nitric oxide synthase 1 (neuronal) adaptor protein,1,,Z disc,"is a part of heart,is a part of sarcoplasmic reticulum",,IDA,,J:217280 
+MGI:2148811,Npnt,nephronectin,3,,smooth muscle contractile fiber,,,IDA,,J:170886 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,myofibril,,,IDA,,J:73178 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,Z disc,,,IBA,PTN001665296 ,J:265628 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,M band,,,IBA,PTN002935297 ,J:265628 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,M band,,,IDA,,J:197851 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,M band,is a part of cardiac muscle cell,,IDA,,J:143121 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,M band,,,ISO,RGD:631335 ,J:155856 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,sarcomere,,,ISO,RGD:631335 ,J:155856 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,striated muscle myosin thick filament,,,ISO,AY167411 ,J:73065 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,Z disc,,,IBA,PTN002935297 ,J:265628 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,Z disc,,,IDA,,J:197851 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,Z disc,,,ISO,AY167411 ,J:73065 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,Z disc,,,ISO,RGD:631335 ,J:155856 
+MGI:1339975,Pak1,p21 (RAC1) activated kinase 1,7,,Z disc,,,ISO,RGD:3250 ,J:155856 
+MGI:1919583,Palld,"palladin, cytoskeletal associated protein",8,,Z disc,,,ISO,RGD:2322545 ,J:155856 
+MGI:1919583,Palld,"palladin, cytoskeletal associated protein",8,,Z disc,,,ISO,Q8WX93 ,J:164563 
+MGI:99557,Pde4b,"phosphodiesterase 4B, cAMP specific",4,,Z disc,is a part of regular ventricular cardiac myocyte,,IMP,,J:175643 
+MGI:1891434,Pde4dip,phosphodiesterase 4D interacting protein (myomegalin),3,,myofibril,,,ISO,RGD:708410 ,J:155856 
+MGI:1891434,Pde4dip,phosphodiesterase 4D interacting protein (myomegalin),3,,myofibril,,,ISS,Q9WUJ3 ,J:169806 
+MGI:1860611,Pdlim1,PDZ and LIM domain 1 (elfin),19,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,,Z disc,,,TAS,,J:67358 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,Z disc,,,IDA,,J:64813 
+MGI:1914649,Pdlim7,PDZ and LIM domain 7,13,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:97537,Pecam1,platelet/endothelial cell adhesion molecule 1,11,,smooth muscle contractile fiber,is a part of smooth muscle tissue|is a part of heart,,IDA,,J:136004 
+MGI:97565,Pgm1,phosphoglucomutase 1,4,,Z disc,,,ISO,RGD:3316 ,J:155856 
+MGI:1925668,Pgm5,phosphoglucomutase 5,19,,costamere,,,IBA,PTN002731341 ,J:265628 
+MGI:1925668,Pgm5,phosphoglucomutase 5,19,,costamere,,,ISO,Q15124 ,J:164563 
+MGI:1925668,Pgm5,phosphoglucomutase 5,19,,Z disc,,,IBA,PTN002731341 ,J:265628 
+MGI:1925668,Pgm5,phosphoglucomutase 5,19,,Z disc,,,IDA,,J:125409 
+MGI:1277961,Plec,plectin,15,,contractile fiber,,,IDA,,J:87935 
+MGI:1309528,Ppp1r12a,"protein phosphatase 1, regulatory subunit 12A",10,,A band,,,IBA,PTN000652891 ,J:265628 
+MGI:1309528,Ppp1r12a,"protein phosphatase 1, regulatory subunit 12A",10,,A band,,,IDA,,J:224746 
+MGI:1309528,Ppp1r12a,"protein phosphatase 1, regulatory subunit 12A",10,,contractile fiber,,,ISO,O14974 ,J:164563 
+MGI:1309528,Ppp1r12a,"protein phosphatase 1, regulatory subunit 12A",10,,Z disc,,,IBA,PTN000652891 ,J:265628 
+MGI:1309528,Ppp1r12a,"protein phosphatase 1, regulatory subunit 12A",10,,Z disc,,,IDA,,J:224746 
+MGI:1916417,Ppp1r12b,"protein phosphatase 1, regulatory subunit 12B",1,,A band,,,IBA,PTN000652891 ,J:265628 
+MGI:1916417,Ppp1r12b,"protein phosphatase 1, regulatory subunit 12B",1,,A band,,,IDA,,J:224746 
+MGI:1916417,Ppp1r12b,"protein phosphatase 1, regulatory subunit 12B",1,,Z disc,,,IBA,PTN000652891 ,J:265628 
+MGI:1916417,Ppp1r12b,"protein phosphatase 1, regulatory subunit 12B",1,,Z disc,,,IDA,,J:224746 
+MGI:2388479,Ppp2r5a,"protein phosphatase 2, regulatory subunit B', alpha",1,,M band,"is a part of heart ventricle,is a part of cardiac muscle cell",,IDA,,J:126030 
+MGI:2388479,Ppp2r5a,"protein phosphatase 2, regulatory subunit B', alpha",1,,M band,is a part of cardiac muscle cell,,IDA,,J:143121 
+MGI:2388479,Ppp2r5a,"protein phosphatase 2, regulatory subunit B', alpha",1,,Z disc,"is a part of heart ventricle,is a part of cardiac muscle cell",,IDA,,J:126030 
+MGI:2388479,Ppp2r5a,"protein phosphatase 2, regulatory subunit B', alpha",1,,Z disc,,,ISO,Q15172 ,J:164563 
+MGI:107164,Ppp3ca,"protein phosphatase 3, catalytic subunit, alpha isoform",3,,Z disc,,,IDA,,J:96468 
+MGI:107163,Ppp3cb,"protein phosphatase 3, catalytic subunit, beta isoform",14,,Z disc,is a part of cardiac muscle cell,,IDA,,J:149624 
+MGI:2685785,Prickle4,prickle planar cell polarity protein 4,17,,Z disc,,,IBA,PTN001198150 ,J:265628 
+MGI:1202717,Psen1,presenilin 1,12,,Z disc,,,IBA,PTN000024431 ,J:265628 
+MGI:109284,Psen2,presenilin 2,1,,Z disc,,,IBA,PTN000024431 ,J:265628 
+MGI:109284,Psen2,presenilin 2,1,,Z disc,,,IDA,,J:104643 
+MGI:1347006,Psma6,proteasome subunit alpha 6,12,,myofibril,,,ISO,RGD:61849 ,J:155856 
+MGI:1347006,Psma6,proteasome subunit alpha 6,12,,sarcomere,,,ISO,RGD:61849 ,J:155856 
+MGI:97830,Pygm,muscle glycogen phosphorylase,19,,Z disc,,,ISO,NM_005609.2 ,J:73065 
+MGI:2676395,Pyroxd1,pyridine nucleotide-disulphide oxidoreductase domain 1,6,,sarcomere,,,ISO,Q8WU10 ,J:164563 
+MGI:1915141,Rpl4,ribosomal protein L4,9,,A band,,,ISO,RGD:619824 ,J:155856 
+MGI:108057,Rpl6,ribosomal protein L6,5,,A band,,,ISO,RGD:619826 ,J:155856 
+MGI:98073,Rpl7,ribosomal protein L7,1,,A band,,,ISO,RGD:735169 ,J:155856 
+MGI:1913730,Rpl15,ribosomal protein L15,14,,A band,,,ISO,RGD:621181 ,J:155856 
+MGI:2448270,Rpl17,ribosomal protein L17,18,,A band,,,ISO,RGD:1303019 ,J:155856 
+MGI:99659,Ryr1,"ryanodine receptor 1, skeletal muscle",7,,I band,,,ISO,P21817 ,J:164563 
+MGI:99659,Ryr1,"ryanodine receptor 1, skeletal muscle",7,,Z disc,,,IBA,PTN000346461 ,J:265628 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,A band,,,ISO,RGD:620314 ,J:155856 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,sarcomere,is a part of cardiac muscle cell,,IDA,,J:159237 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,Z disc,,,IBA,PTN000346461 ,J:265628 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,Z disc,,,IDA,,J:104643 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,Z disc,is a part of regular ventricular cardiac myocyte,,IDA,,J:149895 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,Z disc,,,ISO,RGD:620314 ,J:155856 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,Z disc,,,ISO,Q92736 ,J:164563 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,colocalizes_with,Z disc,,,ISO,RGD:620314 ,J:155856 
+MGI:99684,Ryr3,ryanodine receptor 3,2,,Z disc,,,IBA,PTN000346461 ,J:265628 
+MGI:1338917,S100a1,S100 calcium binding protein A1,3,,A band,,,ISO,RGD:3614 ,J:155856 
+MGI:1338917,S100a1,S100 calcium binding protein A1,3,,I band,,,ISO,RGD:3614 ,J:155856 
+MGI:1338917,S100a1,S100 calcium binding protein A1,3,,M band,,,ISO,RGD:3614 ,J:155856 
+MGI:1338917,S100a1,S100 calcium binding protein A1,3,,Z disc,,,ISO,RGD:3614 ,J:155856 
+MGI:98246,Scn1a,"sodium channel, voltage-gated, type I, alpha",2,,Z disc,,,IDA,,J:127606 
+MGI:1918882,Scn3b,"sodium channel, voltage-gated, type III, beta",9,,Z disc,,,IDA,,J:127606 
+MGI:98251,Scn5a,"sodium channel, voltage-gated, type V, alpha",9,,Z disc,,,ISO,Q14524 ,J:164563 
+MGI:103169,Scn8a,"sodium channel, voltage-gated, type VIII, alpha",15,,Z disc,,,IDA,,J:127606 
+MGI:106362,Sco1,SCO1 cytochrome c oxidase assembly protein,11,,myofibril,,,ISO,O75880 ,J:166261 
+MGI:3818630,Sco2,SCO2 cytochrome c oxidase assembly protein,15,,myofibril,,,ISO,O43819 ,J:166261 
+MGI:1349164,Sdc4,syndecan 4,2,,costamere,,,ISO,RGD:3650 ,J:155856 
+MGI:95755,Slc2a1,"solute carrier family 2 (facilitated glucose transporter), member 1",4,,Z disc,,,ISO,RGD:3704 ,J:155856 
+MGI:109393,Slc4a1,"solute carrier family 4 (anion exchanger), member 1",11,,Z disc,,,ISO,RGD:3710 ,J:155856 
+MGI:107956,Slc8a1,"solute carrier family 8 (sodium/calcium exchanger), member 1",17,,Z disc,,,ISO,RGD:3717 ,J:155856 
+MGI:1913356,Smpx,"small muscle protein, X-linked",X,,contractile fiber,"is a part of soleus,is a part of cell of skeletal muscle",,IDA,,J:69803 
+MGI:1913356,Smpx,"small muscle protein, X-linked",X,,costamere,,,IBA,PTN002704661 ,J:265628 
+MGI:1913356,Smpx,"small muscle protein, X-linked",X,,costamere,"is a part of soleus,is a part of cell of skeletal muscle",,IDA,,J:69803 
+MGI:1913356,Smpx,"small muscle protein, X-linked",X,,M band,,,IBA,PTN002704661 ,J:265628 
+MGI:1913356,Smpx,"small muscle protein, X-linked",X,,M band,"is a part of soleus,is a part of cell of skeletal muscle",,IDA,,J:69803 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,contractile fiber,,,IBA,PTN001566592 ,J:265628 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,contractile fiber,,,IDA,,J:166394 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,contractile fiber,is a part of smooth muscle tissue|is a part of striated muscle tissue,,IDA,,J:136573 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,contractile fiber,,,ISO,A8MU46 ,J:164563 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,I band,,,IBA,PTN001566592 ,J:265628 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,I band,is a part of striated muscle tissue,,IDA,,J:136573 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,M band,,,IBA,PTN001566592 ,J:265628 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,M band,is a part of striated muscle tissue,,IDA,,J:136573 
+MGI:1924879,Sphkap,"SPHK1 interactor, AKAP domain containing",1,,Z disc,is a part of cardiac muscle cell,,IDA,,J:180398 
+MGI:98386,Sptan1,"spectrin alpha, non-erythrocytic 1",2,,Z disc,is a part of cardiac muscle cell,,IDA,,J:93467 
+MGI:98388,Sptbn1,"spectrin beta, non-erythrocytic 1",11,,M band,is a part of cardiac muscle cell,,IDA,,J:93347 
+MGI:98419,Sri,sorcin,5,,Z disc,,,IDA,,J:104643 J:133729 
+MGI:98419,Sri,sorcin,5,,Z disc,,,ISO,RGD:1584485 ,J:155856 
+MGI:98419,Sri,sorcin,5,,Z disc,,,ISO,P30626 ,J:164563 
+MGI:1341870,Stk11,serine/threonine kinase 11,10,colocalizes_with,Z disc,,,ISO,RGD:1308653 ,J:155856 
+MGI:1891731,Stub1,STIP1 homology and U-Box containing protein 1,17,,Z disc,is a part of soleus,,IDA,,J:156684 
+MGI:2147319,Svil,supervillin,18,,costamere,,,ISO,O95425 ,J:164563 
+MGI:1916078,Sync,syncoilin,4,,Z disc,,,IDA,,J:74316 
+MGI:1927152,Syne1,"spectrin repeat containing, nuclear envelope 1",10,,sarcomere,,,ISO,Q8NF91 ,J:80092 
+MGI:2449316,Syne2,"spectrin repeat containing, nuclear envelope 2",12,colocalizes_with,myofibril,is a part of muscle cell,,IDA,,J:96242 
+MGI:2449316,Syne2,"spectrin repeat containing, nuclear envelope 2",12,colocalizes_with,Z disc,is a part of muscle cell,,IDA,,J:96242 
+MGI:2449316,Syne2,"spectrin repeat containing, nuclear envelope 2",12,,Z disc,,,ISO,Q8WXH0 ,J:164563 
+MGI:2661187,Synm,"synemin, intermediate filament protein",7,,costamere,,,ISO,O15061 ,J:164563 
+MGI:2661187,Synm,"synemin, intermediate filament protein",7,,Z disc,,,ISO,AF359284 ,J:73065 
+MGI:1099446,Synpo,synaptopodin,18,,Z disc,,,IBA,PTN001198415 ,J:265628 
+MGI:2153070,Synpo2,synaptopodin 2,3,,Z disc,,,IBA,PTN001198415 ,J:265628 
+MGI:2153070,Synpo2,synaptopodin 2,3,,Z disc,,,ISA,AB013130 ,J:72383 
+MGI:2153070,Synpo2,synaptopodin 2,3,,Z disc,,,ISO,RGD:1564779 ,J:155856 
+MGI:2153070,Synpo2,synaptopodin 2,3,,Z disc,,,ISO,Q9UMS6 ,J:164563 
+MGI:1916010,Synpo2l,synaptopodin 2-like,14,,Z disc,,,IBA,PTN001198415 ,J:265628 
+MGI:1916010,Synpo2l,synaptopodin 2-like,14,,Z disc,,,IDA,,J:251818 
+MGI:1916010,Synpo2l,synaptopodin 2-like,14,,Z disc,is a part of cardiac muscle cell,,IDA,,J:158675 
+MGI:1330233,Tcap,titin-cap,11,,I band,,,IDA,,J:51067 
+MGI:1330233,Tcap,titin-cap,11,,Z disc,,,IBA,PTN002689097 ,J:265628 
+MGI:1330233,Tcap,titin-cap,11,,Z disc,,,IDA,,J:51067 
+MGI:1330233,Tcap,titin-cap,11,,Z disc,,,ISO,O15273 ,J:164563 
+MGI:109125,Timp4,tissue inhibitor of metalloproteinase 4,6,,sarcomere,,,ISO,RGD:69077 ,J:155856 
+MGI:98775,Tmod1,tropomodulin 1,4,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:98775,Tmod1,tropomodulin 1,4,,myofibril,is a part of heart,,IDA,,J:87158 
+MGI:98775,Tmod1,tropomodulin 1,4,,myofibril,,,ISO,P28289 ,J:164563 
+MGI:98775,Tmod1,tropomodulin 1,4,,sarcomere,is a part of cardiac muscle cell,,IDA,,J:211364 
+MGI:98775,Tmod1,tropomodulin 1,4,,sarcomere,,,ISO,P28289 ,J:164563 
+MGI:98775,Tmod1,tropomodulin 1,4,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:98775,Tmod1,tropomodulin 1,4,,striated muscle thin filament,,,ISO,P28289 ,J:164563 
+MGI:1355335,Tmod2,tropomodulin 2,9,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:1355335,Tmod2,tropomodulin 2,9,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:1355315,Tmod3,tropomodulin 3,9,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:1355315,Tmod3,tropomodulin 3,9,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:1355315,Tmod3,tropomodulin 3,9,,striated muscle thin filament,,,IDA,,J:158797 
+MGI:1355285,Tmod4,tropomodulin 4,3,,myofibril,,,IBA,PTN000096564 ,J:265628 
+MGI:1355285,Tmod4,tropomodulin 4,3,,striated muscle thin filament,,,IBA,PTN000096567 ,J:265628 
+MGI:1355285,Tmod4,tropomodulin 4,3,,striated muscle thin filament,,,IDA,,J:158797 
+MGI:1355285,Tmod4,tropomodulin 4,3,,striated muscle thin filament,,,ISO,Q9NZQ9 ,J:164563 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,cardiac Troponin complex,,,ISO,P63316 ,J:164563 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,contractile fiber,,,ISO,RGD:1309921 ,J:155856 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,troponin complex,,,IBA,PTN000552063 ,J:265628 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,troponin complex,,,ISO,P63316 ,J:164563 
+MGI:98780,Tnnc2,"troponin C2, fast",2,,troponin complex,,,IBA,PTN000552063 ,J:265628 
+MGI:98780,Tnnc2,"troponin C2, fast",2,,troponin complex,,,ISO,P02585 ,J:164563 
+MGI:105073,Tnni1,"troponin I, skeletal, slow 1",1,,troponin complex,,,IBA,PTN000348305 ,J:265628 
+MGI:105073,Tnni1,"troponin I, skeletal, slow 1",1,,troponin complex,,,ISO,RGD:621765 ,J:155856 
+MGI:105070,Tnni2,"troponin I, skeletal, fast 2",7,,troponin complex,,,IBA,PTN000348305 ,J:265628 
+MGI:105070,Tnni2,"troponin I, skeletal, fast 2",7,,troponin complex,,,ISO,RGD:62050 ,J:155856 
+MGI:105070,Tnni2,"troponin I, skeletal, fast 2",7,,troponin complex,,,ISO,P48788 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,cardiac myofibril,,,ISO,P19429 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,cardiac Troponin complex,,,ISO,P19429 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,contractile fiber,,,ISO,RGD:62052 ,J:155856 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,myofibril,,,ISO,RGD:62052 ,J:155856 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,sarcomere,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,sarcomere,,,ISO,P23693 ,J:95322 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,troponin complex,,,IBA,PTN000348305 ,J:265628 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,troponin complex,,,ISO,P19429 ,J:164563 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,troponin complex,,,IBA,PTN000162487 ,J:265628 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,troponin complex,,,ISO,RGD:621852 ,J:155856 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,troponin complex,,,ISO,P13805 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,cardiac myofibril,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,cardiac Troponin complex,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,myofibril,,,IDA,,J:56911 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,myofibril,is a part of heart,,IDA,,J:138923 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,myofibril,,,ISO,RGD:3882 ,J:155856 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,sarcomere,,,IDA,,J:84125 J:104369 J:210551 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,striated muscle thin filament,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin complex,,,IBA,PTN000162487 ,J:265628 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin complex,"is a part of cardiac muscle tissue,is a part of cardiac muscle cell",,IDA,,J:85429 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin complex,,,ISO,RGD:3882 ,J:155856 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin complex,,,ISO,P45379 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin complex,,,IBA,PTN000162487 ,J:265628 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin complex,,,ISO,P45378 ,J:164563 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,muscle thin filament tropomyosin,,,TAS,,J:32589 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,myofibril,is a part of heart,,IDA,,J:45833 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,myofibril,is a part of ventricle cardiac muscle,,IDA,,J:69918 
+MGI:98810,Tpm2,"tropomyosin 2, beta",4,,muscle thin filament tropomyosin,,,TAS,,J:32589 
+MGI:1917057,Trim32,tripartite motif-containing 32,4,,striated muscle myosin thick filament,,,IDA,,J:103518 
+MGI:2447992,Trim63,tripartite motif-containing 63,4,,contractile fiber,,,ISO,Q91Z63 ,J:95322 
+MGI:109528,Trpc1,"transient receptor potential cation channel, subfamily C, member 1",9,,costamere,,,IDA,,J:133899 
+MGI:109528,Trpc1,"transient receptor potential cation channel, subfamily C, member 1",9,,sarcomere,,,IDA,,J:133899 
+MGI:98864,Ttn,titin,2,,A band,is a part of heart,,IDA,,J:111284 
+MGI:98864,Ttn,titin,2,,A band,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:98864,Ttn,titin,2,,I band,is a part of heart,,IDA,,J:111284 
+MGI:98864,Ttn,titin,2,,I band,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:98864,Ttn,titin,2,,I band,,,ISO,RGD:621114 ,J:155856 
+MGI:98864,Ttn,titin,2,,I band,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,M band,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,M band,,,IDA,,J:91206 J:125922 
+MGI:98864,Ttn,titin,2,,M band,is a part of heart,,IDA,,J:111284 
+MGI:98864,Ttn,titin,2,,M band,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,muscle myosin complex,,,TAS,,J:31001 
+MGI:98864,Ttn,titin,2,,myofibril,,,ISO,RGD:621114 ,J:155856 
+MGI:98864,Ttn,titin,2,,sarcomere,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,sarcomere,,,IDA,,J:82868 
+MGI:98864,Ttn,titin,2,,striated muscle thin filament,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,striated muscle thin filament,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,Z disc,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,Z disc,,,IDA,,J:91206 
+MGI:98864,Ttn,titin,2,,Z disc,"is a part of left ventricle cardiac muscle,is a part of cardiac muscle cell",,IDA,,J:112534 
+MGI:98864,Ttn,titin,2,,Z disc,,,ISO,Q8WZ42 ,J:164563 J:172547 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,myofibril,,,IBA,PTN001011684 ,J:265628 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,myofibril,,,IDA,,J:147473 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,myofibril,,,IBA,PTN001011684 ,J:265628 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,myofibril,,,IDA,,J:147473 
+MGI:98927,Vcl,vinculin,14,,costamere,is a part of cell of skeletal muscle,,IDA,,J:91191 
+MGI:98927,Vcl,vinculin,14,,costamere,,,ISO,P18206 ,J:73065 
+MGI:98927,Vcl,vinculin,14,,Z disc,,,ISO,RGD:1311217 ,J:155856 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,Z disc,"is a part of heart,is a part of cardiac muscle cell",,IDA,,J:117604 

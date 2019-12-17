@@ -1,0 +1,59 @@
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+
+data = read.csv("converted read counts for tf.csv", row.names = 1)
+head(data)
+```
+
+```{r}
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+```{r}
+distance = get_dist(data, method = "kendall")
+fviz_dist(distance, gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+
+```
+
+```{r}
+fviz_nbclust(data, kmeans, method = "wss")
+
+```
+
+```{r}
+fviz_nbclust(data, kmeans, method = "silhouette")
+
+```
+
+```{r}
+gap_stat = clusGap(data, FUN = kmeans, nstart = 25, K.max = 20, B = 50)
+fviz_gap_stat(gap_stat)
+```
+
+```{r}
+k9 = kmeans(data, centers = 9, nstart = 100)
+data$cluster = k9$cluster
+data = data[order(data$cluster),]
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+write.csv(data, "transcription factor with clusters.csv")
+```
+
+
+
+```{r}
+setwd("~/Desktop/My-repo/Graphs")
+png("heatmap of transcription factors relative expression k9_1.png", width = 1000, height = 5000, units = "px")
+pheatmap(data[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 23)
+dev.off()
+```
+
