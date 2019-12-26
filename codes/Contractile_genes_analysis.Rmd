@@ -1,0 +1,313 @@
+```{r}
+setwd("~/Desktop/My-repo/data")
+
+e12.e11 = read.csv("e12_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e13.e12 = read.csv("e13_e12_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e13 = read.csv("e14_e13_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e13.e11 = read.csv("e13_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e11 = read.csv("e14_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e12 = read.csv("e14_e12_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+
+```
+
+```{r}
+e12.e11.cutoff = e12.e11[abs(e12.e11$log2FoldChange) >= 1,]
+e13.e12.cutoff = e13.e12[abs(e13.e12$log2FoldChange) >= 1,]
+e14.e13.cutoff = e14.e13[abs(e14.e13$log2FoldChange) >= 1,]
+e13.e11.cutoff = e13.e11[abs(e13.e11$log2FoldChange) >= 1,]
+e14.e11.cutoff = e14.e11[abs(e14.e11$log2FoldChange) >= 1,]
+e14.e12.cutoff = e14.e12[abs(e14.e12$log2FoldChange) >= 1,]
+```
+
+```{r}
+all_de_genes = unique(c(e12.e11.cutoff$X, e13.e12.cutoff$X, e14.e13.cutoff$X, e13.e11.cutoff$X, e14.e11.cutoff$X, e14.e12.cutoff$X))
+```
+
+```{r}
+all_de_genes
+```
+
+
+Get the list of all genes that are annotated with cytoskeletal protein binding(GO:0008092), structural molecular activity (GO:0005198), contractile fiber (GO: 0043292), cytoskeleton (GO:0005856)
+
+```{r}
+setwd("~/Desktop/My-repo/data/Contractile protein")
+#file1 = read.csv("GO_term_summary_20191217_113309.csv", stringsAsFactors = FALSE)
+#file2 = read.csv("GO_term_summary_20191217_113445.csv", stringsAsFactors = FALSE)
+file3 = read.csv("GO_term_summary_20191217_113523.csv", stringsAsFactors = FALSE)
+#file4 = read.csv("GO_term_summary_20191217_113619.csv", stringsAsFactors = FALSE)
+
+all_gene = unique(c(file3$Symbol))
+length(all_gene)
+```
+
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
+  
+  return(data_subset)
+}
+```
+
+
+Because symbol_entrezID take a dataframe as it attribute
+```{r}
+all_gene_df = data.frame(all_gene)
+all_gene_df$Y = rep(1, length(all_gene_df[,1]))
+row.names(all_gene_df) = all_gene_df$all_gene
+```
+
+```{r}
+all_gene_entrezID = symbol_entrezID(all_gene_df, keys = all_gene )
+```
+
+
+
+Get entrezID for all DE genes
+
+```{r}
+all_de_genes_df = data.frame(all_de_genes)
+row.names(all_de_genes_df) = all_de_genes_df[,1]
+all_de_genes_df$Y = rep(1, length(all_de_genes))
+```
+
+
+```{r}
+all_de_genes_entrezID = symbol_entrezID(all_de_genes_df, row.names(all_de_genes_df))
+
+```
+
+
+```{r}
+de_contractile_gene_entrezID = intersect(all_de_genes_entrezID$EntrezID, all_gene_entrezID$EntrezID)
+```
+
+```{r}
+row.names(all_de_genes_entrezID) = all_de_genes_entrezID$EntrezID
+de_contractile_gene = all_de_genes_entrezID[de_contractile_gene_entrezID,4]
+```
+
+read in the SSTF files to filter out SSTF from the list of de contractile proteins
+```{r}
+setwd("~/Desktop/My-repo/data")
+sstf_df = read.csv("Mus_musculus_TF.txt", stringsAsFactors = FALSE, sep = "\t")
+sstf = sstf_df$Symbol
+head(sstf_df)
+```
+
+```{r}
+contractile_protein_only = c()
+for(gene in de_contractile_gene){
+  if(!(gene %in% sstf)){
+    contractile_protein_only = c(gene, contractile_protein_only)
+  }
+}
+length(contractile_protein_only)
+```
+
+```{r}
+sstf_muscle = intersect(sstf, de_contractile_gene)
+```
+
+```{r}
+sstf_muscle
+```
+
+
+
+
+
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+data = read.csv("corrected gene count matrix.txt", stringsAsFactors = FALSE, row.names = 1)
+head(data)
+```
+
+
+
+```{r}
+contractile_gene_df = data[contractile_protein_only, -24]
+
+```
+
+
+```{r}
+stage = c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 4))
+design = data.frame(stage)
+row.names(design) = colnames(contractile_gene_df)
+```
+
+```{r}
+library(DESeq2)
+dds = DESeqDataSetFromMatrix(countData = contractile_gene_df,
+                             colData = design,
+                             design = ~stage)
+```
+
+Filter out low count genes
+```{r}
+dds_filtered = dds[rowSums(counts(dds))>1000,]
+
+```
+
+
+```{r}
+rld = rlog(dds_filtered, blind = FALSE)
+logTransCounts = assay(rld)
+```
+
+```{r}
+contractile_gene_df_filtered = data.frame(logTransCounts)
+```
+
+
+```{r}
+write.csv(contractile_gene_df, "de_CONTRACTILE_genes.csv")
+
+```
+
+
+```{r}
+delta_max_min = c()
+for(i in 1:65){
+  delta = max(contractile_gene_df_filtered[i, 1:23]) - min(contractile_gene_df_filtered[i, 1:23])
+  delta_max_min = c(delta_max_min, delta)
+}
+```
+
+```{r}
+contractile_gene_df_filtered$delta_max_min = delta_max_min
+```
+
+```{r}
+min = c()
+for(i in 1:65){
+  min_value = min(contractile_gene_df_filtered[i, 1:23])
+  min = c(min, min_value)
+}
+```
+
+```{r}
+contractile_gene_df_filtered$min = min
+```
+
+```{r}
+contractile_gene_df_filtered$e11.sample1 = (contractile_gene_df_filtered$e11.sample1 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e11.sample2 = (contractile_gene_df_filtered$e11.sample2 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e11.sample3 = (contractile_gene_df_filtered$e11.sample3 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e11.sample4 = (contractile_gene_df_filtered$e11.sample4 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e11.sample5 = (contractile_gene_df_filtered$e11.sample5 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample1 = (contractile_gene_df_filtered$e12.sample1 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample2 = (contractile_gene_df_filtered$e12.sample2 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample3 = (contractile_gene_df_filtered$e12.sample3 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample4 = (contractile_gene_df_filtered$e12.sample4 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample5 = (contractile_gene_df_filtered$e12.sample5 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample6 = (contractile_gene_df_filtered$e12.sample6 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e12.sample7 = (contractile_gene_df_filtered$e12.sample7 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample1 = (contractile_gene_df_filtered$e13.sample1 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample2 = (contractile_gene_df_filtered$e13.sample2 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample3 = (contractile_gene_df_filtered$e13.sample3 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample4 = (contractile_gene_df_filtered$e13.sample4 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample5 = (contractile_gene_df_filtered$e13.sample5 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample6 = (contractile_gene_df_filtered$e13.sample6 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e13.sample7 = (contractile_gene_df_filtered$e13.sample7 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e14.sample1 = (contractile_gene_df_filtered$e14.sample1 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e14.sample2 = (contractile_gene_df_filtered$e14.sample2 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e14.sample3 = (contractile_gene_df_filtered$e14.sample3 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+contractile_gene_df_filtered$e14.sample4 = (contractile_gene_df_filtered$e14.sample4 - contractile_gene_df_filtered$min)/contractile_gene_df_filtered$delta_max_min
+
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Contractile protein")
+png("heatmap of contractile genes relative expression.png", width = 1000, height = 5000, units = "px")
+pheatmap(contractile_gene_df_filtered[,1:23], cluster_cols = F, cluster_rows = T, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30))
+dev.off()
+```
+
+
+```{r}
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+```{r}
+distance = get_dist(contractile_gene_df_filtered[,1:23], method = "kendall")
+fviz_dist(distance, gradient = list(low = "#00AFBB", mid = "white", high = "#FC4E07"))
+
+```
+
+```{r}
+fviz_nbclust(contractile_gene_df_filtered[,1:23], kmeans, method = "wss", k.max = 20)
+
+```
+
+
+```{r}
+gap_stat = clusGap(contractile_gene_df_filtered[,1:23], FUN = kmeans, nstart = 25, K.max = 30, B = 30)
+fviz_gap_stat(gap_stat)
+```
+
+```{r}
+k9 = kmeans(contractile_gene_df_filtered[,1:23], centers = 9, nstart = 30)
+contractile_gene_df_filtered$cluster = k9$cluster
+contractile_gene_df_filtered = contractile_gene_df_filtered[order(contractile_gene_df_filtered$cluster),]
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+
+
+```{r}
+setwd("~/Desktop/My-repo/data/Contractile protein")
+png("heatmap of contractile genes relative expression k9.png", width = 1000, height = 8000, units = "px")
+pheatmap(contractile_gene_df_filtered[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 23)
+dev.off()
+```
+

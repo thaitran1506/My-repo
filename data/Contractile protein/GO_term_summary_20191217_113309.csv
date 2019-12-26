@@ -1,0 +1,1851 @@
+﻿MGI Gene/Marker ID,Symbol,Name,Chr,Qualifier,Annotated Term,Context,Proteoform,Evidence,Inferred From,Reference(s)
+MGI:1920971,1110017D15Rik,RIKEN cDNA 1110017D15 gene,4,,alpha-tubulin binding,,,IDA,,J:135539 
+MGI:1913997,4933400A11Rik,RIKEN cDNA 4933400A11 gene,X,,actin filament binding,,,IBA,PTN000068943 ,J:265628 
+MGI:1929608,Aatf,apoptosis antagonizing transcription factor,11,,tau protein binding,,,ISO,RGD:620685 ,J:155856 
+MGI:1347061,Abcg2,ATP binding cassette subfamily G member 2 (Junior blood group),6,,cytoskeletal protein binding,,,ISO,RGD:631345 ,J:155856 
+MGI:2677850,Abitram,actin binding transcription modulator,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2677850,Abitram,actin binding transcription modulator,4,,actin filament binding,,,IDA,,J:220150 
+MGI:2677850,Abitram,actin binding transcription modulator,4,,actin monomer binding,,,IDA,,J:220150 
+MGI:87859,Abl1,"c-abl oncogene 1, non-receptor tyrosine kinase",2,,actin filament binding,,,IDA,,J:75087 
+MGI:1194500,Ablim1,actin-binding LIM protein 1,19,,actin binding,,,IDA,,J:45406 
+MGI:1194500,Ablim1,actin-binding LIM protein 1,19,,actin filament binding,,,IBA,PTN001198097 ,J:265628 
+MGI:2385758,Ablim2,actin-binding LIM protein 2,5,,actin binding,,,IEA,IPR003128 IPR028450 IPR036886 ,J:72247 
+MGI:2385758,Ablim2,actin-binding LIM protein 2,5,,actin filament binding,,,IBA,PTN001198097 ,J:265628 
+MGI:2442582,Ablim3,"actin binding LIM protein family, member 3",18,,actin binding,,,IEA,IPR003128 IPR028449 IPR036886 ,J:72247 
+MGI:2442582,Ablim3,"actin binding LIM protein family, member 3",18,,actin filament binding,,,IBA,PTN001198097 ,J:265628 
+MGI:2444891,Abra,actin-binding Rho activating protein,15,,actin binding,,,IDA,,J:116362 
+MGI:1917931,Abraxas1,BRCA1 A complex subunit,5,,microtubule binding,,,IBA,PTN001272083 ,J:265628 
+MGI:1926116,Abraxas2,BRISC complex subunit,7,,microtubule binding,,,IBA,PTN001272083 ,J:265628 
+MGI:1926116,Abraxas2,BRISC complex subunit,7,,microtubule binding,,,ISO,Q15018 ,J:164563 
+MGI:87874,Ace,angiotensin I converting enzyme (peptidyl-dipeptidase A) 1,11,,actin binding,,,ISO,P12821 ,J:164563 
+MGI:87904,Actb,"actin, beta",5,,kinesin binding,,,ISO,P60709 ,J:164563 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,myosin binding,,,IBA,PTN000748220 ,J:265628 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,myosin binding,,,ISO,P68032 ,J:164563 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,actin filament binding,,,IDA,,J:93130 J:221563 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,actin filament binding,,,ISO,P12814 ,J:164563 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,vinculin binding,,,IDA,,J:221563 
+MGI:2137706,Actn1,"actinin, alpha 1",12,,vinculin binding,,,ISO,P12814 ,J:164563 
+MGI:109192,Actn2,actinin alpha 2,13,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:109192,Actn2,actinin alpha 2,13,,actin filament binding,,,IDA,,J:93130 
+MGI:109192,Actn2,actinin alpha 2,13,,actin filament binding,,,TAS,,J:32589 
+MGI:109192,Actn2,actinin alpha 2,13,,cytoskeletal protein binding,,,IDA,,J:56270 
+MGI:109192,Actn2,actinin alpha 2,13,,cytoskeletal protein binding,,,ISO,P35609 ,J:164563 
+MGI:109192,Actn2,actinin alpha 2,13,,FATZ binding,,,ISO,P35609 ,J:164563 
+MGI:109192,Actn2,actinin alpha 2,13,,titin binding,,,ISO,P35609 ,J:164563 
+MGI:99678,Actn3,actinin alpha 3,19,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:99678,Actn3,actinin alpha 3,19,,actin filament binding,,,IDA,,J:93130 
+MGI:99678,Actn3,actinin alpha 3,19,,actin filament binding,,,TAS,,J:32589 
+MGI:1890773,Actn4,actinin alpha 4,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1890773,Actn4,actinin alpha 4,7,,actin filament binding,,,IDA,,J:93130 J:136002 
+MGI:1890773,Actn4,actinin alpha 4,7,,actin filament binding,,,ISO,O43707 ,J:164563 
+MGI:1858964,Actr1a,"ARP1 actin-related protein 1A, centractin alpha",19,contributes_to,microtubule cortical anchor activity,,,IBA,PTN000233665 ,J:265628 
+MGI:1917446,Actr1b,"ARP1 actin-related protein 1B, centractin beta",1,contributes_to,microtubule cortical anchor activity,,,IBA,PTN000233665 ,J:265628 
+MGI:1913963,Actr2,ARP2 actin-related protein 2,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1913963,Actr2,ARP2 actin-related protein 2,11,contributes_to,actin filament binding,,,IBA,PTN000233596 ,J:265628 
+MGI:1913963,Actr2,ARP2 actin-related protein 2,11,contributes_to,actin filament binding,,,ISO,P61160 ,J:164563 
+MGI:1913963,Actr2,ARP2 actin-related protein 2,11,,cytoskeletal protein binding,,,ISO,RGD:1310826 ,J:155856 
+MGI:1921367,Actr3,ARP3 actin-related protein 3,1,,actin binding,,,ISO,RGD:71024 ,J:155856 
+MGI:1921367,Actr3,ARP3 actin-related protein 3,1,contributes_to,actin filament binding,,,IBA,PTN000233796 ,J:265628 
+MGI:1921367,Actr3,ARP3 actin-related protein 3,1,contributes_to,actin filament binding,,,ISO,P61158 ,J:164563 
+MGI:2661120,Actr3b,ARP3 actin-related protein 3B,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2661120,Actr3b,ARP3 actin-related protein 3B,5,contributes_to,actin filament binding,,,IBA,PTN000233796 ,J:265628 
+MGI:1891654,Actr10,ARP10 actin-related protein 10,12,contributes_to,microtubule cortical anchor activity,,,IBA,PTN000233665 ,J:265628 
+MGI:1341110,Adcy8,adenylate cyclase 8,15,,actin binding,,,ISO,RGD:2036 ,J:155856 
+MGI:87918,Add1,adducin 1 (alpha),5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:87918,Add1,adducin 1 (alpha),5,,actin filament binding,,,IBA,PTN000072560 ,J:265628 
+MGI:87918,Add1,adducin 1 (alpha),5,,actin filament binding,,,ISO,P35611 ,J:164563 
+MGI:87918,Add1,adducin 1 (alpha),5,,spectrin binding,,,IBA,PTN000072560 ,J:265628 
+MGI:87918,Add1,adducin 1 (alpha),5,,spectrin binding,,,ISO,P35611 ,J:164563 
+MGI:87919,Add2,adducin 2 (beta),6,,actin binding,,,ISO,P35612 ,J:164563 
+MGI:87919,Add2,adducin 2 (beta),6,,actin filament binding,,,IBA,PTN000072560 ,J:265628 
+MGI:87919,Add2,adducin 2 (beta),6,,actin filament binding,,,ISO,P35612 ,J:164563 
+MGI:87919,Add2,adducin 2 (beta),6,,spectrin binding,,,IBA,PTN000072560 ,J:265628 
+MGI:87919,Add2,adducin 2 (beta),6,,spectrin binding,,,ISO,P35612 ,J:164563 
+MGI:1351615,Add3,adducin 3 (gamma),19,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1351615,Add3,adducin 3 (gamma),19,,actin filament binding,,,IBA,PTN000072560 ,J:265628 
+MGI:1351615,Add3,adducin 3 (gamma),19,,spectrin binding,,,IBA,PTN000072560 ,J:265628 
+MGI:1274784,Adgrv1,adhesion G protein-coupled receptor V1,13,,myosin binding,,,IPI,P97479 ,J:122415 
+MGI:1338758,Adnp,activity-dependent neuroprotective protein,2,,beta-tubulin binding,,,ISO,RGD:71030 ,J:155856 
+MGI:99402,Adora2a,adenosine A2a receptor,10,,alpha-actinin binding,,,ISO,RGD:2049 ,J:155856 
+MGI:87947,Adssl1,adenylosuccinate synthetase like 1,12,,actin filament binding,,,ISO,RGD:1590342 ,J:155856 
+MGI:1917542,Afap1,actin filament associated protein 1,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1314653,Afdn,"afadin, adherens junction formation factor",17,,actin filament binding,,,ISO,P55196 ,J:164563 
+MGI:3646469,Agbl1,ATP/GTP binding protein-like 1,7,,tubulin binding,,,IDA,,J:166837 
+MGI:1918244,Agbl4,ATP/GTP binding protein-like 4,4,,tubulin binding,,,IDA,,J:166837 
+MGI:2441745,Agbl5,ATP/GTP binding protein-like 5,5,,tubulin binding,,,IDA,,J:166837 
+MGI:2159437,Agtpbp1,ATP/GTP binding protein 1,13,,tubulin binding,,,IDA,,J:166837 
+MGI:1343098,Aif1,allograft inflammatory factor 1,17,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1343098,Aif1,allograft inflammatory factor 1,17,,actin filament binding,,,IBA,PTN000039781 ,J:265628 
+MGI:1343098,Aif1,allograft inflammatory factor 1,17,,actin filament binding,,,IMP,,J:269679 
+MGI:1343098,Aif1,allograft inflammatory factor 1,17,,actin filament binding,,,ISO,P55008 ,J:164563 
+MGI:1919598,Aif1l,allograft inflammatory factor 1-like,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919598,Aif1l,allograft inflammatory factor 1-like,2,,actin filament binding,,,IBA,PTN000039781 ,J:265628 
+MGI:1919598,Aif1l,allograft inflammatory factor 1-like,2,,actin filament binding,,,ISO,Q9BQI0 ,J:164563 
+MGI:1341886,Ajuba,ajuba LIM protein,14,,actin filament binding,,,IDA,,J:99454 
+MGI:104729,Akap1,A kinase (PRKA) anchor protein 1,11,,beta-tubulin binding,,,ISO,RGD:620826 ,J:155856 
+MGI:104729,Akap1,A kinase (PRKA) anchor protein 1,11,,microtubule binding,,,ISO,RGD:620826 ,J:155856 
+MGI:2685104,Akap5,A kinase (PRKA) anchor protein 5,12,,actin binding,,,ISO,RGD:620829 ,J:155856 
+MGI:87994,Aldoa,"aldolase A, fructose-bisphosphate",7,,cytoskeletal protein binding,,,ISO,P04075 ,J:164563 
+MGI:87995,Aldob,"aldolase B, fructose-bisphosphate",4,,cytoskeletal protein binding,,,ISO,P05062 ,J:164563 
+MGI:101863,Aldoc,"aldolase C, fructose-bisphosphate",11,,cytoskeletal protein binding,,,ISO,P09972 ,J:164563 
+MGI:1919291,Alkbh4,"alkB homolog 4, lysine demethylase",5,,actin binding,,,IBA,PTN002647352 ,J:265628 
+MGI:1919291,Alkbh4,"alkB homolog 4, lysine demethylase",5,,actin binding,,,ISO,Q9NXW9 ,J:164563 
+MGI:1934606,Alms1,"ALMS1, centrosome and basal body associated",6,,alpha-actinin binding,,,IPI,O88990 P57780 Q7TPR4 Q9JI91 ,J:187422 
+MGI:1934606,Alms1,"ALMS1, centrosome and basal body associated",6,,microtubule binding,,,IBA,PTN002502336 ,J:265628 
+MGI:88015,Ampd1,adenosine monophosphate deaminase 1,3,,myosin heavy chain binding,,,ISO,RGD:2109 ,J:155856 
+MGI:88022,Ang,"angiogenin, ribonuclease, RNase A family, 5",14,,actin binding,,,ISO,P03950 ,J:164563 
+MGI:88024,Ank1,"ankyrin 1, erythroid",8,,cytoskeletal adaptor activity,,,ISO,P16157 ,J:164563 
+MGI:88024,Ank1,"ankyrin 1, erythroid",8,,spectrin binding,,,ISO,P16157 ,J:164563 
+MGI:88026,Ank3,"ankyrin 3, epithelial",10,,cytoskeletal protein binding,,,ISO,RGD:620157 ,J:155856 
+MGI:88026,Ank3,"ankyrin 3, epithelial",10,,spectrin binding,,,ISO,RGD:620157 ,J:155856 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,titin binding,,,IPI,A2ASS6 ,J:137586 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,titin binding,,,ISO,Q15327 ,J:164563 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,,titin binding,,,IPI,A2ASS6 ,J:137586 
+MGI:1925571,Ankrd23,ankyrin repeat domain 23,1,,titin binding,,,ISO,Q86SG2 ,J:164563 
+MGI:1920174,Anln,"anillin, actin binding protein",9,,actin binding,,,ISO,Q9NQW6 ,J:73065 
+MGI:1916788,Antxr1,anthrax toxin receptor 1,6,,actin filament binding,,,ISO,Q9H6X2 ,J:164563 
+MGI:88246,Anxa2,annexin A2,9,,cytoskeletal protein binding,,,IEA,IPR002389 ,J:72247 
+MGI:88255,Anxa6,annexin A6,11,,actin filament binding,,,IBA,PTN002574762 ,J:265628 
+MGI:1201374,Anxa8,annexin A8,14,,actin filament binding,,,ISO,P13928 ,J:164563 
+MGI:2384822,Ap1ar,adaptor-related protein complex 1 associated regulatory protein,3,,kinesin binding,,,IBA,PTN002158628 ,J:265628 
+MGI:2384822,Ap1ar,adaptor-related protein complex 1 associated regulatory protein,3,,kinesin binding,,,ISO,P85970 ,J:73065 
+MGI:2384822,Ap1ar,adaptor-related protein complex 1 associated regulatory protein,3,,kinesin binding,,,ISO,Q63HQ0 ,J:164563 
+MGI:101919,Ap1g1,"adaptor protein complex AP-1, gamma 1 subunit",8,,kinesin binding,,,ISO,O43747 ,J:164563 
+MGI:107765,Apbb1,"amyloid beta (A4) precursor protein-binding, family B, member 1",7,,tau protein binding,,,ISO,RGD:2122 ,J:155856 
+MGI:88039,Apc,"APC, WNT signaling pathway regulator",18,,microtubule binding,,,ISO,RGD:2123 ,J:155856 
+MGI:88039,Apc,"APC, WNT signaling pathway regulator",18,,microtubule binding,,,ISO,P25054 ,J:164563 
+MGI:88039,Apc,"APC, WNT signaling pathway regulator",18,,microtubule plus-end binding,,,IDA,,J:138829 
+MGI:88039,Apc,"APC, WNT signaling pathway regulator",18,,microtubule plus-end binding,,,ISO,P25054 ,J:164563 
+MGI:88057,Apoe,apolipoprotein E,7,,tau protein binding,,,ISO,P02649 ,J:164563 
+MGI:1914134,Appbp2,amyloid beta precursor protein (cytoplasmic tail) binding protein 2,11,,microtubule binding,,,ISO,O95095 ,J:73065 
+MGI:1920243,Appl1,"adaptor protein, phosphotyrosine interaction, PH domain and leucine zipper containing 1",14,,beta-tubulin binding,,,ISO,Q9UKG1 ,J:164563 
+MGI:1096865,Aqp2,aquaporin 2,15,,actin binding,,,ISO,RGD:2142 ,J:155856 
+MGI:88067,Arc,activity regulated cytoskeletal-associated protein,15,,actin binding,,,TAS,,J:61449 
+MGI:2442988,Arfgef1,ADP-ribosylation factor guanine nucleotide-exchange factor 1(brefeldin A-inhibited),1,,myosin binding,,,ISO,Q9Y6D6 ,J:164563 
+MGI:2139354,Arfgef2,ADP-ribosylation factor guanine nucleotide-exchange factor 2 (brefeldin A-inhibited),2,,myosin binding,,,ISO,RGD:631430 ,J:155856 
+MGI:103264,Arhgef2,rho/rac guanine nucleotide exchange factor (GEF) 2,3,,microtubule binding,,,IDA,,J:99758 
+MGI:103264,Arhgef2,rho/rac guanine nucleotide exchange factor (GEF) 2,3,,microtubule binding,,,ISO,Q92974 ,J:164563 
+MGI:2444453,Arhgef10,Rho guanine nucleotide exchange factor (GEF) 10,8,,kinesin binding,,,ISO,O15013 ,J:164563 
+MGI:1929699,Arl3,ADP-ribosylation factor-like 3,19,,microtubule binding,,,ISO,P36405 ,J:164563 
+MGI:2445172,Arl4c,ADP-ribosylation factor-like 4C,1,,alpha-tubulin binding,,,ISO,P56559 ,J:164563 
+MGI:1914416,Arl8b,ADP-ribosylation factor-like 8B,6,,alpha-tubulin binding,,,ISO,Q9NVJ2 ,J:164563 
+MGI:1914416,Arl8b,ADP-ribosylation factor-like 8B,6,,beta-tubulin binding,,,ISO,Q9NVJ2 ,J:164563 
+MGI:1928896,Arpc1a,"actin related protein 2/3 complex, subunit 1A",5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1928896,Arpc1a,"actin related protein 2/3 complex, subunit 1A",5,,actin filament binding,,,IBA,PTN000076207 ,J:265628 
+MGI:1343142,Arpc1b,"actin related protein 2/3 complex, subunit 1B",5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1343142,Arpc1b,"actin related protein 2/3 complex, subunit 1B",5,,actin filament binding,,,IBA,PTN000076207 ,J:265628 
+MGI:1343142,Arpc1b,"actin related protein 2/3 complex, subunit 1B",5,contributes_to,actin filament binding,,,ISO,O15143 ,J:164563 
+MGI:1923959,Arpc2,"actin related protein 2/3 complex, subunit 2",1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1923959,Arpc2,"actin related protein 2/3 complex, subunit 2",1,,actin filament binding,,,IBA,PTN000248611 ,J:265628 
+MGI:1923959,Arpc2,"actin related protein 2/3 complex, subunit 2",1,contributes_to,actin filament binding,,,ISO,O15144 ,J:164563 
+MGI:1928375,Arpc3,"actin related protein 2/3 complex, subunit 3",5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1928375,Arpc3,"actin related protein 2/3 complex, subunit 3",5,contributes_to,actin filament binding,,,IBA,PTN000273425 ,J:265628 
+MGI:1928375,Arpc3,"actin related protein 2/3 complex, subunit 3",5,contributes_to,actin filament binding,,,ISO,O15145 ,J:164563 
+MGI:1915339,Arpc4,"actin related protein 2/3 complex, subunit 4",6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1915339,Arpc4,"actin related protein 2/3 complex, subunit 4",6,contributes_to,actin filament binding,,,ISO,P59998 ,J:164563 
+MGI:1915021,Arpc5,"actin related protein 2/3 complex, subunit 5",1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1915021,Arpc5,"actin related protein 2/3 complex, subunit 5",1,,actin filament binding,,,IBA,PTN000291131 ,J:265628 
+MGI:1915021,Arpc5,"actin related protein 2/3 complex, subunit 5",1,contributes_to,actin filament binding,,,ISO,O15511 ,J:164563 
+MGI:1921442,Arpc5l,"actin related protein 2/3 complex, subunit 5-like",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1921442,Arpc5l,"actin related protein 2/3 complex, subunit 5-like",2,,actin filament binding,,,IBA,PTN000291131 ,J:265628 
+MGI:2448730,Atcay,"ataxia, cerebellar, Cayman type",10,,kinesin binding,,,ISO,Q86WG3 ,J:164563 
+MGI:2141857,Atf5,activating transcription factor 5,7,,tubulin binding,,,ISO,Q9Y2D1 ,J:164563 
+MGI:88105,Atp1a1,"ATPase, Na+/K+ transporting, alpha 1 polypeptide",3,,ankyrin binding,,,ISO,RGD:2167 ,J:155856 
+MGI:1333798,Avil,advillin,10,,actin binding,,,ISO,RGD:620301 ,J:155856 
+MGI:1333798,Avil,advillin,10,,actin filament binding,,,IEA,IPR007122 ,J:72247 
+MGI:1347244,Axl,AXL receptor tyrosine kinase,7,,myosin heavy chain binding,,,ISO,RGD:620028 ,J:155856 
+MGI:95705,B4galt1,"UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1",4,,alpha-tubulin binding,,,ISO,P15291 ,J:164563 
+MGI:95705,B4galt1,"UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1",4,,beta-tubulin binding,,,ISO,P15291 ,J:164563 
+MGI:95705,B4galt1,"UDP-Gal:betaGlcNAc beta 1,4- galactosyltransferase, polypeptide 1",4,,cytoskeletal protein binding,,PR:P15535-1,IDA,,J:17178 J:28214 
+MGI:2387643,B9d2,B9 protein domain 2,7,,gamma-tubulin binding,,,IDA,,J:132820 
+MGI:1891254,Bag2,BCL2-associated athanogene 2,1,,tau protein binding,happens in hippocampal neuron|happens in neuron of cerebral cortex,,IPI,P19332 ,J:259129 
+MGI:2137336,Baiap2,brain-specific angiogenesis inhibitor 1-associated protein 2,11,,cytoskeletal adaptor activity,,,IEA,IPR030128 ,J:72247 
+MGI:1914148,Baiap2l1,BAI1-associated protein 2-like 1,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2143311,Bbs4,Bardet-Biedl syndrome 4 (human),9,,alpha-tubulin binding,,,ISO,Q96RK4 ,J:164563 
+MGI:2143311,Bbs4,Bardet-Biedl syndrome 4 (human),9,,beta-tubulin binding,,,ISO,Q96RK4 ,J:164563 
+MGI:2143311,Bbs4,Bardet-Biedl syndrome 4 (human),9,,dynactin binding,,,ISO,Q96RK4 ,J:164563 
+MGI:2385848,Bcas3,breast carcinoma amplified sequence 3,11,,beta-tubulin binding,,,ISO,Q9H6U6 ,J:164563 
+MGI:1913415,Bccip,BRCA2 and CDKN1A interacting protein,7,,tubulin binding,,,IBA,PTN000327451 ,J:265628 
+MGI:1913415,Bccip,BRCA2 and CDKN1A interacting protein,7,,tubulin binding,,,ISO,Q9P287 ,J:164563 
+MGI:1197519,Bcl2l11,BCL2-like 11 (apoptosis facilitator),2,,microtubule binding,,,IBA,PTN001738900 ,J:265628 
+MGI:1197519,Bcl2l11,BCL2-like 11 (apoptosis facilitator),2,,microtubule binding,happens in T cell,,IDA,,J:111822 
+MGI:1197519,Bcl2l11,BCL2-like 11 (apoptosis facilitator),2,contributes_to,microtubule binding,,,ISO,O43521 ,J:164563 
+MGI:3606746,Bex4,brain expressed X-linked 4,X,,alpha-tubulin binding,,,ISO,Q9NWD9 ,J:164563 
+MGI:1101760,Bicd1,BICD cargo adaptor 1,6,,cytoskeletal adaptor activity,,,IBA,PTN002830232 ,J:265628 
+MGI:1101760,Bicd1,BICD cargo adaptor 1,6,,cytoskeletal adaptor activity,,,ISO,Q96G01 ,J:164563 
+MGI:1101760,Bicd1,BICD cargo adaptor 1,6,,dynactin binding,,,IBA,PTN001261417 ,J:265628 
+MGI:1101760,Bicd1,BICD cargo adaptor 1,6,,dynactin binding,,,ISO,Q96G01 ,J:164563 
+MGI:1924145,Bicd2,BICD cargo adaptor 2,13,,cytoskeletal adaptor activity,,,IEA,IPR018477 ,J:72247 
+MGI:1924145,Bicd2,BICD cargo adaptor 2,13,,dynactin binding,,,IBA,PTN001261417 ,J:265628 
+MGI:1924145,Bicd2,BICD cargo adaptor 2,13,,dynactin binding,,,IDA,,J:200276 
+MGI:1922915,Bicdl1,BICD family like cargo adaptor 1,5,,dynactin binding,,,IDA,,J:159294 
+MGI:108092,Bin1,bridging integrator 1,18,,actin filament binding,,,ISO,O00499 ,J:164563 
+MGI:108092,Bin1,bridging integrator 1,18,,tau protein binding,,,IBA,PTN002926115 ,J:265628 
+MGI:108092,Bin1,bridging integrator 1,18,,tau protein binding,,,IPI,P10637 ,J:201933 
+MGI:108092,Bin1,bridging integrator 1,18,,tau protein binding,,,ISO,O00499 ,J:164563 
+MGI:1929883,Bin3,bridging integrator 3,14,,cytoskeletal protein binding,,,IBA,PTN002932529 ,J:265628 
+MGI:1203517,Birc5,baculoviral IAP repeat-containing 5,11,,microtubule binding,,,ISO,O15392 ,J:164563 
+MGI:1203517,Birc5,baculoviral IAP repeat-containing 5,11,,tubulin binding,,,ISO,O15392 ,J:164563 
+MGI:1920939,Bloc1s2,"biogenesis of lysosomal organelles complex-1, subunit 2",19,,gamma-tubulin binding,,,IBA,PTN000839566 ,J:265628 
+MGI:1920939,Bloc1s2,"biogenesis of lysosomal organelles complex-1, subunit 2",19,,gamma-tubulin binding,,,ISO,Q6QNY1 ,J:164563 
+MGI:1927580,Bloc1s6,"biogenesis of lysosomal organelles complex-1, subunit 6, pallidin",2,,actin filament binding,,,ISO,Q9UL45 ,J:164563 
+MGI:1338820,Bmp10,bone morphogenetic protein 10,6,,telethonin binding,,,ISO,O95393 ,J:164563 
+MGI:109337,Brca2,"breast cancer 2, early onset",5,,gamma-tubulin binding,,,ISO,P51587 ,J:164563 
+MGI:2685946,Brsk1,BR serine/threonine kinase 1,7,,gamma-tubulin binding,,,IDA,,J:154946 
+MGI:103013,Cacna1c,"calcium channel, voltage-dependent, L type, alpha 1C subunit",6,,alpha-actinin binding,,,ISO,Q13936 ,J:164563 
+MGI:88293,Cacna1d,"calcium channel, voltage-dependent, L type, alpha 1D subunit",14,,alpha-actinin binding,,,ISO,Q01668 ,J:164563 
+MGI:88293,Cacna1d,"calcium channel, voltage-dependent, L type, alpha 1D subunit",14,,ankyrin binding,,,IPI,Q01484 ,J:185021 
+MGI:88293,Cacna1d,"calcium channel, voltage-dependent, L type, alpha 1D subunit",14,,ankyrin binding,,,ISO,RGD:70973 ,J:155856 
+MGI:894644,Cacnb2,"calcium channel, voltage-dependent, beta 2 subunit",2,,actin filament binding,,,IDA,,J:231245 
+MGI:894644,Cacnb2,"calcium channel, voltage-dependent, beta 2 subunit",2,,actin filament binding,,,ISO,RGD:67385 ,J:155856 
+MGI:1270839,Cacybp,calcyclin binding protein,1,,tubulin binding,,,IEA,IPR037893 ,J:72247 
+MGI:88250,Cald1,caldesmon 1,6,,actin binding,,,ISO,RGD:2256 ,J:155856 
+MGI:88250,Cald1,caldesmon 1,6,,actin binding,,,TAS,,J:88666 
+MGI:1341265,Camk2d,"calcium/calmodulin-dependent protein kinase II, delta",3,,titin binding,,,ISO,Q13557 ,J:164563 
+MGI:3036242,Camsap1,calmodulin regulated spectrin-associated protein 1,2,,microtubule binding,,,ISO,Q5T5Y3 ,J:164563 
+MGI:3036242,Camsap1,calmodulin regulated spectrin-associated protein 1,2,,microtubule minus-end binding,,,IBA,PTN001091246 ,J:265628 
+MGI:3036242,Camsap1,calmodulin regulated spectrin-associated protein 1,2,,microtubule minus-end binding,,,ISO,Q5T5Y3 ,J:164563 
+MGI:3036242,Camsap1,calmodulin regulated spectrin-associated protein 1,2,,spectrin binding,,,ISO,RGD:1565022 ,J:155856 
+MGI:3036242,Camsap1,calmodulin regulated spectrin-associated protein 1,2,,spectrin binding,,,ISO,Q5T5Y3 ,J:164563 
+MGI:1922434,Camsap2,"calmodulin regulated spectrin-associated protein family, member 2",1,,microtubule binding,,,IEA,IPR014797 IPR032940 ,J:72247 
+MGI:1922434,Camsap2,"calmodulin regulated spectrin-associated protein family, member 2",1,,microtubule minus-end binding,,,IBA,PTN001091246 ,J:265628 
+MGI:1922434,Camsap2,"calmodulin regulated spectrin-associated protein family, member 2",1,,microtubule minus-end binding,,,ISO,Q08AD1 ,J:164563 
+MGI:1922434,Camsap2,"calmodulin regulated spectrin-associated protein family, member 2",1,,spectrin binding,,,IEA,IPR031372 ,J:72247 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,actin filament binding,,,ISO,Q9P1Y5 ,J:164563 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,microtubule binding,,,IEA,IPR014797 IPR032940 ,J:72247 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,microtubule minus-end binding,,,IBA,PTN001091246 ,J:265628 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,microtubule minus-end binding,,,IDA,,J:208866 J:229814 J:248450 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,microtubule minus-end binding,,,ISO,Q9P1Y5 ,J:164563 
+MGI:1916947,Camsap3,"calmodulin regulated spectrin-associated protein family, member 3",8,,spectrin binding,,,IEA,IPR031372 ,J:72247 
+MGI:88262,Cap1,"CAP, adenylate cyclase-associated protein 1 (yeast)",4,,actin binding,,,IBA,PTN000068843 ,J:265628 
+MGI:1914502,Cap2,"CAP, adenylate cyclase-associated protein, 2 (yeast)",13,,actin binding,,,IBA,PTN000068843 ,J:265628 
+MGI:1098259,Capg,"capping protein (actin filament), gelsolin-like",6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1098259,Capg,"capping protein (actin filament), gelsolin-like",6,,actin filament binding,,,IEA,IPR007122 ,J:72247 
+MGI:88263,Capn1,calpain 1,19,,cytoskeletal protein binding,,,ISO,RGD:2267 ,J:155856 
+MGI:88264,Capn2,calpain 2,1,,cytoskeletal protein binding,,,ISO,RGD:2268 ,J:155856 
+MGI:107437,Capn3,calpain 3,2,,titin binding,,,ISO,RGD:2269 ,J:155856 
+MGI:107437,Capn3,calpain 3,2,,titin binding,,,ISO,P20807 ,J:164563 
+MGI:1100850,Capn6,calpain 6,X,,microtubule binding,,,IDA,,J:121389 
+MGI:1344392,Capn10,calpain 10,1,,cytoskeletal protein binding,,,ISO,RGD:69354 ,J:155856 
+MGI:106227,Capza1,"capping protein (actin filament) muscle Z-line, alpha 1",3,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106227,Capza1,"capping protein (actin filament) muscle Z-line, alpha 1",3,,actin filament binding,,,IBA,PTN000068943 ,J:265628 
+MGI:106227,Capza1,"capping protein (actin filament) muscle Z-line, alpha 1",3,contributes_to,actin filament binding,,,IDA,,J:125384 
+MGI:106222,Capza2,"capping protein (actin filament) muscle Z-line, alpha 2",6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106222,Capza2,"capping protein (actin filament) muscle Z-line, alpha 2",6,,actin filament binding,,,IBA,PTN000068943 ,J:265628 
+MGI:106221,Capza3,"capping protein (actin filament) muscle Z-line, alpha 3",6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106221,Capza3,"capping protein (actin filament) muscle Z-line, alpha 3",6,,actin filament binding,,,IBA,PTN000068943 ,J:265628 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,,actin binding,,,ISO,P47756 ,J:164563 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,,actin filament binding,,,IBA,PTN000065509 ,J:265628 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,contributes_to,actin filament binding,,PR:P47757-2,IDA,,J:125384 
+MGI:104652,Capzb,"capping protein (actin filament) muscle Z-line, beta",4,,beta-tubulin binding,,PR:P47757-2,IPI,Q9ERD7 ,J:154619 
+MGI:2444480,Casc1,cancer susceptibility candidate 1,6,,alpha-tubulin binding,,,ISO,C7A2A8 ,J:73065 
+MGI:2444480,Casc1,cancer susceptibility candidate 1,6,,beta-tubulin binding,,,IDA,,J:127094 
+MGI:2444480,Casc1,cancer susceptibility candidate 1,6,,beta-tubulin binding,,,ISO,C7A2A8 ,J:73065 
+MGI:2444480,Casc1,cancer susceptibility candidate 1,6,,microtubule binding,,,IDA,,J:127094 
+MGI:107570,Cav3,caveolin 3,6,,alpha-tubulin binding,,,IDA,,J:126515 
+MGI:2443639,Ccdc66,coiled-coil domain containing 66,14,,microtubule binding,,,ISO,A2RUB6 ,J:164563 
+MGI:1196234,Ccdc69,coiled-coil domain containing 69,11,,microtubule binding,,,IBA,PTN001271408 ,J:265628 
+MGI:1925177,Ccdc88a,coiled coil domain containing 88A,11,,actin binding,,,ISO,Q3V6T2 ,J:164563 
+MGI:1925177,Ccdc88a,coiled coil domain containing 88A,11,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:1925177,Ccdc88a,coiled coil domain containing 88A,11,,microtubule binding,,,IDA,,J:121601 
+MGI:1925567,Ccdc88b,coiled-coil domain containing 88B,19,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:1915589,Ccdc88c,coiled-coil domain containing 88C,12,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:1922145,Ccdc181,coiled-coil domain containing 181,1,,microtubule binding,,,IBA,PTN002682605 ,J:265628 
+MGI:1922145,Ccdc181,coiled-coil domain containing 181,1,,microtubule binding,,,IDA,,J:241007 
+MGI:3045295,Ccdc187,coiled-coil domain containing 187,2,,microtubule binding,,,IEA,IPR028750 ,J:72247 
+MGI:107182,Ccr5,chemokine (C-C motif) receptor 5,9,,actin binding,,,ISO,P51681 ,J:164563 
+MGI:1920670,Ccsap,"centriole, cilia and spindle associated protein",8,,microtubule binding,,,ISO,Q6IQ19 ,J:164563 
+MGI:101859,Ccser2,coiled-coil serine rich 2,14,,microtubule binding,,,IDA,,J:185499 
+MGI:107185,Cct5,"chaperonin containing Tcp1, subunit 5 (epsilon)",15,,beta-tubulin binding,,,ISO,P48643 ,J:164563 
+MGI:88354,Cdh1,cadherin 1,8,,ankyrin binding,,,ISO,P12830 ,J:164563 
+MGI:88354,Cdh1,cadherin 1,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:88354,Cdh1,cadherin 1,8,,cytoskeletal protein binding,,,IMP,,J:1648 
+MGI:88355,Cdh2,cadherin 2,18,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:88356,Cdh3,cadherin 3,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:99218,Cdh4,cadherin 4,2,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:105057,Cdh5,cadherin 5,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:107435,Cdh6,cadherin 6,15,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:2442792,Cdh7,"cadherin 7, type 2",1,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:107434,Cdh8,cadherin 8,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:107433,Cdh9,cadherin 9,15,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:107436,Cdh10,cadherin 10,15,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:99217,Cdh11,cadherin 11,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:109503,Cdh12,cadherin 12,15,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:99551,Cdh13,cadherin 13,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:106672,Cdh15,cadherin 15,8,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:1095414,Cdh17,cadherin 17,4,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:1344366,Cdh18,cadherin 18,15,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:3588198,Cdh19,"cadherin 19, type 2",1,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:1890219,Cdh23,cadherin 23 (otocadherin),10,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:1928330,Cdh24,cadherin-like 24,14,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:2685856,Cdh26,cadherin-like 26,2,,cytoskeletal protein binding,,,IBA,PTN000616280 ,J:265628 
+MGI:101765,Cdk5,cyclin-dependent kinase 5,5,,cytoskeletal protein binding,,,ISO,RGD:70514 ,J:155856 
+MGI:101764,Cdk5r1,"cyclin-dependent kinase 5, regulatory subunit 1 (p35)",11,,actin binding,,,IPI,P60710 ,J:144029 
+MGI:101764,Cdk5r1,"cyclin-dependent kinase 5, regulatory subunit 1 (p35)",11,,actin filament binding,,,IPI,P60710 ,J:144029 
+MGI:101764,Cdk5r1,"cyclin-dependent kinase 5, regulatory subunit 1 (p35)",11,,cytoskeletal protein binding,,,TAS,,J:80587 
+MGI:1330828,Cdk5r2,"cyclin-dependent kinase 5, regulatory subunit 2 (p39)",1,,actin binding,happens in brain,,IPI,P60710 ,J:261913 
+MGI:1330828,Cdk5r2,"cyclin-dependent kinase 5, regulatory subunit 2 (p39)",1,,cytoskeletal protein binding,,,TAS,,J:80587 
+MGI:2384875,Cdk5rap2,CDK5 regulatory subunit associated protein 2,4,,gamma-tubulin binding,,,ISO,Q96SN8 ,J:164563 
+MGI:2384875,Cdk5rap2,CDK5 regulatory subunit associated protein 2,4,,microtubule binding,,,ISO,Q96SN8 ,J:164563 
+MGI:2384875,Cdk5rap2,CDK5 regulatory subunit associated protein 2,4,,tubulin binding,,,ISO,Q96SN8 ,J:164563 
+MGI:1347245,Ceacam1,carcinoembryonic antigen-related cell adhesion molecule 1,7,,actin binding,,,ISO,P13688 ,J:164563 
+MGI:1347245,Ceacam1,carcinoembryonic antigen-related cell adhesion molecule 1,7,,filamin binding,,,ISO,P13688 ,J:164563 
+MGI:1347246,Ceacam2,carcinoembryonic antigen-related cell adhesion molecule 2,7,,actin binding,,,ISO,P13688 ,J:164563 
+MGI:1347246,Ceacam2,carcinoembryonic antigen-related cell adhesion molecule 2,7,,filamin binding,,,ISO,P13688 ,J:164563 
+MGI:1098230,Cenpe,centromere protein E,3,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098230,Cenpe,centromere protein E,3,,microtubule binding,,,ISO,Q02224 ,J:164563 
+MGI:2684927,Cenpj,centromere protein J,14,,gamma-tubulin binding,,,ISO,Q9HC77 ,J:73065 
+MGI:2684927,Cenpj,centromere protein J,14,,tubulin binding,,,ISO,Q9HC77 ,J:164563 
+MGI:1915551,Cep57,centrosomal protein 57,9,,gamma-tubulin binding,,,IEA,IPR025913 ,J:72247 
+MGI:1915551,Cep57,centrosomal protein 57,9,,microtubule binding,,,IBA,PTN001456386 ,J:265628 
+MGI:1915551,Cep57,centrosomal protein 57,9,,microtubule binding,,,IDA,,J:137954 
+MGI:1915511,Cep57l1,centrosomal protein 57-like 1,10,,gamma-tubulin binding,,,IEA,IPR025913 ,J:72247 
+MGI:1915511,Cep57l1,centrosomal protein 57-like 1,10,,microtubule binding,,,IBA,PTN001456386 ,J:265628 
+MGI:1915371,Cep70,centrosomal protein 70,9,,gamma-tubulin binding,,,IEA,IPR037692 ,J:72247 
+MGI:2442521,Cep295,centrosomal protein 295,9,,microtubule binding,,,IBA,PTN002502336 ,J:265628 
+MGI:2442521,Cep295,centrosomal protein 295,9,,microtubule binding,,,ISO,Q9C0D2 ,J:164563 
+MGI:1929713,Cep295nl,CEP295 N-terminal like,11,,microtubule binding,,,IBA,PTN002502336 ,J:265628 
+MGI:1921331,Cep350,centrosomal protein 350,1,,microtubule binding,,,IEA,IPR028750 ,J:72247 
+MGI:1347086,Cetn1,centrin 1,18,,microtubule binding,happens in photoreceptor cell,,IDA,,J:136749 
+MGI:1347085,Cetn2,centrin 2,X,,microtubule binding,happens in photoreceptor cell,,IDA,,J:136749 
+MGI:1097706,Cetn3,centrin 3,13,,microtubule binding,,,IBA,PTN000753602 ,J:265628 
+MGI:1097706,Cetn3,centrin 3,13,,microtubule binding,happens in photoreceptor cell,,IDA,,J:136749 
+MGI:2447809,Cfap157,cilia and flagella associated protein 157,2,,microtubule binding,,,IDA,,J:237484 
+MGI:101757,Cfl1,"cofilin 1, non-muscle",19,,actin binding,,,ISO,RGD:69285 ,J:155856 
+MGI:101757,Cfl1,"cofilin 1, non-muscle",19,,actin filament binding,,,IDA,,J:233587 
+MGI:101757,Cfl1,"cofilin 1, non-muscle",19,,actin filament binding,,,ISO,RGD:69285 ,J:155856 
+MGI:101757,Cfl1,"cofilin 1, non-muscle",19,,actin filament binding,,,ISO,P23528 ,J:164563 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,actin binding,,,IEA,IPR002108 ,J:72247 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,actin filament binding,,,IDA,,J:233587 
+MGI:1927237,Cgn,cingulin,3,,microtubule binding,happens in epithelial cell,,IDA,,J:208272 
+MGI:1927185,Chp1,calcineurin-like EF hand protein 1,2,,microtubule binding,,,ISO,RGD:620447 ,J:155856 
+MGI:1923036,Ckap5,cytoskeleton associated protein 5,2,,microtubule binding,,,IBA,PTN000288762 ,J:265628 
+MGI:1923036,Ckap5,cytoskeleton associated protein 5,2,,microtubule binding,,,ISO,Q14008 ,J:73065 
+MGI:1923957,Clasp1,CLIP associating protein 1,1,,microtubule binding,,,IDA,,J:75373 
+MGI:1923957,Clasp1,CLIP associating protein 1,1,,microtubule binding,,,ISO,Q7Z460 ,J:164563 
+MGI:1923957,Clasp1,CLIP associating protein 1,1,,microtubule plus-end binding,,,ISO,Q7Z460 ,J:164563 
+MGI:1923749,Clasp2,CLIP associating protein 2,9,,actin filament binding,,,ISO,O75122 ,J:164563 
+MGI:1923749,Clasp2,CLIP associating protein 2,9,,microtubule binding,,,IDA,,J:75373 
+MGI:1923749,Clasp2,CLIP associating protein 2,9,,microtubule binding,,,ISO,RGD:619789 ,J:155856 
+MGI:1923749,Clasp2,CLIP associating protein 2,9,,microtubule binding,,,ISO,O75122 ,J:164563 
+MGI:1923749,Clasp2,CLIP associating protein 2,9,,microtubule plus-end binding,,,ISO,O75122 ,J:164563 
+MGI:1928401,Clip1,CAP-GLY domain containing linker protein 1,5,,microtubule binding,,,IDA,,J:75373 J:112743 
+MGI:1928401,Clip1,CAP-GLY domain containing linker protein 1,5,,microtubule binding,,,ISO,P30622 ,J:164563 
+MGI:1928401,Clip1,CAP-GLY domain containing linker protein 1,5,,microtubule plus-end binding,,,IDA,,J:107111 
+MGI:1928401,Clip1,CAP-GLY domain containing linker protein 1,5,,microtubule plus-end binding,,,ISO,P30622 ,J:164563 
+MGI:1928401,Clip1,CAP-GLY domain containing linker protein 1,5,,tubulin binding,,,ISO,P30622 ,J:164563 
+MGI:1313136,Clip2,CAP-GLY domain containing linker protein 2,5,,microtubule binding,,,IDA,,J:112743 
+MGI:1313136,Clip2,CAP-GLY domain containing linker protein 2,5,,microtubule plus-end binding,,,IDA,,J:107111 
+MGI:1313136,Clip2,CAP-GLY domain containing linker protein 2,5,,microtubule plus-end binding,,,ISO,RGD:62019 ,J:155856 
+MGI:1923936,Clip3,CAP-GLY domain containing linker protein 3,7,,microtubule binding,,,ISO,Q96DZ5 ,J:164563 
+MGI:2136957,Clmn,calmin,12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2136957,Clmn,calmin,12,,actin filament binding,,,IBA,PTN002934743 ,J:265628 
+MGI:1929895,Clstn1,calsyntenin 1,4,,kinesin binding,,,ISO,O94985 ,J:164563 
+MGI:2388633,Cltc,"clathrin, heavy polypeptide (Hc)",11,,ankyrin binding,,,ISO,RGD:2364 ,J:155856 
+MGI:88423,Clu,clusterin,14,,tau protein binding,,,ISO,P10909 ,J:164563 
+MGI:104979,Cnn1,calponin 1,9,,actin binding,,,ISO,RGD:621883 ,J:155856 
+MGI:105093,Cnn2,calponin 2,10,,actin binding,,,IEA,IPR001997 IPR029974 ,J:72247 
+MGI:105093,Cnn2,calponin 2,10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919244,Cnn3,"calponin 3, acidic",3,,actin binding,,,IEA,IPR001997 ,J:72247 
+MGI:1919244,Cnn3,"calponin 3, acidic",3,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919244,Cnn3,"calponin 3, acidic",3,,microtubule binding,,,ISO,RGD:71044 ,J:155856 
+MGI:1889576,Cntrl,centriolin,2,,cytoskeletal protein binding,,,IBA,PTN002549820 ,J:265628 
+MGI:105056,Cobl,cordon-bleu WH2 repeat,11,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:105056,Cobl,cordon-bleu WH2 repeat,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:105056,Cobl,cordon-bleu WH2 repeat,11,,actin monomer binding,,,IDA,,J:127949 
+MGI:2442894,Cobll1,Cobl-like 1,2,,actin monomer binding,,,IEA,IPR039895 ,J:72247 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,actin binding,,,ISO,P31146 ,J:164563 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,actin filament binding,,,IDA,,J:141431 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,actin filament binding,,,ISO,P31146 ,J:164563 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,actin monomer binding,,,ISO,P31146 ,J:164563 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,cytoskeletal protein binding,,,IMP,,J:100752 
+MGI:1345961,Coro1a,"coronin, actin binding protein 1A",7,,myosin heavy chain binding,,,ISO,P31146 ,J:164563 
+MGI:1345963,Coro1b,"coronin, actin binding protein 1B",19,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1345963,Coro1b,"coronin, actin binding protein 1B",19,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:1345963,Coro1b,"coronin, actin binding protein 1B",19,,actin filament binding,,,ISO,Q9BR76 ,J:164563 
+MGI:1345963,Coro1b,"coronin, actin binding protein 1B",19,,cytoskeletal protein binding,,,ISO,RGD:2382 ,J:155856 
+MGI:1345964,Coro1c,"coronin, actin binding protein 1C",5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1345964,Coro1c,"coronin, actin binding protein 1C",5,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:1345964,Coro1c,"coronin, actin binding protein 1C",5,,actin filament binding,,,ISO,Q9ULV4 ,J:164563 
+MGI:1345966,Coro2a,"coronin, actin binding protein 2A",4,,actin binding,,,ISA,AF051898 ,J:50558 
+MGI:1345966,Coro2a,"coronin, actin binding protein 2A",4,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:2444283,Coro2b,"coronin, actin binding protein, 2B",9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2444283,Coro2b,"coronin, actin binding protein, 2B",9,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:2444283,Coro2b,"coronin, actin binding protein, 2B",9,,talin binding,,,ISO,Q9UQ03 ,J:254431 
+MGI:2444283,Coro2b,"coronin, actin binding protein, 2B",9,,vinculin binding,,,ISO,Q9UQ03 ,J:254431 
+MGI:2183448,Coro6,coronin 6,11,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:1926135,Coro7,coronin 7,16,,actin binding,,,ISO,P57737 ,J:164563 
+MGI:1926135,Coro7,coronin 7,16,,actin filament binding,,,IBA,PTN000091698 ,J:265628 
+MGI:1919292,Cotl1,coactosin-like 1 (Dictyostelium),8,,actin binding,,,IDA,,J:73927 
+MGI:1919292,Cotl1,coactosin-like 1 (Dictyostelium),8,,actin binding,,,ISO,Q14019 ,J:164563 
+MGI:1919292,Cotl1,coactosin-like 1 (Dictyostelium),8,,actin filament binding,,,IBA,PTN000850943 ,J:265628 
+MGI:1929655,Cript,cysteine-rich PDZ-binding protein,17,,microtubule binding,,,IBA,PTN000210347 ,J:265628 
+MGI:1929655,Cript,cysteine-rich PDZ-binding protein,17,,microtubule binding,,,ISO,RGD:621545 ,J:155856 
+MGI:88508,Crk,v-crk avian sarcoma virus CT10 oncogene homolog,11,,cytoskeletal protein binding,,,ISO,RGD:2405 ,J:155856 
+MGI:107793,Crmp1,collapsin response mediator protein 1,5,,filamin binding,,,ISO,RGD:2407 ,J:155856 
+MGI:107793,Crmp1,collapsin response mediator protein 1,5,,filamin binding,,,ISO,Q14194 ,J:164563 
+MGI:3529431,Crocc,"ciliary rootlet coiled-coil, rootletin",4,,actin binding,,,IDA,,J:98885 
+MGI:3529431,Crocc,"ciliary rootlet coiled-coil, rootletin",4,,kinesin binding,,,IPI,O88447 O88448 Q91W40 ,J:102734 
+MGI:88516,Cryab,"crystallin, alpha B",9,,cytoskeletal protein binding,,,ISO,RGD:2414 ,J:155856 
+MGI:88516,Cryab,"crystallin, alpha B",9,,microtubule binding,,,ISO,RGD:2414 ,J:155856 
+MGI:88549,Csrp1,cysteine and glycine-rich protein 1,1,,actinin binding,,,IBA,PTN001198226 ,J:265628 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,actinin binding,,,IBA,PTN001198226 ,J:265628 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,actinin binding,,,IDA,,J:80992 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,telethonin binding,,,IPI,O70548 ,J:80992 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,telethonin binding,,,ISO,P50461 ,J:164563 
+MGI:88274,Ctnna1,"catenin (cadherin associated protein), alpha 1",18,,actin filament binding,,,IDA,,J:74778 
+MGI:88274,Ctnna1,"catenin (cadherin associated protein), alpha 1",18,,vinculin binding,,,ISO,P35221 ,J:164563 
+MGI:88275,Ctnna2,"catenin (cadherin associated protein), alpha 2",6,,actin filament binding,,,ISO,P26232 ,J:164563 
+MGI:2661445,Ctnna3,"catenin (cadherin associated protein), alpha 3",10,,actin filament binding,,,IEA,IPR001033 IPR006077 IPR030044 IPR036723 ,J:72247 
+MGI:1859649,Ctnnal1,"catenin (cadherin associated protein), alpha-like 1",4,,actin filament binding,,,IEA,IPR001033 IPR006077 IPR036723 ,J:72247 
+MGI:99695,Cttn,cortactin,7,,actin filament binding,,,IBA,PTN000850943 ,J:265628 
+MGI:1353467,Cttnbp2,cortactin binding protein 2,6,,cytoskeletal regulatory protein binding,,,ISO,O88864 ,J:73065 
+MGI:109563,Cxcr4,chemokine (C-X-C motif) receptor 4,1,,actin binding,,,ISO,P61073 ,J:164563 
+MGI:109563,Cxcr4,chemokine (C-X-C motif) receptor 4,1,,myosin light chain binding,,,ISO,P61073 ,J:164563 
+MGI:1338801,Cyfip1,cytoplasmic FMR1 interacting protein 1,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1196431,D7Ertd443e,"DNA segment, Chr 7, ERATO Doi 443, expressed",7,,microtubule binding,,,IBA,PTN002502336 ,J:265628 
+MGI:1914596,Daam1,dishevelled associated activator of morphogenesis 1,12,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:1914596,Daam1,dishevelled associated activator of morphogenesis 1,12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1923691,Daam2,dishevelled associated activator of morphogenesis 2,17,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:101864,Dag1,dystroglycan 1,9,,actin binding,,,ISO,Q14118 ,J:164563 
+MGI:101864,Dag1,dystroglycan 1,9,,alpha-actinin binding,,,ISO,Q14118 ,J:164563 
+MGI:101864,Dag1,dystroglycan 1,9,,tubulin binding,,,ISO,Q14118 ,J:164563 
+MGI:101864,Dag1,dystroglycan 1,9,,vinculin binding,,,ISO,Q14118 ,J:164563 
+MGI:1197015,Daxx,Fas death domain-associated protein,17,,kinesin binding,,,ISO,RGD:621227 ,J:155856 
+MGI:1931838,Dbn1,drebrin 1,13,,actin binding,,,IEA,IPR002108 IPR028438 ,J:72247 
+MGI:1931838,Dbn1,drebrin 1,13,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1931838,Dbn1,drebrin 1,13,,actin filament binding,,,IBA,PTN000850943 ,J:265628 
+MGI:1931838,Dbn1,drebrin 1,13,,actin filament binding,,,ISO,RGD:70885 ,J:155856 
+MGI:1931838,Dbn1,drebrin 1,13,,cytoskeletal protein binding,,,ISO,RGD:70885 ,J:155856 
+MGI:700006,Dbnl,drebrin-like,11,,actin binding,,,IDA,,J:60368 
+MGI:700006,Dbnl,drebrin-like,11,,actin filament binding,,,IBA,PTN000850943 ,J:265628 
+MGI:700006,Dbnl,drebrin-like,11,,actin filament binding,,,IDA,,J:60368 
+MGI:2652818,Dcdc2a,doublecortin domain containing 2a,13,,kinesin binding,,,ISO,RGD:1310227 ,J:155856 
+MGI:1923151,Dcp1a,decapping mRNA 1A,14,,kinesin binding,,,ISO,RGD:1561298 ,J:155856 
+MGI:107745,Dctn1,dynactin 1,6,,microtubule binding,,,IDA,,J:112743 
+MGI:107745,Dctn1,dynactin 1,6,,microtubule binding,,,ISO,RGD:62038 ,J:155856 
+MGI:107745,Dctn1,dynactin 1,6,,microtubule binding,,,ISO,Q14203 ,J:164563 
+MGI:107745,Dctn1,dynactin 1,6,,tubulin binding,,,ISO,Q14203 ,J:164563 
+MGI:107733,Dctn2,dynactin 2,10,,spectrin binding,,,ISO,Q13561 ,J:199579 
+MGI:1277171,Dcx,doublecortin,X,,microtubule binding,,,ISO,O43602 ,J:164563 
+MGI:94885,Des,desmin,1,,cytoskeletal protein binding,,,ISO,P17661 ,J:164563 
+MGI:1194490,Diaph1,diaphanous related formin 1,18,,actin binding,,,IDA,,J:88572 
+MGI:1858500,Diaph2,diaphanous related formin 2,X,,actin binding,,,IDA,,J:88572 
+MGI:1927222,Diaph3,diaphanous related formin 3,14,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:2447658,Disc1,disrupted in schizophrenia 1,8,,kinesin binding,,,ISO,RGD:631359 ,J:155856 
+MGI:2679721,Dixdc1,DIX domain containing 1,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2679721,Dixdc1,DIX domain containing 1,9,,gamma-tubulin binding,,,ISO,Q155Q3 ,J:164563 
+MGI:1354949,Dlc1,deleted in liver cancer 1,8,,vinculin binding,,,ISO,RGD:68416 ,J:155856 
+MGI:107231,Dlg1,discs large MAGUK scaffold protein 1,16,,kinesin binding,,,ISO,RGD:2505 ,J:155856 
+MGI:1277959,Dlg4,discs large MAGUK scaffold protein 4,11,,kinesin binding,,,ISO,RGD:68424 ,J:155856 
+MGI:1918478,Dlg5,discs large MAGUK scaffold protein 5,14,,cytoskeletal protein binding,,,ISO,Q8TDM6 ,J:73065 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,actin binding,,,ISO,P11532 ,J:164563 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,myosin binding,,,ISO,P11532 ,J:164563 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,vinculin binding,,,ISO,P11532 ,J:164563 
+MGI:99670,Dmtn,dematin actin binding protein,14,,actin binding,,,ISO,Q08495 ,J:164563 
+MGI:99670,Dmtn,dematin actin binding protein,14,,actin filament binding,,,IBA,PTN001198097 ,J:265628 
+MGI:99670,Dmtn,dematin actin binding protein,14,,spectrin binding,,,ISO,Q08495 ,J:164563 
+MGI:1921462,Dnal1,"dynein, axonemal, light chain 1",12,,alpha-tubulin binding,,,IBA,PTN002392311 ,J:265628 
+MGI:1921462,Dnal1,"dynein, axonemal, light chain 1",12,,alpha-tubulin binding,,,ISO,Q4LDG9 ,J:164563 
+MGI:103157,Dnase1,deoxyribonuclease I,16,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107384,Dnm1,dynamin 1,2,,microtubule binding,,,IBA,PTN000170013 ,J:265628 
+MGI:1921256,Dnm1l,dynamin 1-like,16,,microtubule binding,,,IBA,PTN000170013 ,J:265628 
+MGI:109547,Dnm2,dynamin 2,9,,microtubule binding,,,IBA,PTN000170013 ,J:265628 
+MGI:1341299,Dnm3,dynamin 3,1,,microtubule binding,,,IBA,PTN000170013 ,J:265628 
+MGI:1349763,Dpysl2,dihydropyrimidinase-like 2,14,,microtubule binding,,,IEA,IPR030615 ,J:72247 
+MGI:1349762,Dpysl3,dihydropyrimidinase-like 3,18,,filamin binding,,,ISO,Q14195 ,J:164563 
+MGI:1349764,Dpysl4,dihydropyrimidinase-like 4,7,,filamin binding,,,ISO,O14531 ,J:164563 
+MGI:1929772,Dpysl5,dihydropyrimidinase-like 5,5,,microtubule binding,,,IEA,IPR030626 ,J:72247 
+MGI:1343297,Drg1,developmentally regulated GTP binding protein 1,11,,microtubule binding,,,ISO,Q9Y295 ,J:164563 
+MGI:104627,Dst,dystonin,1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:104627,Dst,dystonin,1,,cytoskeletal protein binding,,,IEA,IPR029926 ,J:72247 
+MGI:104627,Dst,dystonin,1,,microtubule binding,,,IBA,PTN002753862 ,J:265628 
+MGI:104627,Dst,dystonin,1,,microtubule binding,"happens in dorsal root ganglion,happens in sensory neuron",PR:Q91ZU6,IDA,,J:56502 
+MGI:1929270,Dstn,destrin,2,,actin binding,,,IEA,IPR002108 ,J:72247 
+MGI:1929270,Dstn,destrin,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1929270,Dstn,destrin,2,,actin filament binding,,,IDA,,J:233587 
+MGI:1929270,Dstn,destrin,2,,actin filament binding,,,ISO,P60981 ,J:164563 
+MGI:1919599,Dusp3,dual specificity phosphatase 3 (vaccinia virus phosphatase VH1-related),11,,cytoskeletal protein binding,,,ISO,P51452 ,J:164563 
+MGI:107743,Dync1i1,dynein cytoplasmic 1 intermediate chain 1,6,,microtubule binding,,,ISO,RGD:2512 ,J:155856 
+MGI:107743,Dync1i1,dynein cytoplasmic 1 intermediate chain 1,6,,spectrin binding,,,ISO,O14576 ,J:199579 
+MGI:1330299,Dyrk1a,dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a,16,,actin binding,,,ISO,Q13627 ,J:164563 
+MGI:1330299,Dyrk1a,dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a,16,,cytoskeletal protein binding,,,ISO,Q13627 ,J:164563 
+MGI:1330299,Dyrk1a,dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a,16,,tau protein binding,,,IPI,P10637 ,J:183209 
+MGI:1330299,Dyrk1a,dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a,16,,tau protein binding,happens in brain,,IPI,P10637 ,J:128996 
+MGI:1330299,Dyrk1a,dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1a,16,,tubulin binding,,,ISO,Q13627 ,J:164563 
+MGI:1349385,Dysf,dysferlin,6,,alpha-tubulin binding,,,IDA,,J:160150 J:182257 
+MGI:1349385,Dysf,dysferlin,6,,alpha-tubulin binding,,,IPI,P05213 ,J:160150 
+MGI:1349385,Dysf,dysferlin,6,,alpha-tubulin binding,,,IPI,P68368 ,J:160150 
+MGI:1349385,Dysf,dysferlin,6,,microtubule binding,,,IDA,,J:160150 
+MGI:95288,Eef2,eukaryotic translation elongation factor 2,10,,actin filament binding,,,ISO,RGD:61979 ,J:155856 
+MGI:1914043,Efcab1,EF-hand calcium binding domain 1,16,,beta-tubulin binding,,,ISO,Q8T893 ,J:73065 
+MGI:1919127,Efhc1,EF-hand domain (C-terminal) containing 1,1,,alpha-tubulin binding,,,IBA,PTN000250050 ,J:265628 
+MGI:1919127,Efhc1,EF-hand domain (C-terminal) containing 1,1,,alpha-tubulin binding,,,ISO,Q5JVL4 ,J:164563 
+MGI:95294,Egfr,epidermal growth factor receptor,11,,actin filament binding,,,ISO,P00533 ,J:164563 
+MGI:108117,Emd,emerin,X,,actin binding,,,IBA,PTN001032280 ,J:265628 
+MGI:108117,Emd,emerin,X,,actin binding,,,ISO,P50402 ,J:164563 
+MGI:108117,Emd,emerin,X,,beta-tubulin binding,,,IBA,PTN001032280 ,J:265628 
+MGI:108117,Emd,emerin,X,,beta-tubulin binding,,,ISO,P50402 ,J:164563 
+MGI:1915769,Eml1,echinoderm microtubule associated protein like 1,12,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:1915769,Eml1,echinoderm microtubule associated protein like 1,12,,microtubule binding,,,IDA,,J:211342 
+MGI:1915769,Eml1,echinoderm microtubule associated protein like 1,12,,microtubule binding,,,ISO,O00423 ,J:164563 
+MGI:1915769,Eml1,echinoderm microtubule associated protein like 1,12,,tubulin binding,,,ISO,O00423 ,J:164563 
+MGI:1919455,Eml2,echinoderm microtubule associated protein like 2,7,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:1919455,Eml2,echinoderm microtubule associated protein like 2,7,,microtubule binding,,,ISO,O95834 ,J:164563 
+MGI:1919455,Eml2,echinoderm microtubule associated protein like 2,7,,tubulin binding,,,ISO,O95834 ,J:164563 
+MGI:2387612,Eml3,echinoderm microtubule associated protein like 3,19,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:1926048,Eml4,echinoderm microtubule associated protein like 4,17,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:2442513,Eml5,echinoderm microtubule associated protein like 5,12,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:2442895,Eml6,echinoderm microtubule associated protein like 6,11,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:108360,Enah,ENAH actin regulator,1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:109610,Enc1,ectodermal-neural cortex 1,13,,actin binding,,,IEA,IPR030562 ,J:72247 
+MGI:109610,Enc1,ectodermal-neural cortex 1,13,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:95401,Epb41,erythrocyte membrane protein band 4.1,4,,actin binding,,,ISO,RGD:1564762 ,J:155856 
+MGI:95401,Epb41,erythrocyte membrane protein band 4.1,4,,actin binding,,,ISS,,J:69890 
+MGI:95401,Epb41,erythrocyte membrane protein band 4.1,4,,cytoskeletal protein binding,,,IEA,IPR000798 IPR007477 ,J:72247 
+MGI:95401,Epb41,erythrocyte membrane protein band 4.1,4,,spectrin binding,,,ISO,D3ZIP3 ,J:199579 
+MGI:95401,Epb41,erythrocyte membrane protein band 4.1,4,,spectrin binding,,,ISS,,J:69890 
+MGI:103010,Epb41l1,erythrocyte membrane protein band 4.1 like 1,2,,actin binding,,,IEA,IPR008379 ,J:72247 
+MGI:103010,Epb41l1,erythrocyte membrane protein band 4.1 like 1,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:103010,Epb41l1,erythrocyte membrane protein band 4.1 like 1,2,,cytoskeletal protein binding,,,IEA,IPR000798 IPR007477 ,J:72247 
+MGI:103009,Epb41l2,erythrocyte membrane protein band 4.1 like 2,10,,actin binding,,,ISS,,J:69890 
+MGI:103009,Epb41l2,erythrocyte membrane protein band 4.1 like 2,10,,cytoskeletal protein binding,,,IEA,IPR000798 IPR007477 ,J:72247 
+MGI:103009,Epb41l2,erythrocyte membrane protein band 4.1 like 2,10,,spectrin binding,uses Sptbn5,,IDA,,J:142574 
+MGI:103009,Epb41l2,erythrocyte membrane protein band 4.1 like 2,10,,spectrin binding,,,ISS,,J:69890 
+MGI:103008,Epb41l3,erythrocyte membrane protein band 4.1 like 3,17,,actin binding,,,IEA,IPR008379 ,J:72247 
+MGI:103008,Epb41l3,erythrocyte membrane protein band 4.1 like 3,17,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:103008,Epb41l3,erythrocyte membrane protein band 4.1 like 3,17,,cytoskeletal protein binding,,,IEA,IPR000798 IPR007477 ,J:72247 
+MGI:103007,Epb41l4a,erythrocyte membrane protein band 4.1 like 4a,18,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:1859149,Epb41l4b,erythrocyte membrane protein band 4.1 like 4b,4,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:103006,Epb41l5,erythrocyte membrane protein band 4.1 like 5,1,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:104684,Eps8,epidermal growth factor receptor pathway substrate 8,6,,actin binding,,,IBA,PTN000958212 ,J:265628 
+MGI:104684,Eps8,epidermal growth factor receptor pathway substrate 8,6,,actin binding,,,IDA,,J:161597 J:196111 J:196125 
+MGI:1914675,Eps8l1,EPS8-like 1,7,,actin binding,,,IBA,PTN000958212 ,J:265628 
+MGI:1914675,Eps8l1,EPS8-like 1,7,,actin binding,,,ISO,Q8TE68 ,J:164563 
+MGI:1914675,Eps8l1,EPS8-like 1,7,,actin filament binding,,,ISA,AY074931 ,J:90061 
+MGI:2138828,Eps8l2,EPS8-like 2,7,,actin binding,,,IBA,PTN000958212 ,J:265628 
+MGI:2138828,Eps8l2,EPS8-like 2,7,,actin binding,,,ISO,Q9H6S3 ,J:164563 
+MGI:2138828,Eps8l2,EPS8-like 2,7,,actin filament binding,,,ISO,AY074929 ,J:90061 
+MGI:2139743,Eps8l3,EPS8-like 3,3,,actin binding,,,IBA,PTN000958212 ,J:265628 
+MGI:1925017,Ermn,"ermin, ERM-like protein",2,,actin binding,,,IEA,IPR008954 ,J:72247 
+MGI:1925017,Ermn,"ermin, ERM-like protein",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1925017,Ermn,"ermin, ERM-like protein",2,,actin filament binding,,,IDA,,J:104529 
+MGI:1861630,Espn,espin,4,,actin binding,,,IEA,IPR003124 IPR030233 ,J:72247 
+MGI:1861630,Espn,espin,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1861630,Espn,espin,4,,actin filament binding,,,IBA,PTN001192625 ,J:265628 
+MGI:1861630,Espn,espin,4,,actin filament binding,,,ISO,RGD:620652 ,J:155856 
+MGI:2685402,Espnl,espin-like,1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2685402,Espnl,espin-like,1,,actin filament binding,,,IBA,PTN001192625 ,J:265628 
+MGI:2685402,Espnl,espin-like,1,,actin filament binding,,,IDA,,J:236347 
+MGI:1194884,Evl,Ena-vasodilator stimulated phosphoprotein,12,,actin binding,,,IEA,IPR017354 ,J:72247 
+MGI:1194884,Evl,Ena-vasodilator stimulated phosphoprotein,12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98931,Ezr,ezrin,17,,actin binding,,,ISO,P15311 ,J:164563 
+MGI:98931,Ezr,ezrin,17,,actin filament binding,,,ISO,P15311 ,J:164563 
+MGI:98931,Ezr,ezrin,17,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:98931,Ezr,ezrin,17,,microtubule binding,,,ISO,P15311 ,J:164563 
+MGI:95476,Fabp3,"fatty acid binding protein 3, muscle and heart",4,,cytoskeletal protein binding,,,ISO,P05413 ,J:164563 
+MGI:1919128,Fam83d,"family with sequence similarity 83, member D",2,,kinesin binding,,,ISO,Q9H4H8 ,J:164563 
+MGI:1919128,Fam83d,"family with sequence similarity 83, member D",2,,microtubule binding,,,ISO,Q9H4H8 ,J:164563 
+MGI:3041256,Fam107a,"family with sequence similarity 107, member A",14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1918813,Fam110c,"family with sequence similarity 110, member C",12,,alpha-tubulin binding,,,IBA,PTN001028025 ,J:265628 
+MGI:1918813,Fam110c,"family with sequence similarity 110, member C",12,,alpha-tubulin binding,,,ISO,Q1W6H9 ,J:164563 
+MGI:1921123,Fam161a,"family with sequence similarity 161, member A",11,,microtubule binding,,,ISO,Q3B820 ,J:164563 
+MGI:2446173,Farp1,"FERM, RhoGEF (Arhgef) and pleckstrin domain protein 1 (chondrocyte-derived)",14,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:2385126,Farp2,"FERM, RhoGEF and pleckstrin domain protein 2",1,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:1921452,Fblim1,filamin binding LIM protein 1,4,,filamin binding,,,IBA,PTN002794471 ,J:265628 
+MGI:1921452,Fblim1,filamin binding LIM protein 1,4,,filamin binding,,,ISO,Q8WUP2 ,J:164563 
+MGI:1914072,Fbxo25,F-box protein 25,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1921265,Fcho1,FCH domain only 1,8,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:3505790,Fcho2,FCH domain only 2,13,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:105917,Fer,fer (fms/fps related) protein kinase,17,,actin binding,,,ISO,RGD:1306273 ,J:155856 
+MGI:105917,Fer,fer (fms/fps related) protein kinase,17,,cytoskeletal protein binding,,,ISO,RGD:1306273 ,J:155856 
+MGI:2443583,Fermt1,fermitin family member 1,2,,actin filament binding,happens in fibroblast|happens in keratinocyte,,IDA,,J:114381 
+MGI:2385001,Fermt2,fermitin family member 2,14,,actin filament binding,happens in fibroblast|happens in keratinocyte,,IDA,,J:114381 
+MGI:95514,Fes,feline sarcoma oncogene,7,,microtubule binding,,,IDA,,J:86779 
+MGI:2670976,Fez1,fasciculation and elongation protein zeta 1 (zygin I),9,,gamma-tubulin binding,,,IDA,,J:96395 
+MGI:2183747,Fgd4,"FYVE, RhoGEF and PH domain containing 4",16,,actin binding,,,ISO,O88387 ,J:78214 
+MGI:2183747,Fgd4,"FYVE, RhoGEF and PH domain containing 4",16,,actin filament binding,,,ISO,RGD:708357 ,J:155856 
+MGI:109178,Fgf13,fibroblast growth factor 13,X,,beta-tubulin binding,,,IDA,,J:186253 
+MGI:109178,Fgf13,fibroblast growth factor 13,X,,microtubule binding,,,IDA,,J:186253 
+MGI:2684972,Fhdc1,FH2 domain containing 1,3,,actin binding,,,IDA,,J:265596 
+MGI:2684972,Fhdc1,FH2 domain containing 1,3,,microtubule binding,,,IDA,,J:265596 
+MGI:1341092,Fhl3,four and a half LIM domains 3,4,,actin binding,,,IBA,PTN000654059 ,J:265628 
+MGI:1341092,Fhl3,four and a half LIM domains 3,4,,actin binding,,,IDA,,J:84103 
+MGI:2679008,Fhod1,formin homology 2 domain containing 1,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1925847,Fhod3,formin homology 2 domain containing 3,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:95543,Fkbp4,FK506 binding protein 4,6,,tau protein binding,,,ISO,RGD:628729 ,J:155856 
+MGI:2444782,Fkbp15,FK506 binding protein 15,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1342286,Flii,flightless I actin binding protein,11,,actin binding,,,ISO,Q13045 ,J:164563 
+MGI:1342286,Flii,flightless I actin binding protein,11,,actin filament binding,,,IEA,IPR007122 ,J:72247 
+MGI:95556,Flna,"filamin, alpha",X,,actin binding,,,TAS,,J:51716 
+MGI:95556,Flna,"filamin, alpha",X,,actin filament binding,,,ISO,P21333 ,J:164563 
+MGI:2446089,Flnb,"filamin, beta",14,,actin binding,,,IEA,IPR029874 ,J:72247 
+MGI:2446089,Flnb,"filamin, beta",14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:95557,Flnc,"filamin C, gamma",6,,actin binding,,,TAS,,J:18473 
+MGI:95557,Flnc,"filamin C, gamma",6,,ankyrin binding,,,ISO,Q14315 ,J:164563 
+MGI:95557,Flnc,"filamin C, gamma",6,,ankyrin binding,,,ISO,RGD:1308807 ,J:155856 
+MGI:95557,Flnc,"filamin C, gamma",6,,cytoskeletal protein binding,,,ISO,Q14315 ,J:164563 
+MGI:101815,Fmn1,formin 1,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:101815,Fmn1,formin 1,2,,microtubule binding,,,IBA,PTN001771547 ,J:265628 
+MGI:101815,Fmn1,formin 1,2,,microtubule binding,,PR:Q05860-2,IDA,,J:107893 
+MGI:1859252,Fmn2,formin 2,1,,actin binding,,,ISO,Q9NZ56 ,J:164563 
+MGI:1859252,Fmn2,formin 2,1,,microtubule binding,,,IEA,IPR001265 ,J:72247 
+MGI:1888994,Fmnl1,formin-like 1,11,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:1888994,Fmnl1,formin-like 1,11,,actin filament binding,,,IBA,PTN002509302 ,J:265628 
+MGI:1888994,Fmnl1,formin-like 1,11,,actin filament binding,,,IDA,,J:184956 
+MGI:1918659,Fmnl2,formin-like 2,2,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:1918659,Fmnl2,formin-like 2,2,,actin filament binding,,,IBA,PTN002509302 ,J:265628 
+MGI:109569,Fmnl3,formin-like 3,15,,actin binding,,,IEA,IPR010472 IPR010473 ,J:72247 
+MGI:109569,Fmnl3,formin-like 3,15,,actin filament binding,,,IBA,PTN002509302 ,J:265628 
+MGI:95564,Fmr1,fragile X mental retardation 1,X,,microtubule binding,,,IDA,,J:132042 J:137197 
+MGI:104683,Fnta,"farnesyltransferase, CAAX box, alpha",8,,alpha-tubulin binding,,,ISO,P49354 ,J:164563 
+MGI:104683,Fnta,"farnesyltransferase, CAAX box, alpha",8,,microtubule binding,,,ISO,P49354 ,J:164563 
+MGI:893597,Frg1,FSHD region gene 1,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:893597,Frg1,FSHD region gene 1,8,,actin filament binding,,,IBA,PTN000309119 ,J:265628 
+MGI:2442466,Frmd3,FERM domain containing 3,4,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:2442557,Frmd5,FERM domain containing 5,2,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:1352745,Fscn1,fascin actin-bundling protein 1,5,,actin binding,,,ISO,Q16658 ,J:164563 
+MGI:1352745,Fscn1,fascin actin-bundling protein 1,5,,actin binding,,,ISO,RGD:1583309 ,J:155856 
+MGI:1352745,Fscn1,fascin actin-bundling protein 1,5,,actin filament binding,,,IBA,PTN000058080 ,J:265628 
+MGI:1352745,Fscn1,fascin actin-bundling protein 1,5,,actin filament binding,,,IMP,,J:128283 
+MGI:1352745,Fscn1,fascin actin-bundling protein 1,5,,actin filament binding,,,ISO,Q16658 ,J:128283 J:164563 
+MGI:2443337,Fscn2,fascin actin-bundling protein 2,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2443337,Fscn2,fascin actin-bundling protein 2,11,,actin filament binding,,,IBA,PTN000058080 ,J:265628 
+MGI:1890386,Fscn3,fascin actin-bundling protein 3,6,,actin binding,,,ISA,Q61553 ,J:75979 
+MGI:1890386,Fscn3,fascin actin-bundling protein 3,6,,actin filament binding,,,IBA,PTN000058080 ,J:265628 
+MGI:1934858,Fsd1,fibronectin type 3 and SPRY domain-containing protein,17,,microtubule binding,,,ISO,Q9BTV5 ,J:164563 
+MGI:1339962,Ftcd,formiminotransferase cyclodeaminase,10,,microtubule binding,,,ISO,RGD:70915 ,J:155856 
+MGI:1339962,Ftcd,formiminotransferase cyclodeaminase,10,,microtubule binding,,,ISO,O95954 ,J:164563 
+MGI:1353633,Fus,fused in sarcoma,7,,myosin V binding,,,ISO,RGD:1308864 ,J:155856 
+MGI:1889273,Fxyd1,FXYD domain-containing ion transport regulator 1,7,,myosin binding,,,ISO,RGD:69306 ,J:155856 
+MGI:1201785,Fxyd5,FXYD domain-containing ion transport regulator 5,7,,actin binding,,,ISO,Q96DB9 ,J:164563 
+MGI:95602,Fyn,Fyn proto-oncogene,10,,alpha-tubulin binding,"happens in oligodendrocyte,happens near membrane raft",,IDA,,J:74532 
+MGI:95602,Fyn,Fyn proto-oncogene,10,,tau protein binding,"happens in oligodendrocyte,happens near membrane raft,positively regulates glial cell projection elongation",,IPI,P10637 ,J:74532 
+MGI:95602,Fyn,Fyn proto-oncogene,10,,tubulin binding,,,IDA,,J:74532 
+MGI:1861742,Gabarap,gamma-aminobutyric acid receptor associated protein,11,,beta-tubulin binding,,,ISO,O95166 ,J:164563 
+MGI:1861742,Gabarap,gamma-aminobutyric acid receptor associated protein,11,,microtubule binding,,,IBA,PTN000861056 ,J:265628 
+MGI:1861742,Gabarap,gamma-aminobutyric acid receptor associated protein,11,,microtubule binding,,,IDA,,J:63439 
+MGI:1914980,Gabarapl1,gamma-aminobutyric acid (GABA) A receptor-associated protein-like 1,6,,cytoskeletal protein binding,,,ISA,AF161586 ,J:70090 
+MGI:1914980,Gabarapl1,gamma-aminobutyric acid (GABA) A receptor-associated protein-like 1,6,,microtubule binding,,,IBA,PTN000861056 ,J:265628 
+MGI:1890602,Gabarapl2,gamma-aminobutyric acid (GABA) A receptor-associated protein-like 2,8,,microtubule binding,,,IBA,PTN000861056 ,J:265628 
+MGI:95640,Gapdh,glyceraldehyde-3-phosphate dehydrogenase,6,,microtubule binding,,,ISO,RGD:2661 ,J:155856 
+MGI:95657,Gas2,growth arrest specific 2,7,,microtubule binding,,,IEA,IPR003108 IPR036534 ,J:72247 
+MGI:1926176,Gas2l1,growth arrest-specific 2 like 1,11,,cytoskeletal adaptor activity,,,ISO,Q99501 ,J:164563 
+MGI:1926176,Gas2l1,growth arrest-specific 2 like 1,11,,cytoskeletal adaptor activity,,,ISS,Q99501-1 ,J:92365 
+MGI:1926176,Gas2l1,growth arrest-specific 2 like 1,11,,microtubule binding,,,ISO,Q99501 ,J:164563 
+MGI:1926176,Gas2l1,growth arrest-specific 2 like 1,11,,microtubule binding,,,ISS,Q99501-1 ,J:92365 
+MGI:3652048,Gas2l2,growth arrest-specific 2 like 2,11,,actin filament binding,,,ISO,Q8NHY3 ,J:164563 
+MGI:3652048,Gas2l2,growth arrest-specific 2 like 2,11,,cytoskeletal adaptor activity,,,ISO,Q8NHY3 ,J:164563 
+MGI:3652048,Gas2l2,growth arrest-specific 2 like 2,11,,microtubule binding,,,ISO,Q8NHY3 ,J:164563 
+MGI:1918780,Gas2l3,growth arrest-specific 2 like 3,10,,actin binding,,,ISO,Q86XJ1 ,J:164563 
+MGI:1918780,Gas2l3,growth arrest-specific 2 like 3,10,,microtubule binding,,,ISO,Q86XJ1 ,J:164563 
+MGI:1202388,Gas7,growth arrest specific 7,11,,actin filament binding,,,IDA,,J:74778 
+MGI:1202388,Gas7,growth arrest specific 7,11,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1202386,Gas8,growth arrest specific 8,8,,microtubule binding,,,IDA,,J:233581 
+MGI:95669,Gc,vitamin D binding protein,5,,actin binding,,,ISO,P02774 ,J:164563 
+MGI:102969,Gcsam,"germinal center associated, signaling and motility",16,,actin binding,,,ISO,Q8N6F7 ,J:164563 
+MGI:102969,Gcsam,"germinal center associated, signaling and motility",16,,myosin II binding,,,ISO,Q8N6F7 ,J:164563 
+MGI:1926252,Gipc1,"GIPC PDZ domain containing family, member 1",8,,actin binding,,,IPI,P68134 ,J:103917 
+MGI:1926252,Gipc1,"GIPC PDZ domain containing family, member 1",8,,myosin binding,,,IPI,Q14784 ,J:112916 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,alpha-tubulin binding,,,ISO,P17302 ,J:164563 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,beta-tubulin binding,happens in brain,,IDA,,J:90107 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,tubulin binding,,,ISO,P17302 ,J:164563 
+MGI:107588,Gjb6,"gap junction protein, beta 6",14,,actin filament binding,,,ISO,O95452 ,J:164563 
+MGI:107588,Gjb6,"gap junction protein, beta 6",14,,beta-tubulin binding,,,ISO,O95452 ,J:164563 
+MGI:107588,Gjb6,"gap junction protein, beta 6",14,,microtubule binding,,,ISO,O95452 ,J:164563 
+MGI:95727,Gli1,GLI-Kruppel family member GLI1,10,,microtubule binding,,,IDA,,J:72866 
+MGI:3646257,Gm4869,predicted gene 4869,5,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1927133,Gmfb,"glia maturation factor, beta",14,,actin binding,,,IEA,IPR002108 ,J:72247 
+MGI:1927135,Gmfg,"glia maturation factor, gamma",7,,actin binding,,,IEA,IPR002108 ,J:72247 
+MGI:95777,Gnas,"GNAS (guanine nucleotide binding protein, alpha stimulating) complex locus",2,,alpha-tubulin binding,,,ISO,RGD:2716 ,J:155856 
+MGI:95781,Gnb1,"guanine nucleotide binding protein (G protein), beta 1",4,,spectrin binding,,,ISO,P54311 ,J:199579 
+MGI:95785,Gnb3,"guanine nucleotide binding protein (G protein), beta 3",6,,spectrin binding,,,ISO,P52287 ,J:199579 
+MGI:2139395,Golga2,"golgi autoantigen, golgin subfamily a, 2",2,,microtubule binding,,,ISO,Q08379 ,J:164563 
+MGI:109602,Gphn,gephyrin,12,,cytoskeletal protein binding,,,TAS,,J:58210 
+MGI:95808,Gria1,"glutamate receptor, ionotropic, AMPA1 (alpha 1)",11,,myosin V binding,,,ISO,RGD:621531 ,J:155856 
+MGI:95809,Gria2,"glutamate receptor, ionotropic, AMPA2 (alpha 2)",3,,cytoskeletal protein binding,,,ISO,RGD:61862 ,J:155856 
+MGI:1861437,Gsk3b,glycogen synthase kinase 3 beta,16,,dynactin binding,,,ISO,P49841 ,J:164563 
+MGI:1861437,Gsk3b,glycogen synthase kinase 3 beta,16,,tau protein binding,,,ISO,RGD:70982 ,J:155856 
+MGI:95851,Gsn,gelsolin,2,,actin binding,,,ISO,RGD:1303089 ,J:155856 
+MGI:95851,Gsn,gelsolin,2,,actin binding,,,ISO,P06396 ,J:164563 
+MGI:95851,Gsn,gelsolin,2,,actin filament binding,,,IEA,IPR007122 ,J:72247 
+MGI:95851,Gsn,gelsolin,2,,myosin II binding,,,ISO,P06396 ,J:164563 
+MGI:1261831,Hap1,huntingtin-associated protein 1,11,,myosin binding,,,IBA,PTN001039683 ,J:265628 
+MGI:1261794,Haus4,"HAUS augmin-like complex, subunit 4",14,,microtubule minus-end binding,,,IBA,PTN001045138 ,J:265628 
+MGI:1920988,Haus7,"HAUS augmin-like complex, subunit 7",X,,microtubule minus-end binding,,,IBA,PTN001425435 ,J:265628 
+MGI:1923728,Haus8,"4HAUS augmin-like complex, subunit 8",8,,microtubule binding,,,IBA,PTN001274055 ,J:265628 
+MGI:104568,Hcls1,hematopoietic cell specific Lyn substrate 1,16,,actin binding,,,IEA,IPR028534 ,J:72247 
+MGI:104568,Hcls1,hematopoietic cell specific Lyn substrate 1,16,,actin filament binding,,,IBA,PTN000850943 ,J:265628 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,alpha-tubulin binding,,,IDA,,J:182257 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,alpha-tubulin binding,,,ISO,Q9UBN7 ,J:164563 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,beta-tubulin binding,,,IDA,,J:82250 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,microtubule binding,,,IDA,,J:163064 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,microtubule binding,,,ISO,Q9UBN7 ,J:164563 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,tau protein binding,happens in brain,,IPI,P10637 ,J:257316 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,tau protein binding,,,ISO,Q9UBN7 ,J:164563 
+MGI:1194494,Hdgf,heparin binding growth factor,3,,actin binding,,,ISO,P51858 ,J:164563 
+MGI:1194494,Hdgf,heparin binding growth factor,3,,tubulin binding,,,ISO,P51858 ,J:164563 
+MGI:1352760,Hdgfl3,HDGF like 3,7,,microtubule binding,,,IDA,,J:149774 
+MGI:1352760,Hdgfl3,HDGF like 3,7,,tubulin binding,,,IDA,,J:149774 
+MGI:1099804,Hip1,huntingtin interacting protein 1,5,,actin binding,,,IEA,IPR002558 IPR035964 ,J:72247 
+MGI:1099804,Hip1,huntingtin interacting protein 1,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1099804,Hip1,huntingtin interacting protein 1,5,,actin filament binding,,,IBA,PTN000045135 ,J:265628 
+MGI:1099804,Hip1,huntingtin interacting protein 1,5,,actin filament binding,,,ISO,O00291 ,J:164563 
+MGI:1352504,Hip1r,huntingtin interacting protein 1 related,5,,actin binding,,,IDA,,J:59125 
+MGI:1352504,Hip1r,huntingtin interacting protein 1 related,5,,actin filament binding,,,IBA,PTN000045135 ,J:265628 
+MGI:1352504,Hip1r,huntingtin interacting protein 1 related,5,,actin filament binding,,,IDA,,J:236215 J:236220 
+MGI:1352504,Hip1r,huntingtin interacting protein 1 related,5,,actin filament binding,,,ISO,O75146 ,J:164563 
+MGI:99894,Hnrnpk,heterogeneous nuclear ribonucleoprotein K,13,,actinin binding,,,ISO,RGD:71058 ,J:155856 
+MGI:1858195,Hnrnpu,heterogeneous nuclear ribonucleoprotein U,1,,actin binding,,,ISO,Q00839 ,J:164563 
+MGI:1347354,Homer2,homer scaffolding protein 2,7,,actin binding,,,IDA,,J:57662 
+MGI:1925213,Hook1,hook microtubule tethering protein 1,4,,actin binding,,,IDA,,J:90042 
+MGI:1925213,Hook1,hook microtubule tethering protein 1,4,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:1925213,Hook1,hook microtubule tethering protein 1,4,,microtubule binding,,,IDA,,J:90042 
+MGI:1925213,Hook1,hook microtubule tethering protein 1,4,,microtubule binding,,,ISO,AF044923 ,J:77010 
+MGI:2181664,Hook2,hook microtubule tethering protein 2,8,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:2443554,Hook3,hook microtubule tethering protein 3,8,,dynactin binding,,,ISO,Q86VS8 ,J:164563 
+MGI:2443554,Hook3,hook microtubule tethering protein 3,8,,microtubule binding,,,IBA,PTN000436622 ,J:265628 
+MGI:2443554,Hook3,hook microtubule tethering protein 3,8,,microtubule binding,,,ISO,Q86VS8 ,J:164563 
+MGI:1336200,Hpca,hippocalcin,4,,actin binding,,,ISO,P84074 ,J:164563 
+MGI:96250,Hsp90aa1,"heat shock protein 90, alpha (cytosolic), class A member 1",12,,tau protein binding,,,ISO,RGD:631409 ,J:155856 
+MGI:96250,Hsp90aa1,"heat shock protein 90, alpha (cytosolic), class A member 1",12,,tau protein binding,,,ISO,P07900 ,J:164563 
+MGI:96247,Hsp90ab1,"heat shock protein 90 alpha (cytosolic), class B member 1",17,,tau protein binding,happens in brain,,IPI,P10636 ,J:259130 
+MGI:96243,Hspa2,heat shock protein 2,12,,tau protein binding,,,ISO,RGD:620664 ,J:155856 
+MGI:1352494,Hspb7,"heat shock protein family, member 7 (cardiovascular)",4,,filamin binding,,,IDA,,J:58927 
+MGI:105053,Hsph1,heat shock 105kDa/110kDa protein 1,5,,alpha-tubulin binding,,,IDA,,J:172890 
+MGI:96067,Htt,huntingtin,5,,beta-tubulin binding,,,ISO,P42858 ,J:164563 
+MGI:96067,Htt,huntingtin,5,,dynactin binding,,,ISO,P42858 ,J:164563 
+MGI:1914944,Ift74,intraflagellar transport 74,4,,beta-tubulin binding,,,IBA,PTN000777865 ,J:265628 
+MGI:1914944,Ift74,intraflagellar transport 74,4,,beta-tubulin binding,,,ISO,Q96LB3 ,J:164563 
+MGI:1098597,Ift81,intraflagellar transport 81,5,,tubulin binding,,,IBA,PTN000785381 ,J:265628 
+MGI:1098597,Ift81,intraflagellar transport 81,5,,tubulin binding,,,ISO,Q8WYA0 ,J:164563 
+MGI:98715,Ift88,intraflagellar transport 88,14,,kinesin binding,,,IBA,PTN000555524 ,J:265628 
+MGI:98715,Ift88,intraflagellar transport 88,14,,kinesin binding,happens in retina,,IPI,Q99PW8 ,J:151268 
+MGI:1098233,Impact,"impact, RWD domain protein",18,,actin binding,,,IDA,,J:227376 
+MGI:1917685,Inf2,"inverted formin, FH2 and WH2 domain containing",12,,actin binding,,,IEA,IPR003124 IPR010472 IPR010473 ,J:72247 
+MGI:1917685,Inf2,"inverted formin, FH2 and WH2 domain containing",12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1915392,Ino80,INO80 complex subunit,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1915392,Ino80,INO80 complex subunit,2,,alpha-tubulin binding,,,ISO,Q9ULG1 ,J:164563 
+MGI:1333787,Inppl1,inositol polyphosphate phosphatase-like 1,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:96581,Ipp,IAP promoted placental gene,4,,actin binding,,,IEA,IPR030104 ,J:72247 
+MGI:96581,Ipp,IAP promoted placental gene,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2449975,Iqgap2,IQ motif containing GTPase activating protein 2,13,,actin filament binding,,,ISO,Q13576 ,J:164563 
+MGI:3028642,Iqgap3,IQ motif containing GTPase activating protein 3,3,,myosin VI light chain binding,,,ISO,Q86VI3 ,J:164563 
+MGI:5439400,Iqschfp,Iqcj and Schip1 fusion protein,3,,ankyrin binding,,,IDA,,J:252005 
+MGI:96610,Itgb1,integrin beta 1 (fibronectin receptor beta),8,,actin binding,,,ISO,RGD:2927 ,J:155856 
+MGI:96610,Itgb1,integrin beta 1 (fibronectin receptor beta),8,,actin binding,,,ISO,P05556 ,J:164563 
+MGI:96610,Itgb1,integrin beta 1 (fibronectin receptor beta),8,,alpha-actinin binding,,,ISO,RGD:2927 ,J:155856 
+MGI:1917849,Itprid2,ITPR interacting domain containing 2,2,,actin binding,,,IEA,IPR026648 ,J:72247 
+MGI:1917849,Itprid2,ITPR interacting domain containing 2,2,,actin filament binding,,,ISO,P28290 ,J:164563 
+MGI:1923321,Jakmip1,janus kinase and microtubule interacting protein 1,5,,kinesin binding,,,IPI,O88447 ,J:123202 
+MGI:1923321,Jakmip1,janus kinase and microtubule interacting protein 1,5,,microtubule binding,,,IEA,IPR024836 ,J:72247 
+MGI:1921254,Jakmip3,janus kinase and microtubule interacting protein 3,7,,microtubule binding,,,IEA,IPR024836 ,J:72247 
+MGI:1913096,Jmy,junction-mediating and regulatory protein,13,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1913096,Jmy,junction-mediating and regulatory protein,13,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1344353,Katna1,katanin p60 (ATPase-containing) subunit A1,10,,microtubule binding,,,ISO,O75449 ,J:164563 
+MGI:2387638,Katnal1,katanin p60 subunit A-like 1,5,,microtubule binding,,,IEA,IPR028596 ,J:72247 
+MGI:1921437,Katnb1,katanin p80 (WD40-containing) subunit B 1,8,,microtubule binding,,,IEA,IPR026962 ,J:72247 
+MGI:96659,Kcna2,"potassium voltage-gated channel, shaker-related subfamily, member 2",3,,kinesin binding,,,ISO,RGD:2950 ,J:155856 
+MGI:96662,Kcna5,"potassium voltage-gated channel, shaker-related subfamily, member 5",6,,alpha-actinin binding,,,ISO,P22460 ,J:164563 
+MGI:96667,Kcnc1,"potassium voltage gated channel, Shaw-related subfamily, member 1",7,,kinesin binding,,,IDA,,J:166975 
+MGI:107501,Kcnj11,"potassium inwardly rectifying channel, subfamily J, member 11",7,,ankyrin binding,,,IPI,Q8C8R3 ,J:166301 
+MGI:107501,Kcnj11,"potassium inwardly rectifying channel, subfamily J, member 11",7,,ankyrin binding,,,ISO,RGD:69247 ,J:155856 
+MGI:107501,Kcnj11,"potassium inwardly rectifying channel, subfamily J, member 11",7,,ankyrin binding,,,ISO,Q14654 ,J:164563 
+MGI:99923,Kcnma1,"potassium large conductance calcium-activated channel, subfamily M, alpha member 1",14,,actin binding,,,ISO,Q12791 ,J:164563 
+MGI:1309503,Kcnq2,"potassium voltage-gated channel, subfamily Q, member 2",2,,ankyrin binding,,,ISO,O43526 ,J:164563 
+MGI:1918643,Kctd6,potassium channel tetramerisation domain containing 6,14,,ankyrin binding,,,ISO,Q8NC69 ,J:73065 
+MGI:108391,Kif1a,kinesin family member 1A,1,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:108391,Kif1a,kinesin family member 1A,1,,microtubule binding,,,IDA,,J:125904 
+MGI:108391,Kif1a,kinesin family member 1A,1,,microtubule binding,,,ISO,RGD:1304996 ,J:155856 
+MGI:108426,Kif1b,kinesin family member 1B,4,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:108426,Kif1b,kinesin family member 1B,4,,microtubule binding,,,TAS,,J:115379 
+MGI:1098260,Kif1c,kinesin family member 1C,11,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:108390,Kif2a,kinesin family member 2A,13,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:108390,Kif2a,kinesin family member 2A,13,,microtubule binding,,,ISO,O00139 ,J:164563 
+MGI:1920720,Kif2b,kinesin family member 2B,11,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1921054,Kif2c,kinesin family member 2C,4,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1921054,Kif2c,kinesin family member 2C,4,,microtubule plus-end binding,,,ISO,Q99661 ,J:164563 
+MGI:107689,Kif3a,kinesin family member 3A,11,,kinesin binding,,,ISO,RGD:621536 ,J:155856 
+MGI:107689,Kif3a,kinesin family member 3A,11,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:107689,Kif3a,kinesin family member 3A,11,,microtubule binding,,,IDA,,J:125904 
+MGI:107689,Kif3a,kinesin family member 3A,11,,spectrin binding,,,ISO,Q9Y496 ,J:199579 
+MGI:107688,Kif3b,kinesin family member 3B,2,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:107688,Kif3b,kinesin family member 3B,2,,microtubule binding,,,ISO,RGD:1306815 ,J:155856 
+MGI:107979,Kif3c,kinesin family member 3C,12,,kinesin binding,,,ISO,RGD:621538 ,J:155856 
+MGI:107979,Kif3c,kinesin family member 3C,12,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:107979,Kif3c,kinesin family member 3C,12,,microtubule binding,,,ISO,RGD:621538 ,J:155856 
+MGI:108389,Kif4,kinesin family member 4,X,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109564,Kif5a,kinesin family member 5A,10,,kinesin binding,,,IPI,P35922 ,J:137197 
+MGI:109564,Kif5a,kinesin family member 5A,10,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109564,Kif5a,kinesin family member 5A,10,,microtubule binding,,,IDA,,J:125904 
+MGI:1098268,Kif5b,kinesin family member 5B,18,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098268,Kif5b,kinesin family member 5B,18,,microtubule binding,,,ISO,RGD:621559 ,J:155856 
+MGI:1098268,Kif5b,kinesin family member 5B,18,,microtubule binding,,,ISO,P33176 ,J:164563 
+MGI:1098268,Kif5b,kinesin family member 5B,18,,microtubule lateral binding,,,ISO,RGD:621559 ,J:155856 
+MGI:1098269,Kif5c,kinesin family member 5C,2,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098269,Kif5c,kinesin family member 5C,2,,microtubule binding,,,ISO,RGD:1308539 ,J:155856 
+MGI:1098238,Kif6,kinesin family member 6,17,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098239,Kif7,kinesin family member 7,7,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098237,Kif9,kinesin family member 9,9,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098231,Kif11,kinesin family member 11,19,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098232,Kif12,kinesin family member 12,4,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098264,Kif13a,kinesin family member 13A,13,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098265,Kif13b,kinesin family member 13B,14,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098226,Kif14,kinesin family member 14,1,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098226,Kif14,kinesin family member 14,1,,microtubule binding,,,IDA,,J:215928 
+MGI:1098226,Kif14,kinesin family member 14,1,,tubulin binding,,,IDA,,J:215928 
+MGI:1098258,Kif15,kinesin family member 15,9,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098240,Kif16b,kinesin family member 16B,2,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1098229,Kif17,kinesin family member 17,4,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2446977,Kif18a,kinesin family member 18A,2,,actin binding,,,ISO,Q8NI77 ,J:164563 
+MGI:2446977,Kif18a,kinesin family member 18A,2,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2446977,Kif18a,kinesin family member 18A,2,,microtubule binding,,,ISO,Q8NI77 ,J:164563 
+MGI:2446977,Kif18a,kinesin family member 18A,2,,microtubule plus-end binding,,,ISO,Q8NI77 ,J:164563 
+MGI:2446979,Kif18b,kinesin family member 18B,11,,kinesin binding,,,ISO,Q86Y91 ,J:164563 
+MGI:2446979,Kif18b,kinesin family member 18B,11,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2447024,Kif19a,kinesin family member 19A,11,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1201682,Kif20a,kinesin family member 20A,18,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2444576,Kif20b,kinesin family member 20B,19,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2444576,Kif20b,kinesin family member 20B,19,,microtubule binding,,,ISO,Q96Q89 ,J:164563 
+MGI:109188,Kif21a,kinesin family member 21A,15,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109234,Kif21b,kinesin family member 21B,1,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109233,Kif22,kinesin family member 22,7,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1919069,Kif23,kinesin family member 23,9,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1919069,Kif23,kinesin family member 23,9,,microtubule binding,,,ISO,Q02241 ,J:164563 
+MGI:1918345,Kif24,kinesin family member 24,4,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2447072,Kif26a,kinesin family member 26A,12,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2447072,Kif26a,kinesin family member 26A,12,,microtubule binding,,,IDA,,J:154859 
+MGI:2447076,Kif26b,kinesin family member 26B,1,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1922300,Kif27,kinesin family member 27,13,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2686151,Kif28,kinesin family member 28,1,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:107566,Kifap3,kinesin-associated protein 3,1,,kinesin binding,,,ISO,Q92845 ,J:164563 
+MGI:1919570,Kifbp,kinesin family binding protein,10,,kinesin binding,,,ISO,Q96EK5 ,J:164563 
+MGI:109596,Kifc1,kinesin family member C1,17,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109187,Kifc2,kinesin family member C2,15,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:109202,Kifc3,kinesin family member C3,8,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:2137414,Kifc5b,kinesin family member C5B,17,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:1891396,Kirrel,kirre like nephrin family adhesion molecule 1,3,,myosin binding,,,ISO,Q96J84 ,J:164563 
+MGI:107978,Klc1,kinesin light chain 1,12,,tubulin binding,,,ISO,RGD:621411 ,J:155856 
+MGI:107953,Klc2,kinesin light chain 2,19,,kinesin binding,,,IPI,O70402 Q61768 ,J:48183 
+MGI:1277971,Klc3,kinesin light chain 3,7,,kinesin binding,,,IDA,,J:69015 
+MGI:1277971,Klc3,kinesin light chain 3,7,,microtubule binding,,,IDA,,J:69015 
+MGI:2136335,Klhl1,kelch-like 1,14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1924363,Klhl2,"kelch-like 2, Mayven",8,,actin binding,,,ISO,AF059569 ,J:47397 
+MGI:1924363,Klhl2,"kelch-like 2, Mayven",8,,actin binding,,,ISO,O95198 ,J:164563 
+MGI:2445185,Klhl3,kelch-like 3,13,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2678948,Klhl17,kelch-like 17,4,,actin filament binding,,,IBA,PTN000723251 ,J:265628 
+MGI:2678948,Klhl17,kelch-like 17,4,,actin filament binding,,,ISO,RGD:708444 ,J:155856 
+MGI:2444855,Klhl20,kelch-like 20,1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107532,Kpnb1,karyopherin (importin) beta 1,11,,kinesin binding,,,ISO,RGD:2909 ,J:155856 
+MGI:1890380,Kptn,kaptin,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1890380,Kptn,kaptin,7,,actin binding,,,IEA,IPR029982 ,J:72247 
+MGI:1890380,Kptn,kaptin,7,,actin filament binding,,,IBA,PTN000396361 ,J:265628 
+MGI:1890380,Kptn,kaptin,7,,actin filament binding,,,ISO,Q9Y664 ,J:164563 
+MGI:1930618,Krit1,"KRIT1, ankyrin repeat containing",5,,microtubule binding,,,ISO,O00522 ,J:164563 
+MGI:96699,Krt2,keratin 2,15,,cytoskeletal protein binding,,,IMP,MGI:4363845 ,J:214772 
+MGI:96685,Krt10,keratin 10,11,,cytoskeletal protein binding,"happens in keratinocyte,happens in pinna|happens in epidermis suprabasal layer,happens in keratinocyte",,IGI,MGI:96699 ,J:214772 
+MGI:109153,Ktn1,kinectin 1,14,,kinesin binding,,,TAS,,J:77650 
+MGI:1914807,Larp6,"La ribonucleoprotein domain family, member 6",9,,myosin binding,,,ISO,Q9BRS8 ,J:164563 
+MGI:109656,Lasp1,LIM and SH3 protein 1,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:109656,Lasp1,LIM and SH3 protein 1,11,,actin filament binding,,,IBA,PTN000867550 ,J:265628 
+MGI:109656,Lasp1,LIM and SH3 protein 1,11,,actin filament binding,,,IDA,,J:93130 
+MGI:104808,Lcp1,lymphocyte cytosolic protein 1,14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:104808,Lcp1,lymphocyte cytosolic protein 1,14,,actin filament binding,,,IBA,PTN000462453 ,J:265628 
+MGI:104808,Lcp1,lymphocyte cytosolic protein 1,14,,actin filament binding,,,IDA,,J:90132 
+MGI:104808,Lcp1,lymphocyte cytosolic protein 1,14,,actin filament binding,,,ISO,P13796 ,J:164563 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,cytoskeletal protein binding,,,ISO,O75112 ,J:164563 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,muscle alpha-actinin binding,,,IDA,,J:72799 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,muscle alpha-actinin binding,,PR:Q9JKS4-1,IPI,Q9JI91 ,J:56270 
+MGI:1344412,Ldb3,LIM domain binding 3,14,,muscle alpha-actinin binding,,PR:Q9JKS4-6,IPI,Q9JI91 ,J:56270 
+MGI:1920992,Lima1,LIM domain and actin binding 1,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1920992,Lima1,LIM domain and actin binding 1,15,,actin filament binding,,,IBA,PTN001197687 ,J:265628 
+MGI:1920992,Lima1,LIM domain and actin binding 1,15,,actin filament binding,,,IMP,,J:129042 
+MGI:1920992,Lima1,LIM domain and actin binding 1,15,,actin filament binding,,,ISO,Q9UHB6 ,J:164563 
+MGI:1920992,Lima1,LIM domain and actin binding 1,15,,actin monomer binding,,,ISO,Q9UHB6 ,J:164563 
+MGI:1924819,Limch1,LIM and calponin homology domains 1,5,,actin binding,,,IEA,IPR001997 ,J:72247 
+MGI:1924819,Limch1,LIM and calponin homology domains 1,5,,myosin II head/neck binding,,,IBA,PTN000399552 ,J:265628 
+MGI:1924819,Limch1,LIM and calponin homology domains 1,5,,myosin II head/neck binding,,,ISO,Q9UPQ0 ,J:164563 
+MGI:1330839,Lin7c,lin-7 homolog C (C. elegans),2,,cytoskeletal protein binding,,,ISO,Q9NUP9 ,J:164563 
+MGI:102682,Llgl1,LLGL1 scribble cell polarity complex component,11,,myosin II binding,,,IBA,PTN000028271 ,J:265628 
+MGI:1918843,Llgl2,LLGL2 scribble cell polarity complex component,11,,myosin II binding,,,IBA,PTN000028271 ,J:265628 
+MGI:1353586,Lmo7,LIM domain only 7,14,,actinin binding,,,ISO,RGD:1302984 ,J:155856 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:2135671,Lmod1,leiomodin 1 (smooth muscle),1,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,actin binding,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,actin monomer binding,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:2135672,Lmod2,leiomodin 2 (cardiac),6,,tropomyosin binding,,,ISO,Q6P5Q4 ,J:164563 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,actin monomer binding,,,ISO,Q0VAK6 ,J:164563 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,tropomyosin binding,,,ISO,Q0VAK6 ,J:164563 
+MGI:3036247,Lmtk2,lemur tyrosine kinase 2,5,,myosin VI binding,,,ISO,Q8IWU2 ,J:164563 
+MGI:1340044,Lrp8,"low density lipoprotein receptor-related protein 8, apolipoprotein e receptor",4,,kinesin binding,,,ISO,RGD:1305729 ,J:155856 
+MGI:1919666,Lrpprc,leucine-rich PPR-motif containing,17,,beta-tubulin binding,,,ISO,P42704 ,J:164563 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,actin binding,,,IBA,PTN002699655 ,J:265628 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,actin binding,,,IDA,,J:195548 
+MGI:2448063,Lrrc10,leucine rich repeat containing 10,10,,alpha-actinin binding,,,IDA,,J:195548 
+MGI:1913975,Lrrk2,leucine-rich repeat kinase 2,15,,actin binding,,,ISO,Q5S007 ,J:164563 
+MGI:1913975,Lrrk2,leucine-rich repeat kinase 2,15,,tubulin binding,,,ISO,Q5S007 ,J:164563 
+MGI:96832,Lsp1,lymphocyte specific 1,7,,actin binding,,,TAS,,J:64219 
+MGI:96892,Lyn,"LYN proto-oncogene, Src family tyrosine kinase",4,,gamma-tubulin binding,,,ISO,RGD:621017 ,J:155856 
+MGI:2684762,Lzts1,"leucine zipper, putative tumor suppressor 1",8,,microtubule binding,,,IEA,IPR033293 ,J:72247 
+MGI:108559,Macf1,microtubule-actin crosslinking factor 1,4,,actin binding,,,IDA,,J:86459 
+MGI:108559,Macf1,microtubule-actin crosslinking factor 1,4,,cytoskeletal protein binding,,,IEA,IPR029926 ,J:72247 
+MGI:108559,Macf1,microtubule-actin crosslinking factor 1,4,,microtubule binding,,,IDA,,J:86459 
+MGI:1913396,Maco1,macoilin 1,4,,actin filament binding,,,IBA,PTN000998963 ,J:265628 
+MGI:1913396,Maco1,macoilin 1,4,,microtubule binding,,,IBA,PTN000998963 ,J:265628 
+MGI:1891748,Maea,macrophage erythroblast attacher,5,,actin binding,,,IDA,,J:114865 
+MGI:1891748,Maea,macrophage erythroblast attacher,5,,actin binding,,,ISO,Q7L5Y9 ,J:164563 
+MGI:1203522,Magi1,"membrane associated guanylate kinase, WW and PDZ domain containing 1",6,,alpha-actinin binding,,,ISO,Q96QZ7 ,J:164563 
+MGI:1354953,Magi2,"membrane associated guanylate kinase, WW and PDZ domain containing 2",5,,kinesin binding,,,ISO,RGD:621855 ,J:155856 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,actin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,actin binding,happens in forebrain,,IDA,,J:227842 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,actin binding,,,ISO,RGD:3042 ,J:155856 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,cytoskeletal adaptor activity,"happens near microtubule,happens in brain,uses UniProtKB:Q91XM9|happens near microtubule,happens in brain,uses UniProtKB:Q62108",,IDA,,J:227842 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,microtubule binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,microtubule binding,,,IDA,,J:125904 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,microtubule binding,,,ISO,RGD:3042 ,J:155856 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,tubulin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1306776,Map1a,microtubule-associated protein 1 A,2,,tubulin binding,happens in forebrain,,IDA,,J:227842 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,actin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,actin binding,,,ISO,RGD:3043 ,J:155856 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,cytoskeletal regulatory protein binding,,,TAS,,J:71900 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,microtubule binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,microtubule binding,,,ISO,RGD:3043 ,J:155856 
+MGI:1306778,Map1b,microtubule-associated protein 1B,13,,tubulin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:1915661,Map1lc3a,microtubule-associated protein 1 light chain 3 alpha,2,,microtubule binding,,,IBA,PTN000861056 ,J:265628 
+MGI:1915661,Map1lc3a,microtubule-associated protein 1 light chain 3 alpha,2,,microtubule binding,,,ISO,NP_955794 ,J:73065 
+MGI:1914693,Map1lc3b,microtubule-associated protein 1 light chain 3 beta,8,,microtubule binding,,,IBA,PTN000861056 ,J:265628 
+MGI:1914693,Map1lc3b,microtubule-associated protein 1 light chain 3 beta,8,,microtubule binding,,,ISO,RGD:621315 ,J:155856 
+MGI:1914693,Map1lc3b,microtubule-associated protein 1 light chain 3 beta,8,,tubulin binding,,,ISO,RGD:621315 ,J:155856 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,actin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,actin filament binding,,,IDA,,J:103884 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,beta-tubulin binding,,,ISO,Q66K74 ,J:164563 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,beta-tubulin binding,,,ISS,Q66K74 ,J:96142 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,microtubule binding,,,IBA,PTN000353807 ,J:265628 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,microtubule binding,,,IDA,,J:103884 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,microtubule binding,,,ISO,Q66K74 ,J:164563 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,tubulin binding,,,IBA,PTN000353807 ,J:265628 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,tubulin binding,,,IDA,,J:103884 
+MGI:2443304,Map1s,microtubule-associated protein 1S,8,,tubulin binding,,,ISO,Q66K74 ,J:164563 
+MGI:97175,Map2,microtubule-associated protein 2,1,,actin binding,,,ISO,RGD:3044 ,J:155856 
+MGI:97175,Map2,microtubule-associated protein 2,1,,cytoskeletal regulatory protein binding,,,TAS,,J:71900 
+MGI:97175,Map2,microtubule-associated protein 2,1,,microtubule binding,,,IBA,PTN000161190 ,J:265628 
+MGI:97175,Map2,microtubule-associated protein 2,1,,microtubule binding,,,IDA,,J:125904 
+MGI:97175,Map2,microtubule-associated protein 2,1,,microtubule binding,,,ISO,RGD:3044 ,J:155856 
+MGI:97175,Map2,microtubule-associated protein 2,1,,tubulin binding,,,IEA,IPR001084 ,J:72247 
+MGI:1346872,Map3k1,mitogen-activated protein kinase kinase kinase 1,13,,cytoskeletal protein binding,,,IDA,,J:216505 
+MGI:97178,Map4,microtubule-associated protein 4,9,,microtubule binding,,,IBA,PTN000161190 ,J:265628 
+MGI:97178,Map4,microtubule-associated protein 4,9,,microtubule binding,,,IDA,,J:176970 
+MGI:97178,Map4,microtubule-associated protein 4,9,,tubulin binding,,,IEA,IPR001084 ,J:72247 
+MGI:1349394,Map4k4,mitogen-activated protein kinase kinase kinase kinase 4,1,,microtubule binding,,,ISO,O95819 ,J:164563 
+MGI:1201690,Map6,microtubule-associated protein 6,7,,microtubule binding,,,IBA,PTN001804270 ,J:265628 
+MGI:1201690,Map6,microtubule-associated protein 6,7,,microtubule binding,,,IDA,,J:116920 
+MGI:1201690,Map6,microtubule-associated protein 6,7,,microtubule binding,,,ISO,RGD:61804 ,J:155856 
+MGI:3607784,Map6d1,MAP6 domain containing 1,16,,microtubule binding,,,IBA,PTN001804270 ,J:265628 
+MGI:3607784,Map6d1,MAP6 domain containing 1,16,,microtubule binding,,,IDA,,J:116920 
+MGI:2445051,Map7d3,MAP7 domain containing 3,X,,microtubule binding,,,ISO,Q8IWC1 ,J:164563 
+MGI:2445051,Map7d3,MAP7 domain containing 3,X,,tubulin binding,,,ISO,Q8IWC1 ,J:164563 
+MGI:2442208,Map9,microtubule-associated protein 9,3,,microtubule binding,,,IBA,PTN002308204 ,J:265628 
+MGI:2442208,Map9,microtubule-associated protein 9,3,,microtubule binding,,,ISO,Q49MG5 ,J:164563 
+MGI:1921643,Map10,microtubule-associated protein 10,8,,microtubule binding,,,IBA,PTN001094854 ,J:265628 
+MGI:1921643,Map10,microtubule-associated protein 10,8,,microtubule binding,,,ISO,Q9P2G4 ,J:164563 
+MGI:2385896,Map11,microtubule associated protein 11,5,,alpha-tubulin binding,,,ISO,Q8WVR3 ,J:164563 
+MGI:1346861,Mapk8,mitogen-activated protein kinase 8,14,,kinesin binding,,,ISO,RGD:621506 ,J:155856 
+MGI:1309464,Mapk8ip1,mitogen-activated protein kinase 8 interacting protein 1,2,,kinesin binding,,,IPI,O88446 ,J:114032 
+MGI:1309464,Mapk8ip1,mitogen-activated protein kinase 8 interacting protein 1,2,,kinesin binding,,,ISO,Q9UQF2 ,J:164563 
+MGI:1926555,Mapk8ip2,mitogen-activated protein kinase 8 interacting protein 2,15,,kinesin binding,,,IPI,O88447 ,J:114032 
+MGI:1353598,Mapk8ip3,mitogen-activated protein kinase 8 interacting protein 3,17,,kinesin binding,,,IBA,PTN001015989 ,J:265628 
+MGI:1353598,Mapk8ip3,mitogen-activated protein kinase 8 interacting protein 3,17,,kinesin binding,,,IDA,,J:262360 
+MGI:1353598,Mapk8ip3,mitogen-activated protein kinase 8 interacting protein 3,17,,kinesin binding,,,IPI,O88447 ,J:59878 
+MGI:891995,Mapre1,"microtubule-associated protein, RP/EB family, member 1",2,,microtubule binding,,,IBA,PTN000065701 ,J:265628 
+MGI:891995,Mapre1,"microtubule-associated protein, RP/EB family, member 1",2,,microtubule plus-end binding,,,IBA,PTN000065701 ,J:265628 
+MGI:891995,Mapre1,"microtubule-associated protein, RP/EB family, member 1",2,,microtubule plus-end binding,,,ISO,RGD:621781 ,J:155856 
+MGI:891995,Mapre1,"microtubule-associated protein, RP/EB family, member 1",2,,microtubule plus-end binding,,,ISO,Q15691 ,J:164563 
+MGI:106271,Mapre2,"microtubule-associated protein, RP/EB family, member 2",18,,microtubule binding,,,IBA,PTN000065701 ,J:265628 
+MGI:106271,Mapre2,"microtubule-associated protein, RP/EB family, member 2",18,,microtubule plus-end binding,,,IBA,PTN000065701 ,J:265628 
+MGI:2140967,Mapre3,"microtubule-associated protein, RP/EB family, member 3",5,,microtubule binding,,,IBA,PTN000065701 ,J:265628 
+MGI:2140967,Mapre3,"microtubule-associated protein, RP/EB family, member 3",5,,microtubule binding,,,IDA,,J:131462 
+MGI:2140967,Mapre3,"microtubule-associated protein, RP/EB family, member 3",5,,microtubule plus-end binding,,,IBA,PTN000065701 ,J:265628 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,microtubule binding,,,IBA,PTN000161190 ,J:265628 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,microtubule binding,,,IDA,,J:131406 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,microtubule binding,,,ISO,RGD:69329 ,J:155856 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,microtubule binding,,,ISO,P10636 ,J:164563 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,microtubule lateral binding,,,ISO,P10636 ,J:164563 
+MGI:97180,Mapt,microtubule-associated protein tau,11,,tubulin binding,,,IEA,IPR001084 ,J:72247 
+MGI:96907,Marcks,myristoylated alanine rich protein kinase C substrate,10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:96907,Marcks,myristoylated alanine rich protein kinase C substrate,10,,actin filament binding,,,IPI,P68135 ,J:240291 
+MGI:97143,Marcksl1,MARCKS-like 1,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:99638,Mark2,MAP/microtubule affinity regulating kinase 2,19,,tau protein binding,,,ISO,RGD:708483 ,J:155856 
+MGI:1920955,Mark4,MAP/microtubule affinity regulating kinase 4,7,,gamma-tubulin binding,,,ISO,Q96L34 ,J:164563 
+MGI:1920955,Mark4,MAP/microtubule affinity regulating kinase 4,7,,microtubule binding,,,ISO,Q96L34 ,J:164563 
+MGI:1861901,Mast1,microtubule associated serine/threonine kinase 1,8,,microtubule binding,,,IDA,,J:268904 
+MGI:894676,Mast2,microtubule associated serine/threonine kinase 2,4,,microtubule binding,,,IBA,PTN000683513 ,J:265628 
+MGI:894676,Mast2,microtubule associated serine/threonine kinase 2,4,,microtubule binding,,,IDA,,J:41184 
+MGI:96951,Mdm1,transformed mouse 3T3 cell double minute 1,10,,microtubule binding,,,ISO,Q8TC05 ,J:164563 
+MGI:1914249,Med28,mediator complex subunit 28,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1859396,Mefv,Mediterranean fever,16,,actin binding,,,IBA,PTN000646672 ,J:265628 
+MGI:1859396,Mefv,Mediterranean fever,16,,actin binding,,,ISO,O15553 ,J:164563 
+MGI:2679684,Mib2,mindbomb E3 ubiquitin protein ligase 2,4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2385847,Mical1,"microtubule associated monooxygenase, calponin and LIM domain containing 1",10,,actin binding,,,IDA,,J:201326 J:266107 
+MGI:2385847,Mical1,"microtubule associated monooxygenase, calponin and LIM domain containing 1",10,,actin binding,,,ISO,Q8TDZ2 ,J:164563 
+MGI:2444947,Mical2,"microtubule associated monooxygenase, calponin and LIM domain containing 2",7,,actin binding,,,IDA,,J:201326 
+MGI:2444947,Mical2,"microtubule associated monooxygenase, calponin and LIM domain containing 2",7,,actin binding,,,ISO,O94851 ,J:164563 
+MGI:2442733,Mical3,"microtubule associated monooxygenase, calponin and LIM domain containing 3",6,,actin binding,,,ISO,Q7RTP6 ,J:164563 
+MGI:2444818,Micall2,MICAL-like 2,5,,actin filament binding,,,IDA,,J:136002 J:201396 
+MGI:2444818,Micall2,MICAL-like 2,5,,actinin binding,,,IPI,P57780 Q7TPR4 ,J:201396 
+MGI:2444818,Micall2,MICAL-like 2,5,,filamin binding,,,IDA,,J:201396 
+MGI:2444818,Micall2,MICAL-like 2,5,,filamin binding,,,ISO,Q8IY33 ,J:164563 
+MGI:1100537,Mid1,midline 1,X,,microtubule binding,,,ISO,O15344 ,J:164563 
+MGI:1344333,Mid2,midline 2,X,,microtubule binding,,,ISO,Q9UJV3 ,J:164563 
+MGI:1926156,Misp,mitotic spindle positioning,10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1926156,Misp,mitotic spindle positioning,10,,actin filament binding,,,ISO,Q8IVT2 ,J:164563 
+MGI:2176380,Mlph,melanophilin,1,,actin binding,,,IBA,PTN001026244 ,J:265628 
+MGI:2176380,Mlph,melanophilin,1,,actin binding,,,IDA,,J:80040 
+MGI:2176380,Mlph,melanophilin,1,,microtubule plus-end binding,,,IPI,Q99104 ,J:100998 
+MGI:2176380,Mlph,melanophilin,1,,myosin binding,,,IBA,PTN001026244 ,J:265628 
+MGI:2176380,Mlph,melanophilin,1,,myosin binding,,,IDA,,J:83919 
+MGI:2176380,Mlph,melanophilin,1,,myosin binding,,,ISO,Q9BV36 ,J:164563 
+MGI:2176380,Mlph,melanophilin,1,,myosin V binding,,,IPI,Q99104 ,J:75876 J:87907 J:240278 
+MGI:1349438,Mprip,myosin phosphatase Rho interacting protein,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2384495,Mrtfa,myocardin related transcription factor A,15,,actin binding,,,IDA,,J:97653 
+MGI:2384495,Mrtfa,myocardin related transcription factor A,15,,actin binding,,,ISO,Q969V6 ,J:164563 
+MGI:2384495,Mrtfa,myocardin related transcription factor A,15,,actin monomer binding,,,IDA,,J:150313 J:265632 J:265732 
+MGI:3050795,Mrtfb,myocardin related transcription factor B,16,,actin binding,,,IDA,,J:97653 
+MGI:97167,Msn,moesin,X,,actin binding,,,ISO,RGD:621260 ,J:155856 
+MGI:97167,Msn,moesin,X,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:1351642,Msrb1,methionine sulfoxide reductase B1,17,,actin binding,,,IDA,,J:201326 
+MGI:1923717,Msrb2,methionine sulfoxide reductase B2,2,,actin binding,,,IDA,,J:201326 
+MGI:1915867,Mtcl1,microtubule crosslinking factor 1,17,,microtubule binding,,,IBA,PTN000405320 ,J:265628 
+MGI:1915867,Mtcl1,microtubule crosslinking factor 1,17,,microtubule binding,,,IDA,,J:206886 
+MGI:1915867,Mtcl1,microtubule crosslinking factor 1,17,,microtubule binding,,,ISO,Q9Y4B5 ,J:164563 
+MGI:2384818,Mtss1,MTSS I-BAR domain containing 1,15,,actin binding,,,IDA,,J:82186 
+MGI:2384818,Mtss1,MTSS I-BAR domain containing 1,15,,actin filament binding,,,IDA,,J:182970 
+MGI:2384818,Mtss1,MTSS I-BAR domain containing 1,15,,actin monomer binding,,,ISO,O43312 ,J:164563 
+MGI:3039591,Mtss2,MTSS I-BAR domain containing 2,8,,actin binding,,,IEA,IPR030059 IPR030127 ,J:72247 
+MGI:3039591,Mtss2,MTSS I-BAR domain containing 2,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:3039591,Mtss2,MTSS I-BAR domain containing 2,8,,actin monomer binding,,,IDA,,J:139816 
+MGI:2142572,Mtus1,mitochondrial tumor suppressor 1,8,,microtubule binding,,,IBA,PTN001271408 ,J:265628 
+MGI:1915388,Mtus2,microtubule associated tumor suppressor candidate 2,5,,microtubule binding,,,IBA,PTN001271408 ,J:265628 
+MGI:1915388,Mtus2,microtubule associated tumor suppressor candidate 2,5,,microtubule binding,,,ISO,Q5JR59 ,J:164563 
+MGI:1336170,Mybpc2,"myosin binding protein C, fast-type",7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,myosin binding,,,ISO,Q14896 ,J:164563 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,myosin heavy chain binding,,,IBA,PTN002675057 ,J:265628 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,myosin heavy chain binding,,,IPI,Q02566 ,J:117119 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,myosin heavy chain binding,,,ISO,Q14896 ,J:164563 
+MGI:1339711,Myh1,"myosin, heavy polypeptide 1, skeletal muscle, adult",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1339711,Myh1,"myosin, heavy polypeptide 1, skeletal muscle, adult",11,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:1339709,Myh3,"myosin, heavy polypeptide 3, skeletal muscle, embryonic",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1339709,Myh3,"myosin, heavy polypeptide 3, skeletal muscle, embryonic",11,,actin filament binding,,,ISO,P11055 ,J:164563 
+MGI:1339713,Myh4,"myosin, heavy polypeptide 4, skeletal muscle",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1339713,Myh4,"myosin, heavy polypeptide 4, skeletal muscle",11,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:3710243,Myh7b,"myosin, heavy chain 7B, cardiac muscle, beta",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:3710243,Myh7b,"myosin, heavy chain 7B, cardiac muscle, beta",2,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:1339712,Myh8,"myosin, heavy polypeptide 8, skeletal muscle, perinatal",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1339712,Myh8,"myosin, heavy polypeptide 8, skeletal muscle, perinatal",11,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:107717,Myh9,"myosin, heavy polypeptide 9, non-muscle",15,,actin binding,,,ISO,P35579 ,J:73065 
+MGI:107717,Myh9,"myosin, heavy polypeptide 9, non-muscle",15,,actin filament binding,,,ISO,P35579 ,J:73065 
+MGI:1930780,Myh10,"myosin, heavy polypeptide 10, non-muscle",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1930780,Myh10,"myosin, heavy polypeptide 10, non-muscle",11,,actin filament binding,,,ISO,P35580 ,J:73065 
+MGI:102643,Myh11,"myosin, heavy polypeptide 11, smooth muscle",16,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:102643,Myh11,"myosin, heavy polypeptide 11, smooth muscle",16,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:1919210,Myh14,"myosin, heavy polypeptide 14",7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919210,Myh14,"myosin, heavy polypeptide 14",7,,actin filament binding,,,IDA,,J:90427 J:100268 
+MGI:1919210,Myh14,"myosin, heavy polypeptide 14",7,contributes_to,actin filament binding,,,ISO,Q7Z406 ,J:164563 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,actin monomer binding,,,ISO,P10916 ,J:164563 
+MGI:97268,Myl3,"myosin, light polypeptide 3",9,,actin monomer binding,,,ISO,P08590 ,J:164563 
+MGI:97267,Myl4,"myosin, light polypeptide 4",11,,actin filament binding,,,ISO,P12829 ,J:164563 
+MGI:97267,Myl4,"myosin, light polypeptide 4",11,,actin monomer binding,,,ISO,P12829 ,J:164563 
+MGI:2138915,Myl9,"myosin, light polypeptide 9, regulatory",2,,myosin heavy chain binding,,,IPI,Q5SV80 ,J:217229 
+MGI:107494,Myl12b,"myosin, light chain 12B, regulatory",17,,myosin heavy chain binding,,,IPI,Q5SV80 ,J:217229 
+MGI:2388271,Mylip,myosin regulatory light chain interacting protein,13,,cytoskeletal protein binding,,,ISO,Q8WY64 ,J:164563 
+MGI:894806,Mylk,"myosin, light polypeptide kinase",16,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,myosin light chain binding,,,IBA,PTN000680773 ,J:265628 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,myosin light chain binding,,,ISO,RGD:620934 ,J:155856 
+MGI:107732,Myo1a,myosin IA,10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107732,Myo1a,myosin IA,10,,actin filament binding,,,IDA,,J:215879 
+MGI:107752,Myo1b,myosin IB,1,,actin binding,,,ISO,RGD:70994 ,J:155856 
+MGI:107752,Myo1b,myosin IB,1,,actin filament binding,,,ISO,RGD:70994 ,J:155856 
+MGI:107752,Myo1b,myosin IB,1,,actin filament binding,,,ISO,O43795 ,J:164563 
+MGI:106612,Myo1c,myosin IC,11,,actin binding,,,NAS,,J:99802 
+MGI:106612,Myo1c,myosin IC,11,,actin filament binding,,,ISO,RGD:620443 ,J:155856 
+MGI:107728,Myo1d,myosin ID,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107728,Myo1d,myosin ID,11,,actin filament binding,,,ISO,RGD:621321 ,J:155856 
+MGI:106621,Myo1e,myosin IE,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106621,Myo1e,myosin IE,9,,actin filament binding,,,ISO,Q12965 ,J:164563 
+MGI:107711,Myo1f,myosin IF,17,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1927091,Myo1g,myosin IG,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1914674,Myo1h,myosin 1H,5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2183924,Myo3a,myosin IIIA,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2183924,Myo3a,myosin IIIA,2,,actin filament binding,,,IDA,,J:182310 
+MGI:2448580,Myo3b,myosin IIIB,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:105976,Myo5a,myosin VA,9,,actin binding,,,IDA,,J:72800 J:79971 J:100998 
+MGI:105976,Myo5a,myosin VA,9,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:106598,Myo5b,myosin VB,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106598,Myo5b,myosin VB,18,,actin filament binding,,,ISO,RGD:621347 ,J:155856 
+MGI:104785,Myo6,myosin VI,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:104785,Myo6,myosin VI,9,,actin filament binding,,,ISO,XP_236444 ,J:95877 
+MGI:104785,Myo6,myosin VI,9,,actin filament binding,,,ISO,Q9UM54 ,J:164563 
+MGI:104510,Myo7a,myosin VIIA,7,,actin binding,,,ISO,RGD:628830 ,J:155856 
+MGI:104510,Myo7a,myosin VIIA,7,,actin filament binding,,,ISO,Q13402 ,J:164563 
+MGI:104510,Myo7a,myosin VIIA,7,,spectrin binding,,,ISO,Q13402 ,J:199579 
+MGI:107709,Myo7b,myosin VIIB,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107709,Myo7b,myosin VIIB,18,,actin filament binding,,,IEA,IPR008989 ,J:72247 
+MGI:107735,Myo9a,myosin IXa,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:106624,Myo9b,myosin IXb,8,,actin binding,,,ISO,RGD:3146 ,J:155856 
+MGI:106624,Myo9b,myosin IXb,8,,actin binding,,,ISO,Q13459 ,J:164563 
+MGI:106624,Myo9b,myosin IXb,8,,actin binding,,,ISO,Q8WVD2 ,J:73065 
+MGI:106624,Myo9b,myosin IXb,8,,actin filament binding,,,ISO,RGD:3146 ,J:155856 
+MGI:106624,Myo9b,myosin IXb,8,,actin filament binding,,,ISO,NP_004136.2 ,J:73065 
+MGI:107716,Myo10,myosin X,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:107716,Myo10,myosin X,15,,actin filament binding,,,ISO,P79114 ,J:73065 
+MGI:107716,Myo10,myosin X,15,,spectrin binding,,,ISO,Q9HD67 ,J:199579 
+MGI:1261811,Myo15,myosin XV,11,,actin binding,,,IEA,IPR035487 ,J:72247 
+MGI:1261811,Myo15,myosin XV,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2685951,Myo16,myosin XVI,8,,actin binding,,,ISO,NP_620248 ,J:104715 
+MGI:2667185,Myo18a,myosin XVIIIA,11,,actin filament binding,,,ISO,Q92614 ,J:164563 
+MGI:1913446,Myo19,myosin XIX,11,,actin binding,,,ISO,Q96H55 ,J:164563 
+MGI:1913446,Myo19,myosin XIX,11,,myosin light chain binding,,,IPI,Q3THE2 Q9CQ19 ,J:217229 
+MGI:1202864,Myoc,myocilin,1,,myosin light chain binding,,,ISO,Q99972 ,J:164563 
+MGI:1341430,Myom1,myomesin 1,17,,actin filament binding,,,IBA,PTN001790569 ,J:265628 
+MGI:1341430,Myom1,myomesin 1,17,,muscle alpha-actinin binding,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,actin filament binding,,,IBA,PTN001790569 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,muscle alpha-actinin binding,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,actin filament binding,,,IBA,PTN001790569 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,muscle alpha-actinin binding,,,IBA,PTN001790569 ,J:265628 
+MGI:1889800,Myot,myotilin,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1889800,Myot,myotilin,18,,alpha-actinin binding,,,ISO,Q9UBF9 ,J:64352 
+MGI:1929471,Myoz1,myozenin 1,14,,actin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1929471,Myoz1,myozenin 1,14,,FATZ binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1929471,Myoz1,myozenin 1,14,,FATZ binding,,,ISO,Q9NP98 ,J:164563 
+MGI:1929471,Myoz1,myozenin 1,14,,telethonin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,actin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,actin binding,,,IPI,O88990 Q9JI91 ,J:66484 
+MGI:1913063,Myoz2,myozenin 2,3,,FATZ binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,telethonin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1913063,Myoz2,myozenin 2,3,,telethonin binding,,,ISO,Q9NPC6 ,J:164563 
+MGI:2179296,Myoz3,myozenin 3,18,,actin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:2179296,Myoz3,myozenin 3,18,,FATZ binding,,,IBA,PTN000409135 ,J:265628 
+MGI:2179296,Myoz3,myozenin 3,18,,telethonin binding,,,IBA,PTN000409135 ,J:265628 
+MGI:1916052,Mypn,myopalladin,10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916052,Mypn,myopalladin,10,,cytoskeletal protein binding,,,ISO,Q86TC9 ,J:164563 
+MGI:1916052,Mypn,myopalladin,10,,muscle alpha-actinin binding,,,ISO,Q86TC9 ,J:164563 
+MGI:2384407,Myrip,myosin VIIA and Rab interacting protein,9,,actin binding,,,IBA,PTN001026244 ,J:265628 
+MGI:2384407,Myrip,myosin VIIA and Rab interacting protein,9,,actin binding,,,IDA,,J:80040 
+MGI:2384407,Myrip,myosin VIIA and Rab interacting protein,9,,myosin binding,,,IBA,PTN001026244 ,J:265628 
+MGI:2384407,Myrip,myosin VIIA and Rab interacting protein,9,,myosin binding,,,IDA,,J:80040 
+MGI:2384407,Myrip,myosin VIIA and Rab interacting protein,9,,myosin binding,,,ISO,AF396687 ,J:76844 
+MGI:2183703,Nav3,neuron navigator 3,10,,microtubule binding,,,ISO,Q8IVL0 ,J:164563 
+MGI:1196326,Ncald,neurocalcin delta,15,,actin binding,,,ISO,RGD:1560287 ,J:155856 
+MGI:1196326,Ncald,neurocalcin delta,15,,actin binding,,,ISO,P61601 ,J:164563 
+MGI:1196326,Ncald,neurocalcin delta,15,,alpha-tubulin binding,,,ISO,RGD:1560287 ,J:155856 
+MGI:1196326,Ncald,neurocalcin delta,15,,tubulin binding,,,ISO,P61601 ,J:164563 
+MGI:1914453,Nde1,nudE neurodevelopment protein 1,16,,microtubule binding,,,IBA,PTN000100519 ,J:265628 
+MGI:1914453,Nde1,nudE neurodevelopment protein 1,16,,microtubule binding,,,IMP,,J:94756 
+MGI:1932915,Ndel1,nudE neurodevelopment protein 1 like 1,11,,alpha-tubulin binding,,,IDA,,J:133434 
+MGI:1932915,Ndel1,nudE neurodevelopment protein 1 like 1,11,,beta-tubulin binding,,,IDA,,J:133434 
+MGI:1932915,Ndel1,nudE neurodevelopment protein 1 like 1,11,,microtubule binding,,,IBA,PTN000100519 ,J:265628 
+MGI:1932915,Ndel1,nudE neurodevelopment protein 1 like 1,11,,microtubule binding,,,IDA,,J:66505 
+MGI:97290,Ndn,necdin,7,,gamma-tubulin binding,,,IDA,,J:96395 
+MGI:1341799,Ndrg1,N-myc downstream regulated gene 1,15,,gamma-tubulin binding,,,ISO,Q92597 ,J:164563 
+MGI:1341799,Ndrg1,N-myc downstream regulated gene 1,15,,microtubule binding,,,ISO,Q92597 ,J:164563 
+MGI:97292,Neb,nebulin,2,,actin filament binding,,,IBA,PTN000113268 ,J:265628 
+MGI:1921353,Nebl,nebulette,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1921353,Nebl,nebulette,2,,actin filament binding,,,IBA,PTN000113268 ,J:265628 
+MGI:2686058,Neil2,nei like 2 (E. coli),14,,microtubule binding,,,IDA,,J:96949 
+MGI:1891638,Nek6,NIMA (never in mitosis gene a)-related expressed kinase 6,2,,kinesin binding,,,ISO,Q9HC98 ,J:164563 
+MGI:1916060,Nexn,nexilin,3,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916060,Nexn,nexilin,3,,actin filament binding,,,ISO,RGD:708354 ,J:155856 
+MGI:1916060,Nexn,nexilin,3,,actin filament binding,,,ISO,Q0ZGT2 ,J:164563 
+MGI:97306,Nf1,neurofibromin 1,11,,microtubule binding,,,ISO,P97526 ,J:73065 
+MGI:97307,Nf2,neurofibromin 2,11,,actin binding,,,IEA,IPR008954 IPR011174 ,J:72247 
+MGI:97307,Nf2,neurofibromin 2,11,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:97312,Nfkb1,"nuclear factor of kappa light polypeptide gene enhancer in B cells 1, p105",3,,actinin binding,,,ISO,P19838 ,J:164563 
+MGI:1919543,Nkd2,naked cuticle 2,13,,myosin heavy chain binding,,,ISO,Q969F2 ,J:164563 
+MGI:97355,Nme1,NME/NM23 nucleoside diphosphate kinase 1,11,,gamma-tubulin binding,,,ISO,RGD:70497 ,J:155856 
+MGI:1920662,Nme8,NME/NM23 family member 8,13,,microtubule binding,,,ISO,Q8N427 ,J:164563 
+MGI:2429397,Nod2,nucleotide-binding oligomerization domain containing 2,8,,actin binding,,,ISO,Q9HC29 ,J:164563 
+MGI:97361,Nos2,"nitric oxide synthase 2, inducible",11,,actin binding,,,ISO,RGD:3185 ,J:155856 
+MGI:97362,Nos3,"nitric oxide synthase 3, endothelial cell",5,,actin binding,,,ISO,RGD:3186 ,J:155856 
+MGI:97362,Nos3,"nitric oxide synthase 3, endothelial cell",5,,actin monomer binding,,,ISO,P29474 ,J:164563 
+MGI:2685089,Npc1l1,NPC1 like intracellular cholesterol transporter 1,11,,myosin V binding,,,ISO,Q9UHC9 ,J:164563 
+MGI:1859637,Nphs1,"nephrosis 1, nephrin",7,,alpha-actinin binding,,,ISO,RGD:620460 ,J:155856 
+MGI:1859637,Nphs1,"nephrosis 1, nephrin",7,,myosin binding,,,ISO,O60500 ,J:164563 
+MGI:1859637,Nphs1,"nephrosis 1, nephrin",7,,spectrin binding,,,ISO,RGD:620460 ,J:155856 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,actin binding,,,IDA,,J:43109 J:113803 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,actin filament binding,,,IBA,PTN000113268 ,J:265628 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,muscle alpha-actinin binding,,,IDA,,J:73178 J:83790 J:113803 
+MGI:1098765,Nrap,nebulin-related anchoring protein,19,,vinculin binding,,,IPI,P12003 ,J:113803 
+MGI:104750,Nrcam,neuronal cell adhesion molecule,12,,ankyrin binding,,,ISO,Q92823 ,J:164563 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,microtubule binding,,,ISO,RGD:1308777 ,J:155856 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,microtubule binding,,,ISO,Q14980 ,J:164563 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,microtubule minus-end binding,,,ISO,Q14980 ,J:164563 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,microtubule plus-end binding,,,ISO,Q14980 ,J:164563 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,tubulin binding,,,ISO,Z11584 ,J:73065 
+MGI:2443665,Numa1,nuclear mitotic apparatus protein 1,7,,tubulin binding,,,ISO,Q14980 ,J:164563 
+MGI:1351500,Nup62,nucleoporin 62,7,,kinesin binding,,,ISO,RGD:619938 ,J:155856 
+MGI:2675669,Nusap1,nucleolar and spindle associated protein 1,2,,microtubule binding,,,IBA,PTN001286938 ,J:265628 
+MGI:2675669,Nusap1,nucleolar and spindle associated protein 1,2,,microtubule binding,,,IDA,,J:85504 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,ankyrin binding,,,ISO,AY167411 ,J:73065 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,ankyrin binding,,,ISO,Q5VST9 ,J:164563 
+MGI:2681862,Obscn,"obscurin, cytoskeletal calmodulin and titin-interacting RhoGEF",11,,titin binding,,,ISO,Q5VST9 ,J:164563 
+MGI:1350328,Ofd1,"OFD1, centriole and centriolar satellite protein",X,,alpha-tubulin binding,,,IDA,,J:161171 
+MGI:1350328,Ofd1,"OFD1, centriole and centriolar satellite protein",X,,gamma-tubulin binding,,,IDA,,J:161171 
+MGI:1097693,Ogg1,8-oxoguanine DNA-glycosylase 1,6,,microtubule binding,,,IDA,,J:96949 
+MGI:1921393,Opa1,"OPA1, mitochondrial dynamin like GTPase",16,,microtubule binding,,,IBA,PTN000170013 ,J:265628 
+MGI:2151070,Ophn1,oligophrenin 1,X,,actin binding,,,IDA,,J:85384 
+MGI:97441,Oprm1,"opioid receptor, mu 1",10,,filamin binding,,,ISO,RGD:3234 ,J:155856 
+MGI:97464,P4hb,"prolyl 4-hydroxylase, beta polypeptide",11,,actin binding,,,ISO,P07237 ,J:164563 
+MGI:1916560,Pacrg,PARK2 co-regulated,17,,actin binding,,,ISO,Q96M98 ,J:164563 
+MGI:1916560,Pacrg,PARK2 co-regulated,17,,alpha-tubulin binding,,,ISO,Q96M98 ,J:164563 
+MGI:1916560,Pacrg,PARK2 co-regulated,17,,beta-tubulin binding,,,ISO,Q96M98 ,J:164563 
+MGI:1345181,Pacsin1,protein kinase C and casein kinase substrate in neurons 1,17,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1345181,Pacsin1,protein kinase C and casein kinase substrate in neurons 1,17,,cytoskeletal protein binding,,,IDA,,J:66805 
+MGI:1345153,Pacsin2,protein kinase C and casein kinase substrate in neurons 2,15,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1345153,Pacsin2,protein kinase C and casein kinase substrate in neurons 2,15,,cytoskeletal protein binding,,,IDA,,J:66805 
+MGI:1891410,Pacsin3,protein kinase C and casein kinase substrate in neurons 3,2,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1891410,Pacsin3,protein kinase C and casein kinase substrate in neurons 3,2,,cytoskeletal protein binding,,,IDA,,J:66805 
+MGI:109520,Pafah1b1,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 1",11,,microtubule binding,,,IDA,,J:66505 
+MGI:109520,Pafah1b1,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 1",11,,microtubule binding,,,ISO,P43033 ,J:73065 
+MGI:109520,Pafah1b1,"platelet-activating factor acetylhydrolase, isoform 1b, subunit 1",11,,microtubule plus-end binding,,,IBA,PTN000752736 ,J:265628 
+MGI:1919583,Palld,"palladin, cytoskeletal associated protein",8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919583,Palld,"palladin, cytoskeletal associated protein",8,,cytoskeletal protein binding,,,ISO,RGD:2322545 ,J:155856 
+MGI:1860055,Panx1,pannexin 1,9,,actin binding,,,IPI,P60710 ,J:165948 
+MGI:1860055,Panx1,pannexin 1,9,,actin filament binding,,,IDA,,J:165948 
+MGI:1931144,Parva,"parvin, alpha",7,,actin binding,,,IBA,PTN000950308 ,J:265628 
+MGI:1931144,Parva,"parvin, alpha",7,,actin binding,,,IDA,,J:67663 J:67693 
+MGI:2153063,Parvb,"parvin, beta",15,,actin binding,,,IBA,PTN000950308 ,J:265628 
+MGI:2158329,Parvg,"parvin, gamma",15,,actin binding,,,IBA,PTN000950308 ,J:265628 
+MGI:2149961,Pawr,"PRKC, apoptosis, WT1, regulator",10,,actin binding,,,ISO,RGD:69065 ,J:155856 
+MGI:1913538,Pdcd5,programmed cell death 5,7,,beta-tubulin binding,,,ISO,O14737 ,J:164563 
+MGI:99557,Pde4b,"phosphodiesterase 4B, cAMP specific",4,,gamma-tubulin binding,,,IDA,,J:143215 
+MGI:97526,Pde6g,"phosphodiesterase 6G, cGMP-specific, rod, gamma",11,,spectrin binding,,,ISO,M0R4R9 ,J:199579 
+MGI:1860611,Pdlim1,PDZ and LIM domain 1 (elfin),19,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1860611,Pdlim1,PDZ and LIM domain 1 (elfin),19,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,alpha-actinin binding,,,ISO,RGD:1359203 ,J:155856 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,filamin binding,,,ISO,RGD:1359203 ,J:155856 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,muscle alpha-actinin binding,,,ISO,RGD:1359203 ,J:155856 
+MGI:2384850,Pdlim2,PDZ and LIM domain 2,14,,myosin heavy chain binding,,,ISO,RGD:1359203 ,J:155856 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,,cytoskeletal protein binding,,,IPI,Q7TPR4 ,J:69097 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,actinin binding,,,ISO,RGD:3575 ,J:155856 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,alpha-actinin binding,,,ISO,RGD:3575 ,J:155856 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,alpha-actinin binding,,,ISO,P50479 ,J:164563 
+MGI:1353470,Pdlim4,PDZ and LIM domain 4,11,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,actin binding,,,ISO,RGD:621076 ,J:155856 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,actinin binding,,,ISO,RGD:621076 ,J:155856 
+MGI:1927489,Pdlim5,PDZ and LIM domain 5,3,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1914649,Pdlim7,PDZ and LIM domain 7,13,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1914649,Pdlim7,PDZ and LIM domain 7,13,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:1927868,Pex14,peroxisomal biogenesis factor 14,4,,beta-tubulin binding,,,ISO,O75381 ,J:164563 
+MGI:1927868,Pex14,peroxisomal biogenesis factor 14,4,,microtubule binding,,,ISO,O75381 ,J:164563 
+MGI:97549,Pfn1,profilin 1,11,,actin binding,,,IBA,PTN000358484 ,J:265628 
+MGI:97549,Pfn1,profilin 1,11,,actin binding,,,ISO,P07737 ,J:164563 
+MGI:97549,Pfn1,profilin 1,11,,actin monomer binding,,,ISO,P07737 ,J:164563 
+MGI:97550,Pfn2,profilin 2,3,,actin binding,,,IBA,PTN000358484 ,J:265628 
+MGI:97550,Pfn2,profilin 2,3,,actin binding,,,ISO,RGD:621826 ,J:155856 
+MGI:97550,Pfn2,profilin 2,3,,actin monomer binding,,,ISO,P35080 ,J:164563 
+MGI:2178800,Pfn3,profilin 3,13,,actin binding,,,IBA,PTN000358484 ,J:265628 
+MGI:2178800,Pfn3,profilin 3,13,,actin binding,,,TAS,,J:75294 
+MGI:1920121,Pfn4,"profilin family, member 4",12,,actin monomer binding,,,IBA,PTN000176159 ,J:265628 
+MGI:5804915,Pfn5,profilin 5,X,,actin binding,,,IBA,PTN000358484 ,J:265628 
+MGI:2659021,Phactr1,phosphatase and actin regulator 1,13,,actin binding,,,IDA,,J:196227 
+MGI:1921439,Phactr3,phosphatase and actin regulator 3,2,,actin binding,,,ISO,RGD:1303029 ,J:155856 
+MGI:2140327,Phactr4,phosphatase and actin regulator 4,4,,actin binding,,,IDA,,J:123924 
+MGI:1918248,Phf6,PHD finger protein 6,X,,tubulin binding,,,ISO,Q8IWS0 ,J:164563 
+MGI:2385902,Picalm,phosphatidylinositol binding clathrin assembly protein,7,,tau protein binding,,,ISO,Q13492 ,J:164563 
+MGI:894645,Pick1,protein interacting with C kinase 1,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:894645,Pick1,protein interacting with C kinase 1,15,,actin filament binding,,,ISO,RGD:69437 ,J:155856 
+MGI:894645,Pick1,protein interacting with C kinase 1,15,,cytoskeletal protein binding,,,ISO,RGD:69437 ,J:155856 
+MGI:1923670,Pifo,primary cilia formation,3,,beta-tubulin binding,,,IDA,,J:162627 
+MGI:1923670,Pifo,primary cilia formation,3,,beta-tubulin binding,,,ISO,Q8TCI5 ,J:164563 
+MGI:1923670,Pifo,primary cilia formation,3,,cytoskeletal protein binding,,,IBA,PTN002051976 ,J:265628 
+MGI:1923670,Pifo,primary cilia formation,3,,gamma-tubulin binding,,,IDA,,J:162627 
+MGI:1923670,Pifo,primary cilia formation,3,,gamma-tubulin binding,,,ISO,Q8TCI5 ,J:164563 
+MGI:1923670,Pifo,primary cilia formation,3,,kinesin binding,,,IPI,Q9Y496 ,J:162627 
+MGI:1923670,Pifo,primary cilia formation,3,,kinesin binding,,,ISO,Q8TCI5 ,J:164563 
+MGI:1298224,Pip5k1c,"phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma",10,,talin binding,happens in megakaryocyte,PR:O70161-1,IDA,,J:196476 
+MGI:1298224,Pip5k1c,"phosphatidylinositol-4-phosphate 5-kinase, type 1 gamma",10,NOT,talin binding,happens in megakaryocyte,PR:O70161-3,IDA,,J:196476 
+MGI:1099818,Pkd2,"polycystin 2, transient receptor potential cation channel",5,,actinin binding,,,ISO,Q13563 ,J:164563 
+MGI:1099818,Pkd2,"polycystin 2, transient receptor potential cation channel",5,,alpha-actinin binding,,,ISO,RGD:1559992 ,J:155856 
+MGI:1099818,Pkd2,"polycystin 2, transient receptor potential cation channel",5,,cytoskeletal protein binding,,,ISO,Q13563 ,J:164563 
+MGI:1099818,Pkd2,"polycystin 2, transient receptor potential cation channel",5,,muscle alpha-actinin binding,,,IBA,PTN002587211 ,J:265628 
+MGI:1099818,Pkd2,"polycystin 2, transient receptor potential cation channel",5,,muscle alpha-actinin binding,,,ISO,RGD:1559992 ,J:155856 
+MGI:1352448,Pkd2l1,polycystic kidney disease 2-like 1,19,,alpha-actinin binding,,,ISO,Q9P0L9 ,J:164563 
+MGI:1352448,Pkd2l1,polycystic kidney disease 2-like 1,19,,cytoskeletal protein binding,,,ISO,Q9P0L9 ,J:164563 
+MGI:1352448,Pkd2l1,polycystic kidney disease 2-like 1,19,,muscle alpha-actinin binding,,,IBA,PTN002587230 ,J:265628 
+MGI:1352448,Pkd2l1,polycystic kidney disease 2-like 1,19,,muscle alpha-actinin binding,,,ISO,Q9P0L9 ,J:164563 
+MGI:2445415,Pknox2,Pbx/knotted 1 homeobox 2,9,,actin filament binding,,,IDA,,J:94990 
+MGI:2445415,Pknox2,Pbx/knotted 1 homeobox 2,9,,actin monomer binding,,,IDA,,J:94990 
+MGI:1277961,Plec,plectin,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1277961,Plec,plectin,15,,ankyrin binding,,,IBA,PTN002753803 ,J:265628 
+MGI:1277961,Plec,plectin,15,,ankyrin binding,,,ISO,RGD:621649 ,J:155856 
+MGI:1277961,Plec,plectin,15,,ankyrin binding,,,ISO,Q15149 ,J:164563 
+MGI:1277961,Plec,plectin,15,,cytoskeletal protein binding,,,ISO,RGD:621649 ,J:155856 
+MGI:2146813,Plekhh2,"pleckstrin homology domain containing, family H (with MyTH4 domain) member 2",17,,actin binding,,,IDA,,J:196351 
+MGI:1916832,Plekhm2,"pleckstrin homology domain containing, family M (with RUN domain) member 2",4,,kinesin binding,,,IBA,PTN002926757 ,J:265628 
+MGI:1916832,Plekhm2,"pleckstrin homology domain containing, family M (with RUN domain) member 2",4,,kinesin binding,,,ISO,Q8IWE5 ,J:164563 
+MGI:97621,Plk1,polo like kinase 1,7,,microtubule binding,,,ISO,P53350 ,J:164563 
+MGI:104809,Pls1,plastin 1 (I-isoform),9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:104809,Pls1,plastin 1 (I-isoform),9,,actin filament binding,,,IBA,PTN000462453 ,J:265628 
+MGI:104807,Pls3,plastin 3 (T-isoform),X,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:104807,Pls3,plastin 3 (T-isoform),X,,actin filament binding,,,IBA,PTN000462453 ,J:265628 
+MGI:1916943,Pof1b,premature ovarian failure 1B,X,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916943,Pof1b,premature ovarian failure 1B,X,,actin filament binding,,,ISO,Q8WVV4 ,J:164563 
+MGI:97740,Polb,"polymerase (DNA directed), beta",8,,microtubule binding,,,ISO,P06746 ,J:96949 
+MGI:97747,Pparg,peroxisome proliferator activated receptor gamma,6,,alpha-actinin binding,,,ISO,P37231 ,J:164563 
+MGI:1342774,Ppargc1a,"peroxisome proliferative activated receptor, gamma, coactivator 1 alpha",5,,alpha-tubulin binding,,,ISO,RGD:620925 ,J:155856 
+MGI:2442401,Ppp1r9a,"protein phosphatase 1, regulatory subunit 9A",6,,actin filament binding,,,IBA,PTN000414425 ,J:265628 
+MGI:2442401,Ppp1r9a,"protein phosphatase 1, regulatory subunit 9A",6,,actin filament binding,,,ISO,RGD:632280 ,J:155856 
+MGI:2387581,Ppp1r9b,"protein phosphatase 1, regulatory subunit 9B",11,,actin binding,,,ISO,RGD:632281 ,J:155856 
+MGI:2387581,Ppp1r9b,"protein phosphatase 1, regulatory subunit 9B",11,,actin binding,,,TAS,,J:77284 
+MGI:2387581,Ppp1r9b,"protein phosphatase 1, regulatory subunit 9B",11,,actin filament binding,,,IBA,PTN000414425 ,J:265628 
+MGI:2387581,Ppp1r9b,"protein phosphatase 1, regulatory subunit 9B",11,,actin filament binding,,,ISO,RGD:632281 ,J:155856 
+MGI:1923698,Ppp1r18,"protein phosphatase 1, regulatory subunit 18",17,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1921138,Ppp1r42,"protein phosphatase 1, regulatory subunit 42",1,,actin binding,,,IDA,,J:178439 
+MGI:1921138,Ppp1r42,"protein phosphatase 1, regulatory subunit 42",1,,tubulin binding,,,IDA,,J:178439 
+MGI:1321159,Ppp2ca,"protein phosphatase 2 (formerly 2A), catalytic subunit, alpha isoform",11,,tau protein binding,,,ISO,RGD:3380 ,J:155856 
+MGI:1919228,Ppp2r2a,"protein phosphatase 2, regulatory subunit B, alpha",14,,tau protein binding,,,ISO,RGD:620919 ,J:155856 
+MGI:102666,Ppp5c,"protein phosphatase 5, catalytic subunit",7,,microtubule binding,,,ISO,RGD:68415 ,J:155856 
+MGI:1858961,Prc1,protein regulator of cytokinesis 1,7,,kinesin binding,,,ISO,O43663 ,J:164563 
+MGI:1858961,Prc1,protein regulator of cytokinesis 1,7,,microtubule binding,,,IEA,IPR007145 IPR032921 ,J:72247 
+MGI:2685785,Prickle4,prickle planar cell polarity protein 4,17,,actin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:2685785,Prickle4,prickle planar cell polarity protein 4,17,,muscle alpha-actinin binding,,,IBA,PTN001198141 ,J:265628 
+MGI:97599,Prkce,"protein kinase C, epsilon",17,,actin monomer binding,,,IDA,,J:180491 
+MGI:1355296,Prkn,parkin RBR E3 ubiquitin protein ligase,17,,actin binding,,,ISO,O60260 ,J:164563 
+MGI:1355296,Prkn,parkin RBR E3 ubiquitin protein ligase,17,,tubulin binding,,,ISO,O60260 ,J:164563 
+MGI:97769,Prnp,prion protein,2,,microtubule binding,,,ISO,P04156 ,J:164563 
+MGI:97769,Prnp,prion protein,2,,tubulin binding,,,ISO,P04156 ,J:164563 
+MGI:1100886,Prom1,prominin 1,5,,actinin binding,,,ISO,O43490 ,J:164563 
+MGI:1925152,Prune1,prune exopolyphosphatase,3,,tubulin binding,,,ISO,Q86TP1 ,J:164563 
+MGI:1913099,Psrc1,proline/serine-rich coiled-coil 1,3,,microtubule binding,,,IDA,,J:131462 
+MGI:1321396,Pstpip1,proline-serine-threonine phosphatase-interacting protein 1,9,,actin binding,,,IDA,,J:54372 
+MGI:1321396,Pstpip1,proline-serine-threonine phosphatase-interacting protein 1,9,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1335088,Pstpip2,proline-serine-threonine phosphatase-interacting protein 2,18,,actin binding,,,NAS,,J:50391 
+MGI:1335088,Pstpip2,proline-serine-threonine phosphatase-interacting protein 2,18,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:95481,Ptk2,PTK2 protein tyrosine kinase 2,15,,actin binding,,,ISO,Q05397 ,J:164563 
+MGI:105307,Ptpn3,"protein tyrosine phosphatase, non-receptor type 3",4,,cytoskeletal protein binding,,,IEA,IPR012151 ,J:72247 
+MGI:1099792,Ptpn4,"protein tyrosine phosphatase, non-receptor type 4",1,,cytoskeletal protein binding,,,IEA,IPR012151 ,J:72247 
+MGI:97810,Ptprc,"protein tyrosine phosphatase, receptor type, C",1,,ankyrin binding,,,ISO,P08575 ,J:164563 
+MGI:97810,Ptprc,"protein tyrosine phosphatase, receptor type, C",1,,spectrin binding,,,ISO,P08575 ,J:164563 
+MGI:102765,Ptprn,"protein tyrosine phosphatase, receptor type, N",1,,spectrin binding,,,ISO,Q16849 ,J:164563 
+MGI:1321152,Ptprt,"protein tyrosine phosphatase, receptor type, T",2,,alpha-actinin binding,,,IDA,,J:114547 
+MGI:1289230,Pxk,PX domain containing serine/threonine kinase,14,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1289230,Pxk,PX domain containing serine/threonine kinase,14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:108295,Pxn,paxillin,5,,vinculin binding,,,ISO,P49023 ,J:164563 
+MGI:1931465,Pycard,PYD and CARD domain containing,7,,myosin I binding,,,ISO,Q9ULZ3 ,J:164563 
+MGI:1931465,Pycard,PYD and CARD domain containing,7,,tropomyosin binding,,,ISO,Q9ULZ3 ,J:164563 
+MGI:97843,Rab3a,"RAB3A, member RAS oncogene family",8,,myosin V binding,,,ISO,P20336 ,J:164563 
+MGI:1917158,Rab3b,"RAB3B, member RAS oncogene family",4,,myosin V binding,,,ISO,P20337 ,J:164563 
+MGI:1914545,Rab3c,"RAB3C, member RAS oncogene family",13,,myosin V binding,,,ISO,Q96E17 ,J:164563 
+MGI:97844,Rab3d,"RAB3D, member RAS oncogene family",9,,myosin V binding,,,ISO,O95716 ,J:164563 
+MGI:894313,Rab6a,"RAB6A, member RAS oncogene family",7,,myosin V binding,,,ISO,P20340 ,J:164563 
+MGI:107283,Rab6b,"RAB6B, member RAS oncogene family",9,,myosin V binding,,,ISO,Q9NRW1 ,J:164563 
+MGI:96960,Rab8a,"RAB8A, member RAS oncogene family",8,,myosin V binding,,,ISO,P61006 ,J:164563 
+MGI:105066,Rab10,"RAB10, member RAS oncogene family",12,,myosin V binding,,,ISO,RGD:620879 ,J:155856 
+MGI:105066,Rab10,"RAB10, member RAS oncogene family",12,,myosin V binding,,,ISO,P61026 ,J:164563 
+MGI:1858202,Rab11a,"RAB11A, member RAS oncogene family",9,,microtubule binding,,,ISO,P62491 ,J:164563 
+MGI:1858202,Rab11a,"RAB11A, member RAS oncogene family",9,,myosin V binding,,,ISO,P62491 ,J:164563 
+MGI:99425,Rab11b,"RAB11B, member RAS oncogene family",17,,myosin V binding,,,ISO,Q15907 ,J:164563 
+MGI:1098586,Rab11fip5,RAB11 family interacting protein 5 (class I),6,,gamma-tubulin binding,,,ISO,Q9BXF6 ,J:164563 
+MGI:1915615,Rab14,"RAB14, member RAS oncogene family",2,,myosin V binding,,,ISO,P61106 ,J:164563 
+MGI:1858203,Rab25,"RAB25, member RAS oncogene family",3,,myosin V binding,,,ISO,P57735 ,J:164563 
+MGI:1861441,Rab27a,"RAB27A, member RAS oncogene family",9,,myosin V binding,,,IPI,Q99104 ,J:67601 
+MGI:1931295,Rab27b,"RAB27B, member RAS oncogene family",18,,myosin V binding,,,ISO,O00194 ,J:164563 
+MGI:2385107,Rab29,"RAB29, member RAS oncogene family",1,,kinesin binding,,,ISO,O14966 ,J:164563 
+MGI:1915040,Rab39b,"RAB39B, member RAS oncogene family",X,,myosin V binding,,,ISO,Q96DA2 ,J:164563 
+MGI:1349423,Racgap1,Rac GTPase-activating protein 1,15,,alpha-tubulin binding,,,ISO,Q9H0H5 ,J:164563 
+MGI:1349423,Racgap1,Rac GTPase-activating protein 1,15,,beta-tubulin binding,,,ISO,Q9H0H5 ,J:164563 
+MGI:1349423,Racgap1,Rac GTPase-activating protein 1,15,,gamma-tubulin binding,,,ISO,Q9H0H5 ,J:164563 
+MGI:1349423,Racgap1,Rac GTPase-activating protein 1,15,,microtubule binding,,,ISO,Q9H0H5 ,J:164563 
+MGI:1261809,Rad51d,RAD51 paralog D,11,,gamma-tubulin binding,,,ISO,O75771 ,J:164563 
+MGI:1927243,Rala,v-ral simian leukemia viral oncogene A (ras related),13,,myosin binding,,,ISO,P11233 ,J:164563 
+MGI:1921584,Ranbp10,RAN binding protein 10,8,,beta-tubulin binding,,,IDA,,J:137105 
+MGI:97856,Rara,"retinoic acid receptor, alpha",11,,alpha-actinin binding,,,ISO,P10276 ,J:164563 
+MGI:1858220,Rcan3,regulator of calcineurin 3,4,,troponin I binding,,,ISO,Q9UKA8 ,J:164563 
+MGI:1919784,Rcc2,regulator of chromosome condensation 2,4,,microtubule binding,,,ISO,Q9P258 ,J:164563 
+MGI:2676394,Rcsd1,RCSD domain containing 1,1,,actin filament binding,,,ISO,Q6JBY9 ,J:164563 
+MGI:97887,Rdx,radixin,9,,actin binding,,,ISO,RGD:1359472 ,J:155856 
+MGI:97887,Rdx,radixin,9,,actin binding,,,ISO,P35241 ,J:164563 
+MGI:97887,Rdx,radixin,9,,cytoskeletal protein binding,,,IEA,IPR000798 ,J:72247 
+MGI:1098827,Reep1,receptor accessory protein 1,6,,microtubule binding,,,ISO,Q9H902 ,J:164563 
+MGI:103290,Rela,v-rel reticuloendotheliosis viral oncogene homolog A (avian),19,,actinin binding,happens in UBERON:0000074,,IPI,P57780 ,J:221512 
+MGI:103290,Rela,v-rel reticuloendotheliosis viral oncogene homolog A (avian),19,,actinin binding,,,ISO,Q04206 ,J:164563 
+MGI:1920371,Rflna,refilin A,5,,filamin binding,,,IBA,PTN001274974 ,J:265628 
+MGI:1920371,Rflna,refilin A,5,,filamin binding,,,IDA,,J:210363 
+MGI:1923816,Rflnb,refilin B,11,,filamin binding,,,IBA,PTN001274974 ,J:265628 
+MGI:1923816,Rflnb,refilin B,11,,filamin binding,,,ISO,Q8N5W9 ,J:73065 
+MGI:1098271,Rgs2,regulator of G-protein signaling 2,1,,beta-tubulin binding,,,ISO,RGD:621665 ,J:155856 
+MGI:1859709,Rgs14,regulator of G-protein signaling 14,13,,microtubule binding,,,ISO,O43566 ,J:164563 
+MGI:1202713,Rhag,Rhesus blood group-associated A glycoprotein,17,,ankyrin binding,,,ISO,Q02094 ,J:164563 
+MGI:1927379,Rhbg,Rhesus blood group-associated B glycoprotein,3,,ankyrin binding,,,ISO,Q9H310 ,J:164563 
+MGI:1888517,Rhcg,Rhesus blood group-associated C glycoprotein,7,,ankyrin binding,,,ISO,Q9UBD6 ,J:164563 
+MGI:97914,Rho,rhodopsin,6,,spectrin binding,,,ISO,P51489 ,J:199579 
+MGI:1096342,Rhoa,ras homolog family member A,9,,myosin binding,,,ISO,P61586 ,J:164563 
+MGI:1922021,Rita1,RBPJ interacting and tubulin associated 1,5,,tubulin binding,,,IBA,PTN002439493 ,J:265628 
+MGI:1922021,Rita1,RBPJ interacting and tubulin associated 1,5,,tubulin binding,,,ISO,Q96K30 ,J:164563 
+MGI:1341105,Rp1,retinitis pigmentosa 1 (human),1,,microtubule binding,,,IDA,,J:109781 
+MGI:1350917,Rps3,ribosomal protein S3,7,,microtubule binding,,,ISO,P23396 ,J:164563 
+MGI:1350917,Rps3,ribosomal protein S3,7,,tubulin binding,,,ISO,P23396 ,J:164563 
+MGI:106379,Rtcb,"RNA 2',3'-cyclic phosphate and 5'-OH ligase",10,,vinculin binding,,,ISO,Q9Y3I0 ,J:164563 
+MGI:1919546,Rusc1,RUN and SH3 domain containing 1,3,,actin binding,,,IDA,,J:185466 
+MGI:1330282,S100a4,S100 calcium binding protein A4,3,,actin binding,,,ISO,RGD:3245 ,J:155856 
+MGI:1339467,S100a6,S100 calcium binding protein A6 (calcyclin),3,,tropomyosin binding,,,ISO,P06703 ,J:164563 
+MGI:88244,S100a8,S100 calcium binding protein A8 (calgranulin A),3,,microtubule binding,,,IEA,IPR028474 ,J:72247 
+MGI:1338947,S100a9,S100 calcium binding protein A9 (calgranulin B),3,,microtubule binding,,,IEA,IPR028475 ,J:72247 
+MGI:98227,Sag,"S-antigen, retina and pineal gland (arrestin)",1,,spectrin binding,,,ISO,P15887 ,J:199579 
+MGI:2384945,Samd14,sterile alpha motif domain containing 14,11,,actin filament binding,,,IBA,PTN000414425 ,J:265628 
+MGI:1923061,Saxo1,stabilizer of axonemal microtubules 1,4,,microtubule binding,,,IBA,PTN001267474 ,J:265628 
+MGI:1923061,Saxo1,stabilizer of axonemal microtubules 1,4,,microtubule binding,,,ISO,Q8IYX7 ,J:164563 
+MGI:1914618,Saxo2,stabilizer of axonemal microtubules 2,7,,microtubule binding,,,IBA,PTN001267474 ,J:265628 
+MGI:1913961,Sbds,SBDS ribosome maturation factor,5,,microtubule binding,,,ISO,Q9Y3A5 ,J:164563 
+MGI:3610314,Scimp,SLP adaptor and CSK interacting membrane protein,11,,microtubule binding,,,IBA,PTN001738900 ,J:265628 
+MGI:1306794,Scin,scinderin,12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1306794,Scin,scinderin,12,,actin filament binding,,,IEA,IPR007122 IPR030012 ,J:72247 
+MGI:98251,Scn5a,"sodium channel, voltage-gated, type V, alpha",9,,ankyrin binding,,,ISO,RGD:3637 ,J:155856 
+MGI:98251,Scn5a,"sodium channel, voltage-gated, type V, alpha",9,,ankyrin binding,,,ISO,Q14524 ,J:164563 
+MGI:101782,Scnn1a,"sodium channel, nonvoltage-gated 1 alpha",6,,actin binding,,,ISO,RGD:3639 ,J:155856 
+MGI:1918177,Setd2,SET domain containing 2,9,,alpha-tubulin binding,,,ISO,Q9BYW2 ,J:164563 
+MGI:1289184,Setd3,SET domain containing 3,12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1920344,Sgip1,SH3-domain GRB2-like (endophilin) interacting protein 1,4,,cytoskeletal protein binding,,,IBA,PTN002747256 ,J:265628 
+MGI:1920344,Sgip1,SH3-domain GRB2-like (endophilin) interacting protein 1,4,,microtubule binding,,,IDA,,J:168194 
+MGI:1920344,Sgip1,SH3-domain GRB2-like (endophilin) interacting protein 1,4,,tubulin binding,,PR:Q8VD37-6,IPI,P02554 ,J:168194 
+MGI:1920344,Sgip1,SH3-domain GRB2-like (endophilin) interacting protein 1,4,,tubulin binding,,,ISO,RGD:1564957 ,J:155856 
+MGI:1340062,Sgk1,serum/glucocorticoid regulated kinase 1,10,,tau protein binding,,,ISO,RGD:3668 ,J:155856 
+MGI:1930016,Shank3,SH3 and multiple ankyrin repeat domains 3,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919024,Shroom1,shroom family member 1,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919024,Shroom1,shroom family member 1,11,,actin filament binding,,,IBA,PTN000385164 ,J:265628 
+MGI:1919024,Shroom1,shroom family member 1,11,,actin filament binding,,,IDA,,J:114885 
+MGI:1919024,Shroom1,shroom family member 1,11,,myosin II binding,,,IDA,,J:114885 
+MGI:107194,Shroom2,shroom family member 2,X,,actin binding,,,IDA,,J:114885 
+MGI:107194,Shroom2,shroom family member 2,X,,actin filament binding,,,IBA,PTN000385164 ,J:265628 
+MGI:107194,Shroom2,shroom family member 2,X,,actin filament binding,,,IDA,,J:114885 J:124995 
+MGI:1351655,Shroom3,shroom family member 3,5,,actin binding,,,IDA,,J:58691 
+MGI:1351655,Shroom3,shroom family member 3,5,,actin filament binding,,,IBA,PTN000385164 ,J:265628 
+MGI:2685570,Shroom4,shroom family member 4,X,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2685570,Shroom4,shroom family member 4,X,,actin filament binding,,,IBA,PTN000385164 ,J:265628 
+MGI:2685570,Shroom4,shroom family member 4,X,,actin filament binding,,,IDA,,J:116228 
+MGI:2685570,Shroom4,shroom family member 4,X,,myosin II binding,,,IDA,,J:116228 
+MGI:1918903,Shtn1,shootin 1,19,,actin filament binding,,,ISO,RGD:1311558 ,J:155856 
+MGI:1918903,Shtn1,shootin 1,19,,kinesin binding,,,IPI,Q80WE4 ,J:199805 
+MGI:2443679,Sipa1l1,signal-induced proliferation-associated 1 like 1,12,,actin filament binding,,,ISO,RGD:708497 ,J:155856 
+MGI:1927664,Sirt2,sirtuin 2,7,,beta-tubulin binding,,,IDA,,J:194185 
+MGI:1913718,Ska1,spindle and kinetochore associated complex subunit 1,18,,microtubule binding,,,IBA,PTN002005085 ,J:265628 
+MGI:1913718,Ska1,spindle and kinetochore associated complex subunit 1,18,,microtubule binding,,,ISO,Q96BD8 ,J:164563 
+MGI:1913390,Ska2,spindle and kinetochore associated complex subunit 2,11,,microtubule binding,,,IBA,PTN002077923 ,J:265628 
+MGI:1913390,Ska2,spindle and kinetochore associated complex subunit 2,11,,microtubule binding,,,ISO,Q8WVK7 ,J:164563 
+MGI:1925723,Skap1,src family associated phosphoprotein 1,11,,microtubule plus-end binding,,,ISO,Q86WV1 ,J:164563 
+MGI:109393,Slc4a1,"solute carrier family 4 (anion exchanger), member 1",11,,actin binding,,,ISO,RGD:3710 ,J:155856 
+MGI:109393,Slc4a1,"solute carrier family 4 (anion exchanger), member 1",11,,ankyrin binding,,,IPI,Q02357 ,J:145243 
+MGI:109393,Slc4a1,"solute carrier family 4 (anion exchanger), member 1",11,,ankyrin binding,,,ISO,P02730 ,J:164563 
+MGI:1270850,Slc6a2,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",8,,actin binding,,,ISO,P23975 ,J:164563 
+MGI:1270850,Slc6a2,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",8,,alpha-tubulin binding,,,ISO,RGD:621822 ,J:155856 
+MGI:1270850,Slc6a2,"solute carrier family 6 (neurotransmitter transporter, noradrenalin), member 2",8,,beta-tubulin binding,,,ISO,RGD:621822 ,J:155856 
+MGI:96285,Slc6a4,"solute carrier family 6 (neurotransmitter transporter, serotonin), member 4",11,,actin filament binding,,,ISO,RGD:3714 ,J:155856 
+MGI:107956,Slc8a1,"solute carrier family 8 (sodium/calcium exchanger), member 1",17,,ankyrin binding,happens in heart,,IPI,Q8C8R3 ,J:166301 
+MGI:107956,Slc8a1,"solute carrier family 8 (sodium/calcium exchanger), member 1",17,,ankyrin binding,,,ISO,P32418 ,J:164563 
+MGI:107956,Slc8a1,"solute carrier family 8 (sodium/calcium exchanger), member 1",17,,cytoskeletal protein binding,,,ISO,P32418 ,J:164563 
+MGI:1349482,Slc9a3r1,"solute carrier family 9 (sodium/hydrogen exchanger), member 3 regulator 1",11,,myosin II binding,,,ISO,RGD:708538 ,J:155856 
+MGI:1933154,Slc26a5,"solute carrier family 26, member 5",5,,spectrin binding,"happens in organ of Corti,uses Sptbn5",,IDA,,J:142574 
+MGI:108051,Smad2,SMAD family member 2,18,,tau protein binding,,,IDA,,J:261825 
+MGI:894293,Smad4,SMAD family member 4,18,,filamin binding,,,ISO,RGD:3033 ,J:155856 
+MGI:1339795,Smc3,structural maintenance of chromosomes 3,19,,beta-tubulin binding,,,ISO,Q9UQE7 ,J:164563 
+MGI:1354727,Smtn,smoothelin,11,,actin binding,,,TAS,,J:158046 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,tropomyosin binding,,,IBA,PTN001566592 ,J:265628 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,tropomyosin binding,,,IPI,P04268 P19352 ,J:240264 
+MGI:98331,Snap25,synaptosomal-associated protein 25,2,,myosin binding,,,ISO,RGD:3728 ,J:155856 
+MGI:1277151,Snca,"synuclein, alpha",6,,actin binding,,,ISO,P37840 ,J:164563 
+MGI:1277151,Snca,"synuclein, alpha",6,,alpha-tubulin binding,,,ISO,P37840 ,J:164563 
+MGI:1277151,Snca,"synuclein, alpha",6,,beta-tubulin binding,,,ISO,RGD:3729 ,J:155856 
+MGI:1277151,Snca,"synuclein, alpha",6,,kinesin binding,,,ISO,P37840 ,J:164563 
+MGI:1277151,Snca,"synuclein, alpha",6,,microtubule binding,,,ISO,RGD:3729 ,J:155856 
+MGI:1277151,Snca,"synuclein, alpha",6,,tau protein binding,,,ISO,P37840 ,J:164563 
+MGI:1889011,Sncb,"synuclein, beta",13,,alpha-tubulin binding,,,ISO,RGD:70992 ,J:155856 
+MGI:1889011,Sncb,"synuclein, beta",13,,beta-tubulin binding,,,ISO,RGD:70992 ,J:155856 
+MGI:1298397,Sncg,"synuclein, gamma",14,,alpha-tubulin binding,,,ISO,RGD:70996 ,J:155856 
+MGI:1298397,Sncg,"synuclein, gamma",14,,beta-tubulin binding,,,ISO,RGD:70996 ,J:155856 
+MGI:101772,Snta1,"syntrophin, acidic 1",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:101781,Sntb1,"syntrophin, basic 1",15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:101771,Sntb2,"syntrophin, basic 2",8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1918346,Sntg1,"syntrophin, gamma 1",1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1919541,Sntg2,"syntrophin, gamma 2",12,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916428,Snx5,sorting nexin 5,2,,dynactin binding,,,IBA,PTN002912146 ,J:265628 
+MGI:1916428,Snx5,sorting nexin 5,2,,dynactin binding,,,ISO,Q9Y5X3 ,J:164563 
+MGI:1919433,Snx6,sorting nexin 6,12,,dynactin binding,,,IBA,PTN002912162 ,J:265628 
+MGI:1919433,Snx6,sorting nexin 6,12,,dynactin binding,,,ISO,Q9UNH7 ,J:164563 
+MGI:700013,Sorbs3,sorbin and SH3 domain containing 3,14,,vinculin binding,,,ISO,O60504 ,J:164563 
+MGI:1927470,Spag5,sperm associated antigen 5,11,,microtubule binding,,,ISO,AF399910 ,J:73086 
+MGI:1927470,Spag5,sperm associated antigen 5,11,,microtubule binding,,,ISO,Q96R06 ,J:164563 
+MGI:3056295,Spag8,sperm associated antigen 8,4,,microtubule binding,,,IEA,IPR026124 ,J:72247 
+MGI:1918084,Spag9,sperm associated antigen 9,11,,kinesin binding,,,IBA,PTN001015989 ,J:265628 
+MGI:1918084,Spag9,sperm associated antigen 9,11,,kinesin binding,,,IDA,,J:97560 
+MGI:1858896,Spast,spastin,17,,alpha-tubulin binding,,,ISO,Q9UBP0 ,J:164563 
+MGI:1858896,Spast,spastin,17,,beta-tubulin binding,,,ISO,Q9UBP0 ,J:164563 
+MGI:1858896,Spast,spastin,17,,microtubule binding,,,ISO,Q9UBP0 ,J:164563 
+MGI:1916531,Spata4,spermatogenesis associated 4,8,,microtubule binding,,,IBA,PTN000282012 ,J:265628 
+MGI:1915196,Spata6,spermatogenesis associated 6,4,,myosin light chain binding,,,IBA,PTN002702396 ,J:265628 
+MGI:1915196,Spata6,spermatogenesis associated 6,4,,myosin light chain binding,,,IPI,Q60605 ,J:217662 
+MGI:1925374,Spata31,spermatogenesis associated 31,13,,actin binding,,,ISO,RGD:727950 ,J:155856 
+MGI:3045340,Spata32,spermatogenesis associated 32,11,,actin binding,,,IBA,PTN002204142 ,J:265628 
+MGI:3045340,Spata32,spermatogenesis associated 32,11,,actin binding,,,ISO,RGD:1359156 ,J:155856 
+MGI:1921531,Spatc1,spermatogenesis and centriole associated 1,15,,gamma-tubulin binding,,,IDA,,J:93469 
+MGI:3513546,Spef1,sperm flagellar 1,2,,microtubule binding,,,IBA,PTN000282012 ,J:265628 
+MGI:3513546,Spef1,sperm flagellar 1,2,,microtubule binding,,,IDA,,J:243402 
+MGI:2685939,Spef1l,sperm flagellar 1 like,7,,microtubule binding,,,IBA,PTN000282012 ,J:265628 
+MGI:1915416,Spire1,spire type actin nucleation factor 1,18,,actin binding,,,IEA,IPR029901 IPR029905 ,J:72247 
+MGI:1915416,Spire1,spire type actin nucleation factor 1,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2446256,Spire2,spire type actin nucleation factor 2,8,,actin binding,,,IEA,IPR029901 IPR029904 ,J:72247 
+MGI:2446256,Spire2,spire type actin nucleation factor 2,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98385,Spta1,"spectrin alpha, erythrocytic 1",1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98386,Sptan1,"spectrin alpha, non-erythrocytic 1",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98386,Sptan1,"spectrin alpha, non-erythrocytic 1",2,,spectrin binding,uses Sptbn5,,IDA,,J:142574 
+MGI:98386,Sptan1,"spectrin alpha, non-erythrocytic 1",2,,spectrin binding,,,IPI,F6UCX4 ,J:142574 
+MGI:98386,Sptan1,"spectrin alpha, non-erythrocytic 1",2,,spectrin binding,,,ISO,P16086 ,J:199579 
+MGI:98387,Sptb,"spectrin beta, erythrocytic",12,,actin binding,,,IDA,,J:165884 
+MGI:98387,Sptb,"spectrin beta, erythrocytic",12,,actin filament binding,,,IDA,,J:165884 
+MGI:98387,Sptb,"spectrin beta, erythrocytic",12,,actin filament binding,,,ISO,P11277 ,J:164563 
+MGI:98387,Sptb,"spectrin beta, erythrocytic",12,,ankyrin binding,,,ISO,P11277 ,J:164563 
+MGI:98388,Sptbn1,"spectrin beta, non-erythrocytic 1",11,,actin binding,,,IEA,IPR016343 ,J:72247 
+MGI:98388,Sptbn1,"spectrin beta, non-erythrocytic 1",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98388,Sptbn1,"spectrin beta, non-erythrocytic 1",11,,ankyrin binding,,,ISO,Q01082 ,J:164563 
+MGI:1890574,Sptbn4,"spectrin beta, non-erythrocytic 4",7,,actin binding,happens in heart,,IDA,,J:165334 
+MGI:1890574,Sptbn4,"spectrin beta, non-erythrocytic 4",7,,ankyrin binding,,,IDA,,J:77228 
+MGI:1890574,Sptbn4,"spectrin beta, non-erythrocytic 4",7,,ankyrin binding,,,ISO,Q9H254 ,J:164563 
+MGI:1890574,Sptbn4,"spectrin beta, non-erythrocytic 4",7,,ankyrin binding,,,ISS,Q9H254 ,J:63322 
+MGI:1890574,Sptbn4,"spectrin beta, non-erythrocytic 4",7,,spectrin binding,happens in heart,,IDA,,J:165334 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,actin filament binding,,,IDA,,J:142574 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,dynactin binding,,,ISO,Q9NRC6 ,J:199579 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,kinesin binding,,,ISO,Q9NRC6 ,J:199579 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,myosin tail binding,,,ISO,Q9NRC6 ,J:199579 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,spectrin binding,uses Sptan1,,IPI,P16546 ,J:142574 
+MGI:2685200,Sptbn5,"spectrin beta, non-erythrocytic 5",2,,spectrin binding,,,ISO,Q9NRC6 ,J:199579 
+MGI:2686240,Ssh1,slingshot protein phosphatase 1,5,,actin binding,,,IBA,PTN000807232 ,J:265628 
+MGI:2686240,Ssh1,slingshot protein phosphatase 1,5,,actin binding,,,ISO,Q8WYL5 ,J:164563 
+MGI:2679255,Ssh2,slingshot protein phosphatase 2,11,,actin binding,,,IBA,PTN000807232 ,J:265628 
+MGI:2679255,Ssh2,slingshot protein phosphatase 2,11,,actin binding,,,ISO,Q76I76 ,J:164563 
+MGI:2683546,Ssh3,slingshot protein phosphatase 3,19,,actin binding,,,IBA,PTN000807232 ,J:265628 
+MGI:3045258,Stard9,START domain containing 9,2,,microtubule binding,,,IBA,PTN000648413 ,J:265628 
+MGI:3045258,Stard9,START domain containing 9,2,,microtubule binding,,,ISO,Q9P2P6 ,J:164563 
+MGI:1352508,Stau2,staufen double-stranded RNA binding protein 2,1,,kinesin binding,,,ISO,RGD:621479 ,J:155856 
+MGI:107476,Stim1,stromal interaction molecule 1,7,,microtubule plus-end binding,,,ISO,Q13586 ,J:164563 
+MGI:1922250,Stk38l,serine/threonine kinase 38 like,6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:96739,Stmn1,stathmin 1,4,,tubulin binding,,,IBA,PTN000802387 ,J:265628 
+MGI:96739,Stmn1,stathmin 1,4,,tubulin binding,,,ISO,P16949 ,J:73065 
+MGI:98241,Stmn2,stathmin-like 2,3,,tubulin binding,,,IBA,PTN000802387 ,J:265628 
+MGI:1277137,Stmn3,stathmin-like 3,2,,tubulin binding,,,IBA,PTN000802387 ,J:265628 
+MGI:1931224,Stmn4,stathmin-like 4,14,,tubulin binding,,,IBA,PTN000802387 ,J:265628 
+MGI:2686420,Stmnd1,stathmin domain containing 1,13,,tubulin binding,,,IBA,PTN000802387 ,J:265628 
+MGI:104626,Strbp,spermatid perinuclear RNA binding protein,2,,microtubule binding,,,IDA,,J:89468 
+MGI:104626,Strbp,spermatid perinuclear RNA binding protein,2,,tubulin binding,,,IDA,,J:89468 
+MGI:109355,Stx1a,syntaxin 1A (brain),5,,myosin binding,,,ISO,RGD:69430 ,J:155856 
+MGI:109355,Stx1a,syntaxin 1A (brain),5,,myosin head/neck binding,,,ISO,RGD:69430 ,J:155856 
+MGI:893577,Stx4a,syntaxin 4A (placental),7,,spectrin binding,,,ISO,RGD:621019 ,J:155856 
+MGI:1926058,Stxbp5,syntaxin binding protein 5 (tomosyn),10,,myosin II binding,,,IBA,PTN000028271 ,J:265628 
+MGI:2443815,Stxbp5l,syntaxin binding protein 5-like,16,,myosin II binding,,,IBA,PTN000028271 ,J:265628 
+MGI:2147319,Svil,supervillin,18,,actin binding,,,IEA,IPR003128 IPR036886 ,J:72247 
+MGI:2147319,Svil,supervillin,18,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2147319,Svil,supervillin,18,,actin filament binding,,,ISO,O95425 ,J:164563 
+MGI:2442392,Sybu,syntabulin (syntaxin-interacting),15,,kinesin binding,,,IEA,IPR026198 ,J:72247 
+MGI:2442392,Sybu,syntabulin (syntaxin-interacting),15,,microtubule binding,,,ISO,F1LUC0 ,J:190127 
+MGI:1927152,Syne1,"spectrin repeat containing, nuclear envelope 1",10,,actin binding,,,ISO,Q8NF91 ,J:164563 
+MGI:1927152,Syne1,"spectrin repeat containing, nuclear envelope 1",10,,actin filament binding,,,IMP,,J:187540 
+MGI:2449316,Syne2,"spectrin repeat containing, nuclear envelope 2",12,,actin binding,,,IDA,,J:168360 
+MGI:2449316,Syne2,"spectrin repeat containing, nuclear envelope 2",12,,actin filament binding,,,IEA,IPR030266 ,J:72247 
+MGI:2442408,Syne3,"spectrin repeat containing, nuclear envelope family member 3",12,,actin filament binding,,,IBA,PTN002934743 ,J:265628 
+MGI:2442408,Syne3,"spectrin repeat containing, nuclear envelope family member 3",12,,actin filament binding,,,ISO,Q6ZMZ3 ,J:164563 
+MGI:2442408,Syne3,"spectrin repeat containing, nuclear envelope family member 3",12,,cytoskeletal protein binding,,,IEA,IPR030267 ,J:72247 
+MGI:2661187,Synm,"synemin, intermediate filament protein",7,,vinculin binding,,,ISO,O15061 ,J:164563 
+MGI:1099446,Synpo,synaptopodin,18,,actin binding,,,IBA,PTN001198415 ,J:265628 
+MGI:1099446,Synpo,synaptopodin,18,,actin binding,,,IDA,,J:43510 
+MGI:2153070,Synpo2,synaptopodin 2,3,,actin binding,,,IBA,PTN001198415 ,J:265628 
+MGI:2153070,Synpo2,synaptopodin 2,3,,actin binding,,,ISA,AB013130 ,J:72383 
+MGI:2153070,Synpo2,synaptopodin 2,3,,alpha-actinin binding,,,ISO,Q9UMS6 ,J:164563 
+MGI:2153070,Synpo2,synaptopodin 2,3,,filamin binding,,,ISO,Q9UMS6 ,J:164563 
+MGI:2153070,Synpo2,synaptopodin 2,3,,muscle alpha-actinin binding,,,IDA,,J:128983 
+MGI:1916010,Synpo2l,synaptopodin 2-like,14,,actin binding,,,IBA,PTN001198415 ,J:265628 
+MGI:1859547,Syt11,synaptotagmin XI,3,,beta-tubulin binding,happens in type B pancreatic cell,,IPI,Q6P9T8 ,J:211330 
+MGI:106012,Tagln,transgelin,9,,actin filament binding,,,IEA,IPR029976 ,J:72247 
+MGI:1926784,Tagln3,transgelin 3,16,,actin filament binding,,,IEA,IPR029973 ,J:72247 
+MGI:1914490,Taok1,TAO kinase 1,11,,alpha-tubulin binding,,,ISO,Q7L7X3 ,J:164563 
+MGI:1914490,Taok1,TAO kinase 1,11,,beta-tubulin binding,,,ISO,Q7L7X3 ,J:164563 
+MGI:1914490,Taok1,TAO kinase 1,11,,myosin V binding,,,ISO,RGD:708455 ,J:155856 
+MGI:1921536,Tbc1d21,"TBC1 domain family, member 21",9,,actin binding,,,IDA,,J:177986 
+MGI:107549,Tbca,tubulin cofactor A,13,,beta-tubulin binding,,,IEA,IPR004226 IPR036126 ,J:72247 
+MGI:107549,Tbca,tubulin cofactor A,13,,tubulin binding,,,IBA,PTN000487182 ,J:265628 
+MGI:1919976,Tbcc,tubulin-specific chaperone C,17,,tubulin binding,,,IEA,IPR031925 ,J:72247 
+MGI:1919686,Tbcd,tubulin-specific chaperone d,11,,beta-tubulin binding,,,IBA,PTN000291965 ,J:265628 
+MGI:1919686,Tbcd,tubulin-specific chaperone d,11,,beta-tubulin binding,,,ISO,Q9BTW9 ,J:164563 
+MGI:1917680,Tbce,tubulin-specific chaperone E,13,,alpha-tubulin binding,,,IBA,PTN000388740 ,J:265628 
+MGI:1925543,Tbcel,tubulin folding cofactor E-like,9,,alpha-tubulin binding,,,IBA,PTN000388740 ,J:265628 
+MGI:1330233,Tcap,titin-cap,11,,FATZ binding,,,ISO,O15273 ,J:164563 
+MGI:1330233,Tcap,titin-cap,11,,titin binding,,,IBA,PTN002689097 ,J:265628 
+MGI:1330233,Tcap,titin-cap,11,,titin binding,,,ISO,O15273 ,J:164563 
+MGI:109634,Terf1,telomeric repeat binding factor 1,1,,microtubule binding,,,IBA,PTN001094094 ,J:265628 
+MGI:109634,Terf1,telomeric repeat binding factor 1,1,,microtubule binding,,,ISO,P54274 ,J:164563 
+MGI:103306,Tiam1,T cell lymphoma invasion and metastasis 1,16,,microtubule binding,,,ISO,RGD:1307455 ,J:155856 
+MGI:1099832,Tln1,talin 1,4,,actin binding,,,IEA,IPR002558 IPR035964 ,J:72247 
+MGI:1099832,Tln1,talin 1,4,,actin filament binding,,,IEA,IPR036723 ,J:72247 
+MGI:1099832,Tln1,talin 1,4,,vinculin binding,,,ISO,Q9Y490 ,J:164563 
+MGI:1917799,Tln2,talin 2,9,,actin binding,,,IEA,IPR002558 IPR035964 ,J:72247 
+MGI:1917799,Tln2,talin 2,9,,actin filament binding,,,IEA,IPR036723 ,J:72247 
+MGI:1891420,Tlnrd1,talin rod domain containing 1,7,,actin binding,,,IDA,,J:240268 
+MGI:1923928,Tmem67,transmembrane protein 67,4,,filamin binding,,,ISO,Q5HYA8 ,J:164563 
+MGI:1196277,Tmem201,transmembrane protein 201,4,,actin filament binding,,,IBA,PTN002408633 ,J:265628 
+MGI:1196277,Tmem201,transmembrane protein 201,4,,actin filament binding,,,IDA,,J:197280 
+MGI:98775,Tmod1,tropomodulin 1,4,,actin binding,,,ISO,P28289 ,J:164563 
+MGI:98775,Tmod1,tropomodulin 1,4,,actin filament binding,,,IEA,IPR030135 ,J:72247 
+MGI:98775,Tmod1,tropomodulin 1,4,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:98775,Tmod1,tropomodulin 1,4,,tropomyosin binding,,,IDA,,J:158797 
+MGI:98775,Tmod1,tropomodulin 1,4,,tropomyosin binding,,,ISO,RGD:3874 ,J:155856 
+MGI:1355335,Tmod2,tropomodulin 2,9,,actin binding,,,ISO,RGD:61948 ,J:155856 
+MGI:1355335,Tmod2,tropomodulin 2,9,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:1355335,Tmod2,tropomodulin 2,9,,tropomyosin binding,,,ISO,U59240 ,J:73065 
+MGI:1355335,Tmod2,tropomodulin 2,9,,tropomyosin binding,,,ISO,RGD:61948 ,J:155856 
+MGI:1355315,Tmod3,tropomodulin 3,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1355315,Tmod3,tropomodulin 3,9,,microtubule minus-end binding,,,ISO,NP_055362 ,J:73065 
+MGI:1355315,Tmod3,tropomodulin 3,9,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:1355315,Tmod3,tropomodulin 3,9,,tropomyosin binding,,,IDA,,J:158797 
+MGI:1355285,Tmod4,tropomodulin 4,3,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1355285,Tmod4,tropomodulin 4,3,,actin filament binding,,,IEA,IPR030129 ,J:72247 
+MGI:1355285,Tmod4,tropomodulin 4,3,,tropomyosin binding,,,IBA,PTN000096563 ,J:265628 
+MGI:1355285,Tmod4,tropomodulin 4,3,,tropomyosin binding,,,IDA,,J:158797 
+MGI:99510,Tmsb4x,"thymosin, beta 4, X chromosome",X,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:99510,Tmsb4x,"thymosin, beta 4, X chromosome",X,,actin monomer binding,,,IBA,PTN002280337 ,J:265628 
+MGI:109146,Tmsb10,"thymosin, beta 10",6,,actin monomer binding,,,IBA,PTN002280337 ,J:265628 
+MGI:109146,Tmsb10,"thymosin, beta 10",6,,actin monomer binding,,,TAS,,J:36377 
+MGI:1925728,Tmsb15a,thymosin beta 15a,X,,actin monomer binding,,,IBA,PTN002280337 ,J:265628 
+MGI:3843059,Tmsb15b1,thymosin beta 15b1,X,,actin monomer binding,,,IBA,PTN002280337 ,J:265628 
+MGI:3843061,Tmsb15b2,thymosin beta 15b2,X,,actin monomer binding,,,IDA,,J:147939 
+MGI:3026988,Tmsb15l,thymosin beta 15b like,X,,actin monomer binding,,,IBA,PTN002280337 ,J:265628 
+MGI:3026988,Tmsb15l,thymosin beta 15b like,X,,actin monomer binding,,,IDA,,J:147939 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,actin filament binding,,,IBA,PTN000552063 ,J:265628 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,actin filament binding,,,IDA,,J:135484 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,troponin I binding,,,ISO,P63316 ,J:164563 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,troponin T binding,,,ISO,P63316 ,J:164563 
+MGI:98780,Tnnc2,"troponin C2, fast",2,contributes_to,actin binding,,,ISO,P02585 ,J:164563 
+MGI:98780,Tnnc2,"troponin C2, fast",2,,actin filament binding,,,IBA,PTN000552063 ,J:265628 
+MGI:105073,Tnni1,"troponin I, skeletal, slow 1",1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:105070,Tnni2,"troponin I, skeletal, fast 2",7,contributes_to,actin binding,,,ISO,P48788 ,J:164563 
+MGI:105070,Tnni2,"troponin I, skeletal, fast 2",7,,troponin T binding,,,ISO,P48788 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,actin binding,,,ISO,P19429 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,actin filament binding,,,ISO,P19429 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,troponin C binding,,,ISO,P19429 ,J:164563 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,troponin T binding,,,ISO,P19429 ,J:164563 
+MGI:2443276,Tnni3k,TNNI3 interacting kinase,3,,troponin I binding,,,ISO,Q59H18 ,J:164563 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,contributes_to,tropomyosin binding,,,IBA,PTN000162487 ,J:265628 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,tropomyosin binding,,,ISO,P13805 ,J:164563 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,troponin T binding,,,IBA,PTN000162492 ,J:265628 
+MGI:1333868,Tnnt1,"troponin T1, skeletal, slow",7,,troponin T binding,,,ISO,RGD:621852 ,J:155856 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,actin binding,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,contributes_to,tropomyosin binding,,,IBA,PTN000162487 ,J:265628 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,tropomyosin binding,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin C binding,,,IBA,PTN000162544 ,J:265628 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin C binding,,,ISO,P45379 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin I binding,,,IBA,PTN000162544 ,J:265628 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin I binding,,,ISO,RGD:3882 ,J:155856 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,troponin I binding,,,ISO,P45379 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,contributes_to,actin binding,,,ISO,P45378 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,contributes_to,tropomyosin binding,,,IBA,PTN000162487 ,J:265628 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,tropomyosin binding,,,ISO,P45378 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,contributes_to,tropomyosin binding,,,ISO,P45378 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin C binding,,,IBA,PTN000162517 ,J:265628 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin C binding,,,ISO,P45378 ,J:164563 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin I binding,,,IBA,PTN000162517 ,J:265628 
+MGI:109550,Tnnt3,"troponin T3, skeletal, fast",7,,troponin I binding,,,ISO,P45378 ,J:164563 
+MGI:104552,Tns1,tensin 1,1,,actin binding,,,TAS,,J:39202 
+MGI:2144377,Tns4,tensin 4,11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1353568,Tor1a,"torsin family 1, member A (torsin A)",2,,cytoskeletal protein binding,,,IPI,P20152 Q9QXS1 ,J:140957 
+MGI:1353568,Tor1a,"torsin family 1, member A (torsin A)",2,,cytoskeletal protein binding,,,ISO,O14656 ,J:164563 
+MGI:1353568,Tor1a,"torsin family 1, member A (torsin A)",2,,kinesin binding,,,IBA,PTN002583250 ,J:265628 
+MGI:1353568,Tor1a,"torsin family 1, member A (torsin A)",2,,kinesin binding,,,ISO,RGD:628863 ,J:155856 
+MGI:1353568,Tor1a,"torsin family 1, member A (torsin A)",2,,kinesin binding,,,ISO,O14656 ,J:164563 
+MGI:3582693,Tor1aip1,torsin A interacting protein 1,1,,cytoskeletal protein binding,,,ISO,Q5JTV8 ,J:164563 
+MGI:1353605,Tor1b,"torsin family 1, member B",2,,kinesin binding,,,IBA,PTN002583250 ,J:265628 
+MGI:106618,Tpgs1,tubulin polyglutamylase complex subunit 1,10,,microtubule binding,,,IMP,MGI:2388468 ,J:125904 
+MGI:106618,Tpgs1,tubulin polyglutamylase complex subunit 1,10,,tubulin binding,,,IDA,,J:125904 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,actin binding,,,ISO,RGD:3898 ,J:155856 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,actin filament binding,,,IBA,PTN000443979 ,J:265628 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,actin filament binding,happens in osteoclast,,IDA,,J:114084 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,actin filament binding,,,ISO,RGD:3898 ,J:155856 
+MGI:98810,Tpm2,"tropomyosin 2, beta",4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98810,Tpm2,"tropomyosin 2, beta",4,,actin filament binding,,,IBA,PTN000443979 ,J:265628 
+MGI:98810,Tpm2,"tropomyosin 2, beta",4,,actin filament binding,,,ISO,RGD:1559479 ,J:155856 
+MGI:1890149,Tpm3,"tropomyosin 3, gamma",3,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1890149,Tpm3,"tropomyosin 3, gamma",3,,actin filament binding,,,IBA,PTN000443979 ,J:265628 
+MGI:1890149,Tpm3,"tropomyosin 3, gamma",3,,actin filament binding,happens in osteoclast,,IDA,,J:114084 
+MGI:2449202,Tpm4,tropomyosin 4,8,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2449202,Tpm4,tropomyosin 4,8,,actin filament binding,,,IBA,PTN000443979 ,J:265628 
+MGI:2449202,Tpm4,tropomyosin 4,8,,actin filament binding,happens in osteoclast,,IDA,,J:114084 
+MGI:2449202,Tpm4,tropomyosin 4,8,,actin filament binding,,,ISO,RGD:3899 ,J:155856 
+MGI:1920198,Tppp,tubulin polymerization promoting protein,13,,tubulin binding,,,IBA,PTN000309419 ,J:265628 
+MGI:1920198,Tppp,tubulin polymerization promoting protein,13,,tubulin binding,,,ISO,O94811 ,J:164563 
+MGI:2684923,Tppp2,tubulin polymerization-promoting protein family member 2,14,,tubulin binding,,,IBA,PTN000309419 ,J:265628 
+MGI:2684923,Tppp2,tubulin polymerization-promoting protein family member 2,14,,tubulin binding,,,ISO,P59282 ,J:164563 
+MGI:1915221,Tppp3,tubulin polymerization-promoting protein family member 3,8,,tubulin binding,,,IBA,PTN000309419 ,J:265628 
+MGI:1915221,Tppp3,tubulin polymerization-promoting protein family member 3,8,,tubulin binding,,,ISO,Q9BW30 ,J:164563 
+MGI:1922066,Tpr,"translocated promoter region, nuclear basket protein",1,,tubulin binding,,,ISO,P12270 ,J:164563 
+MGI:1921269,Traf3ip1,TRAF3 interacting protein 1,1,,microtubule binding,,,ISO,AF230877 ,J:73065 
+MGI:1921269,Traf3ip1,TRAF3 interacting protein 1,1,,tubulin binding,,,ISO,AF230877 ,J:73065 
+MGI:1914345,Trak1,"trafficking protein, kinesin binding 1",9,,myosin binding,,,IBA,PTN001039683 ,J:265628 
+MGI:1918077,Trak2,"trafficking protein, kinesin binding 2",1,,kinesin binding,,,ISO,RGD:620915 ,J:155856 
+MGI:1918077,Trak2,"trafficking protein, kinesin binding 2",1,,myosin binding,,,IBA,PTN001039683 ,J:265628 
+MGI:1933163,Trim2,tripartite motif-containing 2,3,,myosin binding,,,NAS,,J:68594 
+MGI:1917057,Trim32,tripartite motif-containing 32,4,,myosin binding,,,IPI,Q8VDD5 ,J:103518 
+MGI:106264,Trim36,tripartite motif-containing 36,18,,alpha-tubulin binding,,,IDA,,J:146831 
+MGI:2673000,Trim46,tripartite motif-containing 46,3,,microtubule binding,,,ISO,Q7Z4K8 ,J:228724 
+MGI:1889623,Trim54,tripartite motif-containing 54,5,,microtubule binding,,,IDA,,J:63980 
+MGI:2447992,Trim63,tripartite motif-containing 63,4,,titin binding,,,ISO,Q969Q1 ,J:164563 
+MGI:1349410,Triobp,TRIO and F-actin binding protein,15,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1349410,Triobp,TRIO and F-actin binding protein,15,,actin filament binding,happens in auditory hair cell,PR:Q99KW3-4,IDA,,J:167947 
+MGI:1349410,Triobp,TRIO and F-actin binding protein,15,,actin filament binding,,,ISO,Q9H2D6 ,J:73065 
+MGI:109524,Trpc5,"transient receptor potential cation channel, subfamily C, member 5",X,,actin binding,,,ISO,RGD:619787 ,J:155856 
+MGI:109524,Trpc5,"transient receptor potential cation channel, subfamily C, member 5",X,,actinin binding,,,ISO,RGD:619787 ,J:155856 
+MGI:109523,Trpc6,"transient receptor potential cation channel, subfamily C, member 6",9,,actin binding,,,ISO,RGD:619788 ,J:155856 
+MGI:109523,Trpc6,"transient receptor potential cation channel, subfamily C, member 6",9,,actinin binding,,,ISO,RGD:619788 ,J:155856 
+MGI:1929996,Trpm7,"transient receptor potential cation channel, subfamily M, member 7",2,,actin binding,,,IDA,,J:105078 
+MGI:1929996,Trpm7,"transient receptor potential cation channel, subfamily M, member 7",2,,myosin binding,,,IPI,Q8VDD5 ,J:105078 
+MGI:1926945,Trpv4,"transient receptor potential cation channel, subfamily V, member 4",5,,actin binding,,,ISO,RGD:69337 ,J:155856 
+MGI:1926945,Trpv4,"transient receptor potential cation channel, subfamily V, member 4",5,,actin filament binding,,,ISO,RGD:69337 ,J:155856 
+MGI:1926945,Trpv4,"transient receptor potential cation channel, subfamily V, member 4",5,,alpha-tubulin binding,,,ISO,RGD:69337 ,J:155856 
+MGI:1926945,Trpv4,"transient receptor potential cation channel, subfamily V, member 4",5,,beta-tubulin binding,,,ISO,RGD:69337 ,J:155856 
+MGI:1926945,Trpv4,"transient receptor potential cation channel, subfamily V, member 4",5,,microtubule binding,,,ISO,RGD:69337 ,J:155856 
+MGI:2147036,Ttbk1,tau tubulin kinase 1,17,,tau protein binding,,,ISO,Q5TCY1 ,J:164563 
+MGI:2155779,Ttbk2,tau tubulin kinase 2,2,,kinesin binding,,,ISO,Q6IQ55 ,J:164563 
+MGI:1914784,Ttll4,"tubulin tyrosine ligase-like family, member 4",1,,tubulin binding,,,IDA,,J:166837 
+MGI:2683461,Ttll6,"tubulin tyrosine ligase-like family, member 6",11,,tubulin binding,,,IDA,,J:166837 
+MGI:1918142,Ttll7,"tubulin tyrosine ligase-like family, member 7",3,,alpha-tubulin binding,,,ISO,Q6ZT98 ,J:164563 
+MGI:1918142,Ttll7,"tubulin tyrosine ligase-like family, member 7",3,,beta-tubulin binding,,,ISO,Q6ZT98 ,J:164563 
+MGI:3039573,Ttll12,"tubulin tyrosine ligase-like family, member 12",15,,tubulin binding,,,ISO,Q14166 ,J:164563 
+MGI:98864,Ttn,titin,2,,actin filament binding,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,actin filament binding,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,actinin binding,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,ankyrin binding,,,IPI,Q9CR42 Q9WV06 ,J:137586 
+MGI:98864,Ttn,titin,2,,muscle alpha-actinin binding,,,IBA,PTN001790569 ,J:265628 
+MGI:98864,Ttn,titin,2,,muscle alpha-actinin binding,,,ISO,Q8WZ42 ,J:164563 
+MGI:98864,Ttn,titin,2,,telethonin binding,,,ISO,Q8WZ42 ,J:164563 
+MGI:1921487,Tubgcp2,"tubulin, gamma complex associated protein 2",7,,gamma-tubulin binding,,,IBA,PTN000447085 ,J:265628 
+MGI:1921487,Tubgcp2,"tubulin, gamma complex associated protein 2",7,contributes_to,microtubule minus-end binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2183752,Tubgcp3,"tubulin, gamma complex associated protein 3",8,,gamma-tubulin binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2183752,Tubgcp3,"tubulin, gamma complex associated protein 3",8,,gamma-tubulin binding,,,ISO,Q96CW5 ,J:164563 
+MGI:2183752,Tubgcp3,"tubulin, gamma complex associated protein 3",8,contributes_to,microtubule minus-end binding,,,IBA,PTN000447085 ,J:265628 
+MGI:1196293,Tubgcp4,"tubulin, gamma complex associated protein 4",2,,gamma-tubulin binding,,,IBA,PTN000447085 ,J:265628 
+MGI:1196293,Tubgcp4,"tubulin, gamma complex associated protein 4",2,contributes_to,microtubule minus-end binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2178836,Tubgcp5,"tubulin, gamma complex associated protein 5",7,,gamma-tubulin binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2178836,Tubgcp5,"tubulin, gamma complex associated protein 5",7,,microtubule binding,,,ISO,Q96RT8 ,J:164563 
+MGI:2178836,Tubgcp5,"tubulin, gamma complex associated protein 5",7,contributes_to,microtubule minus-end binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2146071,Tubgcp6,"tubulin, gamma complex associated protein 6",15,,gamma-tubulin binding,,,IBA,PTN000447085 ,J:265628 
+MGI:2146071,Tubgcp6,"tubulin, gamma complex associated protein 6",15,,microtubule binding,,,ISO,Q96RT7 ,J:164563 
+MGI:2146071,Tubgcp6,"tubulin, gamma complex associated protein 6",15,contributes_to,microtubule minus-end binding,,,IBA,PTN000447085 ,J:265628 
+MGI:109571,Tulp1,tubby like protein 1,17,,actin filament binding,,,IBA,PTN002702988 ,J:265628 
+MGI:109571,Tulp1,tubby like protein 1,17,,actin filament binding,,,ISO,O00294 ,J:164563 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,actin binding,,,ISO,Q12792 ,J:164563 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,actin filament binding,,,IBA,PTN001011683 ,J:265628 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,actin monomer binding,,,IBA,PTN001011683 ,J:265628 
+MGI:1100520,Twf1,twinfilin actin binding protein 1,15,,actin monomer binding,,,IDA,,J:85274 J:147473 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,actin binding,,,IEA,IPR002108 IPR028458 ,J:72247 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,actin filament binding,,,IBA,PTN001011683 ,J:265628 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,actin monomer binding,,,IBA,PTN001011683 ,J:265628 
+MGI:1346078,Twf2,twinfilin actin binding protein 2,9,,actin monomer binding,,,IDA,,J:85274 J:147473 
+MGI:1095412,Unc5c,unc-5 netrin receptor C,3,,tubulin binding,,,IPI,Q9ERD7 ,J:242688 
+MGI:1095412,Unc5c,unc-5 netrin receptor C,3,,tubulin binding,,,ISO,O95185 ,J:164563 
+MGI:3051532,Unc13a,unc-13 homolog A,8,,spectrin binding,,,ISO,RGD:619722 ,J:155856 
+MGI:1919338,Ush1c,USH1 protein network component harmonin,7,,actin filament binding,,,IEA,IPR030237 ,J:72247 
+MGI:1919338,Ush1c,USH1 protein network component harmonin,7,,myosin tail binding,,,ISO,Q4KMB9 ,J:199579 
+MGI:1919338,Ush1c,USH1 protein network component harmonin,7,,spectrin binding,,,ISO,Q9Y6N9 ,J:199579 
+MGI:2450757,Ush1g,USH1 protein network component sans,11,,spectrin binding,,,ISO,Q495M9 ,J:199579 
+MGI:1341292,Ush2a,usherin,1,,myosin binding,,,IPI,P97479 ,J:122415 
+MGI:104631,Utrn,utrophin,10,,actin binding,,,ISO,P46939 ,J:164563 
+MGI:104631,Utrn,utrophin,10,,actin filament binding,,,ISO,RGD:3947 ,J:155856 
+MGI:104631,Utrn,utrophin,10,,vinculin binding,,,ISO,P46939 ,J:164563 
+MGI:1277988,Uxt,ubiquitously expressed prefoldin like chaperone,X,,beta-tubulin binding,,,IBA,PTN000331274 ,J:265628 
+MGI:1277988,Uxt,ubiquitously expressed prefoldin like chaperone,X,,beta-tubulin binding,,,ISO,Q9UBK9 ,J:164563 
+MGI:1277988,Uxt,ubiquitously expressed prefoldin like chaperone,X,,beta-tubulin binding,,,ISS,Q9UBK9 ,J:54401 
+MGI:1313277,Vamp2,vesicle-associated membrane protein 2,11,,myosin binding,,,ISO,RGD:3949 ,J:155856 
+MGI:1353561,Vapa,"vesicle-associated membrane protein, associated protein A",17,,microtubule binding,,,ISO,Q9P0L0 ,J:164563 
+MGI:1928744,Vapb,"vesicle-associated membrane protein, associated protein B and C",2,,beta-tubulin binding,,,ISO,O95292 ,J:164563 
+MGI:1928744,Vapb,"vesicle-associated membrane protein, associated protein B and C",2,,microtubule binding,,,ISO,O95292 ,J:164563 
+MGI:2442543,Vash1,vasohibin 1,12,,actin binding,,,IDA,,J:272424 
+MGI:2442543,Vash1,vasohibin 1,12,,actin binding,,,ISO,Q7L8A9 ,J:164563 
+MGI:2444826,Vash2,vasohibin 2,1,,actin binding,,,IDA,,J:272424 
+MGI:2444826,Vash2,vasohibin 2,1,,actin binding,,,ISO,Q86V25 ,J:164563 
+MGI:109268,Vasp,vasodilator-stimulated phosphoprotein,7,,actin binding,,,IEA,IPR017354 ,J:72247 
+MGI:109268,Vasp,vasodilator-stimulated phosphoprotein,7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1333804,Vbp1,von Hippel-Lindau binding protein 1,X,,tubulin binding,,,IBA,PTN000274575 ,J:265628 
+MGI:98927,Vcl,vinculin,14,,actin binding,,,IEA,IPR017997 ,J:72247 
+MGI:98927,Vcl,vinculin,14,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98927,Vcl,vinculin,14,,actin filament binding,,,IEA,IPR006077 IPR036723 ,J:72247 
+MGI:2143698,Vezt,"vezatin, adherens junctions transmembrane protein",10,,myosin binding,,,IEA,IPR026859 ,J:72247 
+MGI:98930,Vil1,villin 1,1,,actin binding,,,IEA,IPR003128 IPR036886 ,J:72247 
+MGI:98930,Vil1,villin 1,1,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:98930,Vil1,villin 1,1,,actin filament binding,,,ISO,P09327 ,J:164563 
+MGI:1201781,Vill,villin-like,9,,actin binding,,,IEA,IPR003128 IPR036886 ,J:72247 
+MGI:1201781,Vill,villin-like,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1201781,Vill,villin-like,9,,actin filament binding,,,IEA,IPR007122 ,J:72247 
+MGI:2136772,Vps16,VSP16 CORVET/HOPS core subunit,2,,actin binding,,,IBA,PTN000301724 ,J:265628 
+MGI:2136772,Vps16,VSP16 CORVET/HOPS core subunit,2,,actin binding,,,IDA,,J:90042 
+MGI:2136772,Vps16,VSP16 CORVET/HOPS core subunit,2,,actin filament binding,,,ISO,RGD:1359414 ,J:155856 
+MGI:2443626,Vps18,VPS18 CORVET/HOPS core subunit,2,,actin binding,,,IDA,,J:90042 
+MGI:1929215,Vps41,VPS41 HOPS complex subunit,13,,microtubule binding,,,IDA,,J:90042 
+MGI:105059,Was,Wiskott-Aldrich syndrome,X,,actin binding,,,IEA,IPR003124 IPR027641 ,J:72247 
+MGI:105059,Was,Wiskott-Aldrich syndrome,X,,actin filament binding,,,IBA,PTN001506182 ,J:265628 
+MGI:1890563,Wasf1,"WAS protein family, member 1",10,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1890563,Wasf1,"WAS protein family, member 1",10,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1098641,Wasf2,"WAS protein family, member 2",4,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1098641,Wasf2,"WAS protein family, member 2",4,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2658986,Wasf3,"WAS protein family, member 3",5,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:2658986,Wasf3,"WAS protein family, member 3",5,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916017,Washc1,WASH complex subunit 1,17,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1916017,Washc1,WASH complex subunit 1,17,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1916017,Washc1,WASH complex subunit 1,17,,alpha-tubulin binding,,,ISO,A8K0Z3 ,J:164563 
+MGI:1916017,Washc1,WASH complex subunit 1,17,,gamma-tubulin binding,,,IDA,,J:163894 
+MGI:1920428,Wasl,Wiskott-Aldrich syndrome-like (human),6,,actin binding,,,IEA,IPR003124 IPR030214 ,J:72247 
+MGI:1920428,Wasl,Wiskott-Aldrich syndrome-like (human),6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1920428,Wasl,Wiskott-Aldrich syndrome-like (human),6,,actin filament binding,,,IBA,PTN001506182 ,J:265628 
+MGI:1920428,Wasl,Wiskott-Aldrich syndrome-like (human),6,,cytoskeletal protein binding,,,ISO,RGD:735144 ,J:155856 
+MGI:1337100,Wdr1,WD repeat domain 1,5,,actin binding,,,ISO,AF020054 ,J:53288 
+MGI:1337100,Wdr1,WD repeat domain 1,5,,actin filament binding,,,IBA,PTN000458108 ,J:265628 
+MGI:1921267,Wdr90,WD repeat domain 90,17,,microtubule binding,,,IBA,PTN000347035 ,J:265628 
+MGI:2142282,Whamm,"WAS protein homolog associated with actin, golgi membranes and microtubules",7,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:2142282,Whamm,"WAS protein homolog associated with actin, golgi membranes and microtubules",7,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2142282,Whamm,"WAS protein homolog associated with actin, golgi membranes and microtubules",7,,microtubule binding,,,ISO,Q8TF30 ,J:164563 
+MGI:2178801,Wipf1,"WAS/WASL interacting protein family, member 1",2,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:2178801,Wipf1,"WAS/WASL interacting protein family, member 1",2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2178801,Wipf1,"WAS/WASL interacting protein family, member 1",2,,actin filament binding,,,IBA,PTN001506182 ,J:265628 
+MGI:1924462,Wipf2,"WAS/WASL interacting protein family, member 2",11,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:1924462,Wipf2,"WAS/WASL interacting protein family, member 2",11,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1924462,Wipf2,"WAS/WASL interacting protein family, member 2",11,,actin filament binding,,,IBA,PTN001506182 ,J:265628 
+MGI:3044681,Wipf3,"WAS/WASL interacting protein family, member 3",6,,actin binding,,,IEA,IPR003124 ,J:72247 
+MGI:3044681,Wipf3,"WAS/WASL interacting protein family, member 3",6,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:3044681,Wipf3,"WAS/WASL interacting protein family, member 3",6,,actin filament binding,,,IBA,PTN001506182 ,J:265628 
+MGI:1333878,Xirp1,xin actin-binding repeat containing 1,9,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:1333878,Xirp1,xin actin-binding repeat containing 1,9,,actin binding,,,IEA,IPR012510 IPR030072 ,J:72247 
+MGI:1333878,Xirp1,xin actin-binding repeat containing 1,9,,actin filament binding,,,ISO,Q702N8 ,J:164563 
+MGI:1333878,Xirp1,xin actin-binding repeat containing 1,9,,filamin binding,,,ISO,NM_194293 ,J:73065 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,actin binding,,,IEA,IPR012510 IPR030072 IPR030107 ,J:72247 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,actin binding,,,IEA,KW-0009 ,J:60000 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,actin filament binding,,,ISO,A4UGR9 ,J:164563 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,alpha-actinin binding,,,IDA,,J:117604 
+MGI:109194,Ywhah,"tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein, eta polypeptide",5,,actin binding,,,IDA,,J:116257 
+MGI:108095,Zfp185,zinc finger protein 185,X,,actin filament binding,,,IEA,IPR030637 ,J:72247 
+MGI:1340045,Zfp207,zinc finger protein 207,11,,microtubule binding,,,IBA,PTN000575874 ,J:265628 
+MGI:1340045,Zfp207,zinc finger protein 207,11,,microtubule binding,,,IDA,,J:225576 
+MGI:1340045,Zfp207,zinc finger protein 207,11,,microtubule binding,,,ISO,O43670 ,J:164563 
