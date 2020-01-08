@@ -324,4 +324,3 @@ png("all tf.png", width = 3000, height = 20000, units = "px")
 pheatmap(dataframe_order[,1:23], cluster_cols = F, cluster_rows = F, fontsize = 70,fontsize_row = 70, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlGn")))(30))
 dev.off()
 ```
-

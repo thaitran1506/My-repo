@@ -1,0 +1,180 @@
+```{r}
+setwd("~/Desktop/My-repo/data/muscle/")
+muscle_genes = read.csv("GO_0061061.csv")
+```
+
+
+
+
+```{r}
+unwanted_evidence_code = c("IBA", "IBD", "IKR", "IRD", "ISS", "ISO", "ISA", "ISM", "IGC", "RCA", "TAS", "NAS", "IC", "ND", "IEA")
+for(i in 1:length(muscle_genes$MGI.Gene.Marker.ID)){
+  if(muscle_genes$Evidence[i] %in% unwanted_evidence_code){
+    muscle_genes = muscle_genes[-i,]
+  }
+}
+```
+
+
+```{r}
+muscle_gene = unique(muscle_genes$Symbol)
+```
+
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+sstf_df = read.csv("Mus_musculus_TF.txt", stringsAsFactors = FALSE, sep = "\t")
+sstf = unique(sstf_df$Symbol)
+head(sstf_df)
+```
+
+
+```{r}
+sstf_muscle = intersect(muscle_gene, sstf)
+```
+
+```{r}
+sstf_muscle
+```
+
+```{r}
+setwd("~/Documents/GitHub/My-repo/My-repo/data")
+
+data = read.csv("converted read counts for tf.csv", row.names = 1)
+head(data)
+```
+
+
+```{r}
+all_muscle_gene = intersect(muscle_gene, row.names(data))
+
+```
+
+
+```{r}
+gap_stat = clusGap(data, FUN = kmeans, nstart = 25, K.max = 20, B = 25)
+fviz_gap_stat(gap_stat)
+```
+```{r}
+k9 = kmeans(data, centers = 9, nstart = 100)
+data$cluster = k9$cluster
+data = data[order(data$cluster),]
+```
+
+
+```{r}
+de_muscle_sstf = intersect(row.names(data), sstf_muscle)
+```
+
+
+```{r}
+data = data[comb,]
+```
+
+```{r}
+de_sstf_2 = row.names(data)
+```
+
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+
+```{r}
+setwd("~/Desktop/My-repo/data/muscle/")
+png("heatmap of muscle sstfs all.png", width = 1000, height = 4000, units = "px")
+pheatmap(data[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 40)
+dev.off()
+```
+
+```{r}
+intersect(de_sstf_1, de_sstf_2)
+```
+
+
+```{r}
+up_cluster = c("Dmrta2", "Hey1", "Hoxd9", "Six4", "Tbx5", "Gsc", "Nr2f2", "Pitx2", "Shox2", "Six1", "Eomes", "Foxc1", "Scx", "Sox11", "Sox6", "Sox9", "Hoxd10")
+down_cluster = c("Egr2", "Msc", "Myog", "Pax7", "Pitx1", "Prox1", "Rarb", "Hey2", "Heyl", "Hivep3", "Hlf", "Myc", "Nr4a1", "Zfpm2", "Hopx", "Klf5", "Plagl1", "Thra", "Bhlhe41", "Hlx", "Mef2c", "Sox8", "Atf3", "Barx2", "Egr1", "Fos", "Hand1")
+```
+
+
+```{r}
+comb = c(up_cluster, down_cluster)
+```
+
+```{r}
+gap_stat = clusGap(data, FUN = kmeans, nstart = 25, K.max = 20, B = 30)
+fviz_gap_stat(gap_stat)
+```
+
+```{r}
+k10 = kmeans(data, centers = 10, nstart = 25)
+data$cluster = k10$cluster
+data = data[order(data$cluster),]
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/muscle/")
+png("heatmap of muscle sstfs all v2.png", width = 1000, height = 4000, units = "px")
+pheatmap(data[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 40)
+dev.off()
+```
+
+```{r}
+data = data[,-24]
+```
+
+
+```{r}
+e11_ave = c()
+e12_ave = c()
+e13_ave = c()
+e14_ave = c()
+
+for(i in 1:44){
+  e11 = mean(unlist(data[i, 1:5]))
+  e11_ave = c(e11_ave, e11)
+  e12 = mean(unlist(data[i, 6:12]))
+  e12_ave = c(e12_ave, e12)
+  e13 = mean(unlist(data[i, 13:19]))
+  e13_ave = c(e13_ave, e13)
+  e14 = mean(unlist(data[i, 20:23]))
+  e14_ave = c(e14_ave, e14)
+}
+
+```
+
+
+```{r}
+ave_data = data.frame(e11_ave, e12_ave, e13_ave, e14_ave)
+row.names(ave_data) = row.names(data)
+head(ave_data)
+```
+
+```{r}
+gap_stat = clusGap(ave_data, FUN = kmeans, nstart = 25, K.max = 20, B = 25)
+fviz_gap_stat(gap_stat)
+```
+
+```{r}
+k5 = kmeans(ave_data, centers = 5, nstart = 25)
+ave_data$cluster = k5$cluster
+ave_data = ave_data[order(ave_data$cluster),]
+```
+
+
+```{r}
+setwd("~/Desktop/My-repo/data/muscle/")
+png("heatmap of muscle sstfs all v4.png", width = 1000, height = 4000, units = "px")
+pheatmap(ave_data[,1:4], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 40)
+dev.off()
+```
+
+
+```{r}
+reordered = c("Atf3", "Plagl1", "Thra", "Hopx", "Myog", "Bhlhe41", "Hlx", "Mef2c", "Sox8", "Klf5", "Hand1", "Fos", "Msc", "Pax7", "Prox1", "Rarb", "Egr1", "Pitx1", "Barx2", "Egr2", "Hey2", "Heyl", "Hlf", "Nr4a1", "Zfpm2", "Hivep3", "Myc", "Eomes", "Foxc1", "Scx", "Sox6", "Sox9", "Nr2f2", "Six4", "Tbx5", "Gsc", "Pitx2", "Shox2", "Six1", "Sox11", "Hoxd10", "Dmrta2", "Hoxd9", "Hey1")
+
+ave_data = ave_data[reordered,]
+```

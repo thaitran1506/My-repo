@@ -1,0 +1,43 @@
+```{r}
+muscle_sstf_c1 = c("Tbx5", "Hey1", "Hmga1", "Hmgb3", "Lin28b", "Mlxipl", "Six4")
+muscle_sstf_c2 = c("Hmga2", "Hsf2", "Nr2f2", "Pitx2", "Pknox2", "Shox2", "Sim2", "Six1")
+muscle_sstf_c3 = c("Dach2","Prdm16", "Sox6")
+muscle_sstf_c4 = c("Myog", "Pax7", "Msc")
+muscle_sstf_c5 = c("Ahr", "Nfix")
+muscle_sstf_c6 = c("Jdp2")
+muscle_sstf_c7 = c("Ppara")
+muscle_sstf_c8 = c("Cebpa", "Cebpb", "Cebpd", "Pparg")
+muscle_sstf_c9 = c("Barx2", "Fos", "Junb")
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+converted = read.csv("converted read counts for tf.csv", stringsAsFactors = FALSE, row.names = 1)
+head(converted)
+```
+
+```{r}
+up_muscle_tf = converted[c(muscle_sstf_c1, muscle_sstf_c2, muscle_sstf_c3),]
+down_muscle_tf = converted[c(muscle_sstf_c4, muscle_sstf_c5, muscle_sstf_c6, muscle_sstf_c7, muscle_sstf_c8, muscle_sstf_c9),]
+
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+ 
+```{r}
+setwd("~/Desktop/My-repo/Graphs")
+png("heatmap of muscle transcription factors one through three.png", width = 500, height = 1000, units = "px")
+pheatmap(up_muscle_tf, cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0,fontsize = 30,fontsize_row = 30, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30))
+dev.off()
+```
+
+```{r}
+setwd("~/Desktop/My-repo/Graphs")
+png("heatmap of muscle transcription factors four through nine.png", width = 450, height = 900, units = "px")
+pheatmap(down_muscle_tf, cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0,fontsize = 30,fontsize_row = 30, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30))
+dev.off()
+```

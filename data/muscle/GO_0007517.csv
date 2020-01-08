@@ -1,0 +1,637 @@
+﻿MGI Gene/Marker ID,Symbol,Name,Chr,Qualifier,Annotated Term,Context,Proteoform,Evidence,Inferred From,Reference(s)
+MGI:87902,Acta1,"actin, alpha 1, skeletal muscle",8,,skeletal muscle fiber development,,,IDA,,J:31010 
+MGI:87905,Actc1,"actin, alpha, cardiac muscle 1",2,,cardiac muscle tissue morphogenesis,,,IMP,MGI:2180072 ,J:102007 
+MGI:99678,Actn3,actinin alpha 3,19,,positive regulation of skeletal muscle fiber development,results in the development of UBERON:0006908,,IMP,,J:133465 
+MGI:99678,Actn3,actinin alpha 3,19,,positive regulation of skeletal muscle tissue growth,,,IMP,,J:133465 J:207120 
+MGI:891999,Adarb1,"adenosine deaminase, RNA-specific, B1",10,,muscle tissue morphogenesis,,,IMP,MGI:4840554 ,J:164294 
+MGI:1933736,Adgrb1,adhesion G protein-coupled receptor B1,15,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:87937,Adrb1,"adrenergic receptor, beta 1",19,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:2059 ,J:155856 
+MGI:87938,Adrb2,"adrenergic receptor, beta 2",18,,positive regulation of skeletal muscle tissue growth,,,ISO,RGD:2060 ,J:155856 
+MGI:3050566,Akap6,A kinase (PRKA) anchor protein 6,12,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:69412 ,J:155856 
+MGI:1915300,Akirin1,akirin 1,4,,negative regulation of satellite cell differentiation,,,IMP,,J:265629 
+MGI:108359,Alx4,aristaless-like homeobox 4,2,,muscle organ development,results in the development of pectoral girdle and thoracic body wall muscle,,IMP,MGI:1857484 ,J:43769 
+MGI:108448,Angpt1,angiopoietin 1,15,,cardiac muscle tissue morphogenesis,,,TAS,,J:169941 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,cardiac muscle tissue morphogenesis,,,ISO,Q15327 ,J:164563 
+MGI:1097717,Ankrd1,ankyrin repeat domain 1 (cardiac muscle),19,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1861447,Ankrd2,ankyrin repeat domain 2 (stretch responsive muscle),19,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:2443398,Ankrd33,ankyrin repeat domain 33,15,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:88039,Apc,"APC, WNT signaling pathway regulator",18,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:2123 ,J:155856 
+MGI:2175912,Arid5b,AT rich interactive domain 5B (MRF1-like),10,,muscle organ morphogenesis,has the participant smooth muscle tissue,,IMP,MGI:3526852 ,J:117491 
+MGI:1096381,Arntl,aryl hydrocarbon receptor nuclear translocator-like,7,,positive regulation of skeletal muscle cell differentiation,,,IMP,,J:206897 
+MGI:99474,Arrb2,"arrestin, beta 2",11,,positive regulation of cardiac muscle cell differentiation,,,IDA,,J:233559 
+MGI:1929743,Asb2,ankyrin repeat and SOCS box-containing 2,12,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:109384,Atf3,activating transcription factor 3,1,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:88138,Bcl2,B cell leukemia/lymphoma 2,1,,positive regulation of skeletal muscle fiber development,regulates a function/process that happens in skeletal musculature,,IMP,MGI:1857134 ,J:66494 
+MGI:1924828,Bcl9,B cell CLL/lymphoma 9,3,,skeletal muscle cell differentiation,results in the differentiation of skeletal muscle myoblast,,IGI,MGI:1933114 MGI:98956 ,J:154476 
+MGI:1933114,Bcl9l,B cell CLL/lymphoma 9-like,9,,skeletal muscle cell differentiation,results in the differentiation of skeletal muscle myoblast,,IGI,MGI:1924828 MGI:98956 ,J:154476 
+MGI:88145,Bdnf,brain derived neurotrophic factor,2,,negative regulation of striated muscle tissue development,,,ISO,RGD:2202 ,J:155856 
+MGI:1929883,Bin3,bridging integrator 3,14,,skeletal muscle fiber development,"happens at the same time as skeletal muscle tissue regeneration,happens in skeletal muscle tissue",,IMP,MGI:3512131 ,J:202230 
+MGI:88177,Bmp2,bone morphogenetic protein 2,2,,cardiac muscle tissue morphogenesis,has the participant bulbus cordis rostral half cardiac jelly|has the participant common atrial chamber left part cardiac muscle,,IMP,MGI:3583785 ,J:104417 
+MGI:88177,Bmp2,bone morphogenetic protein 2,2,,negative regulation of cardiac muscle cell differentiation,,,ISO,P12643 ,J:164563 
+MGI:88180,Bmp4,bone morphogenetic protein 4,14,NOT,muscular septum morphogenesis,,,IMP,,J:140658 
+MGI:88180,Bmp4,bone morphogenetic protein 4,14,,negative regulation of striated muscle tissue development,,,ISO,P12644 ,J:73065 
+MGI:88180,Bmp4,bone morphogenetic protein 4,14,,positive regulation of cardiac muscle fiber development,,,ISO,P12644 ,J:164563 
+MGI:1338820,Bmp10,bone morphogenetic protein 10,6,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:119151 
+MGI:1338820,Bmp10,bone morphogenetic protein 10,6,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:89476 J:119151 
+MGI:1338938,Bmpr1a,"bone morphogenetic protein receptor, type 1A",14,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:139945 
+MGI:1338938,Bmpr1a,"bone morphogenetic protein receptor, type 1A",14,,regulation of cardiac muscle cell proliferation,,,IMP,,J:89521 
+MGI:1338938,Bmpr1a,"bone morphogenetic protein receptor, type 1A",14,,ventricular compact myocardium morphogenesis,,,IMP,,J:89521 
+MGI:1338938,Bmpr1a,"bone morphogenetic protein receptor, type 1A",14,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:89521 
+MGI:2151153,Boc,biregional cell adhesion molecule-related/down-regulated by oncogenes (Cdon) binding protein,16,,regulation of striated muscle tissue development,,,ISO,AY027658 ,J:72468 
+MGI:1933765,Btbd1,BTB (POZ) domain containing 1,7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:108384,Btg2,BTG anti-proliferation factor 2,1,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1346013,Bves,blood vessel epicardial substance,10,,skeletal muscle tissue development,,,IBA,PTN000250645 ,J:265628 
+MGI:1346013,Bves,blood vessel epicardial substance,10,,skeletal muscle tissue development,,,ISO,Q8NE79 ,J:164563 
+MGI:88294,Cacna1s,"calcium channel, voltage-dependent, L type, alpha 1S subunit",1,,extraocular skeletal muscle development,,,IMP,MGI:1856326 ,J:105090 
+MGI:88294,Cacna1s,"calcium channel, voltage-dependent, L type, alpha 1S subunit",1,,skeletal muscle fiber development,,,IDA,,J:18533 
+MGI:88294,Cacna1s,"calcium channel, voltage-dependent, L type, alpha 1S subunit",1,,skeletal muscle fiber development,,,IMP,MGI:1856326 ,J:4724 J:109963 
+MGI:88294,Cacna1s,"calcium channel, voltage-dependent, L type, alpha 1S subunit",1,,skeletal muscle tissue development,,,IMP,MGI:1856326 ,J:4466 J:7644 J:14970 J:28645 
+MGI:107437,Capn3,calpain 3,2,,negative regulation of skeletal muscle cell differentiation,happens in myoblast,PR:Q64691-2,IMP,,J:195085 
+MGI:102709,Cav1,"caveolin 1, caveolae protein",6,,skeletal muscle tissue development,results in the development of skeletal muscle tissue,,IMP,MGI:2180364 ,J:117199 
+MGI:107571,Cav2,caveolin 2,6,,skeletal muscle fiber development,happens in skeletal muscle tissue,,IMP,MGI:2180372 ,J:117199 
+MGI:107570,Cav3,caveolin 3,6,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:2281 ,J:155856 
+MGI:1915266,Cavin4,caveolae associated 4,4,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2385159,Ccm2l,cerebral cavernous malformation 2-like,2,,ventricular trabecula myocardium morphogenesis,results in the morphogenesis of primitive ventricle,,IGI,MGI:1924696 ,J:187714 
+MGI:1197008,Ccn4,cellular communication network factor 4,15,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:69431 ,J:155856 
+MGI:88302,Ccnb1,cyclin B1,13,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:2291 ,J:155856 
+MGI:1920199,Ccnt2,cyclin T2,1,,skeletal muscle tissue development,,,IDA,,J:228410 
+MGI:1859568,Cd164,CD164 antigen,10,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:88351,Cdk1,cyclin-dependent kinase 1,10,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:2319 ,J:155856 
+MGI:101765,Cdk5,cyclin-dependent kinase 5,5,,skeletal muscle tissue development,,,IDA,,J:40995 
+MGI:1926387,Cdon,cell adhesion molecule-related/down-regulated by oncogenes,9,,positive regulation of skeletal muscle tissue development,"regulates the development of trunk somite,regulates a function/process that has the participant muscle precursor cell",,IMP,MGI:2653120 ,J:95029 
+MGI:1926387,Cdon,cell adhesion molecule-related/down-regulated by oncogenes,9,,regulation of striated muscle tissue development,,,ISO,AF004841 ,J:72468 
+MGI:1926387,Cdon,cell adhesion molecule-related/down-regulated by oncogenes,9,,skeletal muscle satellite cell differentiation,"happens in skeletal muscle tissue,results in the differentiation of skeletal muscle satellite cell",,IMP,MGI:2653120 ,J:95029 
+MGI:1313302,Cenpf,centromere protein F,1,,regulation of striated muscle tissue development,,,IDA,,J:55850 
+MGI:101763,Cfl2,"cofilin 2, muscle",12,,skeletal muscle tissue development,,,IMP,,J:233564 
+MGI:1336166,Cflar,CASP8 and FADD-like apoptosis regulator,1,,skeletal muscle tissue development,,,IMP,,J:228559 
+MGI:88392,Chat,choline acetyltransferase,14,,muscle organ development,results in the development of diaphragm,,IMP,MGI:3045900 ,J:91066 
+MGI:2448567,Chd2,chromodomain helicase DNA binding protein 2,7,,muscle organ development,,,IMP,,J:204624 
+MGI:2444748,Chd7,chromodomain helicase DNA binding protein 7,4,,right ventricular compact myocardium morphogenesis,,,IMP,MGI:2450311 MGI:4433295 ,J:225736 
+MGI:2444748,Chd7,chromodomain helicase DNA binding protein 7,4,,ventricular trabecula myocardium morphogenesis,,,IMP,MGI:2176467 MGI:4433295 ,J:225736 
+MGI:1328313,Chkb,choline kinase beta,15,,muscle organ development,,,IMP,MGI:3578417 ,J:108320 
+MGI:87885,Chrna1,"cholinergic receptor, nicotinic, alpha polypeptide 1 (muscle)",2,,skeletal muscle tissue growth,,,ISO,P02708 ,J:164563 
+MGI:87893,Chrnd,"cholinergic receptor, nicotinic, delta polypeptide",1,,skeletal muscle tissue growth,,,ISO,Q07001 ,J:164563 
+MGI:1306784,Cited2,"Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2",10,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:620112 ,J:155856 
+MGI:1306784,Cited2,"Cbp/p300-interacting transactivator, with Glu/Asp-rich carboxy-terminal domain, 2",10,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:88439,Cntf,ciliary neurotrophic factor,19,,muscle organ morphogenesis,,,IGI,MGI:96787 ,J:97380 
+MGI:99605,Cntfr,ciliary neurotrophic factor receptor,4,,skeletal muscle organ development,results in the development of perineal muscle,,IMP,MGI:2181046 ,J:59710 
+MGI:88453,Col3a1,"collagen, type III, alpha 1",1,,aorta smooth muscle tissue morphogenesis,,,IMP,,J:180733 
+MGI:88446,Col11a1,"collagen, type XI, alpha 1",3,,ventricular cardiac muscle tissue morphogenesis,has the participant left ventricle cardiac muscle|has the participant right ventricle cardiac muscle,,IMP,MGI:1856399 ,J:116643 
+MGI:1341272,Col14a1,"collagen, type XIV, alpha 1",15,,regulation of cell growth involved in cardiac muscle cell development,"regulates a function/process that happens in ventricle cardiac muscle,regulates a function/process that has the participant cardiac muscle cell",,IMP,MGI:3846440 ,J:189252 
+MGI:1095415,Col19a1,"collagen, type XIX, alpha 1",1,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1095415,Col19a1,"collagen, type XIX, alpha 1",1,,skeletal muscle tissue development,"results in the development of esophagus skeletal muscle,has the participant cell of skeletal muscle",,IMP,MGI:3053870 ,J:92510 
+MGI:1913673,Coprs,"coordinator of PRMT5, differentiation stimulator",8,,muscle organ development,,,IMP,,J:196248 
+MGI:1330276,Cops2,COP9 signalosome subunit 2,2,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:88494,Creb1,cAMP responsive element binding protein 1,1,,positive regulation of cardiac muscle tissue development,,,IMP,,J:210551 
+MGI:894312,Crhr2,corticotropin releasing hormone receptor 2,6,,skeletal muscle tissue growth,,,ISO,RGD:70547 ,J:155856 
+MGI:88516,Cryab,"crystallin, alpha B",9,,muscle organ development,results in the development of skeletal musculature,,IGI,MGI:1916503 ,J:72926 
+MGI:1330824,Csrp3,cysteine and glycine-rich protein 3,7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1926953,Ctdp1,"CTD (carboxy-terminal domain, RNA polymerase II, polypeptide A) phosphatase, subunit 1",18,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1311755 ,J:155856 
+MGI:88276,Ctnnb1,"catenin (cadherin associated protein), beta 1",9,,positive regulation of skeletal muscle tissue development,,,IMP,,J:219174 
+MGI:88276,Ctnnb1,"catenin (cadherin associated protein), beta 1",9,,ventricular compact myocardium morphogenesis,,,TAS,,J:169941 
+MGI:1201679,Cxadr,coxsackie virus and adenovirus receptor,16,,negative regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in primitive ventricle cardiac muscle,regulates the proliferation of cardiac muscle cell",,IMP,MGI:3711226 ,J:121400 
+MGI:2176159,Cyp26b1,"cytochrome P450, family 26, subfamily b, polypeptide 1",6,,positive regulation of tongue muscle cell differentiation,,,IMP,,J:139633 
+MGI:105037,Ddx5,DEAD (Asp-Glu-Ala-Asp) box polypeptide 5,11,,regulation of skeletal muscle cell differentiation,,,IMP,,J:182387 
+MGI:1914290,Ddx17,DEAD (Asp-Glu-Ala-Asp) box polypeptide 17,15,,regulation of skeletal muscle cell differentiation,,,ISO,Q92841 ,J:164563 
+MGI:99240,Ddx39b,DEAD (Asp-Glu-Ala-Asp) box polypeptide 39B,17,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:70923 ,J:155856 
+MGI:94885,Des,desmin,1,,muscle organ development,,,TAS,,J:21616 
+MGI:1916147,Disp1,dispatched RND transporter family member 1,1,,diaphragm development,,,ISO,Q96F81 ,J:164563 
+MGI:1329040,Dkk1,dickkopf WNT signaling pathway inhibitor 1,19,,negative regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment,,,ISO,O94907 ,J:164563 
+MGI:1329040,Dkk1,dickkopf WNT signaling pathway inhibitor 1,19,,negative regulation of cardiac muscle cell differentiation,,,ISO,O94907 ,J:164563 
+MGI:104659,Dll1,delta like canonical Notch ligand 1,17,,negative regulation of cardiac muscle cell differentiation,happens in embryonic stem cell,,IMP,,J:241479 
+MGI:104659,Dll1,delta like canonical Notch ligand 1,17,,positive regulation of skeletal muscle tissue growth,,,IMP,,J:216287 
+MGI:104659,Dll1,delta like canonical Notch ligand 1,17,,regulation of skeletal muscle tissue growth,,,IMP,,J:119082 
+MGI:104659,Dll1,delta like canonical Notch ligand 1,17,,skeletal muscle tissue growth,,,IMP,,J:188916 
+MGI:1859388,Dll4,delta like canonical Notch ligand 4,2,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:93157 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,muscle organ development,,,IMP,MGI:1856328 ,J:87688 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,skeletal muscle tissue development,results in the development of diaphragm,,IGI,MGI:97275 ,J:100052 
+MGI:94909,Dmd,"dystrophin, muscular dystrophy",X,,skeletal muscle tissue development,,,IMP,MGI:1856328 ,J:108320 
+MGI:2653629,Dmrta2,doublesex and mab-3 related transcription factor like family A2,4,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:2152889,Dner,delta/notch-like EGF repeat containing,1,,skeletal muscle fiber development,,,IDA,,J:99826 
+MGI:109611,Dsp,desmoplakin,13,,ventricular compact myocardium morphogenesis,,,IMP,,J:125067 
+MGI:2137586,Dtnbp1,dystrobrevin binding protein 1,13,,muscle organ development,,,TAS,,J:70125 
+MGI:1349385,Dysf,dysferlin,6,,skeletal muscle tissue development,,,IDA,,J:182257 
+MGI:1349385,Dysf,dysferlin,6,,skeletal muscle tissue development,,,ISO,O75923 ,J:182257 
+MGI:95283,Edn1,endothelin 1,13,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,P05305 ,J:164563 
+MGI:105097,Efnb2,ephrin B2,8,,positive regulation of cardiac muscle cell differentiation,,,IMP,,J:119151 
+MGI:1932286,Egln1,egl-9 family hypoxia-inducible factor 1,8,,cardiac muscle tissue morphogenesis,has the participant heart,,IMP,MGI:3690045 ,J:114669 
+MGI:95295,Egr1,early growth response 1,18,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:95296,Egr2,early growth response 2,10,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:2681174,Eid2,EP300 interacting inhibitor of differentiation 2,7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:95317,Eln,elastin,5,,skeletal muscle tissue development,,,IMP,MGI:2153007 ,J:87748 
+MGI:108117,Emd,emerin,X,,skeletal muscle cell differentiation,,,IGI,MGI:2385045 ,J:153986 
+MGI:108117,Emd,emerin,X,,skeletal muscle cell differentiation,,,IMP,,J:153986 
+MGI:95392,Eng,endoglin,2,,atrial cardiac muscle tissue morphogenesis,,,IMP,,J:124260 
+MGI:95392,Eng,endoglin,2,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:154475 
+MGI:1201683,Eomes,eomesodermin,9,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1276116,Ep300,E1A binding protein p300,15,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:620036 ,J:155856 
+MGI:1276116,Ep300,E1A binding protein p300,15,,skeletal muscle tissue development,,,IMP,MGI:2679374 ,J:85950 
+MGI:1096337,Ephb1,Eph receptor B1,9,,negative regulation of satellite cell differentiation,,,IMP,,J:241039 
+MGI:95407,Epo,erythropoietin,5,,cardiac muscle tissue morphogenesis,,,TAS,,J:169941 
+MGI:95407,Epo,erythropoietin,5,,ventricular cardiac muscle tissue morphogenesis,,,TAS,,J:169941 
+MGI:95408,Epor,erythropoietin receptor,9,,cardiac muscle tissue morphogenesis,,,TAS,,J:169941 
+MGI:95408,Epor,erythropoietin receptor,9,,ventricular cardiac muscle tissue morphogenesis,,,TAS,,J:169941 
+MGI:95411,Erbb3,erb-b2 receptor tyrosine kinase 3,10,,positive regulation of cardiac muscle tissue development,,,IMP,,J:210551 
+MGI:104771,Erbb4,erb-b2 receptor tyrosine kinase 4,1,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:157327 
+MGI:99254,Etv1,ets variant 1,12,,muscle organ development,,,IMP,MGI:2384493 MGI:2384496 ,J:78232 
+MGI:1926014,Fbxo22,F-box protein 22,9,,regulation of skeletal muscle fiber development,happens in myotube,,IMP,,J:147457 
+MGI:104888,Fdps,farnesyl diphosphate synthetase,3,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:68953 ,J:155856 
+MGI:95516,Fgf2,fibroblast growth factor 2,3,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:2609 ,J:155856 
+MGI:95516,Fgf2,fibroblast growth factor 2,3,,positive regulation of cardiac muscle cell proliferation,,,ISO,P09038 ,J:164563 
+MGI:95517,Fgf3,fibroblast growth factor 3,7,,negative regulation of cardiac muscle tissue development,,,ISO,P11487 ,J:164563 
+MGI:99604,Fgf8,fibroblast growth factor 8,19,,negative regulation of cardiac muscle tissue development,,,ISO,P55075 ,J:164563 
+MGI:104723,Fgf9,fibroblast growth factor 9,14,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IGI,MGI:95522 MGI:95523 ,J:95803 
+MGI:104723,Fgf9,fibroblast growth factor 9,14,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IMP,,J:95803 
+MGI:104723,Fgf9,fibroblast growth factor 9,14,,positive regulation of cardiac muscle cell proliferation,,,TAS,,J:169941 
+MGI:1891346,Fgf20,fibroblast growth factor 20,8,,regulation of cardiac muscle cell proliferation,,,IGI,MGI:1914004 ,J:163662 
+MGI:95522,Fgfr1,fibroblast growth factor receptor 1,8,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IGI,MGI:104723 ,J:95803 
+MGI:95522,Fgfr1,fibroblast growth factor receptor 1,8,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IGI,MGI:95523 ,J:95803 
+MGI:95522,Fgfr1,fibroblast growth factor receptor 1,8,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:620713 ,J:155856 
+MGI:95523,Fgfr2,fibroblast growth factor receptor 2,7,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IGI,MGI:104723 ,J:95803 
+MGI:95523,Fgfr2,fibroblast growth factor receptor 2,7,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IGI,MGI:95522 ,J:95803 
+MGI:95523,Fgfr2,fibroblast growth factor receptor 2,7,,ventricular cardiac muscle tissue morphogenesis,has the participant heart ventricle,,IMP,MGI:2153818 ,J:111148 
+MGI:2150920,Fgfrl1,fibroblast growth factor receptor-like 1,5,,diaphragm development,results in the development of diaphragm,,IMP,MGI:3771861 ,J:130254 
+MGI:95541,Fkbp1a,FK506 binding protein 1a,2,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:45536 
+MGI:2446089,Flnb,"filamin, beta",14,,skeletal muscle tissue development,,,IDA,,J:80557 
+MGI:1100500,Flot1,flotillin 1,17,,positive regulation of skeletal muscle tissue development,,,IMP,,J:220503 
+MGI:1100500,Flot1,flotillin 1,17,,positive regulation of skeletal muscle tissue development,,,ISO,O75955 ,J:164563 
+MGI:95574,Fos,FBJ osteosarcoma oncogene,12,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1347466,Foxc1,forkhead box C1,13,,ventricular cardiac muscle tissue morphogenesis,has the participant heart|has the participant outflow tract|has the participant primitive ventricle,,IGI,MGI:1347481 ,J:119303 
+MGI:1347481,Foxc2,forkhead box C2,8,,ventricular cardiac muscle tissue morphogenesis,has the participant heart|has the participant outflow tract|has the participant primitive ventricle,,IGI,MGI:1347466 ,J:119303 
+MGI:1347465,Foxh1,forkhead box H1,15,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:93034 
+MGI:1347488,Foxk1,forkhead box K1,5,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1349428,Foxl2,forkhead box L2,9,,extraocular skeletal muscle development,,,ISO,P58012 ,J:164563 
+MGI:1347478,Foxn2,forkhead box N2,17,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1891915,Foxo4,forkhead box O4,X,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1914004,Foxp1,forkhead box P1,6,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1308669 ,J:155856 
+MGI:1914004,Foxp1,forkhead box P1,6,,regulation of cardiac muscle cell proliferation,,,IGI,MGI:1891346 ,J:163662 
+MGI:1914004,Foxp1,forkhead box P1,6,,regulation of cardiac muscle cell proliferation,regulates the proliferation of cardiac muscle cell,,IMP,,J:163662 
+MGI:1914004,Foxp1,forkhead box P1,6,,skeletal muscle tissue development,results in the development of esophagus|results in the development of esophagus,,IGI,MGI:2148705 ,J:121421 
+MGI:2148705,Foxp2,forkhead box P2,6,,skeletal muscle tissue development,results in the development of esophagus|results in the development of esophagus,,IGI,MGI:1914004 ,J:121421 
+MGI:893597,Frg1,FSHD region gene 1,8,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1100860,Frs2,fibroblast growth factor receptor substrate 2,10,,negative regulation of cardiac muscle cell differentiation,,,ISO,Q8WU20 ,J:164563 
+MGI:104860,Fxr1,"fragile X mental retardation gene 1, autosomal homolog",3,,muscle organ development,results in the development of skeletal musculature,,IMP,MGI:3046846 ,J:91191 
+MGI:1196625,Fzd1,frizzled class receptor 1,5,,muscular septum morphogenesis,has the participant interventricular septum muscular part,,IGI,MGI:1888513 MGI:2135272 ,J:165556 
+MGI:1888513,Fzd2,frizzled class receptor 2,11,,muscular septum morphogenesis,has the participant interventricular septum muscular part,,IGI,MGI:1196625 MGI:2135272 ,J:165556 
+MGI:108570,Fzd7,frizzled class receptor 7,1,,negative regulation of cardiac muscle cell differentiation,,,ISO,O75084 ,J:164563 
+MGI:105979,G6pdx,glucose-6-phosphate dehydrogenase X-linked,X,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:2645 ,J:155856 
+MGI:95664,Gata4,GATA binding protein 4,14,,diaphragm morphogenesis,,,TAS,,J:129483 
+MGI:95664,Gata4,GATA binding protein 4,14,,positive regulation of cardiac muscle cell proliferation,regulates a function/process that happens in heart,,IGI,MGI:102541 ,J:145175 
+MGI:95664,Gata4,GATA binding protein 4,14,,regulation of cardiac muscle cell proliferation,,,IMP,MGI:3526854 ,J:99203 
+MGI:95664,Gata4,GATA binding protein 4,14,,skeletal muscle cell differentiation,,,NAS,,J:173154 
+MGI:107516,Gata6,GATA binding protein 6,18,,positive regulation of cardiac muscle cell proliferation,regulates a function/process that happens in heart,,IGI,MGI:102541 ,J:145175 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:2690 ,J:155856 
+MGI:95713,Gja1,"gap junction protein, alpha 1",10,,positive regulation of striated muscle tissue development,,,IMP,MGI:2676327 ,J:94694 
+MGI:95727,Gli1,GLI-Kruppel family member GLI1,10,,positive regulation of cardiac muscle cell proliferation,,,ISO,P08151 ,J:164563 
+MGI:5593379,Gm34220,"predicted gene, 34220",12,,skeletal muscle cell differentiation,,,IDA,,J:228292 
+MGI:5593379,Gm34220,"predicted gene, 34220",12,,skeletal muscle cell differentiation,,,IMP,,J:228292 
+MGI:104898,Gpcpd1,glycerophosphocholine phosphodiesterase 1,2,,skeletal muscle tissue development,,,IMP,,J:166183 
+MGI:104887,Gpx1,glutathione peroxidase 1,9,,skeletal muscle fiber development,happens in hindlimb musculature,,IMP,MGI:2158814 ,J:112583 
+MGI:1344337,Grem1,"gremlin 1, DAN family BMP antagonist",2,,positive regulation of cardiac muscle cell differentiation,,,IDA,,J:182488 
+MGI:95841,Gsc,goosecoid homeobox,12,,muscle organ morphogenesis,has the participant genioglossus|has the participant geniohyoid|has the participant hyoglossus|has the participant mylohyoid|has the participant masseter|has the participant tongue muscle,,IMP,MGI:1857496 ,J:29421 
+MGI:2152453,Gsk3a,glycogen synthase kinase 3 alpha,7,,negative regulation of cell growth involved in cardiac muscle cell development,,,IMP,,J:163724 
+MGI:1861437,Gsk3b,glycogen synthase kinase 3 beta,16,,positive regulation of cardiac muscle cell differentiation,,,IMP,,J:233559 
+MGI:1917489,Gtf3c5,"general transcription factor IIIC, polypeptide 5",2,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1861461,H1f5,"H1.5 linker histone, cluster member",13,,muscle organ development,,,IPI,P13297 ,J:91568 
+MGI:103577,Hand1,heart and neural crest derivatives expressed 1,11,,ventricular cardiac muscle tissue morphogenesis,has the participant heart,,IMP,MGI:2153823 ,J:46383 
+MGI:103577,Hand1,heart and neural crest derivatives expressed 1,11,,ventricular cardiac muscle tissue morphogenesis,,,ISO,O96004 ,J:164563 
+MGI:1097691,Hdac2,histone deacetylase 2,10,,negative regulation of cardiac muscle cell proliferation,regulates a function/process that happens in ventricle cardiac muscle,,IMP,MGI:3712002 ,J:121697 
+MGI:1343091,Hdac3,histone deacetylase 3,18,,negative regulation of cardiac muscle cell differentiation,"regulates a function/process that has the participant Tbx5,happens in cardioblast",,IMP,,J:210667 
+MGI:3036234,Hdac4,histone deacetylase 4,1,,regulation of skeletal muscle fiber development,"happens in skeletal muscle tissue,happens in slow muscle cell",,IGI,MGI:1333784 MGI:1931221 ,J:127416 
+MGI:1333784,Hdac5,histone deacetylase 5,11,,negative regulation of striated muscle tissue development,,,TAS,,J:113927 
+MGI:1333784,Hdac5,histone deacetylase 5,11,,regulation of skeletal muscle fiber development,"happens in skeletal muscle tissue,happens in slow muscle cell",,IGI,MGI:1931221 MGI:3036234 ,J:127416 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,skeletal muscle tissue development,,,IMP,,J:182257 
+MGI:1333752,Hdac6,histone deacetylase 6,X,,skeletal muscle tissue development,,,ISO,O75923 ,J:182257 
+MGI:1891835,Hdac7,histone deacetylase 7,15,,negative regulation of striated muscle tissue development,,,TAS,,J:113927 
+MGI:1931221,Hdac9,histone deacetylase 9,12,,negative regulation of striated muscle tissue development,,,TAS,,J:113927 
+MGI:1931221,Hdac9,histone deacetylase 9,12,,regulation of skeletal muscle fiber development,"happens in skeletal muscle tissue,happens in slow muscle cell",,IGI,MGI:1333784 MGI:3036284 ,J:127416 
+MGI:1924696,Heg1,heart development protein with EGF-like domains 1,16,,ventricular trabecula myocardium morphogenesis,results in the morphogenesis of primitive ventricle,,IGI,MGI:2385159 ,J:187714 
+MGI:1341800,Hey1,hairy/enhancer-of-split related with YRPW motif 1,3,,ventricular trabecula myocardium morphogenesis,"has the participant heart,has the participant cardiac muscle cell",,IGI,MGI:1341884 ,J:96337 
+MGI:1341884,Hey2,hairy/enhancer-of-split related with YRPW motif 2,10,,muscular septum morphogenesis,,,IMP,,J:79025 
+MGI:1341884,Hey2,hairy/enhancer-of-split related with YRPW motif 2,10,,positive regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in left ventricle cardiac muscle,regulates the proliferation of cardiac muscle cell",,IMP,MGI:2447620 ,J:133798 
+MGI:1341884,Hey2,hairy/enhancer-of-split related with YRPW motif 2,10,,ventricular trabecula myocardium morphogenesis,"has the participant heart,has the participant cardiac muscle cell",,IGI,MGI:1341800 ,J:96337 
+MGI:1860511,Heyl,hairy/enhancer-of-split related with YRPW motif-like,4,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:106589,Hivep3,human immunodeficiency virus type I enhancer binding protein 3,4,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:96108,Hlf,hepatic leukemia factor,11,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:96109,Hlx,H2.0-like homeobox,1,,skeletal muscle tissue development,results in the development of diaphragm,,IMP,MGI:2182089 ,J:31553 
+MGI:1341190,Hmg20b,high mobility group 20B,10,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:96159,Hmgcr,3-hydroxy-3-methylglutaryl-Coenzyme A reductase,13,,positive regulation of skeletal muscle tissue development,,,ISO,RGD:2803 ,J:155856 
+MGI:1347345,Homer1,homer scaffolding protein 1,13,,skeletal muscle fiber development,,,IMP,MGI:3526529 ,J:133899 
+MGI:3642509,Hottip,Hoxa distal transcript antisense RNA,6,,skeletal muscle fiber development,,,IMP,MGI:5563534 ,J:233815 
+MGI:96210,Hoxd9,homeobox D9,2,,skeletal muscle tissue development,results in the development of forelimb|results in the development of hindlimb,,IGI,MGI:96202 ,J:59070 
+MGI:96202,Hoxd10,homeobox D10,2,,skeletal muscle tissue development,results in the development of forelimb|results in the development of hindlimb,,IGI,MGI:96210 ,J:59070 
+MGI:96398,Id3,inhibitor of DNA binding 3,4,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:96432,Igf1,insulin-like growth factor 1,10,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,P05019 ,J:164563 
+MGI:96559,Il6,interleukin 6,5,,negative regulation of muscle organ development,,,ISO,RGD:2901 ,J:155856 
+MGI:101791,Isl1,"ISL1 transcription factor, LIM/homeodomain",13,,ventricular cardiac muscle tissue morphogenesis,,,IGI,Q02248 ,J:143832 
+MGI:104813,Jarid2,"jumonji, AT rich interactive domain 2",13,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:1591663 ,J:155856 
+MGI:1891495,Jph1,junctophilin 1,1,,muscle organ development,,,IMP,MGI:2183252 ,J:78141 
+MGI:1891496,Jph2,junctophilin 2,2,,regulation of cardiac muscle tissue development,,,IMP,,J:63879 
+MGI:1343101,Kat2a,K(lysine) acetyltransferase 2A,11,,positive regulation of cardiac muscle cell differentiation,,,ISO,RGD:1307242 ,J:155856 
+MGI:109366,Kcnk2,"potassium channel, subfamily K, member 2",1,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:621448 ,J:155856 
+MGI:1346053,Kel,Kell blood group,6,,skeletal muscle fiber development,,,IGI,MGI:103569 ,J:206464 
+MGI:1338056,Klf5,Kruppel-like factor 5,14,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1338056,Klf5,Kruppel-like factor 5,14,,skeletal muscle satellite cell differentiation,,,IMP,MGI:4353154 MGI:4421792 ,J:238742 
+MGI:1919580,Klhl40,kelch-like 40,9,,skeletal muscle fiber development,,,IBA,PTN000697003 ,J:265628 
+MGI:1919580,Klhl40,kelch-like 40,9,,skeletal muscle fiber development,,,IMP,,J:227534 
+MGI:1919580,Klhl40,kelch-like 40,9,,skeletal muscle fiber development,,,IMP,MGI:4843038 ,J:213780 
+MGI:1919580,Klhl40,kelch-like 40,9,,skeletal muscle fiber differentiation,,,IMP,,J:209066 J:227534 
+MGI:2683854,Klhl41,kelch-like 41,2,,regulation of skeletal muscle cell differentiation,,,IBA,PTN000698247 ,J:265628 
+MGI:2683854,Klhl41,kelch-like 41,2,,regulation of skeletal muscle cell differentiation,,,IMP,,J:184518 
+MGI:2683854,Klhl41,kelch-like 41,2,,skeletal muscle cell differentiation,,,IDA,,J:184518 
+MGI:2683854,Klhl41,kelch-like 41,2,,skeletal muscle fiber development,,,IEA,IPR030571 ,J:72247 
+MGI:892019,Klk1b1,kallikrein 1-related peptidase b1,7,,left ventricular cardiac muscle tissue morphogenesis,results in the morphogenesis of heart left ventricle,,IMP,MGI:3513115 ,J:67868 
+MGI:2444557,Kmt5b,lysine methyltransferase 5B,19,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:96709,Ky,kyphoscoliosis peptidase,9,,muscle organ development,,,IMP,MGI:1856928 ,J:66943 
+MGI:105382,Lama5,"laminin, alpha 5",2,,muscle organ development,"results in the development of midgut,has the participant smooth muscle cell",,IMP,MGI:1934917 ,J:84903 
+MGI:1342270,Large1,LARGE xylosyl- and glucuronyltransferase 1,8,,skeletal muscle organ development,,,IDA,,J:206057 
+MGI:104867,Lbx1,ladybird homeobox 1,19,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:96770,Lef1,lymphoid enhancer binding factor 1,3,,negative regulation of striated muscle tissue development,,,IDA,,J:112463 
+MGI:96770,Lef1,lymphoid enhancer binding factor 1,3,,regulation of striated muscle tissue development,,,IBA,PTN000042972 ,J:265628 
+MGI:2385045,Lemd2,LEM domain containing 2,17,,skeletal muscle cell differentiation,,,IMP,,J:153986 
+MGI:2385045,Lemd2,LEM domain containing 2,17,,skeletal muscle cell differentiation,,,ISO,Q8NC56 ,J:73065 
+MGI:3580376,Lemd3,LEM domain containing 3,10,,skeletal muscle cell differentiation,,,IMP,,J:153986 
+MGI:96787,Lif,leukemia inhibitory factor,11,,muscle organ morphogenesis,,,IMP,MGI:2181618 ,J:97380 
+MGI:96794,Lmna,lamin A,3,,muscle organ development,,,ISO,P02545 ,J:164563 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,positive regulation of skeletal muscle fiber development,,,ISO,Q0VAK6 ,J:164563 
+MGI:2444169,Lmod3,leiomodin 3 (fetal),6,,skeletal muscle fiber development,,,IMP,,J:222174 J:223382 
+MGI:96817,Lox,lysyl oxidase,18,,regulation of striated muscle tissue development,,,IMP,MGI:3610732 ,J:220322 
+MGI:95794,Lrp2,low density lipoprotein receptor-related protein 2,2,,ventricular compact myocardium morphogenesis,,,IMP,,J:231312 
+MGI:1298218,Lrp6,low density lipoprotein receptor-related protein 6,6,,negative regulation of planar cell polarity pathway involved in cardiac muscle tissue morphogenesis,regulates a function/process that happens in left atrium auricular region cardiac muscle|regulates a function/process that happens in right atrium auricular region cardiac muscle|regulates a function/process that happens in right atrium cardiac muscle|regulates a function/process that happens in left ventricle cardiac muscle|regulates a function/process that happens in right ventricle cardiac muscle,,IGI,MGI:98958 ,J:163977 
+MGI:1914228,Luc7l,Luc7-like,17,,negative regulation of striated muscle tissue development,,,IDA,,J:93078 
+MGI:106651,Ly6e,"lymphocyte antigen 6 complex, locus E",15,,ventricular cardiac muscle tissue morphogenesis,has the participant heart ventricle,,IMP,MGI:2429638 ,J:73972 
+MGI:96910,Maff,"v-maf musculoaponeurotic fibrosarcoma oncogene family, protein F (avian)",15,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1346858,Mapk1,mitogen-activated protein kinase 1,16,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:70500 ,J:155856 
+MGI:1338024,Mapk11,mitogen-activated protein kinase 11,15,,negative regulation of cardiac muscle cell proliferation,regulates a function/process that happens in heart,,IMP,MGI:3609429 ,J:176023 
+MGI:1338024,Mapk11,mitogen-activated protein kinase 11,15,,regulation of cardiac muscle cell proliferation,,,IGI,MGI:1346865 ,J:176023 
+MGI:1346865,Mapk14,mitogen-activated protein kinase 14,17,,positive regulation of cardiac muscle cell proliferation,,,IGI,MGI:1338024 ,J:176023 
+MGI:1346865,Mapk14,mitogen-activated protein kinase 14,17,,skeletal muscle tissue development,"results in the development of trunk somite,has the participant muscle cell",,IMP,,J:99323 
+MGI:1928482,Mbnl1,muscleblind like splicing factor 1,3,,skeletal muscle tissue development,results in the development of skeletal musculature,,IMP,MGI:3052922 ,J:112061 
+MGI:1100846,Med1,mediator complex subunit 1,11,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:74328 
+MGI:1929648,Med20,mediator complex subunit 20,17,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,positive regulation of cardiac muscle cell differentiation,,,IMP,,J:144407 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,positive regulation of cardiac muscle cell differentiation,,,ISO,Q06413 ,J:164563 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:144407 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,positive regulation of skeletal muscle cell differentiation,,,ISO,Q06413 ,J:164563 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,positive regulation of skeletal muscle tissue development,,,ISO,Q06413 ,J:164563 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,skeletal muscle cell differentiation,,,NAS,,J:173154 
+MGI:99458,Mef2c,myocyte enhancer factor 2C,13,,skeletal muscle tissue development,"results in the development of skeletal muscle tissue,has the participant slow muscle cell",,IMP,MGI:3718323 ,J:127416 
+MGI:99533,Mef2d,myocyte enhancer factor 2D,3,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1202886,Meg3,maternally expressed 3,12,,skeletal muscle tissue development,,,IMP,MGI:4840060 ,J:166176 
+MGI:2685177,Megf10,multiple EGF-like-domains 10,18,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2685177,Megf10,multiple EGF-like-domains 10,18,,regulation of skeletal muscle tissue development,,,ISO,Q96KG7 ,J:164563 
+MGI:2685177,Megf10,multiple EGF-like-domains 10,18,,skeletal muscle satellite cell differentiation,,,IMP,,J:183964 
+MGI:2685177,Megf10,multiple EGF-like-domains 10,18,,skeletal muscle satellite cell differentiation,,,ISO,Q96KG7 ,J:164563 
+MGI:104717,Meis1,Meis homeobox 1,11,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:1585482 ,J:155856 
+MGI:103219,Meox2,mesenchyme homeobox 2,12,,skeletal muscle tissue development,results in the development of limb,,IMP,MGI:2674242 ,J:56172 
+MGI:96969,Met,met proto-oncogene,6,,muscle organ development,results in the development of genioglossus|results in the development of hyoglossus|results in the development of diaphragm|results in the development of triceps brachii|results in the development of biceps brachii|results in the development of deltoid|results in the development of pectoralis major|results in the development of pectoralis minor|results in the development of latissimus dorsi|results in the development of limb|results in the development of eye skeletal muscle|results in the development of platysma,,IGI,MGI:97487 ,J:93807 
+MGI:96969,Met,met proto-oncogene,6,,muscle organ development,,,IMP,MGI:1858019 ,J:93807 
+MGI:96969,Met,met proto-oncogene,6,,skeletal muscle tissue development,results in the development of tongue muscle|results in the development of limb|results in the development of diaphragm,,IMP,MGI:1857655 ,J:28570 
+MGI:2385142,Mettl8,methyltransferase like 8,2,,skeletal muscle tissue development,,,IDA,,J:99401 
+MGI:3611450,Mettl21c,methyltransferase like 21C,1,,skeletal muscle tissue development,,,IMP,,J:233233 
+MGI:3618746,Mir1a-2,microRNA 1a-2,18,,negative regulation of cardiac muscle cell proliferation,,,IMP,,J:211548 
+MGI:2676818,Mir133a-1,microRNA 133a-1,18,,regulation of cardiac muscle cell proliferation,regulates the proliferation of cardiac muscle cell,,IMP,MGI:3822152 MGI:3822154 ,J:142220 
+MGI:3618718,Mir133a-2,microRNA 133a-2,2,,regulation of cardiac muscle cell proliferation,regulates the proliferation of cardiac muscle cell,,IMP,MGI:3822156 MGI:3822158 ,J:142220 
+MGI:2676828,Mir143,microRNA 143,18,,aorta smooth muscle tissue morphogenesis,has the participant aorta,,IGI,MGI:2676830 ,J:159593 
+MGI:2676830,Mir145a,microRNA 145a,18,,aorta smooth muscle tissue morphogenesis,has the participant aorta,,IGI,MGI:2676828 ,J:159593 
+MGI:2676890,Mir214,microRNA 214,1,,positive regulation of skeletal muscle tissue development,,,IGI,MGI:97376 ,J:166193 
+MGI:2676890,Mir214,microRNA 214,1,,positive regulation of skeletal muscle tissue development,,,IMP,,J:166193 
+MGI:3629611,Mir669a-1,microRNA 669a-1,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:3629622,Mir669a-2,microRNA 669a-2,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:3629609,Mir669a-3,microRNA 669a-3,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834281,Mir669a-4,microRNA 669a-4,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834282,Mir669a-5,microRNA 669a-5,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834283,Mir669a-6,microRNA 669a-6,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834286,Mir669a-7,microRNA 669a-7,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834288,Mir669a-8,microRNA 669a-8,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834290,Mir669a-9,microRNA 4669a-9,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:4834293,Mir669a-10,microRNA 669a-10,2,,negative regulation of skeletal muscle cell differentiation,,,IDA,,J:174203 
+MGI:3629709,Mir675,microRNA 675,7,,positive regulation of skeletal muscle cell differentiation,,,IMP,,J:209142 
+MGI:109160,Mnx1,motor neuron and pancreas homeobox 1,5,,diaphragm development,,,IMP,MGI:2182358 MGI:2182361 MGI:2182363 ,J:57340 
+MGI:3050795,Mrtfb,myocardin related transcription factor B,16,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:3050795,Mrtfb,myocardin related transcription factor B,16,,positive regulation of striated muscle tissue development,,,ISO,Q9ULH7 ,J:164563 
+MGI:1333884,Msc,musculin,1,,branchiomeric skeletal muscle development,,,IGI,O35437 ,J:111337 
+MGI:1333884,Msc,musculin,1,,diaphragm development,,,IGI,O35437 ,J:111337 
+MGI:95691,Mstn,myostatin,1,,negative regulation of skeletal muscle tissue growth,,,IMP,,J:40054 J:75344 J:171042 J:205290 
+MGI:95691,Mstn,myostatin,1,,negative regulation of skeletal muscle tissue growth,,,IMP,MGI:2148177 ,J:132807 
+MGI:95691,Mstn,myostatin,1,,negative regulation of skeletal muscle tissue growth,,,IMP,MGI:3778375 ,J:132807 
+MGI:95691,Mstn,myostatin,1,,negative regulation of skeletal muscle tissue growth,,,ISO,RGD:3115 ,J:155856 
+MGI:95691,Mstn,myostatin,1,,negative regulation of skeletal muscle tissue growth,,,ISO,O14793 ,J:164563 
+MGI:97168,Msx1,msh homeobox 1,5,,muscle organ development,,,IPI,P43276 ,J:91568 
+MGI:1099452,Mtm1,X-linked myotubular myopathy gene 1,X,,positive regulation of skeletal muscle tissue growth,"regulates a function/process that happens in skeletal muscle tissue,happens in skeletal muscle tissue",,IMP,MGI:2450997 ,J:201107 
+MGI:1928394,Mtor,mechanistic target of rapamycin kinase,4,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:68371 ,J:155856 
+MGI:2384818,Mtss1,MTSS I-BAR domain containing 1,15,,muscle organ development,,,NAS,,J:82186 
+MGI:102844,Mybpc3,"myosin binding protein C, cardiac",2,,ventricular cardiac muscle tissue morphogenesis,,,ISO,Q14896 ,J:164563 
+MGI:97250,Myc,myelocytomatosis oncogene,15,,skeletal muscle cell differentiation,results in the differentiation of myotube,,IMP,,J:178918 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle organ development,results in the development of vertebral axis musculature,,IGI,MGI:97275 ,J:95359 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle organ development,,,IGI,MGI:97276 ,J:31611 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle organ development,,,IMP,MGI:1857219 ,J:31611 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle organ morphogenesis,has the participant pharynx,,IGI,MGI:98493 ,J:150130 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle tissue morphogenesis,has the participant extrinsic ocular muscle,,IGI,MGI:97491 ,J:150130 
+MGI:97252,Myf5,myogenic factor 5,10,,muscle tissue morphogenesis,has the participant extrinsic ocular muscle,,IMP,MGI:1857973 MGI:3055340 ,J:150130 
+MGI:97252,Myf5,myogenic factor 5,10,,positive regulation of skeletal muscle fiber development,,,IBA,PTN000898840 ,J:265628 
+MGI:97252,Myf5,myogenic factor 5,10,,skeletal muscle cell differentiation,,,IBA,PTN000898840 ,J:265628 
+MGI:97252,Myf5,myogenic factor 5,10,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97252,Myf5,myogenic factor 5,10,,skeletal muscle tissue development,,,IGI,MGI:97253 ,J:150130 
+MGI:97252,Myf5,myogenic factor 5,10,,skeletal muscle tissue development,"results in the development of skeletal musculature,has the participant myoblast",,IGI,MGI:97275 ,J:16387 
+MGI:97252,Myf5,myogenic factor 5,10,,skeletal muscle tissue development,,,IMP,MGI:1857973 MGI:3055340 ,J:150130 
+MGI:97253,Myf6,myogenic factor 6,10,,muscle organ development,,,IEA,IPR002546 IPR039704 ,J:72247 
+MGI:97253,Myf6,myogenic factor 6,10,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:97253,Myf6,myogenic factor 6,10,,muscle tissue morphogenesis,,,IMP,MGI:1913092 ,J:150130 
+MGI:97253,Myf6,myogenic factor 6,10,,positive regulation of skeletal muscle fiber development,,,IBA,PTN000898840 ,J:265628 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle cell differentiation,,,IBA,PTN000898840 ,J:265628 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle tissue development,,,IGI,MGI:97252 ,J:150130 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle tissue development,,,IMP,MGI:1857220 ,J:29279 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle tissue development,,,IMP,MGI:1927607 ,J:24360 
+MGI:97253,Myf6,myogenic factor 6,10,,skeletal muscle tissue development,,,TAS,,J:27708 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,atrial cardiac muscle tissue morphogenesis,,,ISO,P13533 ,J:164563 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P13533 ,J:164563 
+MGI:97255,Myh6,"myosin, heavy polypeptide 6, cardiac muscle, alpha",14,,visceral muscle development,,,IMP,MGI:2182704 ,J:89230 
+MGI:2155600,Myh7,"myosin, heavy polypeptide 7, cardiac muscle, beta",14,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P12883 ,J:164563 
+MGI:1919210,Myh14,"myosin, heavy polypeptide 14",7,,skeletal muscle tissue development,,,ISO,Q7Z406 ,J:164563 
+MGI:3650429,Myhas,myosin heavy chain gene antisense RNA,11,,skeletal muscle fiber development,,,IDA,,J:240240 
+MGI:3650429,Myhas,myosin heavy chain gene antisense RNA,11,,skeletal muscle fiber development,,,IMP,,J:240240 
+MGI:3650429,Myhas,myosin heavy chain gene antisense RNA,11,,skeletal muscle tissue development,,,IMP,,J:240240 
+MGI:97272,Myl2,"myosin, light polypeptide 2, regulatory, cardiac, slow",5,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P10916 ,J:164563 
+MGI:97268,Myl3,"myosin, light polypeptide 3",9,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P08590 ,J:164563 
+MGI:109318,Myl6,"myosin, light polypeptide 6, alkali, smooth muscle and non-muscle",10,,skeletal muscle tissue development,,,TAS,,J:113707 
+MGI:1917789,Myl6b,"myosin, light polypeptide 6B",10,,skeletal muscle tissue development,,,TAS,,J:113707 
+MGI:894806,Mylk,"myosin, light polypeptide kinase",16,,aorta smooth muscle tissue morphogenesis,,,ISO,Q15746 ,J:164563 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,cardiac muscle tissue morphogenesis,,,IBA,PTN000680773 ,J:265628 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,cardiac muscle tissue morphogenesis,,,ISO,Q9H1R3 ,J:164563 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,skeletal muscle cell differentiation,,,ISO,Q9H1R3 ,J:164563 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,skeletal muscle cell differentiation,,,NAS,,J:173154 
+MGI:2139434,Mylk2,"myosin, light polypeptide kinase 2, skeletal muscle",2,,skeletal muscle satellite cell differentiation,,,IMP,,J:173154 
+MGI:97273,Mylpf,"myosin light chain, phosphorylatable, fast skeletal muscle",7,,skeletal muscle tissue development,,,IMP,,J:131461 
+MGI:1913389,Mymk,"myomaker, myoblast fusion factor",2,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:3649059,Mymx,"myomixer, myoblast fusion factor",17,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:3649059,Mymx,"myomixer, myoblast fusion factor",17,,skeletal muscle organ development,,,IBA,PTN002222898 ,J:265628 
+MGI:3649059,Mymx,"myomixer, myoblast fusion factor",17,,skeletal muscle organ development,,,IMP,,J:241564 J:241565 J:242061 
+MGI:2137495,Myocd,myocardin,11,,negative regulation of skeletal muscle cell differentiation,,,ISO,Q8IZQ8 ,J:164563 
+MGI:2137495,Myocd,myocardin,11,,positive regulation of cardiac muscle cell differentiation,,,ISO,Q8IZQ8 ,J:164563 
+MGI:97275,Myod1,myogenic differentiation 1,7,,muscle organ development,,,IDA,,J:91568 
+MGI:97275,Myod1,myogenic differentiation 1,7,,muscle organ development,results in the development of vertebral axis musculature,,IGI,MGI:97252 ,J:95359 
+MGI:97275,Myod1,myogenic differentiation 1,7,,positive regulation of skeletal muscle fiber development,,,IBA,PTN000898840 ,J:265628 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle cell differentiation,,,IBA,PTN000898840 ,J:265628 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle cell differentiation,,,NAS,,J:173154 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle fiber development,results in the development of myotube,,IMP,,J:147457 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,,,IDA,,J:87788 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,has the participant fibroblast,,IDA,,J:76817 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,results in the development of diaphragm,,IGI,MGI:94909 ,J:100052 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,"results in the development of skeletal musculature,has the participant myoblast",,IGI,MGI:97252 ,J:16387 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,results in the development of head,,IMP,MGI:1857221 ,J:150130 
+MGI:97275,Myod1,myogenic differentiation 1,7,,skeletal muscle tissue development,,,TAS,,J:27708 
+MGI:97276,Myog,myogenin,1,,muscle organ development,,,IGI,MGI:97252 ,J:31611 
+MGI:97276,Myog,myogenin,1,,positive regulation of skeletal muscle fiber development,,,IBA,PTN000898840 ,J:265628 
+MGI:97276,Myog,myogenin,1,,positive regulation of skeletal muscle fiber development,,,IMP,,J:14208 
+MGI:97276,Myog,myogenin,1,,skeletal muscle cell differentiation,,,IBA,PTN000898840 ,J:265628 
+MGI:97276,Myog,myogenin,1,,skeletal muscle fiber development,happens in skeletal muscle tissue,,IMP,MGI:1857667 ,J:14208 
+MGI:97276,Myog,myogenin,1,,skeletal muscle tissue development,,,IDA,,J:87788 
+MGI:97276,Myog,myogenin,1,,skeletal muscle tissue development,,,TAS,,J:27708 
+MGI:1341430,Myom1,myomesin 1,17,,cardiac muscle tissue morphogenesis,,,IBA,PTN001790574 ,J:265628 
+MGI:1328358,Myom2,myomesin 2,8,,cardiac muscle tissue morphogenesis,,,IBA,PTN001790574 ,J:265628 
+MGI:2685280,Myom3,"myomesin family, member 3",4,,cardiac muscle tissue morphogenesis,,,IBA,PTN001790574 ,J:265628 
+MGI:6278009,Myoparr,myogenin promoter-associated myogenic regulatory antisense lncRNA,1,,skeletal muscle fiber development,,,IMP,,J:271538 
+MGI:2140300,Myorg,myogenesis regulating glycosidase (putative),4,,skeletal muscle fiber development,,,IBA,PTN002874696 ,J:265628 
+MGI:2140300,Myorg,myogenesis regulating glycosidase (putative),4,,skeletal muscle fiber development,,,IMP,,J:156975 
+MGI:2140300,Myorg,myogenesis regulating glycosidase (putative),4,,skeletal muscle fiber development,,,ISO,Q6NSJ0 ,J:164563 
+MGI:1929471,Myoz1,myozenin 1,14,,skeletal muscle tissue development,,,IMP,,J:144597 
+MGI:1913063,Myoz2,myozenin 2,3,,skeletal muscle tissue development,happens in soleus,,IDA,,J:94665 
+MGI:1100535,Myt1,myelin transcription factor 1,2,,diaphragm development,,,IMP,MGI:3765054 ,J:127471 
+MGI:106095,Naca,nascent polypeptide-associated complex alpha polypeptide,10,,positive regulation of skeletal muscle tissue growth,,,IMP,,J:167169 
+MGI:106095,Naca,nascent polypeptide-associated complex alpha polypeptide,10,,regulation of skeletal muscle fiber development,,,IMP,,J:167169 
+MGI:97281,Ncam1,neural cell adhesion molecule 1,9,,positive regulation of cardiac muscle cell proliferation,,,ISO,RGD:67378 ,J:155856 
+MGI:107754,Neurog1,neurogenin 1,13,,regulation of muscle organ development,,,ISO,Q92886 ,J:164563 
+MGI:97306,Nf1,neurofibromin 1,11,,skeletal muscle tissue development,results in the development of eye skeletal muscle|results in the development of shoulder|results in the development of anterior abdominal wall muscle,,IMP,MGI:1857444 ,J:18048 
+MGI:103296,Nfatc3,"nuclear factor of activated T cells, cytoplasmic, calcineurin dependent 3",8,,skeletal muscle fiber development,happens in soleus|happens in extensor digitorum longus,,IMP,MGI:2182778 ,J:68675 
+MGI:97350,Nkx2-5,NK2 homeobox 5,17,,cardiac muscle tissue morphogenesis,,,ISO,P52952 ,J:164563 
+MGI:97350,Nkx2-5,NK2 homeobox 5,17,,regulation of cardiac muscle cell proliferation,,,IDA,,J:163662 
+MGI:97350,Nkx2-5,NK2 homeobox 5,17,,right ventricular cardiac muscle tissue morphogenesis,,,ISO,P52952 ,J:164563 
+MGI:97350,Nkx2-5,NK2 homeobox 5,17,,ventricular trabecula myocardium morphogenesis,has the participant trabeculae carneae cardiac muscle,,IMP,MGI:3042511 ,J:89404 
+MGI:1923055,Nln,neurolysin (metallopeptidase M3 family),13,,regulation of skeletal muscle fiber differentiation,happens in gastrocnemius muscle,,IMP,MGI:4125183 ,J:214115 
+MGI:104327,Nog,noggin,11,,atrial cardiac muscle tissue morphogenesis,,,IMP,,J:133691 
+MGI:104327,Nog,noggin,11,,negative regulation of cardiac muscle cell proliferation,,,IMP,,J:133691 
+MGI:104327,Nog,noggin,11,,ventricular compact myocardium morphogenesis,,,IMP,,J:133691 
+MGI:97363,Notch1,notch 1,2,,cardiac muscle tissue morphogenesis,,,IMP,,J:170885 
+MGI:97363,Notch1,notch 1,2,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:170885 
+MGI:97363,Notch1,notch 1,2,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97363,Notch1,notch 1,2,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:119151 
+MGI:1859637,Nphs1,"nephrosis 1, nephrin",7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1859637,Nphs1,"nephrosis 1, nephrin",7,,skeletal muscle tissue development,,,IMP,,J:150083 
+MGI:2449205,Nr1d2,"nuclear receptor subfamily 1, group D, member 2",14,,regulation of skeletal muscle cell differentiation,,,IMP,,J:203407 
+MGI:1352452,Nr2f2,"nuclear receptor subfamily 2, group F, member 2",7,,skeletal muscle tissue development,results in the development of embryo,,IMP,MGI:2385933 ,J:95257 
+MGI:1352452,Nr2f2,"nuclear receptor subfamily 2, group F, member 2",7,,skeletal muscle tissue development,results in the development of diaphragm,,IMP,MGI:3579117 MGI:3579118 ,J:103437 
+MGI:95824,Nr3c1,"nuclear receptor subfamily 3, group C, member 1",18,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:2741 ,J:155856 
+MGI:1352454,Nr4a1,"nuclear receptor subfamily 4, group A, member 1",15,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97376,Nras,neuroblastoma ras oncogene,3,,negative regulation of skeletal muscle tissue development,,,IDA,,J:166193 
+MGI:97376,Nras,neuroblastoma ras oncogene,3,,negative regulation of skeletal muscle tissue development,,,IGI,MGI:2676890 ,J:166193 
+MGI:96083,Nrg1,neuregulin 1,8,,muscle organ development,,,IMP,MGI:1928831 ,J:80793 
+MGI:96083,Nrg1,neuregulin 1,8,,positive regulation of cardiac muscle cell differentiation,,,IMP,,J:119151 
+MGI:1891834,Nupr1,nuclear protein transcription regulator 1,7,,skeletal muscle cell differentiation,,,IMP,,J:153063 
+MGI:2665170,P2rx2,"purinergic receptor P2X, ligand-gated ion channel, 2",5,,skeletal muscle fiber development,happens in skeletal musculature,,IMP,MGI:2687349 ,J:128394 
+MGI:1339975,Pak1,p21 (RAC1) activated kinase 1,7,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:3250 ,J:155856 
+MGI:1341112,Parp2,"poly (ADP-ribose) polymerase family, member 2",14,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1310568 ,J:155856 
+MGI:97487,Pax3,paired box 3,1,,muscle organ development,"results in the development of future arm mesenchyme,has the participant myoblast",,IMP,MGI:1856173 MGI:2687297 MGI:3047631 MGI:3047632 ,J:90568 
+MGI:97487,Pax3,paired box 3,1,,skeletal muscle cell differentiation,,,NAS,,J:173154 
+MGI:97487,Pax3,paired box 3,1,,skeletal muscle organ development,results in the development of biceps brachii|results in the development of triceps brachii,,IMP,MGI:1856174 ,J:209494 
+MGI:97489,Pax5,paired box 5,4,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:97491,Pax7,paired box 7,4,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:97491,Pax7,paired box 7,4,,muscle tissue morphogenesis,has the participant extrinsic ocular muscle,,IGI,MGI:97252 ,J:150130 
+MGI:97491,Pax7,paired box 7,4,,skeletal muscle satellite cell commitment,"happens in skeletal musculature,results in a cell's commitment to skeletal muscle satellite cell",,IMP,MGI:1857831 ,J:64793 
+MGI:97491,Pax7,paired box 7,4,,skeletal muscle tissue development,"results in the development of skeletal musculature,has the participant skeletal muscle satellite cell",,IMP,MGI:1857831 ,J:64793 
+MGI:1914617,Paxbp1,PAX3 and PAX7 binding protein 1,16,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1859274,Pdlim3,PDZ and LIM domain 3,8,NOT,skeletal muscle tissue development,results in the development of gastrocnemius muscle,,IMP,MGI:2385940 ,J:67358 
+MGI:1100882,Phox2b,paired-like homeobox 2b,5,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1921366,Pi16,peptidase inhibitor 16,17,,negative regulation of cell growth involved in cardiac muscle cell development,,,IDA,,J:139835 
+MGI:1921366,Pi16,peptidase inhibitor 16,17,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,NP_001163952 ,J:139835 
+MGI:97584,Pim1,proviral integration site 1,17,,positive regulation of cardiac muscle cell proliferation,,,ISO,P11309 ,J:164563 
+MGI:1346036,Pin1,protein (peptidyl-prolyl cis/trans isomerase) NIMA-interacting 1,9,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1310299 ,J:155856 
+MGI:107374,Pitx1,paired-like homeodomain transcription factor 1,13,,branchiomeric skeletal muscle development,"results in the development of 1st branchial arch,has the participant myoblast",,IMP,MGI:2384494 ,J:120320 
+MGI:109340,Pitx2,paired-like homeodomain transcription factor 2,3,,atrial cardiac muscle tissue morphogenesis,,,IMP,MGI:2136268 ,J:69854 
+MGI:109340,Pitx2,paired-like homeodomain transcription factor 2,3,,extraocular skeletal muscle development,results in the development of extrinsic ocular muscle,,IMP,MGI:1857844 ,J:108510 
+MGI:109340,Pitx2,paired-like homeodomain transcription factor 2,3,,extraocular skeletal muscle development,results in the development of embryo,,IMP,MGI:1857844 MGI:1857846 ,J:168032 
+MGI:109340,Pitx2,paired-like homeodomain transcription factor 2,3,,skeletal muscle tissue development,results in the development of eye,,IMP,MGI:1857880 ,J:55455 
+MGI:1914701,Pkp2,plakophilin 2,16,,ventricular cardiac muscle tissue morphogenesis,,,ISO,Q99959 ,J:164563 
+MGI:1100874,Plagl1,pleiomorphic adenoma gene-like 1,10,,skeletal muscle cell differentiation,results in the differentiation of sperm,,IMP,,J:178918 
+MGI:97628,pma,peroneal muscular atrophy,5,,skeletal muscle fiber development,,,IMP,MGI:1856996 ,J:4724 
+MGI:97628,pma,peroneal muscular atrophy,5,,skeletal muscle fiber development,happens in leg muscle,,IMP,MGI:1856996 ,J:4723 J:8195 
+MGI:97631,Pmp22,peripheral myelin protein 22,11,,"neuromuscular junction development, skeletal muscle fiber",,,IMP,MGI:1856217 ,J:215632 
+MGI:1930150,Popdc2,popeye domain containing 2,16,,skeletal muscle tissue development,,,IBA,PTN000250645 ,J:265628 
+MGI:1930153,Popdc3,popeye domain containing 3,10,,skeletal muscle tissue development,,,IBA,PTN000250645 ,J:265628 
+MGI:102525,Pou4f1,"POU domain, class 4, transcription factor 1",14,,ventricular compact myocardium morphogenesis,,,IMP,,J:139182 
+MGI:104740,Ppara,peroxisome proliferator activated receptor alpha,15,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:3369 ,J:155856 
+MGI:107164,Ppp3ca,"protein phosphatase 3, catalytic subunit, alpha isoform",3,,skeletal muscle fiber development,,,IMP,,J:100019 
+MGI:2145955,Prkaa1,"protein kinase, AMP-activated, alpha 1 catalytic subunit",15,,positive regulation of skeletal muscle tissue development,,,IMP,MGI:3029359 ,J:210206 
+MGI:97772,Prox1,prospero homeobox 1,1,,aorta smooth muscle tissue morphogenesis,,,IMP,,J:144217 
+MGI:97772,Prox1,prospero homeobox 1,1,,atrial cardiac muscle tissue morphogenesis,,,IMP,,J:144217 
+MGI:97772,Prox1,prospero homeobox 1,1,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:144217 
+MGI:2384565,Prr14,proline rich 14,7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1347006,Psma6,proteasome subunit alpha 6,12,,skeletal muscle tissue development,,,NAS,,J:169810 
+MGI:1916177,Ptcd2,pentatricopeptide repeat domain 2,13,,ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:3830811 ,J:143946 
+MGI:109583,Pten,phosphatase and tensin homolog,19,,negative regulation of cardiac muscle cell proliferation,,,IGI,URS000006FDD4_10090 URS000013D17D_10090 ,J:213298 
+MGI:97874,Rb1,RB transcriptional corepressor 1,14,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1926224,Rbfox1,"RNA binding protein, fox-1 homolog (C. elegans) 1",16,,regulation of skeletal muscle cell differentiation,happens in myoblast,,IMP,,J:195805 
+MGI:3610364,Rbm24,RNA binding motif protein 24,13,,positive regulation of skeletal muscle fiber differentiation,,,IMP,,J:259125 
+MGI:97879,Rbp4,"retinol binding protein 4, plasma",19,,negative regulation of cardiac muscle cell proliferation,,,IMP,,J:82903 
+MGI:96522,Rbpj,recombination signal binding protein for immunoglobulin kappa J region,5,,positive regulation of canonical Wnt signaling pathway involved in cardiac muscle cell fate commitment,,,IMP,MGI:3583755 ,J:186421 
+MGI:96522,Rbpj,recombination signal binding protein for immunoglobulin kappa J region,5,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:119151 
+MGI:96522,Rbpj,recombination signal binding protein for immunoglobulin kappa J region,5,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:119151 
+MGI:1890564,Rcan1,regulator of calcineurin 1,16,,skeletal muscle fiber development,,,IDA,,J:100019 
+MGI:1098271,Rgs2,regulator of G-protein signaling 2,1,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:621665 ,J:155856 
+MGI:108409,Rgs4,regulator of G-protein signaling 4,1,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:3567 ,J:155856 
+MGI:1096342,Rhoa,ras homolog family member A,9,,skeletal muscle tissue development,results in the development of smooth muscle tissue,,IDA,,J:75088 
+MGI:108212,Ripk1,receptor (TNFRSF)-interacting serine-threonine kinase 1,13,,negative regulation of cardiac muscle cell proliferation,,,IMP,,J:268034 
+MGI:2444879,Ripor2,RHO family interacting cell polarization regulator 2,13,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2444879,Ripor2,RHO family interacting cell polarization regulator 2,13,,skeletal muscle fiber development,,,IEA,IPR033035 ,J:72247 
+MGI:1270849,Rps6kb1,"ribosomal protein S6 kinase, polypeptide 1",11,,positive regulation of skeletal muscle tissue growth,,,ISO,RGD:620683 ,J:155856 
+MGI:98214,Rxra,retinoid X receptor alpha,2,,ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:2136274 ,J:44836 
+MGI:99659,Ryr1,"ryanodine receptor 1, skeletal muscle",7,,skeletal muscle fiber development,,,IMP,,J:127629 
+MGI:99685,Ryr2,"ryanodine receptor 2, cardiac",13,,left ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:3713774 ,J:122033 
+MGI:1096355,S1pr1,sphingosine-1-phosphate receptor 1,3,,cardiac muscle tissue growth involved in heart morphogenesis,,,IMP,,J:173601 
+MGI:98217,S100b,"S100 protein, beta polypeptide, neural",10,,negative regulation of skeletal muscle cell differentiation,,,ISO,RGD:3615 ,J:155856 
+MGI:1929129,Sap30,sin3 associated polypeptide,8,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1927144,Sav1,salvador family WW domain containing 1,12,,negative regulation of cardiac muscle cell proliferation,"regulates a function/process that happens in heart ventricle,regulates the proliferation of cardiac muscle cell",,IMP,MGI:2654594 MGI:4430538 ,J:170963 
+MGI:103169,Scn8a,"sodium channel, voltage-gated, type VIII, alpha",15,,muscle organ development,,,IMP,MGI:2429911 ,J:90095 
+MGI:102934,Scx,scleraxis,15,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:2151208,Selenon,selenoprotein N,4,,skeletal muscle fiber development,,,IBA,PTN001024021 ,J:265628 
+MGI:2151208,Selenon,selenoprotein N,4,,skeletal muscle fiber development,happens in tibialis anterior,,IMP,,J:197753 
+MGI:2151208,Selenon,selenoprotein N,4,,skeletal muscle satellite cell differentiation,happens in skeletal muscle tissue,,IMP,MGI:4946396 ,J:168699 
+MGI:92638,Serp1,stress-associated endoplasmic reticulum protein 1,3,,muscle organ morphogenesis,has the participant skeletal musculature,,IMP,MGI:3652355 ,J:106619 
+MGI:1859609,Sfmbt1,Scm-like with four mbt domains 1,14,,negative regulation of muscle organ development,,,ISO,Q9UHJ3 ,J:164563 
+MGI:1346523,Sgcb,"sarcoglycan, beta (dystrophin-associated glycoprotein)",5,,muscle organ development,,,IEA,IPR027659 ,J:72247 
+MGI:98297,Shh,sonic hedgehog,5,,negative regulation of ureter smooth muscle cell differentiation,,,IDA,,J:79481 
+MGI:98297,Shh,sonic hedgehog,5,,positive regulation of skeletal muscle tissue development,regulates the development of limb,,IMP,MGI:1857796 MGI:1861186 ,J:67151 
+MGI:98297,Shh,sonic hedgehog,5,,positive regulation of ureter smooth muscle cell differentiation,,,IMP,,J:79481 
+MGI:1201673,Shox2,short stature homeobox 2,3,,muscle tissue morphogenesis,,,IMP,,J:170400 
+MGI:1201673,Shox2,short stature homeobox 2,3,,positive regulation of skeletal muscle fiber development,,,IMP,,J:170400 
+MGI:107158,Sin3b,"transcriptional regulator, SIN3B (yeast)",8,,skeletal muscle tissue development,,,IDA,,J:113872 
+MGI:2135607,Sirt1,sirtuin 1,10,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2135607,Sirt1,sirtuin 1,10,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1308542 ,J:155856 
+MGI:1927664,Sirt2,sirtuin 2,7,,negative regulation of striated muscle tissue development,,,ISO,Q8IXJ6 ,J:164563 
+MGI:1354161,Sirt6,sirtuin 6,10,,post-embryonic cardiac muscle cell growth involved in heart morphogenesis,,,ISO,RGD:1305216 ,J:155856 
+MGI:102780,Six1,sine oculis-related homeobox 1,12,,regulation of skeletal muscle cell differentiation,,,IDA,,J:165033 
+MGI:102780,Six1,sine oculis-related homeobox 1,12,,skeletal muscle fiber development,,,IBA,PTN002571893 ,J:265628 
+MGI:102780,Six1,sine oculis-related homeobox 1,12,,skeletal muscle tissue development,,,IBA,PTN002571893 ,J:265628 
+MGI:102780,Six1,sine oculis-related homeobox 1,12,,skeletal muscle tissue development,results in the development of forelimb,,IGI,MGI:106034 ,J:98519 
+MGI:102780,Six1,sine oculis-related homeobox 1,12,,skeletal muscle tissue development,,,IMP,,J:122815 
+MGI:106034,Six4,sine oculis-related homeobox 4,12,,negative regulation of satellite cell differentiation,,,IMP,,J:165033 
+MGI:106034,Six4,sine oculis-related homeobox 4,12,,skeletal muscle fiber differentiation,,,IMP,,J:178379 
+MGI:106034,Six4,sine oculis-related homeobox 4,12,,skeletal muscle tissue development,results in the development of forelimb,,IGI,MGI:102780 ,J:98519 
+MGI:106034,Six4,sine oculis-related homeobox 4,12,,skeletal muscle tissue development,,,IMP,,J:122815 
+MGI:98310,Ski,ski sarcoma viral oncogene homolog (avian),4,,skeletal muscle fiber development,happens in skeletal muscle tissue,,IMP,MGI:2177555 ,J:42573 
+MGI:106203,Skil,SKI-like,3,,skeletal muscle tissue development,,,ISO,P12757 ,J:164563 
+MGI:1353495,Slc25a4,"solute carrier family 25 (mitochondrial carrier, adenine nucleotide translocator), member 4",8,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:620352 ,J:155856 
+MGI:1201674,Smad3,SMAD family member 3,9,,regulation of striated muscle tissue development,,,IDA,,J:72619 
+MGI:894293,Smad4,SMAD family member 4,18,,left ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:114629 
+MGI:894293,Smad4,SMAD family member 4,18,,negative regulation of cardiac myofibril assembly,,,IMP,,J:114629 
+MGI:1100518,Smad7,SMAD family member 7,18,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:145777 
+MGI:108075,Smo,"smoothened, frizzled class receptor",6,,skeletal muscle fiber development,results in the development of slow muscle cell,,IMP,MGI:2176256 MGI:3573783 ,J:187741 
+MGI:1915928,Smtnl1,smoothelin-like 1,2,,muscle organ morphogenesis,,,IMP,MGI:3796616 ,J:136573 
+MGI:104790,Smyd1,SET and MYND domain containing 1,6,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1913604,Snw1,SNW domain containing 1,12,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:98368,Sox6,SRY (sex determining region Y)-box 6,7,,negative regulation of cardiac muscle cell differentiation,,,ISO,P35712 ,J:164563 
+MGI:98370,Sox8,SRY (sex determining region Y)-box 8,17,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:98359,Sox11,SRY (sex determining region Y)-box 11,12,,skeletal muscle cell differentiation,,,IMP,,J:178189 
+MGI:98363,Sox15,SRY (sex determining region Y)-box 15,11,,negative regulation of striated muscle tissue development,,,IDA,,J:62310 
+MGI:1891338,Srpk3,serine/arginine-rich protein specific kinase 3,X,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1891338,Srpk3,serine/arginine-rich protein specific kinase 3,X,,skeletal muscle tissue development,"results in the development of skeletal musculature,has the participant cell of skeletal muscle",,IMP,,J:100494 
+MGI:3606571,Stac3,SH3 and cysteine rich domain 3,10,,skeletal muscle fiber development,happens in extensor digitorum longus,,IMP,,J:200631 
+MGI:107742,Stra6,stimulated by retinoic acid gene 6,9,,diaphragm development,,,ISO,Q9BX79 ,J:164563 
+MGI:2147319,Svil,supervillin,18,,skeletal muscle tissue development,,,ISO,O95425 ,J:164563 
+MGI:3045308,Synb,syncytin b,14,,skeletal muscle tissue development,happens in UBERON:0003101,,IMP,MGI:5308859 ,J:235656 
+MGI:109626,Taz,tafazzin,X,,skeletal muscle tissue development,,,ISO,Q16635 ,J:164563 
+MGI:98493,Tbx1,T-box 1,16,,muscle organ development,"results in the development of 1st branchial arch,has the participant cell of skeletal muscle|results in the development of 2nd branchial arch,has the participant cell of skeletal muscle",,IMP,MGI:2179190 ,J:94411 
+MGI:98493,Tbx1,T-box 1,16,,muscle organ morphogenesis,has the participant pharynx,,IGI,MGI:97252 ,J:150130 
+MGI:98493,Tbx1,T-box 1,16,,muscle tissue morphogenesis,has the participant pharynx,,IMP,MGI:2179190 ,J:150130 
+MGI:98493,Tbx1,T-box 1,16,,positive regulation of tongue muscle cell differentiation,,,IMP,,J:139633 
+MGI:98494,Tbx2,T-box 2,11,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:89198 
+MGI:102541,Tbx5,T-box 5,5,,negative regulation of cardiac muscle cell proliferation,,,ISO,Q99593 ,J:164563 
+MGI:102541,Tbx5,T-box 5,5,,positive regulation of cardiac muscle cell proliferation,regulates a function/process that happens in heart,,IGI,MGI:107516 ,J:145175 
+MGI:102541,Tbx5,T-box 5,5,,positive regulation of cardiac muscle cell proliferation,regulates a function/process that happens in heart,,IGI,MGI:95664 ,J:145175 
+MGI:1888496,Tbx20,T-box 20,9,,cardiac muscle tissue morphogenesis,,,IMP,,J:101739 
+MGI:1888496,Tbx20,T-box 20,9,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:98806 
+MGI:1330233,Tcap,titin-cap,11,,cardiac muscle tissue morphogenesis,,,IBA,PTN002689097 ,J:265628 
+MGI:1330233,Tcap,titin-cap,11,,cardiac muscle tissue morphogenesis,,,ISO,O15273 ,J:164563 
+MGI:1202879,Tcf7l2,"transcription factor 7 like 2, T cell specific, HMG box",19,,regulation of skeletal muscle tissue development,regulates the development of skeletal muscle tissue,,IMP,MGI:4881345 ,J:167712 
+MGI:104664,Tcf15,transcription factor 15,2,,muscle organ development,results in the development of musculature,,IMP,MGI:1929775 ,J:37117 
+MGI:104664,Tcf15,transcription factor 15,2,,muscle organ morphogenesis,has the participant musculature,,IMP,MGI:1929775 ,J:37117 
+MGI:1202715,Tcf21,transcription factor 21,10,,branchiomeric skeletal muscle development,,,IGI,O88940 ,J:111337 
+MGI:1202715,Tcf21,transcription factor 21,10,,diaphragm development,,,IGI,O88940 ,J:111337 
+MGI:1934960,Tcf23,transcription factor 23,5,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:98725,Tgfb1,"transforming growth factor, beta 1",7,,negative regulation of skeletal muscle tissue development,,,ISO,P01137 ,J:164563 
+MGI:98725,Tgfb1,"transforming growth factor, beta 1",7,,positive regulation of cardiac muscle cell differentiation,,,ISO,P01137 ,J:164563 
+MGI:98725,Tgfb1,"transforming growth factor, beta 1",7,,regulation of striated muscle tissue development,,,IDA,,J:72619 
+MGI:98725,Tgfb1,"transforming growth factor, beta 1",7,,skeletal muscle tissue development,,,TAS,,J:2892 
+MGI:98725,Tgfb1,"transforming growth factor, beta 1",7,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:18881 
+MGI:98726,Tgfb2,"transforming growth factor, beta 2",1,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:41682 
+MGI:98728,Tgfbr1,"transforming growth factor, beta receptor I",4,,regulation of cardiac muscle cell proliferation,,,IMP,,J:142286 
+MGI:98728,Tgfbr1,"transforming growth factor, beta receptor I",4,,ventricular compact myocardium morphogenesis,,,IMP,,J:142286 
+MGI:98728,Tgfbr1,"transforming growth factor, beta receptor I",4,,ventricular trabecula myocardium morphogenesis,,,IMP,,J:142286 
+MGI:98729,Tgfbr2,"transforming growth factor, beta receptor II",9,,negative regulation of cardiac muscle cell proliferation,,,ISO,RGD:69651 ,J:155856 
+MGI:104637,Tgfbr3,"transforming growth factor, beta receptor III",5,,muscular septum morphogenesis,,,IMP,,J:83727 
+MGI:104637,Tgfbr3,"transforming growth factor, beta receptor III",5,,positive regulation of cardiac muscle cell proliferation,,,IMP,,J:83727 
+MGI:104637,Tgfbr3,"transforming growth factor, beta receptor III",5,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:83727 
+MGI:104637,Tgfbr3,"transforming growth factor, beta receptor III",5,,ventricular compact myocardium morphogenesis,,,IMP,,J:83727 J:141344 
+MGI:2385852,Tifab,"TRAF-interacting protein with forkhead-associated domain, family member B",13,,regulation of muscle organ development,,,ISO,Q6ZNK6 ,J:164563 
+MGI:1346044,Tll2,tolloid-like 2,19,,negative regulation of skeletal muscle tissue growth,,,IMP,MGI:3778379 ,J:132807 
+MGI:98779,Tnnc1,"troponin C, cardiac/slow skeletal",14,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P63316 ,J:164563 
+MGI:105073,Tnni1,"troponin I, skeletal, slow 1",1,,ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:2387868 ,J:53628 
+MGI:98783,Tnni3,"troponin I, cardiac 3",7,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P19429 ,J:164563 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,atrial cardiac muscle tissue morphogenesis,,,IMP,MGI:3692448 MGI:3692450 MGI:3692451 ,J:56911 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:3693250 ,J:104369 
+MGI:104597,Tnnt2,"troponin T2, cardiac",1,,ventricular cardiac muscle tissue morphogenesis,,,ISO,P45379 ,J:164563 
+MGI:106295,Tomm70a,translocase of outer mitochondrial membrane 70A,16,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:1303049 ,J:155856 
+MGI:98809,Tpm1,"tropomyosin 1, alpha",9,,ventricular cardiac muscle tissue morphogenesis,,,IMP,,J:137813 
+MGI:3612190,Trim72,tripartite motif-containing 72,7,,muscle organ development,,,IMP,,J:146965 
+MGI:2146901,Trip10,thyroid hormone receptor interactor 10,17,,positive regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:621145 ,J:155856 
+MGI:1336991,Trp73,transformation related protein 73,4,,negative regulation of cardiac muscle cell proliferation,,,ISO,O15350 ,J:139804 
+MGI:1196284,Tsc22d3,"TSC22 domain family, member 3",X,,negative regulation of skeletal muscle tissue development,,PR:Q9Z2S7-1,IDA,,J:165945 
+MGI:1196284,Tsc22d3,"TSC22 domain family, member 3",X,,negative regulation of skeletal muscle tissue development,,PR:Q9Z2S7-4,IDA,,J:165945 
+MGI:98864,Ttn,titin,2,,cardiac muscle tissue morphogenesis,,,IBA,PTN001790574 ,J:265628 
+MGI:98864,Ttn,titin,2,,cardiac muscle tissue morphogenesis,,,IMP,MGI:3763610 ,J:125922 
+MGI:98864,Ttn,titin,2,,cardiac muscle tissue morphogenesis,,,ISO,Q8WZ42 ,J:164563 
+MGI:98872,Twist1,twist basic helix-loop-helix transcription factor 1,12,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:98872,Twist1,twist basic helix-loop-helix transcription factor 1,12,,negative regulation of skeletal muscle tissue development,,,IDA,,J:21111 J:28430 
+MGI:98872,Twist1,twist basic helix-loop-helix transcription factor 1,12,,negative regulation of striated muscle tissue development,,,IDA,,J:46519 
+MGI:1927086,Ube4b,ubiquitination factor E4B,4,,ventricular trabecula myocardium morphogenesis,has the participant heart ventricle,,IMP,MGI:3611069 ,J:103761 
+MGI:2142246,Unc45a,unc-45 myosin chaperone A,7,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2443377,Unc45b,unc-45 myosin chaperone B,11,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1914517,Uqcc2,ubiquinol-cytochrome c reductase complex assembly factor 2,17,,regulation of skeletal muscle cell differentiation,,,IMP,,J:202581 
+MGI:1858178,Usp2,ubiquitin specific peptidase 2,9,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1858178,Usp2,ubiquitin specific peptidase 2,9,,negative regulation of skeletal muscle tissue development,,,ISO,RGD:621073 ,J:155856 
+MGI:1858178,Usp2,ubiquitin specific peptidase 2,9,,positive regulation of skeletal muscle tissue development,,,ISO,RGD:621073 ,J:155856 
+MGI:1918722,Usp19,ubiquitin specific peptidase 19,9,,negative regulation of skeletal muscle tissue development,,,IMP,,J:182369 
+MGI:1858622,Vamp5,vesicle-associated membrane protein 5,6,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1858622,Vamp5,vesicle-associated membrane protein 5,6,,skeletal muscle tissue development,,,IDA,,J:62055 
+MGI:2135272,Vangl2,VANGL planar cell polarity 2,1,,muscular septum morphogenesis,has the participant interventricular septum muscular part,,IGI,MGI:1196625 MGI:1888513 ,J:165556 
+MGI:1277163,Vax1,ventral anterior homeobox 1,19,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:2447460,Vgll2,vestigial like family member 2,10,,skeletal muscle tissue development,,,IDA,,J:87788 
+MGI:98954,Wnt2,"wingless-type MMTV integration site family, member 2",6,,atrial cardiac muscle tissue morphogenesis,has the participant left atrium cardiac muscle|has the participant right atrium cardiac muscle,,IMP,MGI:4361155 ,J:158582 
+MGI:98954,Wnt2,"wingless-type MMTV integration site family, member 2",6,,positive regulation of cardiac muscle cell proliferation,regulates a function/process that happens in left atrium cardiac muscle|regulates a function/process that happens in right atrium cardiac muscle,,IMP,MGI:4361155 ,J:158582 
+MGI:98956,Wnt3a,"wingless-type MMTV integration site family, member 3A",11,,positive regulation of cardiac muscle cell differentiation,,,ISO,P56704 ,J:164563 
+MGI:98956,Wnt3a,"wingless-type MMTV integration site family, member 3A",11,,positive regulation of skeletal muscle tissue development,,,IMP,,J:76366 
+MGI:98956,Wnt3a,"wingless-type MMTV integration site family, member 3A",11,,skeletal muscle cell differentiation,results in the differentiation of skeletal muscle myoblast,,IGI,MGI:1924828 MGI:1933114 ,J:154476 
+MGI:98958,Wnt5a,"wingless-type MMTV integration site family, member 5A",14,,planar cell polarity pathway involved in cardiac muscle tissue morphogenesis,happens in left atrium auricular region cardiac muscle|happens in left atrium cardiac muscle|happens in right atrium auricular region cardiac muscle|happens in right atrium cardiac muscle|happens in left ventricle cardiac muscle|happens in right ventricle cardiac muscle,,IMP,MGI:1857617 ,J:163977 
+MGI:108061,Wnt10b,"wingless-type MMTV integration site family, member 10B",15,,regulation of skeletal muscle tissue development,,,IMP,MGI:3582610 ,J:99298 
+MGI:108061,Wnt10b,"wingless-type MMTV integration site family, member 10B",15,,skeletal muscle fiber development,"happens in tibialis anterior,results in the development of myoblast",,IMP,MGI:3582610 ,J:99298 
+MGI:98968,Wt1,Wilms tumor 1 homolog,2,,diaphragm development,,,IMP,,J:14317 
+MGI:98970,Xbp1,X-box binding protein 1,11,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2685198,Xirp2,xin actin-binding repeat containing 2,2,,cardiac muscle tissue morphogenesis,has the participant cardiac muscle tissue,,IMP,MGI:4453315 ,J:158491 
+MGI:103569,Xk,X-linked Kx blood group,X,,skeletal muscle fiber development,,,IGI,MGI:1346053 ,J:206464 
+MGI:3797603,Xlch,X-linked cardiac hypertrophy,X,,muscle organ development,,,IMP,MGI:3797607 ,J:136798 
+MGI:3797603,Xlch,X-linked cardiac hypertrophy,X,,ventricular cardiac muscle tissue morphogenesis,,,IMP,MGI:3797607 ,J:136798 
+MGI:103262,Yap1,yes-associated protein 1,9,,positive regulation of cardiac muscle cell proliferation,,,IDA,,J:200670 
+MGI:2137670,Ybx3,Y box protein 3,6,,negative regulation of skeletal muscle tissue development,regulates a function/process that has the participant myoblast,,IDA,,J:139507 
+MGI:99150,Yy1,YY1 transcription factor,12,,negative regulation of cell growth involved in cardiac muscle cell development,,,ISO,RGD:3982 ,J:155856 
+MGI:1353609,Zbtb18,zinc finger and BTB domain containing 18,1,,skeletal muscle tissue development,,,IMP,,J:156017 
+MGI:3644133,Zbtb42,zinc finger and BTB domain containing 42,12,,muscle organ development,,,ISO,B2RXF5 ,J:164563 
+MGI:99948,Zfhx3,zinc finger homeobox 3,8,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:2674092,Zfp609,zinc finger protein 609,9,,muscle organ development,,,IEA,KW-0517 ,J:60000 
+MGI:1918381,Zfp689,zinc finger protein 689,7,,skeletal muscle cell differentiation,,,IMP,,J:178918 
+MGI:1095400,Zfpm1,"zinc finger protein, multitype 1",8,,cardiac muscle tissue morphogenesis,,,IMP,,J:99745 
+MGI:1334444,Zfpm2,"zinc finger protein, multitype 2",15,,cardiac muscle tissue morphogenesis,,,TAS,,J:99745 
+MGI:1334444,Zfpm2,"zinc finger protein, multitype 2",15,,positive regulation of cardiac muscle cell proliferation,happens at the same time as UBERON:0000068,,IGI,URS000075EEC2_10090 ,J:231272 
+MGI:1334444,Zfpm2,"zinc finger protein, multitype 2",15,,right ventricular cardiac muscle tissue morphogenesis,,,ISO,Q8WW38 ,J:164563 

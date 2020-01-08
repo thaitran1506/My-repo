@@ -23,10 +23,6 @@ e14.e12.cutoff = e14.e12[abs(e14.e12$log2FoldChange) >= 1,]
 all_de_genes = unique(c(e12.e11.cutoff$X, e13.e12.cutoff$X, e14.e13.cutoff$X, e13.e11.cutoff$X, e14.e11.cutoff$X, e14.e12.cutoff$X))
 ```
 
-```{r}
-all_de_genes
-```
-
 
 Get the list of all genes that are annotated with cytoskeletal protein binding(GO:0008092), structural molecular activity (GO:0005198), contractile fiber (GO: 0043292), cytoskeleton (GO:0005856)
 
@@ -307,7 +303,7 @@ library(RColorBrewer)
 ```{r}
 setwd("~/Desktop/My-repo/data/Contractile protein")
 png("heatmap of contractile genes relative expression k9.png", width = 1000, height = 8000, units = "px")
-pheatmap(contractile_gene_df_filtered[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 23)
+pheatmap(contractile_gene_df_filtered[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, fontsize = 30,fontsize_row = 30, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30))
 dev.off()
 ```
 

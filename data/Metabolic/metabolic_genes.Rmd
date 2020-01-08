@@ -1,0 +1,342 @@
+```{r}
+setwd("~/Desktop/My-repo/data")
+
+e12.e11 = read.csv("e12_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e13.e12 = read.csv("e13_e12_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e13 = read.csv("e14_e13_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e13.e11 = read.csv("e13_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e11 = read.csv("e14_e11_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+e14.e12 = read.csv("e14_e12_sig_genes.txt", stringsAsFactors = FALSE)[,c(1,3)]
+
+```
+
+```{r}
+e12.e11.cutoff = e12.e11[abs(e12.e11$log2FoldChange) >= 1,]
+e13.e12.cutoff = e13.e12[abs(e13.e12$log2FoldChange) >= 1,]
+e14.e13.cutoff = e14.e13[abs(e14.e13$log2FoldChange) >= 1,]
+e13.e11.cutoff = e13.e11[abs(e13.e11$log2FoldChange) >= 1,]
+e14.e11.cutoff = e14.e11[abs(e14.e11$log2FoldChange) >= 1,]
+e14.e12.cutoff = e14.e12[abs(e14.e12$log2FoldChange) >= 1,]
+```
+
+```{r}
+all_de_genes = unique(c(e12.e11.cutoff$X, e13.e12.cutoff$X, e14.e13.cutoff$X, e13.e11.cutoff$X, e14.e11.cutoff$X, e14.e12.cutoff$X))
+```
+
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+metabolic_df = read.csv("filtered for evidene code met genes.csv", stringsAsFactors = FALSE)
+metabolic_gene = unique(metabolic_df$Symbol)
+head(metabolic_df)
+```
+
+```{r}
+unwanted_evidence_code = c("IBA", "IBD", "IKR", "IRD", "ISS", "ISO", "ISA", "ISM", "IGC", "RCA", "TAS", "NAS", "IC", "ND", "IEA")
+for(i in 1:length(metabolic_df$MGI.Gene.Marker.ID)){
+  if(metabolic_df$Evidence[i] %in% unwanted_evidence_code){
+    metabolic_df = metabolic_df[-i,]
+  }
+}
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+write.csv(metabolic_df, "filtered for evidene code met genes.csv")
+```
+
+
+```{r}
+metabolic_gene = unique(metabolic_df$Symbol)
+```
+
+
+
+Function to get entrezID from symbol
+Parameter:
+  data: dataframe with gene symbol as row.names.
+  keys: vector of symbols
+```{r}
+symbol_entrezID = function(data, keys){
+  require(org.Mm.eg.db)
+  require(tidyr)
+  hash.table = drop_na(AnnotationDbi::select(org.Mm.eg.db,
+                                   keys = keys,
+                                   keytype = "SYMBOL",
+                                   columns = "ENTREZID"))
+  hash.table = drop_na(hash.table)
+  data_subset = data[hash.table$SYMBOL, ]
+  data_subset$EntrezID = as.character(hash.table$ENTREZID)
+  data_subset$Symbol = row.names(data_subset)
+  row.names(data_subset) = data_subset$EntrezID
+  
+  return(data_subset)
+}
+```
+
+
+Because symbol_entrezID take a dataframe as it attribute
+```{r}
+metabolic_gene_df = data.frame(metabolic_gene)
+metabolic_gene_df$Y = rep(1, length(metabolic_gene_df[,1]))
+row.names(metabolic_gene_df) = metabolic_gene_df$metabolic_gene
+```
+
+```{r}
+metabolic_gene_entrezID = symbol_entrezID(metabolic_gene_df, metabolic_gene)
+
+```
+
+```{r}
+all_de_genes_df = data.frame(all_de_genes)
+all_de_genes_df$Y = rep(1, length(all_de_genes_df[,1]))
+row.names(all_de_genes_df) = all_de_genes_df$all_de_genes
+```
+
+```{r}
+all_de_genes_entrezID = symbol_entrezID(all_de_genes_df, all_de_genes)
+```
+
+
+```{r}
+de_metabolic_genes_entrezID = intersect(all_de_genes_entrezID$EntrezID, metabolic_gene_entrezID$EntrezID)
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+sstf_df = read.csv("Mus_musculus_TF.txt", stringsAsFactors = FALSE, sep = "\t")
+sstf = unique(sstf_df$Symbol)
+head(sstf_df)
+```
+
+```{r}
+sstf_dataframe = data.frame(sstf)
+sstf_dataframe$Y= rep(1, length(sstf_dataframe[,1]))
+row.names(sstf_dataframe) = sstf_dataframe$sstf
+```
+
+```{r}
+sstf_entrezID_df = symbol_entrezID(sstf_dataframe, sstf)
+sstf_entrezID = sstf_entrezID_df$EntrezID
+```
+
+```{r}
+metabolic_only_entrezID = c()
+for(id in de_metabolic_genes_entrezID){
+  if(!(id %in% sstf_entrezID)){
+    metabolic_only_entrezID = c(metabolic_only_entrezID, id)
+  }
+}
+```
+
+
+```{r}
+de_metabolic_genes = all_de_genes_entrezID[metabolic_only_entrezID,]$Symbol
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data")
+data = read.csv("corrected gene count matrix.txt", stringsAsFactors = FALSE, row.names = 1)
+head(data)
+```
+
+```{r}
+metabolic_genes_count = data[de_metabolic_genes,-24]
+```
+
+```{r}
+stage = c(rep("E11", 5), rep("E12", 7), rep("E13", 7), rep("E14", 4))
+design = data.frame(stage)
+row.names(design) = colnames(metabolic_genes_count)
+```
+
+```{r}
+library(DESeq2)
+dds = DESeqDataSetFromMatrix(countData = metabolic_genes_count,
+                             colData = design,
+                             design = ~stage)
+```
+
+Filter out low count genes
+```{r}
+dds_filtered = dds[rowSums(counts(dds))>1000,]
+
+```
+
+
+```{r}
+rld = rlog(dds_filtered, blind = FALSE)
+logTransCounts = assay(rld)
+```
+
+```{r}
+metabolic_genes_df_filtered = data.frame(logTransCounts)
+```
+
+
+=========================
+
+
+```{r}
+delta_max_min = c()
+for(i in 1:1022){
+  delta = max(metabolic_genes_df_filtered[i, 1:23]) - min(metabolic_genes_df_filtered[i, 1:23])
+  delta_max_min = c(delta_max_min, delta)
+}
+```
+
+```{r}
+metabolic_genes_df_filtered$delta_max_min = delta_max_min
+```
+
+```{r}
+min = c()
+for(i in 1:1022){
+  min_value = min(metabolic_genes_df_filtered[i, 1:23])
+  min = c(min, min_value)
+}
+```
+
+```{r}
+metabolic_genes_df_filtered$min = min
+```
+
+```{r}
+metabolic_genes_df_filtered$e11.sample1 = (metabolic_genes_df_filtered$e11.sample1 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e11.sample2 = (metabolic_genes_df_filtered$e11.sample2 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e11.sample3 = (metabolic_genes_df_filtered$e11.sample3 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e11.sample4 = (metabolic_genes_df_filtered$e11.sample4 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e11.sample5 = (metabolic_genes_df_filtered$e11.sample5 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample1 = (metabolic_genes_df_filtered$e12.sample1 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample2 = (metabolic_genes_df_filtered$e12.sample2 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample3 = (metabolic_genes_df_filtered$e12.sample3 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample4 = (metabolic_genes_df_filtered$e12.sample4 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample5 = (metabolic_genes_df_filtered$e12.sample5 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample6 = (metabolic_genes_df_filtered$e12.sample6 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e12.sample7 = (metabolic_genes_df_filtered$e12.sample7 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample1 = (metabolic_genes_df_filtered$e13.sample1 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample2 = (metabolic_genes_df_filtered$e13.sample2 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample3 = (metabolic_genes_df_filtered$e13.sample3 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample4 = (metabolic_genes_df_filtered$e13.sample4 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample5 = (metabolic_genes_df_filtered$e13.sample5 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample6 = (metabolic_genes_df_filtered$e13.sample6 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e13.sample7 = (metabolic_genes_df_filtered$e13.sample7 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e14.sample1 = (metabolic_genes_df_filtered$e14.sample1 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e14.sample2 = (metabolic_genes_df_filtered$e14.sample2 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e14.sample3 = (metabolic_genes_df_filtered$e14.sample3 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+metabolic_genes_df_filtered$e14.sample4 = (metabolic_genes_df_filtered$e14.sample4 - metabolic_genes_df_filtered$min)/metabolic_genes_df_filtered$delta_max_min
+
+```
+
+```{r}
+library(pheatmap)
+library(RColorBrewer)
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+png("heatmap of metabolic genes relative expression.png", width = 1000, height = 5000, units = "px")
+pheatmap(metabolic_genes_df_filtered[,1:23], cluster_cols = F, cluster_rows = T, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30))
+dev.off()
+```
+
+
+```{r}
+library(tidyverse)
+library(cluster)
+library(factoextra)
+```
+
+
+```{r}
+fviz_nbclust(metabolic_genes_df_filtered[,1:23], kmeans, method = "wss", k.max = 20)
+
+```
+
+
+```{r}
+gap_stat = clusGap(metabolic_genes_df_filtered[,1:23], FUN = kmeans, nstart = 30, K.max = 30, B = 30)
+fviz_gap_stat(gap_stat)
+```
+
+
+```{r}
+k20 = kmeans(metabolic_genes_df_filtered[,1:23], centers = 20, nstart = 30)
+metabolic_genes_df_filtered$cluster = k20$cluster
+metabolic_genes_df_filtered = metabolic_genes_df_filtered[order(metabolic_genes_df_filtered$cluster),]
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+png("heatmap of metabolic genes relative expression k20.png", width = 1000, height = 18000, units = "px")
+pheatmap(metabolic_genes_df_filtered[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 20)
+dev.off()
+```
+
+
+```{r}
+cluster_9 = metabolic_genes_df_filtered[metabolic_genes_df_filtered$cluster==9,]
+
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+png("heatmap of metabolic genes cluster 9.png", width = 1000, height = 2500, units = "px")
+pheatmap(cluster_9[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 25)
+dev.off()
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+write.csv(cluster_9, "cluster_9_genes.csv")
+```
+
+```{r}
+cluster_16 = metabolic_genes_df_filtered[metabolic_genes_df_filtered$cluster==16,]
+
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+png("heatmap of metabolic genes cluster 16.png", width = 1000, height = 4000, units = "px")
+pheatmap(cluster_16[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 25)
+dev.off()
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+write.csv(cluster_16, "cluster_16_genes.csv")
+```
+
+```{r}
+cluster_1 = metabolic_genes_df_filtered[metabolic_genes_df_filtered$cluster == 1,]
+```
+
+```{r}
+setwd("~/Desktop/My-repo/data/Metabolic/")
+png("heatmap of metabolic genes cluster 1.png", width = 1000, height = 4000, units = "px")
+pheatmap(cluster_1[,1:23], cluster_cols = F, cluster_rows = F, treeheight_row = 0, treeheight_col = 0, color = colorRampPalette(rev(brewer.pal(10, "RdYlBu")))(30), fontsize_row = 25)
+dev.off()
+```
